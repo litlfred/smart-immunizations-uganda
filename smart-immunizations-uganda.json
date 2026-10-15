@@ -14,7 +14,33 @@
       "id": "library",
       "path": "library/",
       "description": "L1 sources of the Uganda adaptation: one `<doc_id>/` per ingested document (the Ministry of Health routine immunisation schedule poster and the UNEPI user-requirements deck attached to issue #1), and the image verdicts that describe their figures. The source files themselves are pinned by sha256 in `uploads/<doc_id>/intake.json` and not committed.",
-      "graphTypologies": ["library"]
+      "graphTypologies": [
+        "library"
+      ]
+    },
+    {
+      "id": "library-ug-moh-routine-immunisation-schedule-l1-extraction",
+      "path": "library/ug-moh-routine-immunisation-schedule/l1-extraction/",
+      "description": "What the recommendation-extraction skill read out of `ug-moh-routine-immunisation-schedule` (Uganda Routine Immunisation Schedule poster, Ministry of Health): the curation and the candidate work list. Declared with smart-base's `l1-extraction` typology, as smart-base declares its own, so `check:l1-complete` reads it as the entry's knowledge-graph content and not a misfiled arm output. One entry per extracted library entry, never a wildcard.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
+    },
+    {
+      "id": "library-unepi-user-requirements-smart-guidelines-l1-extraction",
+      "path": "library/unepi-user-requirements-smart-guidelines/l1-extraction/",
+      "description": "What the recommendation-extraction skill read out of `unepi-user-requirements-smart-guidelines` (UNEPI user requirements for SMART Guidelines deck): the curation and the candidate work list. Declared with smart-base's `l1-extraction` typology, as smart-base declares its own, so `check:l1-complete` reads it as the entry's knowledge-graph content and not a misfiled arm output. One entry per extracted library entry, never a wildcard.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
+    },
+    {
+      "id": "library-l1-recommendation-scenarios",
+      "path": "library/l1-recommendation-scenarios/",
+      "description": "The authored L1 recommendations of the Uganda adaptation (`uganda/*.l1.yaml`, transcribed verbatim from the two library entries), the IMMZ vocabulary they map to, and the L2 scenario candidates generated from them. Kept beside the entries, not inside one, because it draws on both; declared with smart-base's `l1-extraction` typology so it is read as extraction output and never as a library entry.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
     }
   ]
 }
