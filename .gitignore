@@ -26,3 +26,6 @@ bun.lock
 input/tests/plandefinition/*/*/
 # cqf tooling jar for _refresh.sh-style runs
 input-cache/
+
+# The IG AST stage-local restores for the site build (build output)
+output-ast/
