@@ -1,0 +1,43 @@
+{
+  "$schema": "folio-intake/v1",
+  "doc_id": "unepi-user-requirements-smart-guidelines",
+  "_comment": "UNEPI: User requirements for SMART Guidelines (presentation), Uganda National Expanded Programme on Immunisation. Attached by litlfred to litlfred/smart-immunizations-uganda#1; downloaded from the attachment URL. The PDF is a LibreOffice 24.2 rendition of the PPTX, one page per visible slide, made so the deck can be ingested by page. Issue: https://github.com/litlfred/smart-immunizations-uganda/issues/1.",
+  "source": {
+    "upstream": "https://github.com/user-attachments/files/33427072/3_UNEPI.User.requirements.SMART.Guidlines.pptx",
+    "capturedAt": "2026-10-15T14:03:59Z",
+    "capturedBy": "curl (GitHub issue attachment)"
+  },
+  "files": [
+    {
+      "path": "unepi-user-requirements-smart-guidelines.pptx",
+      "bytes": 8036118,
+      "sha256": "7db290f904610cf68e4b77f57bfcc731340a9e26f5ac15c5a219ef269d8c251f",
+      "type": "presentation",
+      "role": "original-bitstream"
+    },
+    {
+      "path": "unepi-user-requirements-smart-guidelines.pdf",
+      "bytes": 2900487,
+      "sha256": "5d692825249c242b0796e13389ef891b38dffcc9dd13cfac0ff60696353ab079",
+      "type": "publication",
+      "role": "derived-rendition"
+    }
+  ],
+  "licence": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "the document itself (every page/slide, including the footer)",
+        "result": "no licence or copyright statement; Ministry of Health of Uganda material; slide 23 credits one photograph '\u00a9 UNICEF/UN0660785'",
+        "on": "2026-10-15"
+      },
+      {
+        "where": "https://github.com/litlfred/smart-immunizations-uganda/issues/1",
+        "result": "attached by litlfred for this adaptation; no licence stated",
+        "on": "2026-10-15"
+      }
+    ],
+    "note": "Held for adaptation work; the file is pinned by sha256 and not committed."
+  },
+  "title": "UNEPI: User requirements for SMART Guidelines"
+}

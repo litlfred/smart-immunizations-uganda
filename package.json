@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "bootstrap-tools",
+    "cat-harness",
+    "cat-harness-tools",
+    "folio-assistant-core",
+    "fhir-harness"
+  ],
+  "scripts": {
+    "cat": "bun cat-harness-tools/scripts/run-script.ts"
+  },
+  "_comment": "As in litlfred/smart-immunizations: the mounted code layers as workspaces (they import each other by package name), and `bun run cat <name>` runs a declared script wherever its instance declares it."
+}

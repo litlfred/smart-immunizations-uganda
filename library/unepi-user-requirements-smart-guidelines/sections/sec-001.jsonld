@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/unepi-user-requirements-smart-guidelines/sections/sec-001",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "EPI Target Diseases (14 VPDs)",
+  "pageStart": 5,
+  "pageEnd": 6,
+  "contains": [
+    "library/unepi-user-requirements-smart-guidelines/blocks/prose-sec-001",
+    "library/unepi-user-requirements-smart-guidelines/blocks/figure-img-p006-1"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "provenance": "ingested"
+}

@@ -20,3 +20,7 @@ node_modules/
 /bootstrap/
 /bootstrap-tools/
 # END index mounts
+# Source files are pinned by sha256 in each intake.json and not committed
+uploads/**/*.pdf
+uploads/**/*.pptx
+bun.lock

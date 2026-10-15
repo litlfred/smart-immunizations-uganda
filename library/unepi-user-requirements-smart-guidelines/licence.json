@@ -1,0 +1,16 @@
+{
+  "status": "unknown",
+  "searched": [
+    {
+      "where": "the document itself (every page/slide, including the footer)",
+      "result": "no licence or copyright statement; Ministry of Health of Uganda material; slide 23 credits one photograph '© UNICEF/UN0660785'",
+      "on": "2026-10-15"
+    },
+    {
+      "where": "https://github.com/litlfred/smart-immunizations-uganda/issues/1",
+      "result": "attached by litlfred for this adaptation; no licence stated",
+      "on": "2026-10-15"
+    }
+  ],
+  "note": "Held for adaptation work; the file is pinned by sha256 and not committed."
+}

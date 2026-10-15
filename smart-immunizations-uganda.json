@@ -1,0 +1,20 @@
+{
+  "$schema": "cat-harness-declaration/1.0.0",
+  "name": "smart-immunizations-uganda",
+  "version": "0.1.0",
+  "repository": "litlfred/smart-immunizations-uganda",
+  "iriBase": "https://litlfred.github.io/smart-immunizations-uganda/",
+  "title": "SMART Guidelines — Immunizations, Uganda adaptation",
+  "description": "Uganda (UNEPI) adaptation of the WHO SMART Guidelines immunizations DAK and implementation guide, as a harnessed instance of smart-base. Shaped as litlfred/smart-immunizations is: index.config.json mounts smart-base, and this file declares the instance so its library has a home of its own.",
+  "needs": [
+    "smart-base"
+  ],
+  "directories": [
+    {
+      "id": "library",
+      "path": "library/",
+      "description": "L1 sources of the Uganda adaptation: one `<doc_id>/` per ingested document (the Ministry of Health routine immunisation schedule poster and the UNEPI user-requirements deck attached to issue #1), and the image verdicts that describe their figures. The source files themselves are pinned by sha256 in `uploads/<doc_id>/intake.json` and not committed.",
+      "graphTypologies": ["library"]
+    }
+  ]
+}

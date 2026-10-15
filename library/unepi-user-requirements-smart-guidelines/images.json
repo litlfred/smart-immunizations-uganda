@@ -1,0 +1,970 @@
+{
+  "$schema": "folio-document-images/v1",
+  "doc_id": "unepi-user-requirements-smart-guidelines",
+  "images": [
+    {
+      "id": "img-p001-1",
+      "file": "images/img-p001-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a photograph of a health worker in gloves giving an injection to a small child held by a woman",
+        "page": 1
+      },
+      "narrative": {
+        "text": "Title-slide photograph: a health worker in a pink uniform and gloves vaccinates a young child held by a woman.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p003-1",
+      "file": "images/img-p003-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a slide graphic listing five numbered UNEPI objectives",
+        "page": 3
+      },
+      "narrative": {
+        "text": "UNEPI objectives, numbered: 01 Increase access and demand for immunization services; 02 Ensure availability of potent and effective vaccines; 03 Build EPI management capacity at all levels; 04 Monitor disease trends and programme performance; 05 Formulate policy, standards and guidelines.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p004-1",
+      "file": "images/img-p004-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a full-slide photograph of an infant receiving an injection in the arm, with the slide title over it",
+        "page": 4
+      },
+      "narrative": {
+        "text": "Section title slide: a close-up photograph of an infant receiving an injection in the upper arm, overlaid with the title 'Current Immunization Schedule & targeted VPDs'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p005-1",
+      "file": "images/img-p005-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a syringe graphic with callouts naming target diseases",
+        "page": 5
+      },
+      "narrative": {
+        "text": "'EPI Target Diseases (14 VPDs)': a syringe illustration with callouts naming Rotavirus Gastroenteritis, Hemophilus Influenzae type b, Poliomyelitis, Pneumococcal Pneumonia, Measles & Rubella, Cancer of the cervix, Yellow fever, Tuberculosis, Diphtheria, Pertussis (whooping cough), Tetanus and Hepatitis B. Malaria, the fourteenth, is printed as slide text beside the graphic.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p006-1",
+      "file": "images/img-p006-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a vaccine-by-age grid with dose numbers in shaded cells and a colour legend",
+        "page": 6
+      },
+      "narrative": {
+        "text": "'Current Immunization schedule': a grid with one row per vaccine and one column per age (Birth, 6 wks, 10 wks, 14 wks, 5 mo, 6 mo, 7 mo, 8 mo, 9 mo, 12 mo, 15 mo, 18 mo, 22 mo, 24 mo, 10 Yrs, 15-49 Yrs). Dose numbers by row: BCG 1 at birth; Hep B birth dose 1 at birth; Oral polio 0 at birth, 1 at 6 wks, 2 at 10 wks, 3 at 14 wks; DTP-HepB-Hib (penta) 1, 2, 3 at 6, 10, 14 wks; PCV 1, 2, 3 at 6, 10, 14 wks; Rotavirus 1, 2, 3 at 6, 10, 14 wks; Inactivated Polio 1 at 6 wks and 2 at 14 wks; Measles-Rubella 1 at 9 mo and 2 at 18 mo; Yellow Fever 1 at 9 mo; Malaria (row label in red) 1, 2, 3 at 6, 7, 8 mo and 4 at 18 mo; Vitamin A 1 at 6 mo, 2 at 12 mo, 3 at 18 mo, 4 at 24 mo; Deworming 1 at 12 mo; HPV 1 at 10 Yrs; Tetanus Diphtheria (TD) '1,2,3,4 &5' at 15-49 Yrs. The 5 mo, 15 mo and 22 mo columns are empty. Cell shading follows the slide's legend (slide text): dark grey 'previous on schedule'; light blue 'Newly introduced' (Hep B birth dose, IPV 1, Rotavirus 3, Measles-Rubella 2, Yellow Fever); orange 'Yet to be introduced' (Malaria 1 to 4, HPV).",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p007-1",
+      "file": "images/img-p007-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a slide-sized chart: ages down the left, coloured vaccine bars, and 'When to give' / 'When not to give' columns; the slide has no text layer",
+        "page": 7
+      },
+      "narrative": {
+        "text": "'Catch up schedule', headed \"It is better to vaccinate late than never!\". Rows by age: BIRTH (Hep B BD, BCG, OPV0), 6 WEEKS (OPV1, PCV1, DTP1, RV1, IPV1), 10 WEEKS (OPV2, PCV2, DTP2, RV2), 14 WEEKS (OPV3, PCV3, DTP3, RV3, a bar labelled IPV1), 9 MONTHS (MR1, YF), 18 MONTHS (MR2), 2 YEARS. Each vaccine's bar runs down the chart; stop-hand marks end Hep B BD at birth and rotavirus at 2 years. 'When to give': Hep B BD: As soon as possible after birth, ideally within 24 hours and up to 7 days; BCG: As soon as possible after birth; At 6 weeks (or as soon as possible thereafter); At 10 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 1; At 14 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 2; At 9 months (or as soon as possible thereafter); At 18 months (or as soon as possible there after), and at least 4 weeks since the previous dose. 'When not to give': Hep B BD: Not after 7 days; RV1: Not after 2 years of age; Not before 4 weeks has passed since the previous dose, RV2: Not after 2 years of age; Not before 4 weeks has passed since the previous dose, RV3: Not after 2 years of age; Not before 9 months of age (except where indicated)*; MR2: Not before 4 weeks has passed since MR1. Footnote: Even if a long time has passed between doses, there is no need to restart the series from the beginning. There is no upper age limit for most vaccines (except rotavirus < 2years and Hepatitis B BD <7 days).",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p008-1",
+      "file": "images/img-p008-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a photograph of a seated baby with arrows from labels to body sites",
+        "page": 8
+      },
+      "narrative": {
+        "text": "'Sites of child vaccines': a photograph of a seated baby with labelled arrows. Polio, Vitamin A, Rota (Oral) to the mouth; BCG (Intradermal) and Yellow Fever (Subcutaneous) to the baby's right upper arm; Measles-Rubella (Subcutaneous) to the baby's left upper arm; IPV (2cm apart) (Intramuscular) and PCV (2cm apart) (Intramuscular) to the baby's right thigh; Hep B Birth dose (Intramuscular) and DPT-HepB-Hib (Intramuscular) to the baby's left thigh. Sides are read from the arrows: the baby faces the viewer.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p009-1",
+      "file": "images/img-p009-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a photograph of an outdoor vaccination session with caregivers and children holding child health cards",
+        "page": 9
+      },
+      "narrative": {
+        "text": "'EPI M&E' slide photograph: an outdoor immunization session; a health worker vaccinates a child held by a caregiver while other caregivers and children wait holding child health cards.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p010-1",
+      "file": "images/img-p010-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a staircase graphic of target-population percentages by age group, with service-point and immunity-gap lists",
+        "page": 10
+      },
+      "narrative": {
+        "text": "'Life course Immunization performance analysis': a rising staircase of photographs labelled with the share of the population each age group is: At Birth 4.85%, Surviving 4.3%, 9 mths 4.3%, 18 mths 4.3%, 10 year 1.54%, Women 15-49 yrs 23%. Boxes list 'Service Points: 1. Static (At Health Facility) 2. Outreach (Community) 3. School' and 'Immunity Gap approaches: 1. Campaign 2. Routine 3. Outbreak (Covid)'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p011-1",
+      "file": "images/img-p011-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a line drawing of a round thatched clinic with labelled stations and arrows",
+        "page": 11
+      },
+      "narrative": {
+        "text": "'Client Flow at immunization sites': a drawing of a round thatched shelter. Clients come in at 'Entrance', go to 'Waiting, Growth monitoring, screening, Registration in CR, and Health Education', then to 'Vaccintion [sic] Tallying, next appointment Health advice', then leave by 'Check point, health advice, reminder and exit'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p012-1",
+      "file": "images/img-p012-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a four-step pictogram flow from card to DHIS2",
+        "page": 12
+      },
+      "narrative": {
+        "text": "Data flow at the facility: 'Child Health Card Issued/updated', then 'Child Health Register & Tally sheet filled in', then 'HMIS 105 Monthly report compiled', then (arrow) 'HMIS 105 entered into DHIS2'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p012-2",
+      "file": "images/img-p012-2.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a chevron chain with a support-activities stack beneath",
+        "page": 12
+      },
+      "narrative": {
+        "text": "Data flow chevrons: Micro plan, Vaccination Card, ICHR, Tally sheet, HMIS 105, DHIS2, Monitoring chart; beneath, 'Support activities': Data cleaning, Data Quality Assessment, Data Review meeting, RED/REC categorisation.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p013-1",
+      "file": "images/img-p013-1.png",
+      "role": "logo",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "the coat of arms of the Republic of Uganda",
+        "page": 13
+      },
+      "narrative": {
+        "text": "Coat of arms of the Republic of Uganda on the 'Current Challenges' slide.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      },
+      "placements": [
+        {
+          "page": 13,
+          "coverage": 0.014892,
+          "imagesOnPage": 2
+        },
+        {
+          "page": 15,
+          "coverage": 0.014892,
+          "imagesOnPage": 2
+        }
+      ]
+    },
+    {
+      "id": "img-p013-2",
+      "file": "images/img-p013-2.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a photograph of two masked health workers carrying a vaccine carrier and registers",
+        "page": 13
+      },
+      "narrative": {
+        "text": "Photograph: two masked health workers walk across grass carrying a vaccine carrier, registers and supplies.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p014-1",
+      "file": "images/img-p014-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a photograph of a hand filling in a child health card",
+        "page": 14
+      },
+      "narrative": {
+        "text": "Photograph: a hand writes on a printed 'Child Health Card'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p015-2",
+      "file": "images/img-p015-2.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a photograph of a health worker carrying a vaccine carrier up a rocky path",
+        "page": 15
+      },
+      "narrative": {
+        "text": "Photograph: a health worker carries a vaccine carrier and registers up a rocky hillside path.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p016-1",
+      "file": "images/img-p016-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a clip-art illustration of a person at a computer desk",
+        "page": 16
+      },
+      "narrative": {
+        "text": "Clip art on the 'User Requirements for electronic Immunization Registry (EIR)' title slide: a person working at a desk with a laptop and floating code windows.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p017-1",
+      "file": "images/img-p017-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a laptop and phone with a password field and padlock",
+        "page": 17
+      },
+      "narrative": {
+        "text": "Icon beside 'User Authentication and Access Control' (username/password, biometric authentication).",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p017-2",
+      "file": "images/img-p017-2.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a person beside a medical record checklist",
+        "page": 17
+      },
+      "narrative": {
+        "text": "Icon beside 'Patient Record Management'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p017-3",
+      "file": "images/img-p017-3.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a clipboard with checkmarks and a syringe",
+        "page": 17
+      },
+      "narrative": {
+        "text": "Icon beside 'Vaccine Inventory Management'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p017-4",
+      "file": "images/img-p017-4.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a vial, a calendar and an alarm clock",
+        "page": 17
+      },
+      "narrative": {
+        "text": "Icon beside 'Vaccination Scheduling and Reminders'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p017-5",
+      "file": "images/img-p017-5.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a clipboard with a line chart and bars",
+        "page": 17
+      },
+      "narrative": {
+        "text": "Icon beside 'Immunization Reporting and Analytics'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p017-6",
+      "file": "images/img-p017-6.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of three interlocking gears with plus signs",
+        "page": 17
+      },
+      "narrative": {
+        "text": "Icon beside 'Integration with Health Records'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p017-7",
+      "file": "images/img-p017-7.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a document with a checkmark and a stamp",
+        "page": 17
+      },
+      "narrative": {
+        "text": "Icon beside 'Adverse Event Reporting'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p018-1",
+      "file": "images/img-p018-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a shield-and-padlock icon",
+        "page": 18
+      },
+      "narrative": {
+        "text": "Icon beside 'Security and Privacy'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p018-2",
+      "file": "images/img-p018-2.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a lightbulb in a square with arrows expanding outward",
+        "page": 18
+      },
+      "narrative": {
+        "text": "Icon beside 'Performance and Scalability'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p018-3",
+      "file": "images/img-p018-3.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a hand tapping a node network",
+        "page": 18
+      },
+      "narrative": {
+        "text": "Icon beside 'Usability and User Experience'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p018-4",
+      "file": "images/img-p018-4.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a checklist with stars, a shield and a hand",
+        "page": 18
+      },
+      "narrative": {
+        "text": "Icon beside 'Compliance and Regulation'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p018-5",
+      "file": "images/img-p018-5.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a trainer at a board in front of an audience",
+        "page": 18
+      },
+      "narrative": {
+        "text": "Icon beside 'Training and Support'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p018-6",
+      "file": "images/img-p018-6.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of a clock with a checkmark",
+        "page": 18
+      },
+      "narrative": {
+        "text": "Icon beside 'Reliability and Availability'.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p018-7",
+      "file": "images/img-p018-7.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "an icon of four cubes connected around a circle",
+        "page": 18
+      },
+      "narrative": {
+        "text": "Icon beside 'Interoperability' (data exchange).",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p020-1",
+      "file": "images/img-p020-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a three-panel architecture graphic from birth registration to EIR to user interface",
+        "page": 20
+      },
+      "narrative": {
+        "text": "Proposed EIR architecture: 'Existing Birth Registration system (by NIRA)' feeds, through a data-entry step, an 'Electronic Immunization Registry (EIR)' with: Child Identification (Via NIRA/VRS integration); Vaccine Record Module; Scheduling and Reminders; Data Analytics and Reporting. The EIR serves a 'User Interface' for: Healthcare providers; Patients (via app/portal); District/MoH.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p022-1",
+      "file": "images/img-p022-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "stock image of a figure thinking among question-word bubbles",
+        "page": 22
+      },
+      "narrative": {
+        "text": "Stock image on the 'Adopting SMART guidelines in EMR' slide: a white figure in thought, surrounded by speech bubbles reading who?, what?, where?, when?, why?, how?.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    },
+    {
+      "id": "img-p023-1",
+      "file": "images/img-p023-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "at": "2026-10-15T14:30:00Z",
+        "saw": "a full-slide photograph of two masked health workers carrying vaccine carriers, with 'Thanks'",
+        "page": 23
+      },
+      "narrative": {
+        "text": "Closing slide: two masked health workers carry vaccine carriers (one marked 'STOP do you need to open it?', one UNICEF-branded), overlaid with 'Thanks'; credit © UNICEF/UN0660785.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+        },
+        "drafted_at": "2026-10-15T14:30:00Z"
+      }
+    }
+  ]
+}

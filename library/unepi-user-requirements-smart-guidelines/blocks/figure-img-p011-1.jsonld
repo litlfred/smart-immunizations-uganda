@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/0.1.0/ns#"
+    }
+  ],
+  "@id": "library/unepi-user-requirements-smart-guidelines/blocks/figure-img-p011-1",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p011-1.png",
+  "pageStart": 11,
+  "pageEnd": 11,
+  "narrative": {
+    "text": "'Client Flow at immunization sites': a drawing of a round thatched shelter. Clients come in at 'Entrance', go to 'Waiting, Growth monitoring, screening, Registration in CR, and Health Education', then to 'Vaccintion [sic] Tallying, next appointment Health advice', then leave by 'Check point, health advice, reminder and exit'.",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+    },
+    "drafted_at": "2026-10-15T14:30:00Z"
+  },
+  "derivedFrom": "library/unepi-user-requirements-smart-guidelines/sections/sec-004",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "provenance": "ingested"
+}

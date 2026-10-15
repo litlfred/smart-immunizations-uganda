@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/0.1.0/ns#"
+    }
+  ],
+  "@id": "library/unepi-user-requirements-smart-guidelines/blocks/figure-img-p010-1",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p010-1.png",
+  "pageStart": 10,
+  "pageEnd": 10,
+  "narrative": {
+    "text": "'Life course Immunization performance analysis': a rising staircase of photographs labelled with the share of the population each age group is: At Birth 4.85%, Surviving 4.3%, 9 mths 4.3%, 18 mths 4.3%, 10 year 1.54%, Women 15-49 yrs 23%. Boxes list 'Service Points: 1. Static (At Health Facility) 2. Outreach (Community) 3. School' and 'Immunity Gap approaches: 1. Campaign 2. Routine 3. Outbreak (Covid)'.",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+    },
+    "drafted_at": "2026-10-15T14:30:00Z"
+  },
+  "derivedFrom": "library/unepi-user-requirements-smart-guidelines/sections/sec-004",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "provenance": "ingested"
+}

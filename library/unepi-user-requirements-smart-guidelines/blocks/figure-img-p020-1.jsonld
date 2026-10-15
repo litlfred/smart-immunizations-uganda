@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/0.1.0/ns#"
+    }
+  ],
+  "@id": "library/unepi-user-requirements-smart-guidelines/blocks/figure-img-p020-1",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p020-1.png",
+  "pageStart": 20,
+  "pageEnd": 20,
+  "narrative": {
+    "text": "Proposed EIR architecture: 'Existing Birth Registration system (by NIRA)' feeds, through a data-entry step, an 'Electronic Immunization Registry (EIR)' with: Child Identification (Via NIRA/VRS integration); Vaccine Record Module; Scheduling and Reminders; Data Analytics and Reporting. The EIR serves a 'User Interface' for: Healthcare providers; Patients (via app/portal); District/MoH.",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+    },
+    "drafted_at": "2026-10-15T14:30:00Z"
+  },
+  "derivedFrom": "library/unepi-user-requirements-smart-guidelines/sections/sec-007",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "provenance": "ingested"
+}

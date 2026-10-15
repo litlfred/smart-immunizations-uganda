@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/0.1.0/ns#"
+    }
+  ],
+  "@id": "library/unepi-user-requirements-smart-guidelines/blocks/figure-img-p007-1",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p007-1.png",
+  "pageStart": 7,
+  "pageEnd": 7,
+  "narrative": {
+    "text": "'Catch up schedule', headed \"It is better to vaccinate late than never!\". Rows by age: BIRTH (Hep B BD, BCG, OPV0), 6 WEEKS (OPV1, PCV1, DTP1, RV1, IPV1), 10 WEEKS (OPV2, PCV2, DTP2, RV2), 14 WEEKS (OPV3, PCV3, DTP3, RV3, a bar labelled IPV1), 9 MONTHS (MR1, YF), 18 MONTHS (MR2), 2 YEARS. Each vaccine's bar runs down the chart; stop-hand marks end Hep B BD at birth and rotavirus at 2 years. 'When to give': Hep B BD: As soon as possible after birth, ideally within 24 hours and up to 7 days; BCG: As soon as possible after birth; At 6 weeks (or as soon as possible thereafter); At 10 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 1; At 14 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 2; At 9 months (or as soon as possible thereafter); At 18 months (or as soon as possible there after), and at least 4 weeks since the previous dose. 'When not to give': Hep B BD: Not after 7 days; RV1: Not after 2 years of age; Not before 4 weeks has passed since the previous dose, RV2: Not after 2 years of age; Not before 4 weeks has passed since the previous dose, RV3: Not after 2 years of age; Not before 9 months of age (except where indicated)*; MR2: Not before 4 weeks has passed since MR1. Footnote: Even if a long time has passed between doses, there is no need to restart the series from the beginning. There is no upper age limit for most vaccines (except rotavirus < 2years and Hepatitis B BD <7 days).",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+    },
+    "drafted_at": "2026-10-15T14:30:00Z"
+  },
+  "derivedFrom": "library/unepi-user-requirements-smart-guidelines/sections/sec-002",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "provenance": "ingested"
+}

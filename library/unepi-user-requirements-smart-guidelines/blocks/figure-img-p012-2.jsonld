@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/0.1.0/ns#"
+    }
+  ],
+  "@id": "library/unepi-user-requirements-smart-guidelines/blocks/figure-img-p012-2",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p012-2.png",
+  "pageStart": 12,
+  "pageEnd": 12,
+  "narrative": {
+    "text": "Data flow chevrons: Micro plan, Vaccination Card, ICHR, Tally sheet, HMIS 105, DHIS2, Monitoring chart; beneath, 'Support activities': Data cleaning, Data Quality Assessment, Data Review meeting, RED/REC categorisation.",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+    },
+    "drafted_at": "2026-10-15T14:30:00Z"
+  },
+  "derivedFrom": "library/unepi-user-requirements-smart-guidelines/sections/sec-005",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "provenance": "ingested"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/0.1.0/ns#"
+    }
+  ],
+  "@id": "library/unepi-user-requirements-smart-guidelines/blocks/figure-img-p006-1",
+  "@type": [
+    "folio-assistant-core:Figure",
+    "doco:Figure"
+  ],
+  "kind": "figure",
+  "file": "../images/img-p006-1.png",
+  "pageStart": 6,
+  "pageEnd": 6,
+  "narrative": {
+    "text": "'Current Immunization schedule': a grid with one row per vaccine and one column per age (Birth, 6 wks, 10 wks, 14 wks, 5 mo, 6 mo, 7 mo, 8 mo, 9 mo, 12 mo, 15 mo, 18 mo, 22 mo, 24 mo, 10 Yrs, 15-49 Yrs). Dose numbers by row: BCG 1 at birth; Hep B birth dose 1 at birth; Oral polio 0 at birth, 1 at 6 wks, 2 at 10 wks, 3 at 14 wks; DTP-HepB-Hib (penta) 1, 2, 3 at 6, 10, 14 wks; PCV 1, 2, 3 at 6, 10, 14 wks; Rotavirus 1, 2, 3 at 6, 10, 14 wks; Inactivated Polio 1 at 6 wks and 2 at 14 wks; Measles-Rubella 1 at 9 mo and 2 at 18 mo; Yellow Fever 1 at 9 mo; Malaria (row label in red) 1, 2, 3 at 6, 7, 8 mo and 4 at 18 mo; Vitamin A 1 at 6 mo, 2 at 12 mo, 3 at 18 mo, 4 at 24 mo; Deworming 1 at 12 mo; HPV 1 at 10 Yrs; Tetanus Diphtheria (TD) '1,2,3,4 &5' at 15-49 Yrs. The 5 mo, 15 mo and 22 mo columns are empty. Cell shading follows the slide's legend (slide text): dark grey 'previous on schedule'; light blue 'Newly introduced' (Hep B birth dose, IPV 1, Rotavirus 3, Measles-Rubella 2, Yellow Fever); orange 'Yet to be introduced' (Malaria 1 to 4, HPV).",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01XZ5H7vswrTg7r3Kv2k2EhZ"
+    },
+    "drafted_at": "2026-10-15T14:30:00Z"
+  },
+  "derivedFrom": "library/unepi-user-requirements-smart-guidelines/sections/sec-001",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "provenance": "ingested"
+}
