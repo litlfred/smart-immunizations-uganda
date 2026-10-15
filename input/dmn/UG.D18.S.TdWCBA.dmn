@@ -1,0 +1,279 @@
+<dmn:definitions xmlns:dmn="https://www.omg.org/spec/DMN/20240513/MODEL/" namespace="https://litlfred.github.io/smart-immunizations-uganda" label="UG.D18.S.TdWCBA Tetanus-diphtheria, women of child-bearing age schedule (Uganda)" id="UG.D18.S.TdWCBA">
+  <dmn:decision id="UG.D18.S.TdWCBA" label="UG.D18.S.TdWCBA Tetanus-diphtheria, women of child-bearing age schedule (Uganda)">
+    <dmn:question>Which Tetanus-diphtheria, women of child-bearing age dose is the client due for, and when?</dmn:question>
+    <dmn:decisionTable id="UG.D18.S.TdWCBA.table">
+    <!-- Open question 6: do earlier tetanus-containing doses count towards Td1-Td5? -->
+      <dmn:input id="UG.D18.S.TdWCBA.input.doses" label="Number of Tetanus-diphtheria, women of child-bearing age doses administered">
+        <dmn:inputExpression id="UG.D18.S.TdWCBA.inputExpression.doses" typeRef="string">
+          <dmn:text>Count of vaccines administered (where Tetanus- and diphtheria-containing vaccine that is not pertussis-containing (infant pentavalent doses are not counted))</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="UG.D18.S.TdWCBA.input.age" label="Age">
+        <dmn:inputExpression id="UG.D18.S.TdWCBA.inputExpression.age" typeRef="string">
+          <dmn:text>Today's date − "Date of birth"</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="UG.D18.S.TdWCBA.input.applies" label="Applicability">
+        <dmn:inputExpression id="UG.D18.S.TdWCBA.inputExpression.applies" typeRef="string">
+          <dmn:text>Client's biological sex is female and age is 15 to 49 years</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="UG.D18.S.TdWCBA.output.status" label="Recommendation status">
+        <dmn:description>Due, upcoming, expired or complete</dmn:description>
+      </dmn:output>
+      <dmn:output id="UG.D18.S.TdWCBA.output.due" label="Due date">
+        <dmn:description>Date from which the dose may be given</dmn:description>
+      </dmn:output>
+      <dmn:output id="UG.D18.S.TdWCBA.output.expiration" label="Expiration">
+        <dmn:description>Last date on which the dose may be given</dmn:description>
+      </dmn:output>
+      <dmn:output id="UG.D18.S.TdWCBA.output.guidance" label="Guidance displayed to health worker">
+        <dmn:description>Request to communicate guidance to the health worker</dmn:description>
+      </dmn:output>
+      <dmn:output id="UG.D18.S.TdWCBA.output.references" label="Reference(s)">
+        <dmn:description>The L1 statements the rule rests on, as &lt;l1 file&gt;#&lt;key&gt;</dmn:description>
+      </dmn:output>
+      <dmn:rule id="UG.D18.S.TdWCBA.rule.dose1">
+        <dmn:inputEntry>
+          <dmn:description>= 0</dmn:description>
+          <dmn:text>0 dose(s) administered</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Client's biological sex is female and age is 15 to 49 years</dmn:description>
+          <dmn:text>Applies</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Due" when Due date ≤ Today, else "Upcoming"</dmn:description>
+          <dmn:text>Client is due for Tetanus-diphtheria, women of child-bearing age dose 1</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>At first contact (from the 15th birthday)</dmn:description>
+          <dmn:text>At first contact (from the 15th birthday)</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>none</dmn:description>
+          <dmn:text>none</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Guidance</dmn:description>
+          <dmn:text>Td1 at first contact.</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>ug-moh-schedule-poster.l1.yaml#P11, unepi-deck.l1.yaml#S14, ug-moh-schedule-poster.l1.yaml#P11, unepi-deck.l1.yaml#S14</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="UG.D18.S.TdWCBA.rule.dose2">
+        <dmn:inputEntry>
+          <dmn:description>= 1</dmn:description>
+          <dmn:text>1 dose(s) administered</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Client's biological sex is female and age is 15 to 49 years</dmn:description>
+          <dmn:text>Applies</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Due" when Due date ≤ Today, else "Upcoming"</dmn:description>
+          <dmn:text>Client is due for Tetanus-diphtheria, women of child-bearing age dose 2</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Previous Td + 1 month</dmn:description>
+          <dmn:text>Previous Td + 1 month</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>none</dmn:description>
+          <dmn:text>none</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Guidance</dmn:description>
+          <dmn:text>Td2 1 month after Td1.</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>ug-moh-schedule-poster.l1.yaml#P12, unepi-deck.l1.yaml#S14, ug-moh-schedule-poster.l1.yaml#P11, unepi-deck.l1.yaml#S14</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="UG.D18.S.TdWCBA.rule.dose3">
+        <dmn:inputEntry>
+          <dmn:description>= 2</dmn:description>
+          <dmn:text>2 dose(s) administered</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Client's biological sex is female and age is 15 to 49 years</dmn:description>
+          <dmn:text>Applies</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Due" when Due date ≤ Today, else "Upcoming"</dmn:description>
+          <dmn:text>Client is due for Tetanus-diphtheria, women of child-bearing age dose 3</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Previous Td + 6 months</dmn:description>
+          <dmn:text>Previous Td + 6 months</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>none</dmn:description>
+          <dmn:text>none</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Guidance</dmn:description>
+          <dmn:text>Td3 6 months after Td2.</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>ug-moh-schedule-poster.l1.yaml#P13, unepi-deck.l1.yaml#S14, ug-moh-schedule-poster.l1.yaml#P11, unepi-deck.l1.yaml#S14</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="UG.D18.S.TdWCBA.rule.dose4">
+        <dmn:inputEntry>
+          <dmn:description>= 3</dmn:description>
+          <dmn:text>3 dose(s) administered</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Client's biological sex is female and age is 15 to 49 years</dmn:description>
+          <dmn:text>Applies</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Due" when Due date ≤ Today, else "Upcoming"</dmn:description>
+          <dmn:text>Client is due for Tetanus-diphtheria, women of child-bearing age dose 4</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Previous Td + 12 months</dmn:description>
+          <dmn:text>Previous Td + 12 months</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>none</dmn:description>
+          <dmn:text>none</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Guidance</dmn:description>
+          <dmn:text>Td4 12 months after Td3.</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>ug-moh-schedule-poster.l1.yaml#P14, unepi-deck.l1.yaml#S14, ug-moh-schedule-poster.l1.yaml#P11, unepi-deck.l1.yaml#S14</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="UG.D18.S.TdWCBA.rule.dose5">
+        <dmn:inputEntry>
+          <dmn:description>= 4</dmn:description>
+          <dmn:text>4 dose(s) administered</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Client's biological sex is female and age is 15 to 49 years</dmn:description>
+          <dmn:text>Applies</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Due" when Due date ≤ Today, else "Upcoming"</dmn:description>
+          <dmn:text>Client is due for Tetanus-diphtheria, women of child-bearing age dose 5</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Previous Td + 12 months</dmn:description>
+          <dmn:text>Previous Td + 12 months</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>none</dmn:description>
+          <dmn:text>none</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Guidance</dmn:description>
+          <dmn:text>Td5 12 months after Td4.</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>ug-moh-schedule-poster.l1.yaml#P15, unepi-deck.l1.yaml#S14, ug-moh-schedule-poster.l1.yaml#P11, unepi-deck.l1.yaml#S14</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="UG.D18.S.TdWCBA.rule.expired">
+        <dmn:inputEntry>
+          <dmn:description>&lt; 5</dmn:description>
+          <dmn:text>Series not complete</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Today &gt; none</dmn:description>
+          <dmn:text>Past the expiration</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Client's biological sex is female and age is 15 to 49 years</dmn:description>
+          <dmn:text>Applies</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Expired"</dmn:description>
+          <dmn:text>Do not give Tetanus-diphtheria, women of child-bearing age</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>none</dmn:description>
+          <dmn:text>none</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Guidance</dmn:description>
+          <dmn:text>The next Tetanus-diphtheria, women of child-bearing age dose may no longer be given.</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>none</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text>No expiration: this rule never applies (C15, no upper age limit).</dmn:text>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="UG.D18.S.TdWCBA.rule.complete">
+        <dmn:inputEntry>
+          <dmn:description>≥ 5</dmn:description>
+          <dmn:text>Series complete</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Complete"</dmn:description>
+          <dmn:text>Tetanus-diphtheria, women of child-bearing age series complete</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>ug-moh-schedule-poster.l1.yaml#P15</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
+  </dmn:decision>
+</dmn:definitions>

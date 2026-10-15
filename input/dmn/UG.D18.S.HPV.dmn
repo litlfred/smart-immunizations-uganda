@@ -1,0 +1,142 @@
+<dmn:definitions xmlns:dmn="https://www.omg.org/spec/DMN/20240513/MODEL/" namespace="https://litlfred.github.io/smart-immunizations-uganda" label="UG.D18.S.HPV HPV schedule (Uganda)" id="UG.D18.S.HPV">
+  <dmn:decision id="UG.D18.S.HPV" label="UG.D18.S.HPV HPV schedule (Uganda)">
+    <dmn:question>Which HPV dose is the client due for, and when?</dmn:question>
+    <dmn:decisionTable id="UG.D18.S.HPV.table">
+      <dmn:input id="UG.D18.S.HPV.input.doses" label="Number of HPV doses administered">
+        <dmn:inputExpression id="UG.D18.S.HPV.inputExpression.doses" typeRef="string">
+          <dmn:text>Count of vaccines administered (where "Vaccine type" = "HPV")</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="UG.D18.S.HPV.input.age" label="Age">
+        <dmn:inputExpression id="UG.D18.S.HPV.inputExpression.age" typeRef="string">
+          <dmn:text>Today's date − "Date of birth"</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="UG.D18.S.HPV.input.applies" label="Applicability">
+        <dmn:inputExpression id="UG.D18.S.HPV.inputExpression.applies" typeRef="string">
+          <dmn:text>Client's biological sex is female</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="UG.D18.S.HPV.output.status" label="Recommendation status">
+        <dmn:description>Due, upcoming, expired or complete</dmn:description>
+      </dmn:output>
+      <dmn:output id="UG.D18.S.HPV.output.due" label="Due date">
+        <dmn:description>Date from which the dose may be given</dmn:description>
+      </dmn:output>
+      <dmn:output id="UG.D18.S.HPV.output.expiration" label="Expiration">
+        <dmn:description>Last date on which the dose may be given</dmn:description>
+      </dmn:output>
+      <dmn:output id="UG.D18.S.HPV.output.guidance" label="Guidance displayed to health worker">
+        <dmn:description>Request to communicate guidance to the health worker</dmn:description>
+      </dmn:output>
+      <dmn:output id="UG.D18.S.HPV.output.references" label="Reference(s)">
+        <dmn:description>The L1 statements the rule rests on, as &lt;l1 file&gt;#&lt;key&gt;</dmn:description>
+      </dmn:output>
+      <dmn:rule id="UG.D18.S.HPV.rule.dose1">
+        <dmn:inputEntry>
+          <dmn:description>= 0</dmn:description>
+          <dmn:text>0 dose(s) administered</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Client's biological sex is female</dmn:description>
+          <dmn:text>Applies</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Due" when Due date ≤ Today, else "Upcoming"</dmn:description>
+          <dmn:text>Client is due for HPV dose 1</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Date of birth + 10 years</dmn:description>
+          <dmn:text>Date of birth + 10 years</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Date of birth + 21 years − 1 day</dmn:description>
+          <dmn:text>Date of birth + 21 years − 1 day</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Guidance</dmn:description>
+          <dmn:text>One dose for girls at 10 years, to prevent cancer of the cervix.</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>unepi-deck.l1.yaml#S13, ug-moh-schedule-poster.l1.yaml#P10, ug-moh-schedule-poster.l1.yaml#P10</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="UG.D18.S.HPV.rule.expired">
+        <dmn:inputEntry>
+          <dmn:description>&lt; 1</dmn:description>
+          <dmn:text>Series not complete</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Today &gt; Date of birth + 21 years − 1 day</dmn:description>
+          <dmn:text>Past the expiration</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>Client's biological sex is female</dmn:description>
+          <dmn:text>Applies</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Expired"</dmn:description>
+          <dmn:text>Do not give HPV</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Date of birth + 21 years − 1 day</dmn:description>
+          <dmn:text>Date of birth + 21 years − 1 day</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>Guidance</dmn:description>
+          <dmn:text>The next HPV dose may no longer be given.</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>none</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text>Not stated in the Uganda sources; adapted from WHO IMMZ.D18.S.HPVSingleDose (single dose for 9-20 years). Open question 5: upper age for HPV, and whether boys are included.</dmn:text>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="UG.D18.S.HPV.rule.complete">
+        <dmn:inputEntry>
+          <dmn:description>≥ 1</dmn:description>
+          <dmn:text>Series complete</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry>
+          <dmn:description>"Immunization recommendation status" = "Complete"</dmn:description>
+          <dmn:text>HPV series complete</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>–</dmn:description>
+          <dmn:text>–</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry>
+          <dmn:description>L1</dmn:description>
+          <dmn:text>unepi-deck.l1.yaml#S13</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
+  </dmn:decision>
+</dmn:definitions>

@@ -25,3 +25,5 @@ uploads/**/*.pdf
 uploads/**/*.pptx
 bun.lock
 /kg
+# Generated review page (embeds source images whose licence is unknown): bun run review:render
+docs/review/

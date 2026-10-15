@@ -1,0 +1,102 @@
+# Source of the Uganda scheduling decision tables (input/dmn/UG.D18.S.*.dmn), which
+# tools/l2/build-dmn.py writes. AUTHORED at L2 (stage 4, decision logic, `adapt` of the WHO
+# IMMZ.D18.S.* tables). Every rule cites the authored L1 statements it rests on
+# (`refs`, as <l1-file>#<key>); a rule part the Uganda sources do not state cites the WHO
+# upstream table instead (`upstream`) and names the open question that asks UNEPI (`pending`).
+#
+# Reference prefixes: P = ug-moh-schedule-poster.l1.yaml, S/C/A = unepi-deck.l1.yaml.
+childhood_scope:
+  text: Client's age is below the childhood catch-up upper age (parameter, default 5 years)
+  refs: [C15]
+  pending: "Open question 1: until what age is the childhood schedule offered? C15 says only 'no upper age limit for most vaccines'."
+tables:
+  - id: UG.D18.S.BCG
+    vaccine: BCG
+    doses:
+      - {n: 1, due: "Date of birth", guidance: "Give BCG as soon as possible after birth. Intradermal, right upper arm.", refs: [S01, P01, C02, A02]}
+    expiration: {text: none, refs: [C15]}
+  - id: UG.D18.S.HepBBD
+    vaccine: Hepatitis B birth dose
+    doses:
+      - {n: 1, due: "Date of birth", guidance: "Give as soon as possible after birth, ideally within 24 hours. Intramuscular, left thigh.", refs: [S02, P01, C01, A05]}
+    expiration: {text: "Date of birth + 7 days", refs: [C01, C08, C15]}
+    counts: "Hepatitis B-containing vaccine that is not pentavalent, recorded as dose 0 or given before 6 weeks of age"
+    counts_upstream: "IMMZ.D18.S.HepatitisBBirthDose (birth dose = 'Birth Dose' TRUE)"
+  - id: UG.D18.S.OPV
+    vaccine: Oral polio vaccine
+    doses:
+      - {n: 0, due: "Date of birth", guidance: "Give OPV0 at birth. Oral.", refs: [S03, P01, A01]}
+      - {n: 1, due: "Date of birth + 6 weeks", guidance: "At 6 weeks, or as soon as possible thereafter. Oral.", refs: [S03, P02, C03]}
+      - {n: 2, due: "Latest of (Date of birth + 10 weeks, previous OPV + 4 weeks)", guidance: "At 10 weeks, or as soon as possible thereafter, and at least 4 weeks after dose 1.", refs: [S03, P03, C04, C10]}
+      - {n: 3, due: "Latest of (Date of birth + 14 weeks, previous OPV + 4 weeks)", guidance: "At 14 weeks, or as soon as possible thereafter, and at least 4 weeks after dose 2.", refs: [S03, P04, C05, C11]}
+    expiration: {text: "OPV0: Date of birth + 1 week, and not once OPV1 is given; OPV1-3: none", refs: [C15], upstream: "IMMZ.D18.S.PolioBirthDose (expiration Date of birth + 1 week)", pending: "Open question 3: is there a cut-off for OPV0?"}
+  - id: UG.D18.S.IPV
+    vaccine: Inactivated polio vaccine
+    doses:
+      - {n: 1, due: "Date of birth + 6 weeks", guidance: "At 6 weeks, or as soon as possible thereafter. Intramuscular, right thigh, 2 cm from PCV.", refs: [S07, C03, A04]}
+      - {n: 2, due: "Latest of (Date of birth + 14 weeks, previous IPV + 4 weeks)", guidance: "At 14 weeks, or as soon as possible thereafter, and at least 4 weeks after the previous dose.", refs: [S07, C05, C11, A04], note: "The catch-up chart labels the 14-week dose 'IPV1' (C05 scope); S07 names it dose 2."}
+    expiration: {text: none, refs: [C15]}
+  - id: UG.D18.S.Penta
+    vaccine: DTP-HepB-Hib (pentavalent)
+    doses:
+      - {n: 1, due: "Date of birth + 6 weeks", guidance: "At 6 weeks, or as soon as possible thereafter. Intramuscular, left thigh.", refs: [S04, P02, C03, A05]}
+      - {n: 2, due: "Latest of (Date of birth + 10 weeks, previous penta + 4 weeks)", guidance: "At 10 weeks, or as soon as possible thereafter, and at least 4 weeks after dose 1.", refs: [S04, P03, C04, C10]}
+      - {n: 3, due: "Latest of (Date of birth + 14 weeks, previous penta + 4 weeks)", guidance: "At 14 weeks, or as soon as possible thereafter, and at least 4 weeks after dose 2.", refs: [S04, P04, C05, C11]}
+    expiration: {text: none, refs: [C15]}
+    counts: "DTP-containing vaccine that is also pertussis-containing (the WHO DTP value set also lists Td)"
+  - id: UG.D18.S.PCV
+    vaccine: Pneumococcal conjugate vaccine
+    doses:
+      - {n: 1, due: "Date of birth + 6 weeks", guidance: "At 6 weeks, or as soon as possible thereafter. Intramuscular, right thigh, 2 cm from IPV.", refs: [S05, P02, C03, A04]}
+      - {n: 2, due: "Latest of (Date of birth + 10 weeks, previous PCV + 4 weeks)", guidance: "At 10 weeks, or as soon as possible thereafter, and at least 4 weeks after dose 1.", refs: [S05, P03, C04, C10]}
+      - {n: 3, due: "Latest of (Date of birth + 14 weeks, previous PCV + 4 weeks)", guidance: "At 14 weeks, or as soon as possible thereafter, and at least 4 weeks after dose 2.", refs: [S05, P04, C05, C11]}
+    expiration: {text: none, refs: [C15]}
+  - id: UG.D18.S.Rotavirus
+    vaccine: Rotavirus
+    doses:
+      - {n: 1, due: "Date of birth + 6 weeks", guidance: "At 6 weeks, or as soon as possible thereafter. Oral.", refs: [S06, P02, C03, A01]}
+      - {n: 2, due: "Latest of (Date of birth + 10 weeks, previous rotavirus + 4 weeks)", guidance: "At 10 weeks, or as soon as possible thereafter, and at least 4 weeks after dose 1.", refs: [S06, P03, C04, C10]}
+      - {n: 3, due: "Latest of (Date of birth + 14 weeks, previous rotavirus + 4 weeks)", guidance: "At 14 weeks, or as soon as possible thereafter, and at least 4 weeks after dose 2.", refs: [S06, P04, C05, C11]}
+    expiration: {text: "Date of birth + 2 years − 1 day (not after 2 years of age)", refs: [C09, C10, C11, C15], pending: "Open question 12: is a 2-dose product's series complete after 2 doses?"}
+  - id: UG.D18.S.MR
+    vaccine: Measles-rubella
+    doses:
+      - {n: 1, due: "Date of birth + 9 months", guidance: "At 9 months, or as soon as possible thereafter; not before 9 months of age. Subcutaneous, left upper arm.", refs: [S08, P08, C06, C12, A03]}
+      - {n: 2, due: "Latest of (Date of birth + 18 months, previous MR + 4 weeks)", guidance: "At 18 months, or as soon as possible thereafter, and at least 4 weeks after MR1.", refs: [S08, P09, C07, C13]}
+    expiration: {text: none, refs: [C15]}
+    counts: "Measles-containing vaccine given at 9 months of age or later and not recorded as dose 0"
+    counts_refs: [C12]
+    pending_counts: "Open question 15: a measles-containing dose before 9 months ('except where indicated') is not counted."
+  - id: UG.D18.S.YellowFever
+    vaccine: Yellow fever
+    doses:
+      - {n: 1, due: "Date of birth + 9 months", guidance: "At 9 months, or as soon as possible thereafter; not before 9 months of age. Subcutaneous, right upper arm.", refs: [S09, P08, C06, C12, A02]}
+    expiration: {text: none, refs: [C15]}
+  - id: UG.D18.S.Malaria
+    vaccine: Malaria
+    doses:
+      - {n: 1, due: "Date of birth + 6 months", guidance: "At 6 months.", refs: [S10, P05]}
+      - {n: 2, due: "Latest of (Date of birth + 7 months, previous malaria + 4 weeks)", guidance: "At 7 months.", refs: [S10, P06], upstream: "IMMZ.D18.S.Malaria (minimum interval of 4 weeks between doses)", pending: "The Uganda catch-up chart has no malaria row: the 4-week minimum interval is WHO's."}
+      - {n: 3, due: "Latest of (Date of birth + 8 months, previous malaria + 4 weeks)", guidance: "At 8 months.", refs: [S10, P07], upstream: "IMMZ.D18.S.Malaria (minimum interval of 4 weeks between doses)", pending: "As dose 2."}
+      - {n: 4, due: "Latest of (Date of birth + 18 months, previous malaria + 4 weeks)", guidance: "At 18 months.", refs: [S10, P09], upstream: "IMMZ.D18.S.Malaria (minimum interval of 4 weeks between doses)", pending: "As dose 2."}
+    expiration: {text: none, refs: [C15]}
+  - id: UG.D18.S.HPV
+    vaccine: HPV
+    applies: "Client's biological sex is female"
+    applies_refs: [P10]
+    doses:
+      - {n: 1, due: "Date of birth + 10 years", guidance: "One dose for girls at 10 years, to prevent cancer of the cervix.", refs: [S13, P10]}
+    expiration: {text: "Date of birth + 21 years − 1 day", refs: [], upstream: "IMMZ.D18.S.HPVSingleDose (single dose for 9-20 years)", pending: "Open question 5: upper age for HPV, and whether boys are included."}
+  - id: UG.D18.S.TdWCBA
+    vaccine: Tetanus-diphtheria, women of child-bearing age
+    applies: "Client's biological sex is female and age is 15 to 49 years"
+    applies_refs: [P11, S14]
+    doses:
+      - {n: 1, due: "At first contact (from the 15th birthday)", guidance: "Td1 at first contact.", refs: [P11, S14]}
+      - {n: 2, due: "Previous Td + 1 month", guidance: "Td2 1 month after Td1.", refs: [P12, S14]}
+      - {n: 3, due: "Previous Td + 6 months", guidance: "Td3 6 months after Td2.", refs: [P13, S14]}
+      - {n: 4, due: "Previous Td + 12 months", guidance: "Td4 12 months after Td3.", refs: [P14, S14]}
+      - {n: 5, due: "Previous Td + 12 months", guidance: "Td5 12 months after Td4.", refs: [P15, S14]}
+    expiration: {text: none, refs: []}
+    counts: "Tetanus- and diphtheria-containing vaccine that is not pertussis-containing (infant pentavalent doses are not counted)"
+    pending_counts: "Open question 6: do earlier tetanus-containing doses count towards Td1-Td5?"

@@ -1,0 +1,50 @@
+# Stage 3 of smart-guideline-end-to-end: which existing DAKs the Uganda L2 builds on.
+# One row per candidate (rejected ones included), with the fields the skill names: packageId,
+# version, uri (cat-harness DependsOnRecord), publisher, evidence (the L1 KG nodes that point at
+# it), decision (reuse | adapt | extend | reject) and reason. Authored by an agent; the decision is
+# the agent's RECOMMENDATION and goes ahead under the QA rule. Adjudicated by the programme manager
+# and the business analyst (review requested).
+$schema: sg-l2-dependencies/draft
+candidates:
+  - packageId: smart.who.int.immunizations
+    version: current
+    uri: http://smart.who.int/immunizations
+    publisher: WHO
+    decision: adapt
+    reason: >-
+      The WHO immunization DAK covers every vaccine on the Uganda schedule; Uganda changes the
+      schedule and catch-up rules and adds national requirements, so its scheduling decision
+      logic is adapted and the rest reused or extended.
+    evidence:
+      - library/l1-recommendation-scenarios/uganda/candidates/*/scenario-candidates.l2.json — 49 of 53 scenarios realised by IMMZ.C or IMMZ.D of this DAK
+    components:
+      healthInterventions: {decision: extend, reason: "Add the Uganda interventions (HI-UG-*) named by the authored L1."}
+      personas: {decision: reuse, reason: "All 53 scenario candidates map to its personas (health worker, caregiver); no Uganda-specific persona is printed in the sources."}
+      userScenarios: {decision: extend, reason: "Add the 53 Uganda scenario candidates (IMMZ.UG.Poster.*, IMMZ.UG.UNEPI.*)."}
+      businessProcesses: {decision: reuse, reason: "IMMZ.A-I reused unchanged. Four statements have no process (AEFI reporting, caregiver health education, vitamin A, deworming); extending the process set is review item 6 and is not drawn until decided."}
+      dataElements: {decision: reuse, reason: "The vaccine value sets and dose data elements cover the Uganda schedule. Data elements for vitamin A and deworming wait on review item 6."}
+      decisionLogic: {decision: adapt, reason: "The D18 scheduling tables (IMMZ.D18.S.*) are replaced, per vaccine, by Uganda tables: input/dmn/UG.D18.S.*.dmn. Contraindication tables (IMMZ.D5.DT.*) reused unchanged."}
+      indicators: {decision: extend, reason: "Reuse the WHO indicators; add the Uganda target-population shares (IND-UG-TARGET-POP) as denominators."}
+      requirements: {decision: extend, reason: "Add the UNEPI functional and non-functional requirements (deck slides 17-19) as Requirements resources."}
+      testScenarios: {decision: adapt, reason: "Test cases follow the Uganda decision tables (tests/cases.json), each naming the rules it exercises."}
+  - packageId: smart.who.int.base
+    version: current
+    uri: http://smart.who.int/base
+    publisher: WHO
+    decision: reuse
+    reason: The DAK component models (Persona, Requirements, DecisionSupportLogic, ...) and the generic personas every SMART DAK builds on.
+    evidence: [smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json (generic rung, not needed by any scenario)]
+  - packageId: zm-fhir-smart-immunizations-measles
+    version: 0.1.0
+    uri: http://smart.who.int/ig/smart-immunizations-measles
+    publisher: Ministry of Health, Zambia (2023 fork, Litlfred-team/smart-immunizations-measles-zambia)
+    decision: reject
+    reason: A 2023 measles-only country fork of an earlier WHO DAK version; Uganda adapts the current WHO DAK directly, and nothing in the Uganda L1 points at it.
+    evidence: []
+  - packageId: smart.who.int.hiv
+    version: current
+    uri: http://smart.who.int/hiv
+    publisher: WHO
+    decision: reject
+    reason: HIV status is an input to some WHO immunization tables, but it arrives through the immunization DAK's own data elements; no Uganda L1 statement points at the HIV DAK.
+    evidence: []

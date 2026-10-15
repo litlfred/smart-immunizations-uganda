@@ -13,6 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Authored L1 is verbatim in its library entries
         run: pip install pyyaml && python3 tools/l1/check-l1-verbatim.py
+      - name: Uganda decision tables are current and cite existing L1
+        run: python3 tools/l2/build-dmn.py --check
 
   cql:
     runs-on: ubuntu-latest
