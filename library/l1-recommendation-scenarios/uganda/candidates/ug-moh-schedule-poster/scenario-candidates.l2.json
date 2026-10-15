@@ -1,0 +1,1433 @@
+{
+  "@context": "http://smart.who.int/kg/l2.context.jsonld",
+  "id": "https://smart.who.int/immunizations/graph/l1-scenarios/immz-ug-poster",
+  "type": "Entity",
+  "ontologyVersion": "1.0",
+  "generatedAt": "2026-10-15T14:14:51Z",
+  "wasDerivedFrom": [
+    {
+      "path": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml",
+      "sha256": "d0de889f2714b1b1748a818f4fe0efd0eed5ccb30bbac09b45efc19b0e4577ee",
+      "note": "The L1 recommendations, each the source of one implementedBy edge."
+    },
+    {
+      "path": "library/l1-recommendation-scenarios/uganda/immz-vocabulary.json",
+      "sha256": "9754b9c1f39c696ca6a0d9b833d678833101e0ff6dc1fa5ed59b8dbf55cbcf24",
+      "note": "The personas and processes of smart-immunizations, read at litlfred/smart-immunizations@a48d95affed69af8147f51b31753702f2ccb74cd."
+    },
+    {
+      "path": "smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json",
+      "sha256": "bb8750b358c807e5c7f40fbe2c7d943520f70acb4e0e0e3ad0f615b35f3df283",
+      "note": "smart-base's generic personas, read at litlfred/smart-base@3d867866d9fcf980a85a5eb7efa9955fc0b83642."
+    },
+    {
+      "path": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml",
+      "sha256": "7f8158313349dd01e90e7e9329ec91e8b4071d27721ea4c50d67e5b8a2c6e647",
+      "note": "The authored mapping: per recommendation, its personas, process, act, outcome and domain, each with a source and a basis."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p01",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P01: give the vaccines the Uganda schedule lists for birth",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P01, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P01 (p1)",
+        "quote": "Birth: Polio, Tuberculosis, Hepatitis B"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P01",
+        "title": "IMMZ.UG.Poster.P01: give the vaccines the Uganda schedule lists for birth",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for birth so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P01"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p02",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P02: give the vaccines the Uganda schedule lists for 6 weeks",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P02, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P02 (p1)",
+        "quote": "6 Weeks (1.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P02",
+        "title": "IMMZ.UG.Poster.P02: give the vaccines the Uganda schedule lists for 6 weeks",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 6 weeks so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P02"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p03",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P03: give the vaccines the Uganda schedule lists for 10 weeks",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P03, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P03 (p1)",
+        "quote": "10 Weeks (2.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P03",
+        "title": "IMMZ.UG.Poster.P03: give the vaccines the Uganda schedule lists for 10 weeks",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 10 weeks so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P03"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p04",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P04: give the vaccines the Uganda schedule lists for 14 weeks",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P04, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P04 (p1)",
+        "quote": "14 Weeks (3.5 months): Polio, Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P04",
+        "title": "IMMZ.UG.Poster.P04: give the vaccines the Uganda schedule lists for 14 weeks",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 14 weeks so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P04"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p05",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P05: give the vaccines and vitamin A the Uganda schedule lists for 6 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P05, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P05 (p1)",
+        "quote": "6 Months: Malaria, Vitamin A"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P05",
+        "title": "IMMZ.UG.Poster.P05: give the vaccines and vitamin A the Uganda schedule lists for 6 months",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines and vitamin A the Uganda schedule lists for 6 months so that the child receives the doses and supplement the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P05"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p06",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P06: give the vaccines the Uganda schedule lists for 7 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P06, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P06 (p1)",
+        "quote": "7 Months: Malaria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P06",
+        "title": "IMMZ.UG.Poster.P06: give the vaccines the Uganda schedule lists for 7 months",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 7 months so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P06"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p07",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P07: give the vaccines the Uganda schedule lists for 8 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P07, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P07 (p1)",
+        "quote": "8 Months: Malaria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P07",
+        "title": "IMMZ.UG.Poster.P07: give the vaccines the Uganda schedule lists for 8 months",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 8 months so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P07"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p08",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P08: give the vaccines the Uganda schedule lists for 9 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P08, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P08 (p1)",
+        "quote": "9 Months: Measles, Rubella, Yellow Fever"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P08",
+        "title": "IMMZ.UG.Poster.P08: give the vaccines the Uganda schedule lists for 9 months",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 9 months so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P08"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p09",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P09: give the vaccines and vitamin A the Uganda schedule lists for 18 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P09, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P09 (p1)",
+        "quote": "18 Months: Measles, Rubella, Malaria, Vitamin A"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P09",
+        "title": "IMMZ.UG.Poster.P09: give the vaccines and vitamin A the Uganda schedule lists for 18 months",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines and vitamin A the Uganda schedule lists for 18 months so that the child receives the doses and supplement the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P09"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p10",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P10: give a girl aged 10 years one dose of HPV vaccine",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P10, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P10 (p1)",
+        "quote": "10yr Girl: 1 dose HPV vaccine to prevent cancer of the cervix"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P10",
+        "title": "IMMZ.UG.Poster.P10: give a girl aged 10 years one dose of HPV vaccine",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give a girl aged 10 years one dose of HPV vaccine so that the girl is protected against cancer of the cervix.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P10"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p11",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P11: give a woman of child-bearing age her first Td dose at the interval the schedule sets",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P11, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P11 (p1)",
+        "quote": "1st Dose At first contact Tetanus Diphtheria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P11",
+        "title": "IMMZ.UG.Poster.P11: give a woman of child-bearing age her first Td dose at the interval the schedule sets",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her first Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P11"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p12",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P12: give a woman of child-bearing age her second Td dose at the interval the schedule sets",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P12, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P12 (p1)",
+        "quote": "2nd Dose 1 Month after 1st dose Tetanus Diphtheria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P12",
+        "title": "IMMZ.UG.Poster.P12: give a woman of child-bearing age her second Td dose at the interval the schedule sets",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her second Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P12"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p13",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P13: give a woman of child-bearing age her third Td dose at the interval the schedule sets",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P13, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P13 (p1)",
+        "quote": "3rd Dose 6 Months after 2nd dose Tetanus Diphtheria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P13",
+        "title": "IMMZ.UG.Poster.P13: give a woman of child-bearing age her third Td dose at the interval the schedule sets",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her third Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P13"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p14",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P14: give a woman of child-bearing age her fourth Td dose at the interval the schedule sets",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P14, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P14 (p1)",
+        "quote": "4th Dose 12 Months after 3rd dose Tetanus Diphtheria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P14",
+        "title": "IMMZ.UG.Poster.P14: give a woman of child-bearing age her fourth Td dose at the interval the schedule sets",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her fourth Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P14"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p15",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P15: give a woman of child-bearing age her fifth Td dose at the interval the schedule sets",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P15, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P15 (p1)",
+        "quote": "5th Dose 12 Months after 4th dose Tetanus Diphtheria"
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P15",
+        "title": "IMMZ.UG.Poster.P15: give a woman of child-bearing age her fifth Td dose at the interval the schedule sets",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her fifth Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P15"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p16",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P16: ask the health worker for the child's next immunisation date",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P16, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P16 (p1)",
+        "quote": "Ask your health worker for your child's next immunisation date."
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P16",
+        "title": "IMMZ.UG.Poster.P16: ask the health worker for the child's next immunisation date",
+        "description": "As a Caregiver, during IMMZ.D Administer vaccine, I ask the health worker for the child's next immunisation date so that the caregiver knows when to return.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P16"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p17",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P17: keep the child's immunisation card safe and bring it to every visit",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P17, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P17 (p1)",
+        "quote": "Keep your child's immunisation card safe and bring it every time you visit the health centre."
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P17",
+        "title": "IMMZ.UG.Poster.P17: keep the child's immunisation card safe and bring it to every visit",
+        "description": "As a Caregiver, during IMMZ.C Client registration, I keep the child's immunisation card safe and bring it to every visit so that the child's history is available at every contact.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P17"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p18",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P18: report any side effect after vaccination to the health worker immediately",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P18, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P18 (p1)",
+        "quote": "Report any side effects immediately to the health worker for proper clinical care."
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P18",
+        "title": "IMMZ.UG.Poster.P18: report any side effect after vaccination to the health worker immediately",
+        "description": "As a Caregiver, during [process not determined], I report any side effect after vaccination to the health worker immediately so that the side effect is managed clinically and recorded.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P18"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p19",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.Poster.P19: tell caregivers that vaccines are safe, effective and free at government health facilities",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation P19, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster.l1.yaml#P19 (p1)",
+        "quote": "Vaccines are safe, effective and free at all government health facilities."
+      },
+      "properties": {
+        "id": "IMMZ.UG.Poster.P19",
+        "title": "IMMZ.UG.Poster.P19: tell caregivers that vaccines are safe, effective and free at government health facilities",
+        "description": "As a Health worker (HW), during [process not determined], I tell caregivers that vaccines are safe, effective and free at government health facilities so that caregivers trust and use the service.",
+        "source": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P19"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/persona/caregiver",
+      "type": "persona",
+      "label": "Caregiver",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "caregiver",
+        "title": "Caregiver",
+        "description": "Mother, father, guardian, carer of the child, infant, elderly or disabled person.",
+        "otherNames": [
+          "Parent",
+          "guardian"
+        ],
+        "source": "litlfred/smart-immunizations@a48d95a:input/pagecontent/personas.md (line 62)",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "type": "persona",
+      "label": "Health worker (HW)",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "health-worker-hw",
+        "title": "Health worker (HW)",
+        "description": "Health workers facilitate education sessions, administer immunizations, provide counselling when needed, record vaccinations administered, record stock movements and compile, generate, and submit reports.",
+        "otherNames": [
+          "Nurse",
+          "registered nurse",
+          "practical nurse"
+        ],
+        "iscoCode": [
+          "3221"
+        ],
+        "source": "litlfred/smart-immunizations@a48d95a:input/pagecontent/personas.md (line 26)",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/business-process/immz-c",
+      "type": "business-process",
+      "label": "IMMZ.C Client registration",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "IMMZ.C",
+        "description": "Client registration",
+        "objectives": "Create and/or update the clients’ vaccine record by including personal data in the EIR to support future vaccine administration",
+        "source": "litlfred/smart-immunizations@a48d95a:input/pagecontent/business-processes.md (line 24)",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/business-process/immz-d",
+      "type": "business-process",
+      "label": "IMMZ.D Administer vaccine",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "IMMZ.D",
+        "description": "Administer vaccine",
+        "objectives": "To determine which vaccines a client needs, administer those and record the relevant necessary data both in the EIR as well as in the appropriate paper records",
+        "source": "litlfred/smart-immunizations@a48d95a:input/pagecontent/business-processes.md (line 25)",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P01",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p01",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P01 is implemented by scenario IMMZ.UG.Poster.P01 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P01"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p01",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P01.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p01",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P01.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P02",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p02",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P02 is implemented by scenario IMMZ.UG.Poster.P02 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P02"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p02",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P02.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p02",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P02.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P03",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p03",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P03 is implemented by scenario IMMZ.UG.Poster.P03 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P03"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p03",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P03.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p03",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P03.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P04",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p04",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P04 is implemented by scenario IMMZ.UG.Poster.P04 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P04"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p04",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P04.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p04",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P04.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P05",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p05",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P05 is implemented by scenario IMMZ.UG.Poster.P05 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P05"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p05",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P05.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p05",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. The vitamin A dose in this row is a supplement, not a vaccine; IMMZ.D covers it only by extension.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P05.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P06",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p06",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P06 is implemented by scenario IMMZ.UG.Poster.P06 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P06"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p06",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P06.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p06",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P06.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P07",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p07",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P07 is implemented by scenario IMMZ.UG.Poster.P07 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P07"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p07",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P07.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p07",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P07.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P08",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p08",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P08 is implemented by scenario IMMZ.UG.Poster.P08 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P08"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p08",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P08.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p08",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P08.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P09",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p09",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P09 is implemented by scenario IMMZ.UG.Poster.P09 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P09"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p09",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P09.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p09",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. The vitamin A dose in this row is a supplement, not a vaccine; IMMZ.D covers it only by extension.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P09.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P10",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p10",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P10 is implemented by scenario IMMZ.UG.Poster.P10 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P10"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p10",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P10.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p10",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P10.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P11",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p11",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P11 is implemented by scenario IMMZ.UG.Poster.P11 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P11"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p11",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P11.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p11",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P11.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P12",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p12",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P12 is implemented by scenario IMMZ.UG.Poster.P12 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P12"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p12",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P12.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p12",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P12.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P13",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p13",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P13 is implemented by scenario IMMZ.UG.Poster.P13 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P13"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p13",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P13.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p13",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P13.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P14",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p14",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P14 is implemented by scenario IMMZ.UG.Poster.P14 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P14"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p14",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P14.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p14",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P14.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P15",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p15",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P15 is implemented by scenario IMMZ.UG.Poster.P15 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P15"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p15",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P15.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p15",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P15.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P16",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p16",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P16 is implemented by scenario IMMZ.UG.Poster.P16 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P16"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A caregiver message printed on the national schedule poster."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p16",
+      "target": "https://smart.who.int/immunizations/persona/caregiver",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: the caregiver brings the child; the statement addresses the caregiver directly.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P16.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p16",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The next immunisation date is given at the vaccination contact: the UNEPI client-flow slide places 'next appointment' at the vaccination station, which is IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P16.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P17",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p17",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P17 is implemented by scenario IMMZ.UG.Poster.P17 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P17"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A caregiver message printed on the national schedule poster."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p17",
+      "target": "https://smart.who.int/immunizations/persona/caregiver",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The statement addresses the caregiver directly.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P17.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-c",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p17",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The card is what identifies the child and their history when they arrive: IMMZ.C, client registration, finds or registers the client from it.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P17.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P18",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p18",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P18 is implemented by scenario IMMZ.UG.Poster.P18 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P18"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A caregiver message printed on the national schedule poster."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p18",
+      "target": "https://smart.who.int/immunizations/persona/caregiver",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The statement addresses the caregiver directly.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P18.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427077-routine-2bimmunisation-2bschedule-pdf/recommendation/P19",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p19",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation P19 is implemented by scenario IMMZ.UG.Poster.P19 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P19"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A caregiver message printed on the national schedule poster."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-poster-p19",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'. Health education is given in the waiting area (UNEPI client-flow slide).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/ug-moh-schedule-poster-mapping.yaml#entries.P19.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ]
+}

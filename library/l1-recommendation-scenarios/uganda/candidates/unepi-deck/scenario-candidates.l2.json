@@ -1,0 +1,2481 @@
+{
+  "@context": "http://smart.who.int/kg/l2.context.jsonld",
+  "id": "https://smart.who.int/immunizations/graph/l1-scenarios/immz-ug-unepi",
+  "type": "Entity",
+  "ontologyVersion": "1.0",
+  "generatedAt": "2026-10-15T14:14:51Z",
+  "wasDerivedFrom": [
+    {
+      "path": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml",
+      "sha256": "c60eb3695cae01cabc704719f4f4ec2d2214cf52bb6375a5cd819aaa6a2831b9",
+      "note": "The L1 recommendations, each the source of one implementedBy edge."
+    },
+    {
+      "path": "library/l1-recommendation-scenarios/uganda/immz-vocabulary.json",
+      "sha256": "9754b9c1f39c696ca6a0d9b833d678833101e0ff6dc1fa5ed59b8dbf55cbcf24",
+      "note": "The personas and processes of smart-immunizations, read at litlfred/smart-immunizations@a48d95affed69af8147f51b31753702f2ccb74cd."
+    },
+    {
+      "path": "smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json",
+      "sha256": "bb8750b358c807e5c7f40fbe2c7d943520f70acb4e0e0e3ad0f615b35f3df283",
+      "note": "smart-base's generic personas, read at litlfred/smart-base@3d867866d9fcf980a85a5eb7efa9955fc0b83642."
+    },
+    {
+      "path": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml",
+      "sha256": "2ae1dfab8240070795c21602f69ca26d6ab7845be76a461ddd6e4d12ef4fdd17",
+      "note": "The authored mapping: per recommendation, its personas, process, act, outcome and domain, each with a source and a basis."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a01",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.A01: give polio, vitamin A and rotavirus by mouth",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation A01, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#A01 (p8)",
+        "quote": "Polio, Vitamin A, Rota (Oral) to the mouth"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.A01",
+        "title": "IMMZ.UG.UNEPI.A01: give polio, vitamin A and rotavirus by mouth",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give polio, vitamin A and rotavirus by mouth so that each dose is given by the correct route at the correct site.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A01"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a02",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.A02: give BCG intradermally and yellow fever subcutaneously in the right upper arm",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation A02, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#A02 (p8)",
+        "quote": "BCG (Intradermal) and Yellow Fever (Subcutaneous) to the baby's right upper arm"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.A02",
+        "title": "IMMZ.UG.UNEPI.A02: give BCG intradermally and yellow fever subcutaneously in the right upper arm",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give BCG intradermally and yellow fever subcutaneously in the right upper arm so that each dose is given by the correct route at the correct site.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A02"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a03",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.A03: give measles-rubella subcutaneously in the left upper arm",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation A03, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#A03 (p8)",
+        "quote": "Measles-Rubella (Subcutaneous) to the baby's left upper arm"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.A03",
+        "title": "IMMZ.UG.UNEPI.A03: give measles-rubella subcutaneously in the left upper arm",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give measles-rubella subcutaneously in the left upper arm so that each dose is given by the correct route at the correct site.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A03"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a04",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.A04: give IPV and PCV intramuscularly in the right thigh, 2 cm apart",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation A04, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#A04 (p8)",
+        "quote": "IPV (2cm apart) (Intramuscular) and PCV (2cm apart) (Intramuscular) to the baby's right thigh"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.A04",
+        "title": "IMMZ.UG.UNEPI.A04: give IPV and PCV intramuscularly in the right thigh, 2 cm apart",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give IPV and PCV intramuscularly in the right thigh, 2 cm apart so that each dose is given by the correct route at the correct site.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A04"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a05",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.A05: give the hepatitis B birth dose and DTP-HepB-Hib intramuscularly in the left thigh",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation A05, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#A05 (p8)",
+        "quote": "Hep B Birth dose (Intramuscular) and DPT-HepB-Hib (Intramuscular) to the baby's left thigh"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.A05",
+        "title": "IMMZ.UG.UNEPI.A05: give the hepatitis B birth dose and DTP-HepB-Hib intramuscularly in the left thigh",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the hepatitis B birth dose and DTP-HepB-Hib intramuscularly in the left thigh so that each dose is given by the correct route at the correct site.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A05"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c01",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C01: give the hepatitis B birth dose as soon as possible after birth, ideally within 24 hours and up to 7 days",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C01, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C01 (p7)",
+        "quote": "Hep B BD: As soon as possible after birth, ideally within 24 hours and up to 7 days"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C01",
+        "title": "IMMZ.UG.UNEPI.C01: give the hepatitis B birth dose as soon as possible after birth, ideally within 24 hours and up to 7 days",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the hepatitis B birth dose as soon as possible after birth, ideally within 24 hours and up to 7 days so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C01"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c02",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C02: give BCG as soon as possible after birth",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C02, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C02 (p7)",
+        "quote": "BCG: As soon as possible after birth"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C02",
+        "title": "IMMZ.UG.UNEPI.C02: give BCG as soon as possible after birth",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give BCG as soon as possible after birth so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C02"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c03",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C03: give the 6-week doses at 6 weeks or as soon as possible after",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C03, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C03 (p7)",
+        "quote": "At 6 weeks (or as soon as possible thereafter)"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C03",
+        "title": "IMMZ.UG.UNEPI.C03: give the 6-week doses at 6 weeks or as soon as possible after",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the 6-week doses at 6 weeks or as soon as possible after so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C03"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c04",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C04: give the 10-week doses at 10 weeks or as soon as possible after, at least 4 weeks after dose 1",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C04, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C04 (p7)",
+        "quote": "At 10 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 1"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C04",
+        "title": "IMMZ.UG.UNEPI.C04: give the 10-week doses at 10 weeks or as soon as possible after, at least 4 weeks after dose 1",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the 10-week doses at 10 weeks or as soon as possible after, at least 4 weeks after dose 1 so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C04"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c05",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C05: give the 14-week doses at 14 weeks or as soon as possible after, at least 4 weeks after dose 2",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C05, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C05 (p7)",
+        "quote": "At 14 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 2"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C05",
+        "title": "IMMZ.UG.UNEPI.C05: give the 14-week doses at 14 weeks or as soon as possible after, at least 4 weeks after dose 2",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the 14-week doses at 14 weeks or as soon as possible after, at least 4 weeks after dose 2 so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C05"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c06",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C06: give MR1 and yellow fever at 9 months or as soon as possible after",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C06, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C06 (p7)",
+        "quote": "At 9 months (or as soon as possible thereafter)"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C06",
+        "title": "IMMZ.UG.UNEPI.C06: give MR1 and yellow fever at 9 months or as soon as possible after",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give MR1 and yellow fever at 9 months or as soon as possible after so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C06"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c07",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C07: give MR2 at 18 months or as soon as possible after, at least 4 weeks after the previous dose",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C07, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C07 (p7)",
+        "quote": "At 18 months (or as soon as possible there after), and at least 4 weeks since the previous dose"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C07",
+        "title": "IMMZ.UG.UNEPI.C07: give MR2 at 18 months or as soon as possible after, at least 4 weeks after the previous dose",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give MR2 at 18 months or as soon as possible after, at least 4 weeks after the previous dose so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C07"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c08",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C08: not give the hepatitis B birth dose after 7 days of age",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C08, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C08 (p7)",
+        "quote": "Hep B BD: Not after 7 days"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C08",
+        "title": "IMMZ.UG.UNEPI.C08: not give the hepatitis B birth dose after 7 days of age",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I not give the hepatitis B birth dose after 7 days of age so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C08"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c09",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C09: not give rotavirus dose 1 after 2 years of age",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C09, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C09 (p7)",
+        "quote": "RV1: Not after 2 years of age"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C09",
+        "title": "IMMZ.UG.UNEPI.C09: not give rotavirus dose 1 after 2 years of age",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I not give rotavirus dose 1 after 2 years of age so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C09"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c10",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C10: not give a 10-week dose within 4 weeks of the previous dose, nor rotavirus dose 2 after 2 years",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C10, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C10 (p7)",
+        "quote": "Not before 4 weeks has passed since the previous dose, RV2: Not after 2 years of age"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C10",
+        "title": "IMMZ.UG.UNEPI.C10: not give a 10-week dose within 4 weeks of the previous dose, nor rotavirus dose 2 after 2 years",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I not give a 10-week dose within 4 weeks of the previous dose, nor rotavirus dose 2 after 2 years so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C10"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c11",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C11: not give a 14-week dose within 4 weeks of the previous dose, nor rotavirus dose 3 after 2 years",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C11, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C11 (p7)",
+        "quote": "Not before 4 weeks has passed since the previous dose, RV3: Not after 2 years of age"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C11",
+        "title": "IMMZ.UG.UNEPI.C11: not give a 14-week dose within 4 weeks of the previous dose, nor rotavirus dose 3 after 2 years",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I not give a 14-week dose within 4 weeks of the previous dose, nor rotavirus dose 3 after 2 years so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C11"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c12",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C12: not give MR1 or yellow fever before 9 months of age, except where indicated",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C12, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C12 (p7)",
+        "quote": "Not before 9 months of age (except where indicated)*"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C12",
+        "title": "IMMZ.UG.UNEPI.C12: not give MR1 or yellow fever before 9 months of age, except where indicated",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I not give MR1 or yellow fever before 9 months of age, except where indicated so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C12"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c13",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C13: not give MR2 within 4 weeks of MR1",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C13, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C13 (p7)",
+        "quote": "MR2: Not before 4 weeks has passed since MR1"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C13",
+        "title": "IMMZ.UG.UNEPI.C13: not give MR2 within 4 weeks of MR1",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I not give MR2 within 4 weeks of MR1 so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C13"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c14",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C14: continue an interrupted series where it stopped rather than restarting it",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C14, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C14 (p7)",
+        "quote": "Even if a long time has passed between doses, there is no need to restart the series from the beginning"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C14",
+        "title": "IMMZ.UG.UNEPI.C14: continue an interrupted series where it stopped rather than restarting it",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I continue an interrupted series where it stopped rather than restarting it so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C14"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c15",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.C15: give missed doses whatever the child's age, except rotavirus after 2 years and the hepatitis B birth dose after 7 days",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation C15, authored from its statement against the smart-immunizations vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#C15 (p7)",
+        "quote": "There is no upper age limit for most vaccines (except rotavirus < 2years and Hepatitis B BD <7 days)."
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.C15",
+        "title": "IMMZ.UG.UNEPI.C15: give missed doses whatever the child's age, except rotavirus after 2 years and the hepatitis B birth dose after 7 days",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give missed doses whatever the child's age, except rotavirus after 2 years and the hepatitis B birth dose after 7 days so that every child who is behind is brought up to date without invalid or unsafe doses.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C15"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s01",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S01: give BCG at birth",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S01, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S01 (p6)",
+        "quote": "BCG 1 at birth"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S01",
+        "title": "IMMZ.UG.UNEPI.S01: give BCG at birth",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give BCG at birth so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S01"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s02",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S02: give the hepatitis B birth dose",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S02, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S02 (p6)",
+        "quote": "Hep B birth dose 1 at birth"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S02",
+        "title": "IMMZ.UG.UNEPI.S02: give the hepatitis B birth dose",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give the hepatitis B birth dose so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S02"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s03",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S03: give OPV0 at birth and OPV1-3 at 6, 10 and 14 weeks",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S03, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S03 (p6)",
+        "quote": "Oral polio 0 at birth, 1 at 6 wks, 2 at 10 wks, 3 at 14 wks"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S03",
+        "title": "IMMZ.UG.UNEPI.S03: give OPV0 at birth and OPV1-3 at 6, 10 and 14 weeks",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give OPV0 at birth and OPV1-3 at 6, 10 and 14 weeks so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S03"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s04",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S04: give DTP-HepB-Hib 1-3 at 6, 10 and 14 weeks",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S04, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S04 (p6)",
+        "quote": "DTP-HepB-Hib (penta) 1, 2, 3 at 6, 10, 14 wks"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S04",
+        "title": "IMMZ.UG.UNEPI.S04: give DTP-HepB-Hib 1-3 at 6, 10 and 14 weeks",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give DTP-HepB-Hib 1-3 at 6, 10 and 14 weeks so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S04"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s05",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S05: give PCV 1-3 at 6, 10 and 14 weeks",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S05, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S05 (p6)",
+        "quote": "PCV 1, 2, 3 at 6, 10, 14 wks"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S05",
+        "title": "IMMZ.UG.UNEPI.S05: give PCV 1-3 at 6, 10 and 14 weeks",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give PCV 1-3 at 6, 10 and 14 weeks so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S05"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s06",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S06: give rotavirus 1-3 at 6, 10 and 14 weeks",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S06, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S06 (p6)",
+        "quote": "Rotavirus 1, 2, 3 at 6, 10, 14 wks"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S06",
+        "title": "IMMZ.UG.UNEPI.S06: give rotavirus 1-3 at 6, 10 and 14 weeks",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give rotavirus 1-3 at 6, 10 and 14 weeks so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S06"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s07",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S07: give IPV 1 at 6 weeks and IPV 2 at 14 weeks",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S07, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S07 (p6)",
+        "quote": "Inactivated Polio 1 at 6 wks and 2 at 14 wks"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S07",
+        "title": "IMMZ.UG.UNEPI.S07: give IPV 1 at 6 weeks and IPV 2 at 14 weeks",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give IPV 1 at 6 weeks and IPV 2 at 14 weeks so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S07"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s08",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S08: give measles-rubella 1 at 9 months and 2 at 18 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S08, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S08 (p6)",
+        "quote": "Measles-Rubella 1 at 9 mo and 2 at 18 mo"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S08",
+        "title": "IMMZ.UG.UNEPI.S08: give measles-rubella 1 at 9 months and 2 at 18 months",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give measles-rubella 1 at 9 months and 2 at 18 months so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S08"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s09",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S09: give yellow fever at 9 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S09, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S09 (p6)",
+        "quote": "Yellow Fever 1 at 9 mo"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S09",
+        "title": "IMMZ.UG.UNEPI.S09: give yellow fever at 9 months",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give yellow fever at 9 months so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S09"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s10",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S10: give malaria vaccine 1-3 at 6, 7 and 8 months and 4 at 18 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S10, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S10 (p6)",
+        "quote": "1, 2, 3 at 6, 7, 8 mo and 4 at 18 mo"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S10",
+        "title": "IMMZ.UG.UNEPI.S10: give malaria vaccine 1-3 at 6, 7 and 8 months and 4 at 18 months",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give malaria vaccine 1-3 at 6, 7 and 8 months and 4 at 18 months so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S10"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s11",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S11: give vitamin A at 6, 12, 18 and 24 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S11, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S11 (p6)",
+        "quote": "Vitamin A 1 at 6 mo, 2 at 12 mo, 3 at 18 mo, 4 at 24 mo"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S11",
+        "title": "IMMZ.UG.UNEPI.S11: give vitamin A at 6, 12, 18 and 24 months",
+        "description": "As a Health worker (HW), during [process not determined], I give vitamin A at 6, 12, 18 and 24 months so that the child receives routine vitamin A supplementation.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S11"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s12",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S12: give deworming medicine at 12 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S12, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S12 (p6)",
+        "quote": "Deworming 1 at 12 mo"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S12",
+        "title": "IMMZ.UG.UNEPI.S12: give deworming medicine at 12 months",
+        "description": "As a Health worker (HW), during [process not determined], I give deworming medicine at 12 months so that the child is dewormed on schedule.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S12"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s13",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S13: give one dose of HPV vaccine at 10 years",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S13, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S13 (p6)",
+        "quote": "HPV 1 at 10 Yrs"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S13",
+        "title": "IMMZ.UG.UNEPI.S13: give one dose of HPV vaccine at 10 years",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give one dose of HPV vaccine at 10 years so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S13"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s14",
+      "type": "user-scenario",
+      "label": "IMMZ.UG.UNEPI.S14: give Td doses 1 to 5 to women aged 15 to 49",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation S14, authored from its statement against the smart-immunizations vocabulary. Domain public-health (context).",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck.l1.yaml#S14 (p6)",
+        "quote": "Tetanus Diphtheria (TD) '1,2,3,4 &5' at 15-49 Yrs"
+      },
+      "properties": {
+        "id": "IMMZ.UG.UNEPI.S14",
+        "title": "IMMZ.UG.UNEPI.S14: give Td doses 1 to 5 to women aged 15 to 49",
+        "description": "As a Health worker (HW), during IMMZ.D Administer vaccine, I give Td doses 1 to 5 to women aged 15 to 49 so that the child receives the doses the Uganda schedule sets for that age.",
+        "source": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S14"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "type": "persona",
+      "label": "Health worker (HW)",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "health-worker-hw",
+        "title": "Health worker (HW)",
+        "description": "Health workers facilitate education sessions, administer immunizations, provide counselling when needed, record vaccinations administered, record stock movements and compile, generate, and submit reports.",
+        "otherNames": [
+          "Nurse",
+          "registered nurse",
+          "practical nurse"
+        ],
+        "iscoCode": [
+          "3221"
+        ],
+        "source": "litlfred/smart-immunizations@a48d95a:input/pagecontent/personas.md (line 26)",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "id": "https://smart.who.int/immunizations/business-process/immz-d",
+      "type": "business-process",
+      "label": "IMMZ.D Administer vaccine",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "IMMZ.D",
+        "description": "Administer vaccine",
+        "objectives": "To determine which vaccines a client needs, administer those and record the relevant necessary data both in the EIR as well as in the appropriate paper records",
+        "source": "litlfred/smart-immunizations@a48d95a:input/pagecontent/business-processes.md (line 25)",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S01",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s01",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S01 is implemented by scenario IMMZ.UG.UNEPI.S01 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S01"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s01",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S01.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s01",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S01.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S02",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s02",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S02 is implemented by scenario IMMZ.UG.UNEPI.S02 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S02"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s02",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S02.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s02",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S02.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S03",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s03",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S03 is implemented by scenario IMMZ.UG.UNEPI.S03 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S03"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s03",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S03.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s03",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S03.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S04",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s04",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S04 is implemented by scenario IMMZ.UG.UNEPI.S04 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S04"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s04",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S04.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s04",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S04.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S05",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s05",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S05 is implemented by scenario IMMZ.UG.UNEPI.S05 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S05"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s05",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S05.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s05",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S05.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S06",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s06",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S06 is implemented by scenario IMMZ.UG.UNEPI.S06 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S06"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s06",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S06.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s06",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S06.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S07",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s07",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S07 is implemented by scenario IMMZ.UG.UNEPI.S07 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S07"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s07",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S07.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s07",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S07.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S08",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s08",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S08 is implemented by scenario IMMZ.UG.UNEPI.S08 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S08"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s08",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S08.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s08",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S08.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S09",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s09",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S09 is implemented by scenario IMMZ.UG.UNEPI.S09 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S09"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s09",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S09.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s09",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S09.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S10",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s10",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S10 is implemented by scenario IMMZ.UG.UNEPI.S10 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S10"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s10",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S10.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s10",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S10.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S11",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s11",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S11 is implemented by scenario IMMZ.UG.UNEPI.S11 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S11"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s11",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S11.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S12",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s12",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S12 is implemented by scenario IMMZ.UG.UNEPI.S12 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S12"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s12",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S12.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S13",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s13",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S13 is implemented by scenario IMMZ.UG.UNEPI.S13 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S13"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s13",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S13.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s13",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S13.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/S14",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s14",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation S14 is implemented by scenario IMMZ.UG.UNEPI.S14 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S14"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "context",
+        "domainBasis": "A row of the national routine schedule: a population vaccination policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s14",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S14.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-s14",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.S14.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C01",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c01",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C01 is implemented by scenario IMMZ.UG.UNEPI.C01 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C01"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c01",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C01.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c01",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C01.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C02",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c02",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C02 is implemented by scenario IMMZ.UG.UNEPI.C02 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C02"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c02",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C02.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c02",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C02.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C03",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c03",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C03 is implemented by scenario IMMZ.UG.UNEPI.C03 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C03"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c03",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C03.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c03",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C03.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C04",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c04",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C04 is implemented by scenario IMMZ.UG.UNEPI.C04 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C04"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c04",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C04.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c04",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C04.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C05",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c05",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C05 is implemented by scenario IMMZ.UG.UNEPI.C05 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C05"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c05",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C05.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c05",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C05.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C06",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c06",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C06 is implemented by scenario IMMZ.UG.UNEPI.C06 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C06"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c06",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C06.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c06",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C06.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C07",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c07",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C07 is implemented by scenario IMMZ.UG.UNEPI.C07 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C07"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c07",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C07.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c07",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C07.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C08",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c08",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C08 is implemented by scenario IMMZ.UG.UNEPI.C08 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C08"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c08",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C08.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c08",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C08.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C09",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c09",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C09 is implemented by scenario IMMZ.UG.UNEPI.C09 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C09"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c09",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C09.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c09",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C09.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C10",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c10",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C10 is implemented by scenario IMMZ.UG.UNEPI.C10 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C10"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c10",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C10.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c10",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C10.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C11",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c11",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C11 is implemented by scenario IMMZ.UG.UNEPI.C11 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C11"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c11",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C11.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c11",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C11.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C12",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c12",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C12 is implemented by scenario IMMZ.UG.UNEPI.C12 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C12"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c12",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C12.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c12",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C12.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C13",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c13",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C13 is implemented by scenario IMMZ.UG.UNEPI.C13 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C13"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c13",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C13.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c13",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C13.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C14",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c14",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C14 is implemented by scenario IMMZ.UG.UNEPI.C14 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C14"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c14",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C14.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c14",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C14.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/C15",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c15",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation C15 is implemented by scenario IMMZ.UG.UNEPI.C15 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C15"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client timing rule applied at the vaccination contact."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c15",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C15.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-c15",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies to one client's next dose, which is decided in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.C15.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/A01",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a01",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation A01 is implemented by scenario IMMZ.UG.UNEPI.A01 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A01"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "Administration technique, a clinical act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a01",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A01.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a01",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. Route and site are how the dose is administered in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A01.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/A02",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a02",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation A02 is implemented by scenario IMMZ.UG.UNEPI.A02 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A02"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "Administration technique, a clinical act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a02",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A02.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a02",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. Route and site are how the dose is administered in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A02.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/A03",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a03",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation A03 is implemented by scenario IMMZ.UG.UNEPI.A03 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A03"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "Administration technique, a clinical act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a03",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A03.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a03",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. Route and site are how the dose is administered in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A03.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/A04",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a04",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation A04 is implemented by scenario IMMZ.UG.UNEPI.A04 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A04"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "Administration technique, a clinical act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a04",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A04.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a04",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. Route and site are how the dose is administered in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A04.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-33427072-3-unepi-user-requirements-smart-guidlines-pptx/recommendation/A05",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a05",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation A05 is implemented by scenario IMMZ.UG.UNEPI.A05 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A05"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "Administration technique, a clinical act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a05",
+      "target": "https://smart.who.int/immunizations/persona/health-worker-hw",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "personas.md: health workers 'administer immunizations'.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A05.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "realises",
+      "source": "https://smart.who.int/immunizations/business-process/immz-d",
+      "target": "https://smart.who.int/immunizations/user-scenario/immz-ug-unepi-a05",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines a client needs, administer those and record the relevant necessary data'. Route and site are how the dose is administered in IMMZ.D.",
+      "evidence": {
+        "location": "library/l1-recommendation-scenarios/uganda/unepi-deck-mapping.yaml#entries.A05.process"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "guide",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ]
+}

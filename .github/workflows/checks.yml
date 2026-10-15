@@ -7,6 +7,13 @@ on:
   workflow_dispatch:
 
 jobs:
+  l1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Authored L1 is verbatim in its library entries
+        run: pip install pyyaml && python3 tools/l1/check-l1-verbatim.py
+
   cql:
     runs-on: ubuntu-latest
     steps:

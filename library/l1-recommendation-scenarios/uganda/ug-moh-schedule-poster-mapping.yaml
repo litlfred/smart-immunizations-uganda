@@ -1,0 +1,316 @@
+# Scenario mapping for ug-moh-schedule-poster.l1.yaml: see recommendation-extraction Part 2.
+$schema: l1-scenario-mapping/v1
+_comment: 'AUTHORED by an agent under recommendation-extraction (Part 2). Every entry is a CANDIDATE: no review
+  is recorded, so every link stays `candidate` until a person reviews the entry. Reuse first (D4): personas and
+  processes are the WHO immunization guide''s own (immz-vocabulary.json, read from litlfred/smart-immunizations
+  at a48d95a), since Uganda has no L2 of its own yet; a process outside IMMZ.A-I is `could-not-determine` and warns.'
+guide: smart-immunizations
+scenarioIdPrefix: IMMZ.UG.Poster
+entries:
+  P01:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give the vaccines the Uganda schedule lists for birth
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P02:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give the vaccines the Uganda schedule lists for 6 weeks
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P03:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give the vaccines the Uganda schedule lists for 10 weeks
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P04:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give the vaccines the Uganda schedule lists for 14 weeks
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P06:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give the vaccines the Uganda schedule lists for 7 months
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P07:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give the vaccines the Uganda schedule lists for 8 months
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P08:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give the vaccines the Uganda schedule lists for 9 months
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P05:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. The vitamin A dose in this row
+        is a supplement, not a vaccine; IMMZ.D covers it only by extension.
+    act: give the vaccines and vitamin A the Uganda schedule lists for 6 months
+    outcome: the child receives the doses and supplement the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P09:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. The vitamin A dose in this row
+        is a supplement, not a vaccine; IMMZ.D covers it only by extension.
+    act: give the vaccines and vitamin A the Uganda schedule lists for 18 months
+    outcome: the child receives the doses and supplement the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P10:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give a girl aged 10 years one dose of HPV vaccine
+    outcome: the girl is protected against cancer of the cervix
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P11:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give a woman of child-bearing age her first Td dose at the interval the schedule sets
+    outcome: the woman, and her future newborns, are protected against tetanus and diphtheria
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P12:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give a woman of child-bearing age her second Td dose at the interval the schedule sets
+    outcome: the woman, and her future newborns, are protected against tetanus and diphtheria
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P13:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give a woman of child-bearing age her third Td dose at the interval the schedule sets
+    outcome: the woman, and her future newborns, are protected against tetanus and diphtheria
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P14:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give a woman of child-bearing age her fourth Td dose at the interval the schedule sets
+    outcome: the woman, and her future newborns, are protected against tetanus and diphtheria
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P15:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give a woman of child-bearing age her fifth Td dose at the interval the schedule sets
+    outcome: the woman, and her future newborns, are protected against tetanus and diphtheria
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  P16:
+    personas:
+    - id: caregiver
+      source: inferred
+      basis: 'personas.md: the caregiver brings the child; the statement addresses the caregiver directly.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: 'The next immunisation date is given at the vaccination contact: the UNEPI client-flow slide places
+        ''next appointment'' at the vaccination station, which is IMMZ.D.'
+    act: ask the health worker for the child's next immunisation date
+    outcome: the caregiver knows when to return
+    domain:
+      code: public-health
+      source: context
+      basis: A caregiver message printed on the national schedule poster.
+  P17:
+    personas:
+    - id: caregiver
+      source: inferred
+      basis: The statement addresses the caregiver directly.
+    process:
+      id: IMMZ.C
+      source: inferred
+      basis: 'The card is what identifies the child and their history when they arrive: IMMZ.C, client registration,
+        finds or registers the client from it.'
+    act: keep the child's immunisation card safe and bring it to every visit
+    outcome: the child's history is available at every contact
+    domain:
+      code: public-health
+      source: context
+      basis: A caregiver message printed on the national schedule poster.
+  P18:
+    personas:
+    - id: caregiver
+      source: inferred
+      basis: The statement addresses the caregiver directly.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: Reporting and managing adverse events following immunization has no process among IMMZ.A-I; the UNEPI
+        requirements list AEFI reporting as its own requirement.
+    act: report any side effect after vaccination to the health worker immediately
+    outcome: the side effect is managed clinically and recorded
+    domain:
+      code: public-health
+      source: context
+      basis: A caregiver message printed on the national schedule poster.
+  P19:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''. Health education is given in the waiting
+        area (UNEPI client-flow slide).'
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: Health education of caregivers has no process among IMMZ.A-I; the UNEPI client flow places it in the
+        waiting area before registration.
+    act: tell caregivers that vaccines are safe, effective and free at government health facilities
+    outcome: caregivers trust and use the service
+    domain:
+      code: public-health
+      source: context
+      basis: A caregiver message printed on the national schedule poster.
