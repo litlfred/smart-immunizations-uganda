@@ -35,13 +35,9 @@ pattern, in [`l1-recommendation-scenarios/uganda/`](l1-recommendation-scenarios/
 
 Checks: `bun run l1:verbatim` (also in CI) and `bun run l1-scenarios:uganda:check`.
 
-## Review requested — what each reviewer signs
+## Review
 
-| # | item | role | how |
-|---|---|---|---|
-| 1 | The two documents are the right L1 sources, and whether each is L1 (`classification.layer` is `undetermined`) | Clinical SME (programme) | declare on each `*.l1.yaml` and intake |
-| 2 | The 39 image descriptions, above all slide 6 (schedule grid), slide 7 (catch-up chart: the **only** source of the catch-up rules) and slide 8 (injection sites, sides read from the arrows) | Clinical SME | `bun run cat narratives` → confirm or reject each |
-| 3 | The poster transcription (`ug-moh-schedule-poster.l1.yaml`, `transcription`), especially the digits, the age grouping and the Td table's "Month after" column, which the text layer does not hold | Clinical SME | compare with the poster |
-| 4 | Two proposed exclusions in the deck (`l1-extraction/exclusions.proposed.json`) | `l1-extraction-reviewer` | sign `signedOffBy` |
-| 5 | The 53 scenario links (persona, process, domain) | Business analyst | add `review: {by, at}` to each mapping entry |
-| 6 | Four process gaps: AEFI reporting (P18), caregiver health education (P19), vitamin A (S11) and deworming (S12) have no IMMZ process | Business analyst / programme manager | decide at L2: extend the WHO process set, or leave out of scope |
+What each reviewer signs is listed on the pull request that stages this
+library ([#3](https://github.com/litlfred/smart-immunizations-uganda/pull/3)),
+and reviewed on its staged preview, per `smart-guideline-end-to-end`
+§*Per-asset review*.

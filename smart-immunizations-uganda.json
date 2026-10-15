@@ -9,6 +9,22 @@
   "needs": [
     "smart-base"
   ],
+  "assets": [
+    {
+      "id": "agent-instructions",
+      "src": "AGENTS.md",
+      "role": "agent-instructions",
+      "title": "AGENTS.md — smart-immunizations-uganda",
+      "description": "Cold start for an agent: mount the platform, then follow smart-base's smart-guideline-end-to-end process; nothing else is said here."
+    },
+    {
+      "id": "instance-readme",
+      "src": "README.md",
+      "role": "instance-readme",
+      "title": "smart-immunizations-uganda",
+      "description": "What the Uganda adaptation repository holds: its L1 library, L2 DAK assets and L3 implementation guide."
+    }
+  ],
   "directories": [
     {
       "id": "library",
