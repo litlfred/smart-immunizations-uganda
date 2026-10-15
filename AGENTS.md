@@ -10,7 +10,7 @@ only where an agent starts.
    upstream, never here.
 2. **Follow the process.** Every authoring or adaptation step here is a step
    of smart-base's
-   [`smart-guideline-end-to-end`](smart-base/skills/content/authoring-who-smart-guidelines/smart-guideline-end-to-end.md)
+   [`smart-guideline-end-to-end`](https://github.com/litlfred/smart-base/blob/HEAD/smart-base/skills/content/authoring-who-smart-guidelines/smart-guideline-end-to-end.md)
    and its process, `smart-base/processes/content/smart-guideline-end-to-end.bpmn`.
    Its stages, their order and how each is produced (including which tooling
    to reuse) are said there and nowhere else.
