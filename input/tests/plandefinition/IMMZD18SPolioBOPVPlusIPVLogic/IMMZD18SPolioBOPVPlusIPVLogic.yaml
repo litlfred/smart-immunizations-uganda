@@ -1,0 +1,52 @@
+# Uganda test patients for IMMZD18SPolioBOPVPlusIPVLogic, in the WHO DAK test format
+# (litlfred/smart-immunizations input/tests/plandefinition); bundles: node <immunizations>/tools/node/makeExample.js IMMZD18SPolioBOPVPlusIPVLogic.yaml
+---
+#Infant aged 6 weeks, no primary polio dose (S03, S07)
+### "bOPV dose 1" and "IPV dose 1" due; IPV dose 1 due "Date of birth" + 6 weeks
+id: UGPolio01
+birth: -6w
+patient:
+  fhir:
+    gender: female
+---
+#Infant aged 14 weeks; bOPV at 6 and 10 weeks, IPV at 6 weeks (S07)
+### "bOPV dose 3" and "IPV dose 2" due; IPV dose 2 due "Date of birth" + 14 weeks
+id: UGPolio02
+birth: -14w
+patient:
+  fhir:
+    gender: male
+immunization:
+  bopv:
+    vaccine:
+      code: XM79H3
+      system: http://id.who.int/icd/release/11/mms
+      display: Poliomyelitis oral, bivalent, live attenuated
+    fhir:
+      extension:
+        - url: http://smart.who.int/immunizations/StructureDefinition/IMMZTypeOfDose
+          valueCodeableConcept:
+            coding:
+              - code: DE214
+                system: http://smart.who.int/immunizations/CodeSystem/IMMZ.D
+                display: bOPV
+    doses:
+      p3:
+        - b+6w
+        - b+10w
+  ipv1:
+    vaccine:
+      code: XM5V19
+      system: http://id.who.int/icd/release/11/mms
+      display: Poliomyelitis, trivalent, inactivated, whole virus
+    fhir:
+      extension:
+        - url: http://smart.who.int/immunizations/StructureDefinition/IMMZTypeOfDose
+          valueCodeableConcept:
+            coding:
+              - code: DE213
+                system: http://smart.who.int/immunizations/CodeSystem/IMMZ.D
+                display: IPV
+    doses:
+      p2:
+        - b+6w

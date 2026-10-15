@@ -1,0 +1,85 @@
+# Stage 3 of smart-guideline-end-to-end: which existing DAKs the Uganda L2 builds on.
+# One row per candidate (rejected ones included), with the fields the skill names: packageId,
+# version, uri (cat-harness DependsOnRecord), publisher, evidence (the L1 KG nodes that point at
+# it), decision (reuse | adapt | extend | reject), reason and, per kept component, toolchain:
+# how the upstream produces it, which stages 4 and 6 then use. Authored by an agent; the decision is
+# the agent's RECOMMENDATION and goes ahead under the QA rule. Adjudicated by the programme manager
+# and the business analyst (review requested).
+$schema: sg-l2-dependencies/draft
+candidates:
+  - packageId: smart.who.int.immunizations
+    version: current
+    uri: http://smart.who.int/immunizations
+    publisher: WHO
+    decision: adapt
+    reason: >-
+      The WHO immunization DAK covers every vaccine on the Uganda schedule; Uganda changes the
+      schedule and catch-up rules and adds national requirements, so its scheduling decision
+      logic is adapted and the rest reused or extended.
+    evidence:
+      - library/l1-recommendation-scenarios/uganda/candidates/*/scenario-candidates.l2.json — 49 of 53 scenarios realised by IMMZ.C or IMMZ.D of this DAK
+    components:
+      healthInterventions: {decision: extend, reason: "Add the Uganda interventions (HI-UG-*) named by the authored L1."}
+      personas: {decision: reuse, reason: "All 53 scenario candidates map to its personas (health worker, caregiver); no Uganda-specific persona is printed in the sources."}
+      userScenarios: {decision: extend, reason: "Add the 53 Uganda scenario candidates (IMMZ.UG.Poster.*, IMMZ.UG.UNEPI.*)."}
+      businessProcesses: {decision: reuse, reason: "IMMZ.A-I reused unchanged. Four statements have no process (AEFI reporting, caregiver health education, vitamin A, deworming); extending the process set is review item 6 and is not drawn until decided."}
+      dataElements: {decision: reuse, reason: "The vaccine value sets and dose data elements cover the Uganda schedule. Data elements for vitamin A and deworming wait on review item 6."}
+      decisionLogic:
+        decision: adapt
+        reason: >-
+          The WHO DAK already offers a scheduling table (IMMZ.D18.S.*) for every vaccine on the
+          Uganda schedule, and leaves overdue and expiry "to be determined by Member States". Uganda
+          is an edited copy of the WHO decision-support workbook: the tables listed under `tables`
+          are reused unchanged from the dependency, adapted cell by cell (each changed cell cites
+          its L1 key), or extended with a new table. Contraindication tables (IMMZ.D5.DT.*) and the
+          eligibility tables (IMMZ.D2.DT.*) are reused unchanged.
+        toolchain: >-
+          WHO's own: the DAK workbook input/decision-logic/IMMZ DAK_decision-support logic.xlsx
+          (Uganda copy), converted per table by litlfred/smart-immunizations tools/node/
+          processDTSchedule.js (CQL, Library FSH, PlanDefinition FSH), then the CQL completed from
+          the pseudocode as tools/antigenchecklist.md prescribes. The hand-written YAML tables,
+          DMN builder and input/dmn/UG.D18.S.*.dmn are retired.
+        tables:
+          - {id: IMMZ.D18.S.BCG schedule, decision: reuse, evidence: [S01, C02, P01]}
+          - {id: IMMZ.D18.S.Hepatitis B.Birth dose schedule, decision: adapt, change: "Expiration: \"Date of birth\" + 7 days; with the WHO parameter HepBBirthDoseAgeLimitDays configured to 7 for the eligibility table IMMZ.D2.DT.Hepatitis B.Birth dose", evidence: [S02, C01, C08]}
+          - {id: IMMZ.D18.S.Hepatitis B.4-dose schedule, decision: reuse, configuration: {HepBLowerLimitWeeks: 6}, reason: "WHO leaves dose 1 at the Member States defined lower limit and exposes it as the CQL parameter HepBLowerLimitWeeks (default 4); Uganda's is 6 weeks", evidence: [S04, P02, P03, P04, C03, C04, C05]}
+          - {id: IMMZ.D18.S.Polio.Birth dose schedule, decision: reuse, evidence: [S03, P01]}
+          - {id: IMMZ.D18.S.Polio.bOPV plus IPV schedule, decision: adapt, change: "IPV dose 1 due \"Date of birth\" + 6 weeks; IPV dose 2 due \"Date of birth\" + 14 weeks", evidence: [S03, S07, P02, P04], adjudication: pending}
+          - {id: IMMZ.D18.S.DTP.On-time start schedule, decision: adapt, change: "Primary series only (6, 10, 14 weeks); the booster rows are left out, since the Uganda schedule prints none", evidence: [S04, P02, P03, P04], adjudication: pending}
+          - {id: IMMZ.D18.S.Hib.3 doses schedule, decision: reuse, evidence: [S04]}
+          - {id: IMMZ.D18.S.Pneumococcal.3 doses schedule, decision: reuse, evidence: [S05]}
+          - {id: IMMZ.D18.S.Rotavirus schedule, decision: reuse, reason: "WHO already expires every dose at \"Date of birth\" + 24 months, which is C09-C11", evidence: [S06, C09, C10, C11]}
+          - {id: IMMZ.D18.S.Measles.Ongoing transmission schedule, decision: adapt, change: "MCV2 due \"Date of birth\" + 18 months, at least 4 weeks after MCV1", evidence: [S08, P08, P09, C06, C07, C13]}
+          - {id: IMMZ.D18.S.Rubella.High incidence schedule, decision: reuse, reason: "One rubella dose from 9 months; Uganda gives it as MR1", evidence: [S08, P08]}
+          - {id: IMMZ.D18.S.Yellow fever schedule, decision: reuse, evidence: [S09, P08, C12]}
+          - {id: IMMZ.D18.S.Malaria schedule, decision: adapt, change: "Dose 1 due \"Date of birth\" + 6 months; dose 4 due \"Date of birth\" + 18 months", evidence: [S10, P05, P06, P07, P09]}
+          - {id: IMMZ.D18.S.HPV.Single-dose schedule, decision: adapt, change: "Girls only; due \"Date of birth\" + 10 years", evidence: [P10, S13]}
+          - {id: UG.IMMZ.D18.S.Td.Women of childbearing age schedule, decision: extend, reason: "No WHO table schedules Td from first contact for women aged 15-49; added in the DTP tab beside the pregnancy tables, in their layout", evidence: [P11, P12, P13, P14, P15, S14], adjudication: pending}
+          - {id: vitamin A, deworming, decision: reject, reason: "Not vaccines and outside the IMMZ DAK; the L1 warnings S11, S12 stand (review item 6)", evidence: [S11, S12, P05, P09]}
+      indicators: {decision: extend, reason: "Reuse the WHO indicators; add the Uganda target-population shares (IND-UG-TARGET-POP) as denominators."}
+      requirements: {decision: extend, reason: "Add the UNEPI functional and non-functional requirements (deck slides 17-19) as Requirements resources.", toolchain: "the DAK requirements template under input/system-requirements/, converted by smart-base extract-dak (req_extractor)"}
+      testScenarios:
+        decision: adapt
+        reason: "One test directory per adapted or added table, as the WHO DAK keeps them."
+        toolchain: "input/tests/plandefinition/<Library>/examples.yaml, turned into FHIR test bundles by litlfred/smart-immunizations tools/node/makeExample.js; each Logic library's Test Validation expression names the expected outcome."
+  - packageId: smart.who.int.base
+    version: current
+    uri: http://smart.who.int/base
+    publisher: WHO
+    decision: reuse
+    reason: The DAK component models (Persona, Requirements, DecisionSupportLogic, ...) and the generic personas every SMART DAK builds on.
+    evidence: [smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json (generic rung, not needed by any scenario)]
+  - packageId: zm-fhir-smart-immunizations-measles
+    version: 0.1.0
+    uri: http://smart.who.int/ig/smart-immunizations-measles
+    publisher: Ministry of Health, Zambia (2023 fork, Litlfred-team/smart-immunizations-measles-zambia)
+    decision: reject
+    reason: A 2023 measles-only country fork of an earlier WHO DAK version; Uganda adapts the current WHO DAK directly, and nothing in the Uganda L1 points at it.
+    evidence: []
+  - packageId: smart.who.int.hiv
+    version: current
+    uri: http://smart.who.int/hiv
+    publisher: WHO
+    decision: reject
+    reason: HIV status is an input to some WHO immunization tables, but it arrives through the immunization DAK's own data elements; no Uganda L1 statement points at the HIV DAK.
+    evidence: []

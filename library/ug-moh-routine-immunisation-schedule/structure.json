@@ -1,0 +1,182 @@
+{
+ "_schema": "pdf-structure/v1",
+ "doc_id": "ug-moh-routine-immunisation-schedule",
+ "source": {
+  "file": "ug-moh-routine-immunisation-schedule.pdf",
+  "sha256": "6043beec57fbc02bd3db0041c092f0034fddcc6d1828d5f5499bf34da6497550",
+  "bytes": 690932,
+  "pages": 1,
+  "text_source": "embedded",
+  "extractor": "pymupdf",
+  "mtime": "2026-10-15T14:03:42Z",
+  "mimetype_sniffed": "application/pdf",
+  "mimetype_source": "magic-bytes"
+ },
+ "metadata": {
+  "arxiv": null,
+  "doi": null,
+  "title": "THE REPUBLIC OF UGANDA",
+  "authors_raw": "MINISTRY OF HEALTH",
+  "title_lines": [
+   "THE REPUBLIC OF UGANDA"
+  ],
+  "abstract": null,
+  "docinfo": {
+   "Title": "RI schedule xwith baby - poster - A2 - Feb 2025 AMENDED LANDSCAPE",
+   "Producer": "Adobe PDF library 15.00",
+   "Creator": "Adobe Illustrator 24.0 (Macintosh)",
+   "CreationDate": "D:20251103104100+03'00'"
+  },
+  "title_raw": "THE REPUBLIC OF UGANDA",
+  "title_source": "text",
+  "title_verified": false,
+  "title_evidence": {
+   "metadata": "RI schedule xwith baby - poster - A2 - Feb 2025 AMENDED LANDSCAPE",
+   "heading": "UGANDA ROUTINE IMMUNISATION SCHEDULE",
+   "text": "THE REPUBLIC OF UGANDA",
+   "corroborated_by": [],
+   "browser_print": false
+  }
+ },
+ "toc": [
+  {
+   "level": 1,
+   "title": "UGANDA ROUTINE IMMUNISATION SCHEDULE",
+   "page": 1,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.6,
+   "evidence": [
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 2,
+   "title": "\u40f1\u40f9\u40f1\u40f1 \u40f2\u40f1\u40f1 \u40f1\u40f7\u40f7",
+   "page": 1,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.6,
+   "evidence": [
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 3,
+   "title": "MINISTRY OF HEALTH",
+   "page": 1,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.6,
+   "evidence": [
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 3,
+   "title": "TOLL FREE LINE:",
+   "page": 1,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.6,
+   "evidence": [
+    "style"
+   ],
+   "page_label": null
+  }
+ ],
+ "toc_source": "inferred",
+ "toc_undetermined_reason": null,
+ "figures": [],
+ "pages": [
+  {
+   "physical": 1,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  }
+ ],
+ "sections": [
+  {
+   "id": "sec-front-matter",
+   "number": null,
+   "title": "Front matter",
+   "level": 1,
+   "page_start": 1,
+   "page_end": 1,
+   "n_chars": 22,
+   "n_words": 4,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-000-ministry-of-health",
+   "number": null,
+   "title": "MINISTRY OF HEALTH",
+   "level": 3,
+   "page_start": 1,
+   "page_end": 1,
+   "n_chars": 0,
+   "n_words": 0,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-001-uganda-routine-immunisation-schedule",
+   "number": null,
+   "title": "UGANDA ROUTINE IMMUNISATION SCHEDULE",
+   "level": 1,
+   "page_start": 1,
+   "page_end": 1,
+   "n_chars": 1108,
+   "n_words": 193,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-002-\u40f1\u40f9\u40f1\u40f1-\u40f2\u40f1\u40f1-\u40f1\u40f7\u40f7",
+   "number": null,
+   "title": "\u40f1\u40f9\u40f1\u40f1 \u40f2\u40f1\u40f1 \u40f1\u40f7\u40f7",
+   "level": 2,
+   "page_start": 1,
+   "page_end": 1,
+   "n_chars": 31,
+   "n_words": 6,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-003-toll-free-line",
+   "number": null,
+   "title": "TOLL FREE LINE:",
+   "level": 3,
+   "page_start": 1,
+   "page_end": 1,
+   "n_chars": 0,
+   "n_words": 0,
+   "label_start": null,
+   "label_end": null
+  }
+ ],
+ "diagnostics": {
+  "pages_without_text": 0,
+  "likely_scanned": false,
+  "toc_entries": 4,
+  "toc_inferred_entries": 4,
+  "toc_inferred_mean_confidence": 0.6,
+  "toc_inferred_empty_share": 0.75,
+  "toc_inferred_method": "font",
+  "figure_entries": 0,
+  "figure_sequence_gaps": [],
+  "page_label_conflicts": {
+   "count": 0,
+   "items": []
+  },
+  "sections": 5,
+  "chars_total": 1161
+ }
+}

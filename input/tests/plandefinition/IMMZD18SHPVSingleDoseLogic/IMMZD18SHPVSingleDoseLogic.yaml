@@ -1,0 +1,18 @@
+# Uganda test patients for IMMZD18SHPVSingleDoseLogic, in the WHO DAK test format
+# (litlfred/smart-immunizations input/tests/plandefinition); bundles: node <immunizations>/tools/node/makeExample.js IMMZD18SHPVSingleDoseLogic.yaml
+---
+#Girl aged 10, no HPV dose (P10, S13)
+### "Human papillomavirus (HPV) dose 1" due "Date of birth" + 10 years
+id: UGHPV01
+birth: -10y
+patient:
+  fhir:
+    gender: female
+---
+#Boy aged 10 (P10 names girls only)
+### Not due
+id: UGHPV02
+birth: -10y
+patient:
+  fhir:
+    gender: male

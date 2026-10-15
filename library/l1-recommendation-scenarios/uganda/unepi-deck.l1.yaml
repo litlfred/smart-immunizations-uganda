@@ -1,0 +1,90 @@
+# L1 source for the Uganda adaptation: UNEPI, "User requirements for SMART Guidelines" (presentation).
+#
+# AUTHORED, not generated, on the measles pattern. Why authored: the deck's schedule (slide 6),
+# catch-up rules (slide 7) and injection sites (slide 8) are IMAGES with no text layer, so the
+# mechanical pass of recommendation-extraction cannot reach them
+# (library/unepi-user-requirements-smart-guidelines/l1-extraction/: 2 candidates, both layout
+# fragments, proposed for exclusion).
+#
+# Rules this file keeps (checked by tools/l1/check-l1-verbatim.py):
+#   * every `statement` is a verbatim substring of the `image`'s narrative in
+#     library/unepi-user-requirements-smart-guidelines/images.json — the agent's inspection
+#     transcription, a DRAFT until a person confirms it (bun run cat narratives);
+#   * `scope` says what a statement printed without a subject applies to (the chart row it sits
+#     in); it is read from the layout, so it is a judgement and marked so;
+#   * the deck's requirement slides (16-19) are NOT L1: they are user requirements, an input to the
+#     L2 requirements component, and are not recommendations;
+#   * strength, certainty and direction are not recorded: the deck states none.
+
+graph:
+  namespace: https://litlfred.github.io/smart-immunizations-uganda
+  ontologyVersion: "1.0"
+  source:
+    entry: library/unepi-user-requirements-smart-guidelines
+
+publication:
+  key: unepi-user-requirements
+  title: "UNEPI: User requirements for SMART Guidelines"
+  creator: Uganda National Expanded Programme on Immunisation (UNEPI), Ministry of Health
+  publisher: Ministry of Health, Government of Uganda
+  language: en
+  url: https://github.com/user-attachments/files/33427072/3_UNEPI.User.requirements.SMART.Guidlines.pptx
+  publicationType: presentation
+  classification:
+    layer: undetermined
+    note: >-
+      Not declared. Slides 6-8 present the national schedule, catch-up rules and injection sites
+      and are treated as the jurisdiction's L1; slides 16-19 (requirements) are L2 input.
+
+health_interventions:
+  - {key: HI-UG-CHILD-ROUTINE, name: Routine childhood immunisation (Uganda), description: The vaccines of the Uganda routine schedule from birth to 18 months.}
+  - {key: HI-UG-CATCHUP, name: Catch-up vaccination (Uganda), description: Late and interrupted doses of the childhood schedule.}
+  - {key: HI-UG-MALARIA, name: Malaria vaccination (Uganda), description: Four doses of malaria vaccine at 6, 7, 8 and 18 months.}
+  - {key: HI-UG-VITA, name: Vitamin A supplementation (Uganda routine schedule), description: Vitamin A given with the routine schedule visits.}
+  - {key: HI-UG-DEWORM, name: Deworming (Uganda routine schedule), description: Deworming at 12 months.}
+  - {key: HI-UG-HPV, name: HPV vaccination of girls (Uganda), description: One dose of HPV vaccine at 10 years.}
+  - {key: HI-UG-TD-WCBA, name: Tetanus-diphtheria vaccination of women of child-bearing age (Uganda), description: Five doses of Td for women aged 15 to 49 years.}
+  - {key: HI-UG-ADMIN, name: Vaccine administration technique (Uganda), description: Route and site of each child vaccine.}
+
+recommendations:
+  # ---- slide 6, "Current Immunization schedule" (img-p006-1) --------------------------------
+  - {key: S01, page: "6", image: img-p006-1, statement: "BCG 1 at birth", recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: S02, page: "6", image: img-p006-1, statement: "Hep B birth dose 1 at birth", recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: S03, page: "6", image: img-p006-1, statement: "Oral polio 0 at birth, 1 at 6 wks, 2 at 10 wks, 3 at 14 wks", recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: S04, page: "6", image: img-p006-1, statement: "DTP-HepB-Hib (penta) 1, 2, 3 at 6, 10, 14 wks", recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: S05, page: "6", image: img-p006-1, statement: "PCV 1, 2, 3 at 6, 10, 14 wks", recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: S06, page: "6", image: img-p006-1, statement: "Rotavirus 1, 2, 3 at 6, 10, 14 wks", recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: S07, page: "6", image: img-p006-1, statement: "Inactivated Polio 1 at 6 wks and 2 at 14 wks", recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: S08, page: "6", image: img-p006-1, statement: "Measles-Rubella 1 at 9 mo and 2 at 18 mo", recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: S09, page: "6", image: img-p006-1, statement: "Yellow Fever 1 at 9 mo", recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: S10, page: "6", image: img-p006-1, statement: "1, 2, 3 at 6, 7, 8 mo and 4 at 18 mo", scope: {row: Malaria, basis: "the grid row labelled Malaria (in red)"}, recommends: [HI-UG-MALARIA]}
+  - {key: S11, page: "6", image: img-p006-1, statement: "Vitamin A 1 at 6 mo, 2 at 12 mo, 3 at 18 mo, 4 at 24 mo", recommends: [HI-UG-VITA]}
+  - {key: S12, page: "6", image: img-p006-1, statement: "Deworming 1 at 12 mo", recommends: [HI-UG-DEWORM]}
+  - {key: S13, page: "6", image: img-p006-1, statement: "HPV 1 at 10 Yrs", recommends: [HI-UG-HPV]}
+  - {key: S14, page: "6", image: img-p006-1, statement: "Tetanus Diphtheria (TD) '1,2,3,4 &5' at 15-49 Yrs", recommends: [HI-UG-TD-WCBA]}
+  # ---- slide 7, "Catch up schedule" (img-p007-1) -------------------------------------------
+  - {key: C01, page: "7", image: img-p007-1, statement: "Hep B BD: As soon as possible after birth, ideally within 24 hours and up to 7 days", recommends: [HI-UG-CATCHUP]}
+  - {key: C02, page: "7", image: img-p007-1, statement: "BCG: As soon as possible after birth", recommends: [HI-UG-CATCHUP]}
+  - {key: C03, page: "7", image: img-p007-1, statement: "At 6 weeks (or as soon as possible thereafter)", scope: {row: "6 WEEKS: OPV1, PCV1, DTP1, RV1, IPV1", basis: "the chart row the statement is printed in"}, recommends: [HI-UG-CATCHUP]}
+  - {key: C04, page: "7", image: img-p007-1, statement: "At 10 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 1", scope: {row: "10 WEEKS: OPV2, PCV2, DTP2, RV2", basis: "the chart row the statement is printed in"}, recommends: [HI-UG-CATCHUP]}
+  - {key: C05, page: "7", image: img-p007-1, statement: "At 14 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 2", scope: {row: "14 WEEKS: OPV3, PCV3, DTP3, RV3, and the 14-week IPV dose (labelled IPV1 on the chart)", basis: "the chart row the statement is printed in"}, recommends: [HI-UG-CATCHUP]}
+  - {key: C06, page: "7", image: img-p007-1, statement: "At 9 months (or as soon as possible thereafter)", scope: {row: "9 MONTHS: MR1, YF", basis: "the chart row the statement is printed in"}, recommends: [HI-UG-CATCHUP]}
+  - {key: C07, page: "7", image: img-p007-1, statement: "At 18 months (or as soon as possible there after), and at least 4 weeks since the previous dose", scope: {row: "18 MONTHS: MR2", basis: "the chart row the statement is printed in"}, recommends: [HI-UG-CATCHUP]}
+  - {key: C08, page: "7", image: img-p007-1, statement: "Hep B BD: Not after 7 days", recommends: [HI-UG-CATCHUP]}
+  - {key: C09, page: "7", image: img-p007-1, statement: "RV1: Not after 2 years of age", recommends: [HI-UG-CATCHUP]}
+  - {key: C10, page: "7", image: img-p007-1, statement: "Not before 4 weeks has passed since the previous dose, RV2: Not after 2 years of age", scope: {row: "10 WEEKS: OPV2, PCV2, DTP2, RV2", basis: "the chart row the statement is printed in"}, recommends: [HI-UG-CATCHUP]}
+  - {key: C11, page: "7", image: img-p007-1, statement: "Not before 4 weeks has passed since the previous dose, RV3: Not after 2 years of age", scope: {row: "14 WEEKS: OPV3, PCV3, DTP3, RV3, IPV", basis: "the chart row the statement is printed in"}, recommends: [HI-UG-CATCHUP]}
+  - {key: C12, page: "7", image: img-p007-1, statement: "Not before 9 months of age (except where indicated)*", scope: {row: "9 MONTHS: MR1, YF", basis: "the chart row the statement is printed in"}, recommends: [HI-UG-CATCHUP]}
+  - {key: C13, page: "7", image: img-p007-1, statement: "MR2: Not before 4 weeks has passed since MR1", recommends: [HI-UG-CATCHUP]}
+  - {key: C14, page: "7", image: img-p007-1, statement: "Even if a long time has passed between doses, there is no need to restart the series from the beginning", recommends: [HI-UG-CATCHUP]}
+  - {key: C15, page: "7", image: img-p007-1, statement: "There is no upper age limit for most vaccines (except rotavirus < 2years and Hepatitis B BD <7 days).", recommends: [HI-UG-CATCHUP]}
+  # ---- slide 8, "Sites of child vaccines" (img-p008-1) -------------------------------------
+  - {key: A01, page: "8", image: img-p008-1, statement: "Polio, Vitamin A, Rota (Oral) to the mouth", recommends: [HI-UG-ADMIN]}
+  - {key: A02, page: "8", image: img-p008-1, statement: "BCG (Intradermal) and Yellow Fever (Subcutaneous) to the baby's right upper arm", recommends: [HI-UG-ADMIN]}
+  - {key: A03, page: "8", image: img-p008-1, statement: "Measles-Rubella (Subcutaneous) to the baby's left upper arm", recommends: [HI-UG-ADMIN]}
+  - {key: A04, page: "8", image: img-p008-1, statement: "IPV (2cm apart) (Intramuscular) and PCV (2cm apart) (Intramuscular) to the baby's right thigh", recommends: [HI-UG-ADMIN]}
+  - {key: A05, page: "8", image: img-p008-1, statement: "Hep B Birth dose (Intramuscular) and DPT-HepB-Hib (Intramuscular) to the baby's left thigh", recommends: [HI-UG-ADMIN]}
+
+# Target populations as printed on slide 10 (img-p010-1): denominators for L2 indicators.
+indicators:
+  - {key: IND-UG-TARGET-POP, name: Target population shares (Uganda), definition: "At Birth 4.85%, Surviving 4.3%, 9 mths 4.3%, 18 mths 4.3%, 10 year 1.54%, Women 15-49 yrs 23%", image: img-p010-1, note: "Shares of the total population used as denominators; how UNEPI applies them is an L2 question."}

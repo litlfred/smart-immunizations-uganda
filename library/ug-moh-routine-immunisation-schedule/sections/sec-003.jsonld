@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/ug-moh-routine-immunisation-schedule/sections/sec-003",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "TOLL FREE LINE:",
+  "pageStart": 1,
+  "pageEnd": 1,
+  "contains": [
+    "library/ug-moh-routine-immunisation-schedule/blocks/prose-sec-003"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/manifest.jsonld",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/manifest.jsonld",
+  "provenance": "ingested"
+}

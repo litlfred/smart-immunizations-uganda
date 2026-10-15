@@ -1,0 +1,29 @@
+# Uganda test patients for IMMZD18SMalariaLogic, in the WHO DAK test format
+# (litlfred/smart-immunizations input/tests/plandefinition); bundles: node <immunizations>/tools/node/makeExample.js IMMZD18SMalariaLogic.yaml
+---
+#Infant aged 6 months, no malaria dose (S10, P05)
+### "Malaria dose 1" due "Date of birth" + 6 months
+id: UGMal01
+birth: -6m
+patient:
+  fhir:
+    gender: male
+---
+#Child aged 18 months with malaria doses at 6, 7 and 8 months (S10)
+### "Malaria dose 4" due "Date of birth" + 18 months (P09)
+id: UGMal02
+birth: -18m
+patient:
+  fhir:
+    gender: female
+immunization:
+  malaria:
+    vaccine:
+      code: J07XA01
+      system: http://www.whocc.no/atc
+      display: Malaria vaccines
+    doses:
+      p4:
+        - b+6m
+        - b+7m
+        - b+8m

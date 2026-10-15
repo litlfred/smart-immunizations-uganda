@@ -1,0 +1,107 @@
+# L1 source for the Uganda adaptation: Ministry of Health, "Uganda Routine Immunisation Schedule" (poster).
+#
+# AUTHORED, not generated, on the measles pattern (library/l1-recommendation-scenarios/measles in
+# litlfred/smart-immunizations). Why authored: the mechanical pass of recommendation-extraction
+# found no normative sentence (library/ug-moh-routine-immunisation-schedule/l1-extraction/), because
+# the poster prints its schedule as age bubbles and bulleted lists, and its text layer maps every
+# digit to a private-use glyph and scrambles the reading order.
+#
+# Rules this file keeps (checked by tools/l1/check-l1-verbatim.py):
+#   * `transcription` is the poster as printed, read from the RENDERED page by an agent (inspection,
+#     2026-10-15), one line per printed block, bullets joined with ", " and line breaks joined.
+#     It is a draft until a person confirms it against the poster.
+#   * every `statement` is a verbatim substring of `transcription`;
+#   * every word of `transcription` that is not a digit is corroborated by the page's text layer
+#     (library/ug-moh-routine-immunisation-schedule/sections/), after Unicode normalisation (the
+#     layer uses ligatures) — so only the digits and the grouping rest on the inspection alone —
+#     except the words a block lists under `inspectionOnly`, each with why;
+#   * strength, certainty and direction are not recorded: the poster states none;
+#   * which printed block counts as a recommendation, and the groupings below, are judgements, so
+#     every node is `inferred`.
+#
+# Ontology: smart-kg L1, as the measles L1 (schemaVersion 1.0).
+
+graph:
+  namespace: https://litlfred.github.io/smart-immunizations-uganda
+  ontologyVersion: "1.0"
+  source:
+    entry: library/ug-moh-routine-immunisation-schedule
+    page: "1"
+
+publication:
+  key: ug-moh-ris-poster
+  title: Uganda Routine Immunisation Schedule
+  creator: Ministry of Health, The Republic of Uganda
+  publisher: Ministry of Health, The Republic of Uganda
+  language: en
+  url: https://github.com/user-attachments/files/33427077/Routine%2BImmunisation%2BSchedule.pdf
+  publicationType: national-schedule
+  classification:
+    layer: undetermined
+    note: >-
+      No person has declared whether this poster is L1 (dak-l1-library: declared > context >
+      inferred). It is treated as the jurisdiction's own schedule, the L1 an adaptation rests on,
+      and every node stays a candidate until that is declared.
+
+transcription:
+  - key: T-BIRTH
+    text: "Birth: Polio, Tuberculosis, Hepatitis B"
+  - key: T-6W
+    text: "6 Weeks (1.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria"
+  - key: T-10W
+    text: "10 Weeks (2.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria"
+  - key: T-14W
+    text: "14 Weeks (3.5 months): Polio, Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria"
+  - key: T-6M
+    text: "6 Months: Malaria, Vitamin A"
+  - key: T-7M
+    text: "7 Months: Malaria"
+  - key: T-8M
+    text: "8 Months: Malaria"
+  - key: T-9M
+    text: "9 Months: Measles, Rubella, Yellow Fever"
+  - key: T-18M
+    text: "18 Months: Measles, Rubella, Malaria, Vitamin A"
+  - key: T-10Y
+    text: "10yr Girl: 1 dose HPV vaccine to prevent cancer of the cervix"
+    inspectionOnly: {words: [yr], basis: "'10yr' is set in the digit font: the text layer holds 'Girl' but neither the digits nor 'yr'."}
+  - key: T-WCBA
+    text: "Women of child bearing age (15 to 49 years): 1st Dose At first contact Tetanus Diphtheria; 2nd Dose 1 Month after 1st dose Tetanus Diphtheria; 3rd Dose 6 Months after 2nd dose Tetanus Diphtheria; 4th Dose 12 Months after 3rd dose Tetanus Diphtheria; 5th Dose 12 Months after 4th dose Tetanus Diphtheria"
+    inspectionOnly: {words: [after, month], basis: "The table's middle column ('1 Month after 1st dose' ... '12 Months after 4th dose') is not in the text layer at all; only 'At first contact' is. The whole column rests on the rendered page."}
+  - key: T-MSG
+    text: "1 Ask your health worker for your child's next immunisation date. 2 Keep your child's immunisation card safe and bring it every time you visit the health centre. 3 Report any side effects immediately to the health worker for proper clinical care. 4 Vaccines are safe, effective and free at all government health facilities."
+
+health_interventions:
+  - {key: HI-UG-CHILD-ROUTINE, name: Routine childhood immunisation (Uganda), description: The vaccines of the Uganda routine schedule from birth to 18 months.}
+  - {key: HI-UG-MALARIA, name: Malaria vaccination (Uganda), description: Four doses of malaria vaccine at 6, 7, 8 and 18 months.}
+  - {key: HI-UG-VITA, name: Vitamin A supplementation (Uganda routine schedule), description: Vitamin A given with the routine schedule visits.}
+  - {key: HI-UG-HPV, name: HPV vaccination of girls (Uganda), description: One dose of HPV vaccine for girls at 10 years.}
+  - {key: HI-UG-TD-WCBA, name: Tetanus-diphtheria vaccination of women of child-bearing age (Uganda), description: Five doses of Td for women aged 15 to 49 years.}
+  - {key: HI-UG-CAREGIVER, name: Caregiver guidance at immunisation contacts, description: What caregivers are told at each visit.}
+
+populations:
+  - {key: P-UG-INFANTS, description: Children from birth to 18 months}
+  - {key: P-UG-GIRLS-10, description: Girls aged 10 years, ageRange: "10 years"}
+  - {key: P-UG-WCBA, description: Women of child-bearing age, ageRange: "15 to 49 years"}
+  - {key: P-UG-CAREGIVERS, description: Caregivers of children being immunised}
+
+recommendations:
+  - {key: P01, page: "1", from: T-BIRTH, statement: "Birth: Polio, Tuberculosis, Hepatitis B", population: [P-UG-INFANTS], recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: P02, page: "1", from: T-6W, statement: "6 Weeks (1.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria", population: [P-UG-INFANTS], recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: P03, page: "1", from: T-10W, statement: "10 Weeks (2.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria", population: [P-UG-INFANTS], recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: P04, page: "1", from: T-14W, statement: "14 Weeks (3.5 months): Polio, Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria", population: [P-UG-INFANTS], recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: P05, page: "1", from: T-6M, statement: "6 Months: Malaria, Vitamin A", population: [P-UG-INFANTS], recommends: [HI-UG-MALARIA, HI-UG-VITA]}
+  - {key: P06, page: "1", from: T-7M, statement: "7 Months: Malaria", population: [P-UG-INFANTS], recommends: [HI-UG-MALARIA]}
+  - {key: P07, page: "1", from: T-8M, statement: "8 Months: Malaria", population: [P-UG-INFANTS], recommends: [HI-UG-MALARIA]}
+  - {key: P08, page: "1", from: T-9M, statement: "9 Months: Measles, Rubella, Yellow Fever", population: [P-UG-INFANTS], recommends: [HI-UG-CHILD-ROUTINE]}
+  - {key: P09, page: "1", from: T-18M, statement: "18 Months: Measles, Rubella, Malaria, Vitamin A", population: [P-UG-INFANTS], recommends: [HI-UG-CHILD-ROUTINE, HI-UG-MALARIA, HI-UG-VITA]}
+  - {key: P10, page: "1", from: T-10Y, statement: "10yr Girl: 1 dose HPV vaccine to prevent cancer of the cervix", population: [P-UG-GIRLS-10], recommends: [HI-UG-HPV]}
+  - {key: P11, page: "1", from: T-WCBA, statement: "1st Dose At first contact Tetanus Diphtheria", population: [P-UG-WCBA], recommends: [HI-UG-TD-WCBA]}
+  - {key: P12, page: "1", from: T-WCBA, statement: "2nd Dose 1 Month after 1st dose Tetanus Diphtheria", population: [P-UG-WCBA], recommends: [HI-UG-TD-WCBA]}
+  - {key: P13, page: "1", from: T-WCBA, statement: "3rd Dose 6 Months after 2nd dose Tetanus Diphtheria", population: [P-UG-WCBA], recommends: [HI-UG-TD-WCBA]}
+  - {key: P14, page: "1", from: T-WCBA, statement: "4th Dose 12 Months after 3rd dose Tetanus Diphtheria", population: [P-UG-WCBA], recommends: [HI-UG-TD-WCBA]}
+  - {key: P15, page: "1", from: T-WCBA, statement: "5th Dose 12 Months after 4th dose Tetanus Diphtheria", population: [P-UG-WCBA], recommends: [HI-UG-TD-WCBA]}
+  - {key: P16, page: "1", from: T-MSG, statement: "Ask your health worker for your child's next immunisation date.", population: [P-UG-CAREGIVERS], recommends: [HI-UG-CAREGIVER]}
+  - {key: P17, page: "1", from: T-MSG, statement: "Keep your child's immunisation card safe and bring it every time you visit the health centre.", population: [P-UG-CAREGIVERS], recommends: [HI-UG-CAREGIVER]}
+  - {key: P18, page: "1", from: T-MSG, statement: "Report any side effects immediately to the health worker for proper clinical care.", population: [P-UG-CAREGIVERS], recommends: [HI-UG-CAREGIVER]}
+  - {key: P19, page: "1", from: T-MSG, statement: "Vaccines are safe, effective and free at all government health facilities.", population: [P-UG-CAREGIVERS], recommends: [HI-UG-CAREGIVER]}

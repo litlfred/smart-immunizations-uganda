@@ -1,0 +1,565 @@
+{
+ "_schema": "pdf-structure/v1",
+ "doc_id": "unepi-user-requirements-smart-guidelines",
+ "source": {
+  "file": "unepi-user-requirements-smart-guidelines.pdf",
+  "sha256": "5d692825249c242b0796e13389ef891b38dffcc9dd13cfac0ff60696353ab079",
+  "bytes": 2900487,
+  "pages": 23,
+  "text_source": "embedded",
+  "extractor": "pymupdf",
+  "mtime": "2026-10-15T14:03:48Z",
+  "mimetype_sniffed": "application/pdf",
+  "mimetype_source": "magic-bytes"
+ },
+ "metadata": {
+  "arxiv": null,
+  "doi": null,
+  "title": "MINISTRY OF HEALTH",
+  "authors_raw": "National Expanded Programme",
+  "title_lines": [
+   "MINISTRY OF HEALTH"
+  ],
+  "abstract": null,
+  "docinfo": {
+   "Title": "PowerPoint Presentation",
+   "Author": "Albert Besigye",
+   "Producer": "LibreOffice 24.2",
+   "Creator": "Impress",
+   "CreationDate": "D:20261015140345Z'"
+  },
+  "title_raw": "MINISTRY OF HEALTH",
+  "title_source": "text",
+  "title_verified": false,
+  "title_evidence": {
+   "metadata": "PowerPoint Presentation",
+   "heading": "GOVERNMENT OF UGANDA",
+   "outline": "Slide 1",
+   "text": "MINISTRY OF HEALTH",
+   "corroborated_by": [],
+   "browser_print": false
+  }
+ },
+ "toc": [
+  {
+   "level": 1,
+   "title": "Slide 1",
+   "page": 1,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "UNEPI Policy",
+   "page": 2,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 3",
+   "page": 3,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 4",
+   "page": 4,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "EPI Target Diseases (14 VPDs)",
+   "page": 5,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Current Immunization schedule",
+   "page": 6,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Catch up schedule",
+   "page": 7,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 8",
+   "page": 8,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "EPI M&E",
+   "page": 9,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 10",
+   "page": 10,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Client Flow at immunization sites",
+   "page": 11,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Data flow",
+   "page": 12,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 13",
+   "page": 13,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Current Challenges",
+   "page": 14,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 15",
+   "page": 15,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 16",
+   "page": 16,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 17",
+   "page": 17,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 18",
+   "page": 18,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 19",
+   "page": 19,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 20",
+   "page": 20,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 21",
+   "page": 21,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 22",
+   "page": 22,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Slide 23",
+   "page": 23,
+   "source": "outline",
+   "number": null,
+   "confidence": null,
+   "evidence": null,
+   "page_label": null
+  }
+ ],
+ "toc_source": "outline",
+ "toc_undetermined_reason": null,
+ "figures": [],
+ "pages": [
+  {
+   "physical": 1,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 2,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 3,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 4,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 5,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 6,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 7,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 8,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 9,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 10,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 11,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 12,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 13,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 14,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 15,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 16,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 17,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 18,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 19,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 20,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 21,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 22,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  },
+  {
+   "physical": 23,
+   "label": null,
+   "source": null,
+   "confidence": 0.0,
+   "evidence": []
+  }
+ ],
+ "sections": [
+  {
+   "id": "sec-front-matter",
+   "number": null,
+   "title": "Front matter",
+   "level": 1,
+   "page_start": 1,
+   "page_end": 2,
+   "n_chars": 564,
+   "n_words": 80,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-000-unepi-policy",
+   "number": null,
+   "title": "UNEPI Policy",
+   "level": 1,
+   "page_start": 2,
+   "page_end": 5,
+   "n_chars": 47,
+   "n_words": 6,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-001-epi-target-diseases-14-vpds",
+   "number": null,
+   "title": "EPI Target Diseases (14 VPDs)",
+   "level": 1,
+   "page_start": 5,
+   "page_end": 6,
+   "n_chars": 7,
+   "n_words": 1,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-002-current-immunization-schedule",
+   "number": null,
+   "title": "Current Immunization schedule",
+   "level": 1,
+   "page_start": 6,
+   "page_end": 7,
+   "n_chars": 63,
+   "n_words": 9,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-003-catch-up-schedule",
+   "number": null,
+   "title": "Catch up schedule",
+   "level": 1,
+   "page_start": 7,
+   "page_end": 9,
+   "n_chars": 23,
+   "n_words": 4,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-004-epi-me",
+   "number": null,
+   "title": "EPI M&E",
+   "level": 1,
+   "page_start": 9,
+   "page_end": 11,
+   "n_chars": 146,
+   "n_words": 22,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-005-client-flow-at-immunization-sites",
+   "number": null,
+   "title": "Client Flow at immunization sites",
+   "level": 1,
+   "page_start": 11,
+   "page_end": 12,
+   "n_chars": 164,
+   "n_words": 28,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-006-data-flow",
+   "number": null,
+   "title": "Data flow",
+   "level": 1,
+   "page_start": 12,
+   "page_end": 14,
+   "n_chars": 19,
+   "n_words": 2,
+   "label_start": null,
+   "label_end": null
+  },
+  {
+   "id": "sec-007-current-challenges",
+   "number": null,
+   "title": "Current Challenges",
+   "level": 1,
+   "page_start": 14,
+   "page_end": 23,
+   "n_chars": 2454,
+   "n_words": 335,
+   "label_start": null,
+   "label_end": null
+  }
+ ],
+ "diagnostics": {
+  "pages_without_text": 6,
+  "likely_scanned": false,
+  "toc_entries": 23,
+  "toc_inferred_entries": 0,
+  "figure_entries": 0,
+  "figure_sequence_gaps": [],
+  "page_label_conflicts": {
+   "count": 0,
+   "items": []
+  },
+  "sections": 9,
+  "chars_total": 3487
+ }
+}

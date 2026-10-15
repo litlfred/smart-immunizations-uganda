@@ -1,0 +1,28 @@
+output
+fsh-generated
+input-cache
+temp
+template
+*.jar
+.DS_Store
+node_modules/
+node_modules/
+# BEGIN index mounts (from index.config.json; laid down by .claude/mount-platform.sh)
+/smart-base/
+/fhir-harness/
+/folio-assistant-core/
+/cat-harness/
+/cat-harness-tools/
+/bootstrap/
+/bootstrap-tools/
+# END index mounts
+# Source files are pinned by sha256 in each intake.json and not committed
+uploads/**/*.pdf
+uploads/**/*.pptx
+bun.lock
+/kg
+
+# FHIR test bundles written by makeExample.js beside each test yaml (WHO does not commit them either)
+input/tests/plandefinition/*/*/
+# cqf tooling jar for _refresh.sh-style runs
+input-cache/

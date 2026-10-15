@@ -1,0 +1,36 @@
+{
+  "$schema": "folio-intake/v1",
+  "doc_id": "ug-moh-routine-immunisation-schedule",
+  "_comment": "Uganda Routine Immunisation Schedule (poster), Ministry of Health, Republic of Uganda. Attached by litlfred to litlfred/smart-immunizations-uganda#1; downloaded from the attachment URL. Issue: https://github.com/litlfred/smart-immunizations-uganda/issues/1.",
+  "source": {
+    "upstream": "https://github.com/user-attachments/files/33427077/Routine%2BImmunisation%2BSchedule.pdf",
+    "capturedAt": "2026-10-15T14:03:59Z",
+    "capturedBy": "curl (GitHub issue attachment)"
+  },
+  "files": [
+    {
+      "path": "ug-moh-routine-immunisation-schedule.pdf",
+      "bytes": 690932,
+      "sha256": "6043beec57fbc02bd3db0041c092f0034fddcc6d1828d5f5499bf34da6497550",
+      "type": "publication",
+      "role": "original-bitstream"
+    }
+  ],
+  "licence": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "the document itself (every page/slide, including the footer)",
+        "result": "no licence or copyright statement; Ministry of Health of Uganda material with partner logos (WHO, Gavi, UNICEF)",
+        "on": "2026-10-15"
+      },
+      {
+        "where": "https://github.com/litlfred/smart-immunizations-uganda/issues/1",
+        "result": "attached by litlfred for this adaptation; no licence stated",
+        "on": "2026-10-15"
+      }
+    ],
+    "note": "Held for adaptation work; the file is pinned by sha256 and not committed."
+  },
+  "title": "Uganda Routine Immunisation Schedule"
+}

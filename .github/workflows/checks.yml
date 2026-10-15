@@ -1,0 +1,75 @@
+name: Checks
+
+# Every check runs the upstream toolchain in place, pinned by commit, never a copy
+# (smart-base `smart-base-tools`, "Adapting a DAK"):
+#   SMART_BASE_REF  litlfred/smart-base: the Tool l1-transcription-verbatim
+#   IMMZ_REF        litlfred/smart-immunizations: tools/node (processDTSchedule.js, makeExample.js)
+# The full IG build, which compiles the CQL, is the WHO path: fhirbuild.yml (HL7 auto-build).
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  SMART_BASE_REF: f6f42cc4c6de901b0f4b8c7a84fb571bc258b534
+  IMMZ_REF: a48d95affed69af8147f51b31753702f2ccb74cd
+
+jobs:
+  l1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: litlfred/smart-base
+          ref: ${{ env.SMART_BASE_REF }}
+          path: .upstream/smart-base
+          sparse-checkout: smart-base/scripts
+      - uses: oven-sh/setup-bun@v2
+      - name: Install the Tool's one dependency
+        # smart-base has no root package.json, so give the checkout its own; without one bun
+        # walks up to this repository's, whose workspaces are the absent platform mounts.
+        working-directory: .upstream/smart-base
+        run: echo '{"private":true}' > package.json && bun add yaml@2.4.5
+      - name: Authored L1 is verbatim in its library entries (smart-base l1-transcription-verbatim)
+        # Run from the smart-base checkout: this repository's package.json names the mounted
+        # platform layers as workspaces, which a CI checkout does not have.
+        working-directory: .upstream/smart-base
+        run: bun smart-base/scripts/l1-transcription-verbatim.ts --root "$GITHUB_WORKSPACE" --dir library/l1-recommendation-scenarios/uganda
+
+  logic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: litlfred/smart-immunizations
+          ref: ${{ env.IMMZ_REF }}
+          path: .upstream/smart-immunizations
+          sparse-checkout: tools/node
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install WHO's DAK converters
+        # makeExample.js requires `yaml`, which tools/node/package.json does not list (an
+        # upstream gap, reported on smart-immunizations-uganda#3); installed beside the pinned set.
+        working-directory: .upstream/smart-immunizations/tools/node
+        run: npm ci && npm install --no-save yaml@2.4.5
+      - name: The schedule FSH is the converter's output of the Uganda workbook
+        run: |
+          IMMZ_HOME=$PWD/.upstream/smart-immunizations npm run --silent logic:generate
+          git diff --exit-code -- input/fsh/libraries input/fsh/plandefinitions
+      - name: Every test file builds into FHIR test bundles (makeExample.js)
+        run: IMMZ_HOME=$PWD/.upstream/smart-immunizations npm run --silent logic:examples
+
+  sushi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compile FSH with SUSHI
+        run: npx --yes fsh-sushi@3.21.0 build .

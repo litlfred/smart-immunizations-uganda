@@ -1,0 +1,69 @@
+# Uganda adaptation of the WHO SMART Guidelines Immunization IG.
+# DRAFT for review with UNEPI (Uganda National Expanded Programme on Immunisation).
+# This is not an official Ministry of Health publication.
+id: smart.immunizations.uganda
+canonical: https://litlfred.github.io/smart-immunizations-uganda
+name: SMARTImmunizationsUganda
+title: "Immunizations - Uganda adaptation (draft)"
+description: >-
+  Draft adaptation of the WHO SMART Guidelines Immunization implementation
+  guide to the Uganda routine immunisation schedule (UNEPI).
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+license: CC0-1.0
+jurisdiction: urn:iso:std:iso:3166#UG "Uganda"
+publisher:
+  name: litlfred (draft for UNEPI review)
+  url: https://github.com/litlfred/smart-immunizations-uganda
+
+dependencies:
+  # WHO IG continuous build (build.fhir.org); 0.2.0 is not yet a formal release
+  smart.who.int.immunizations: current
+  hl7.fhir.uv.cpg: 2.0.0
+  hl7.fhir.uv.crmi: 1.0.0
+  hl7.fhir.uv.cql: 1.0.0
+
+parameters:
+  path-binary:
+    - input/cql
+
+pages:
+  index.md:
+    title: Home
+  schedule.md:
+    title: Uganda Routine Immunisation Schedule
+  catch-up.md:
+    title: Catch-up Rules
+  administration.md:
+    title: Routes and Sites of Administration
+  differences.md:
+    title: Differences from WHO Recommendations
+  decision-logic.md:
+    title: Scheduling Logic
+  requirements.md:
+    title: UNEPI User Requirements
+  service-delivery.md:
+    title: Service Delivery and Data Flow
+  open-questions.md:
+    title: Open Questions for UNEPI
+  testing.md:
+    title: Testing
+
+menu:
+  Home: index.html
+  Schedule:
+    Routine Schedule: schedule.html
+    Catch-up Rules: catch-up.html
+    Routes and Sites: administration.html
+    Differences from WHO: differences.html
+  Logic:
+    Scheduling Logic: decision-logic.html
+    Testing: testing.html
+  Requirements:
+    UNEPI User Requirements: requirements.html
+    Service Delivery and Data Flow: service-delivery.html
+    Open Questions: open-questions.html
+  Artifacts: artifacts.html

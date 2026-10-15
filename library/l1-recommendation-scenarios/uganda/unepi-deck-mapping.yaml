@@ -1,0 +1,573 @@
+# Scenario mapping for unepi-deck.l1.yaml: see recommendation-extraction Part 2.
+$schema: l1-scenario-mapping/v1
+_comment: 'AUTHORED by an agent under recommendation-extraction (Part 2). Every entry is a CANDIDATE: no review
+  is recorded, so every link stays `candidate` until a person reviews the entry. Reuse first (D4): personas and
+  processes are the WHO immunization guide''s own (immz-vocabulary.json, read from litlfred/smart-immunizations
+  at a48d95a), since Uganda has no L2 of its own yet; a process outside IMMZ.A-I is `could-not-determine` and warns.'
+guide: smart-immunizations
+scenarioIdPrefix: IMMZ.UG.UNEPI
+entries:
+  S01:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give BCG at birth
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S02:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give the hepatitis B birth dose
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S03:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give OPV0 at birth and OPV1-3 at 6, 10 and 14 weeks
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S04:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give DTP-HepB-Hib 1-3 at 6, 10 and 14 weeks
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S05:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give PCV 1-3 at 6, 10 and 14 weeks
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S06:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give rotavirus 1-3 at 6, 10 and 14 weeks
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S07:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give IPV 1 at 6 weeks and IPV 2 at 14 weeks
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S08:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give measles-rubella 1 at 9 months and 2 at 18 months
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S09:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give yellow fever at 9 months
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S10:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give malaria vaccine 1-3 at 6, 7 and 8 months and 4 at 18 months
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S13:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give one dose of HPV vaccine at 10 years
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S14:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'.
+    act: give Td doses 1 to 5 to women aged 15 to 49
+    outcome: the child receives the doses the Uganda schedule sets for that age
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S11:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: Vitamin A supplementation is not a vaccine; IMMZ.D's objective names vaccines only, and no IMMZ process
+        covers supplements.
+    act: give vitamin A at 6, 12, 18 and 24 months
+    outcome: the child receives routine vitamin A supplementation
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  S12:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: Deworming is not a vaccine; no IMMZ process covers it.
+    act: give deworming medicine at 12 months
+    outcome: the child is dewormed on schedule
+    domain:
+      code: public-health
+      source: context
+      basis: 'A row of the national routine schedule: a population vaccination policy.'
+  C01:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: give the hepatitis B birth dose as soon as possible after birth, ideally within 24 hours and up to 7 days
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C02:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: give BCG as soon as possible after birth
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C03:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: give the 6-week doses at 6 weeks or as soon as possible after
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C04:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: give the 10-week doses at 10 weeks or as soon as possible after, at least 4 weeks after dose 1
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C05:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: give the 14-week doses at 14 weeks or as soon as possible after, at least 4 weeks after dose 2
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C06:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: give MR1 and yellow fever at 9 months or as soon as possible after
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C07:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: give MR2 at 18 months or as soon as possible after, at least 4 weeks after the previous dose
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C08:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: not give the hepatitis B birth dose after 7 days of age
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C09:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: not give rotavirus dose 1 after 2 years of age
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C10:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: not give a 10-week dose within 4 weeks of the previous dose, nor rotavirus dose 2 after 2 years
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C11:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: not give a 14-week dose within 4 weeks of the previous dose, nor rotavirus dose 3 after 2 years
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C12:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: not give MR1 or yellow fever before 9 months of age, except where indicated
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C13:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: not give MR2 within 4 weeks of MR1
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C14:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: continue an interrupted series where it stopped rather than restarting it
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  C15:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. A catch-up or timing rule applies
+        to one client's next dose, which is decided in IMMZ.D.
+    act: give missed doses whatever the child's age, except rotavirus after 2 years and the hepatitis B birth dose
+      after 7 days
+    outcome: every child who is behind is brought up to date without invalid or unsafe doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client timing rule applied at the vaccination contact.
+  A01:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. Route and site are how the dose
+        is administered in IMMZ.D.
+    act: give polio, vitamin A and rotavirus by mouth
+    outcome: each dose is given by the correct route at the correct site
+    domain:
+      code: clinical
+      source: inferred
+      basis: Administration technique, a clinical act.
+  A02:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. Route and site are how the dose
+        is administered in IMMZ.D.
+    act: give BCG intradermally and yellow fever subcutaneously in the right upper arm
+    outcome: each dose is given by the correct route at the correct site
+    domain:
+      code: clinical
+      source: inferred
+      basis: Administration technique, a clinical act.
+  A03:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. Route and site are how the dose
+        is administered in IMMZ.D.
+    act: give measles-rubella subcutaneously in the left upper arm
+    outcome: each dose is given by the correct route at the correct site
+    domain:
+      code: clinical
+      source: inferred
+      basis: Administration technique, a clinical act.
+  A04:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. Route and site are how the dose
+        is administered in IMMZ.D.
+    act: give IPV and PCV intramuscularly in the right thigh, 2 cm apart
+    outcome: each dose is given by the correct route at the correct site
+    domain:
+      code: clinical
+      source: inferred
+      basis: Administration technique, a clinical act.
+  A05:
+    personas:
+    - id: health-worker-hw
+      source: inferred
+      basis: 'personas.md: health workers ''administer immunizations''.'
+    process:
+      id: IMMZ.D
+      source: inferred
+      basis: Deciding which doses a client is due and giving them is IMMZ.D's objective, 'To determine which vaccines
+        a client needs, administer those and record the relevant necessary data'. Route and site are how the dose
+        is administered in IMMZ.D.
+    act: give the hepatitis B birth dose and DTP-HepB-Hib intramuscularly in the left thigh
+    outcome: each dose is given by the correct route at the correct site
+    domain:
+      code: clinical
+      source: inferred
+      basis: Administration technique, a clinical act.
