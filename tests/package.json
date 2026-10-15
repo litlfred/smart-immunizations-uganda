@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "description": "Executes the Uganda schedule CQL (compiled ELM in tests/elm) against the test cases in tests/cases.",
+  "scripts": {
+    "test": "node run-tests.mjs"
+  },
+  "dependencies": {
+    "cql-exec-fhir": "2.2.0",
+    "cql-execution": "3.3.2"
+  }
+}

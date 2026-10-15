@@ -1,0 +1,39 @@
+name: Checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  cql:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compile CQL to ELM (against the WHO Immunization IG CQL)
+        run: tools/cql/compile.sh
+      - name: Install CQL engine
+        working-directory: tests
+        run: npm ci
+      - name: Run Uganda schedule test cases
+        working-directory: tests
+        run: npm test
+
+  sushi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compile FSH with SUSHI
+        run: npx --yes fsh-sushi@3.21.0 build .
