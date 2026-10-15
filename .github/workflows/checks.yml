@@ -29,8 +29,10 @@ jobs:
           sparse-checkout: smart-base/scripts
       - uses: oven-sh/setup-bun@v2
       - name: Install the Tool's one dependency
+        # smart-base has no root package.json, so give the checkout its own; without one bun
+        # walks up to this repository's, whose workspaces are the absent platform mounts.
         working-directory: .upstream/smart-base
-        run: bun add --no-save yaml@2.4.5
+        run: echo '{"private":true}' > package.json && bun add yaml@2.4.5
       - name: Authored L1 is verbatim in its library entries (smart-base l1-transcription-verbatim)
         # Run from the smart-base checkout: this repository's package.json names the mounted
         # platform layers as workspaces, which a CI checkout does not have.
