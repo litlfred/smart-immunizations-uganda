@@ -1,0 +1,30 @@
+# Uganda test patients for IMMZD18SHepatitisBBirthDoseLogic, in the WHO DAK test format
+# (litlfred/smart-immunizations input/tests/plandefinition); bundles: node <immunizations>/tools/node/makeExample.js IMMZD18SHepatitisBBirthDoseLogic.yaml
+---
+#Newborn, no hepatitis B dose (C01)
+### "Hepatitis B birth dose": due "Date of birth"; expires "Date of birth" + 7 days (C08)
+id: UGHepB01
+birth: -0d
+patient:
+  fhir:
+    gender: male
+---
+#Birth dose given on day 3 (series Dose 0)
+### Complete: "Hepatitis B birth dose was administered"
+id: UGHepB02
+birth: -3d
+patient:
+  fhir:
+    gender: female
+immunization:
+  hepb:
+    vaccine:
+      code: XM9V38
+      system: http://id.who.int/icd/release/11/mms
+      display: Hepatitis B, purified antigen
+    fhir:
+      occurrenceDateTime: b+3d
+      protocolApplied:
+        - doseNumberString: "1"
+          seriesDosesString: "1"
+          series: Dose 0

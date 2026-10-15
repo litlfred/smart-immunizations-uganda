@@ -6,10 +6,6 @@ template
 *.jar
 .DS_Store
 node_modules/
-tools/cql/lib/
-tools/cql/target/
-tests/elm/
-tests/vendor/
 node_modules/
 # BEGIN index mounts (from index.config.json; laid down by .claude/mount-platform.sh)
 /smart-base/
@@ -25,3 +21,8 @@ uploads/**/*.pdf
 uploads/**/*.pptx
 bun.lock
 /kg
+
+# FHIR test bundles written by makeExample.js beside each test yaml (WHO does not commit them either)
+input/tests/plandefinition/*/*/
+# cqf tooling jar for _refresh.sh-style runs
+input-cache/

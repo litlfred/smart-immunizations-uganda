@@ -3,11 +3,11 @@ the choice shown; each needs confirmation by UNEPI.
 
 | # | Question | Draft choice |
 |---|---|---|
-| 1 | Up to what age is the childhood schedule offered as catch-up? ("No upper age limit for most vaccines") | Parameter `Childhood schedule upper age in years`, default 5 |
+| 1 | Up to what age is the childhood schedule offered as catch-up? ("No upper age limit for most vaccines") | The WHO tables as adapted: no upper age except where WHO states one (C15) |
 | 2 | Hepatitis B birth dose: "up to 7 days" or "under 7 days"? Both wordings appear | Up to and including day 7 |
 | 3 | OPV0: is there a cut-off age? | WHO IG value: not after 1 week |
 | 4 | Is there an overdue (defaulter) date for each dose, e.g. for reminders and defaulter tracing? | None: a dose is *due* from its due date until given or expired |
-| 5 | HPV: upper age limit and whether boys are included | Girls only; offered until the day before the 21st birthday (WHO single-dose range) |
+| 5 | HPV: upper age limit and whether boys are included | Girls only (P10); the WHO single-dose table's overdue date, "Date of birth" + 20 years, kept |
 | 6 | Td for women of child-bearing age: do earlier tetanus-diphtheria doses (school, previous pregnancies, childhood DTP) count towards Td1–Td5? | Td-containing doses that are not pertussis-containing count; infant pentavalent doses do not |
 | 7 | Td1 "at first contact": should the logic propose Td1 for every woman aged 15–49 seen at any service point? | Yes, Td1 is due from the 15th birthday |
 | 8 | Live vaccines (MR, yellow fever, OPV, rotavirus, BCG): same day or at least 4 weeks apart? | Not encoded |

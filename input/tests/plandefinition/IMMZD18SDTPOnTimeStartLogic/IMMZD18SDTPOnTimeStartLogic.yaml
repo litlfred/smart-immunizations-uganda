@@ -1,0 +1,29 @@
+# Uganda test patients for IMMZD18SDTPOnTimeStartLogic, in the WHO DAK test format
+# (litlfred/smart-immunizations input/tests/plandefinition); bundles: node <immunizations>/tools/node/makeExample.js IMMZD18SDTPOnTimeStartLogic.yaml
+---
+#Infant aged 6 weeks, no DTP dose (S04)
+### "DTP dose 1" due "Date of birth" + 6 weeks
+id: UGDTP01
+birth: -6w
+patient:
+  fhir:
+    gender: female
+---
+#Child aged 2 years with DTP at 6, 10 and 14 weeks (S04)
+### Primary series complete; no booster is generated for Uganda
+id: UGDTP02
+birth: -2y
+patient:
+  fhir:
+    gender: male
+immunization:
+  dtp:
+    vaccine:
+      code: XM31Q8
+      system: http://id.who.int/icd/release/11/mms
+      display: Tetanus, diphtheria, acellular pertussis vaccines
+    doses:
+      p3:
+        - b+6w
+        - b+10w
+        - b+14w

@@ -10,20 +10,23 @@ See [issue #1](https://github.com/litlfred/smart-immunizations-uganda/issues/1) 
 
 | Path | What |
 |---|---|
-| `input/cql/UGIMMZElements.cql` | Doses grouped as the Uganda schedule counts them (on top of the WHO data elements and value sets) |
-| `input/cql/UGIMMZScheduleLogic.cql` | Uganda schedule: next dose, due date, expiration and status per vaccine |
-| `input/fsh/` | Library and PlanDefinition resources (SUSHI) |
+| `library/` | L1: the two sources (schedule poster, UNEPI deck), ingested, and the L1 authored from them |
+| `input/l2/dependencies.yaml` | L2 dependency choice: what is reused, adapted or added from the WHO DAK, table by table, with the toolchain |
+| `input/decision-logic/IMMZ DAK_decision-support logic.xlsx` | L2: a copy of the WHO DAK workbook with the Uganda cells changed, each citing its L1 |
+| `input/fsh/plandefinitions/`, `input/fsh/libraries/` | L3, generated from the workbook by WHO's `processDTSchedule.js` |
+| `input/cql/` | L3: WHO's scheduling libraries with the Uganda definitions changed, and the new Td library |
+| `input/tests/plandefinition/` | Test patients in the WHO test format |
 | `input/pagecontent/` | Schedule, catch-up rules, routes and sites, differences from WHO, UNEPI requirements, open questions |
-| `tests/cases.json` | Hand-computed test cases |
-| `tools/cql/compile.sh`, `tests/run-tests.mjs` | Compile the CQL and execute the test cases |
 
 ## Running the checks
 
-Needs Java 17, Maven and Node.js 22.
+The tools are the upstream ones, run in place from checkouts of litlfred/smart-immunizations
+(`IMMZ_HOME`) and litlfred/smart-base (`SMART_BASE_HOME`); `checks.yml` pins both by commit.
 
 ```sh
-tools/cql/compile.sh          # CQL -> ELM (clones the WHO IG CQL into tests/vendor/)
-cd tests && npm ci && npm test
+IMMZ_HOME=../smart-immunizations npm run logic:generate   # workbook -> PlanDefinition and Library FSH
+IMMZ_HOME=$PWD/../smart-immunizations npm run logic:examples   # test yaml -> FHIR test bundles
+SMART_BASE_HOME=../smart-base bun run l1:verbatim          # authored L1 is verbatim
 ```
 
-The IG itself is built with SUSHI and the HL7 IG Publisher (`sushi build .`, then the publisher), and depends on the continuous build of `smart.who.int.immunizations`.
+The IG is built with SUSHI and the HL7 IG Publisher (`fhirbuild.yml`, the WHO path, which also compiles the CQL), and depends on the continuous build of `smart.who.int.immunizations`.

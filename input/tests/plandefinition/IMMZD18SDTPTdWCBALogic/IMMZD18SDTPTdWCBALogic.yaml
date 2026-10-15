@@ -1,0 +1,36 @@
+# Uganda test patients for IMMZD18SDTPTdWCBALogic, in the WHO DAK test format
+# (litlfred/smart-immunizations input/tests/plandefinition); bundles: node <immunizations>/tools/node/makeExample.js IMMZD18SDTPTdWCBALogic.yaml
+---
+#Woman aged 30, no Td dose (P11, S14)
+### "Td dose 1" due at this contact
+id: UGTd01
+birth: -30y
+patient:
+  fhir:
+    gender: female
+---
+#Woman aged 30 with Td at -7 months and -6 months (P12, P13)
+### "Td dose 3" due 6 months after dose 2
+id: UGTd02
+birth: -30y
+patient:
+  fhir:
+    gender: female
+immunization:
+  td:
+    vaccine:
+      code: XM1G86
+      system: http://id.who.int/icd/release/11/mms
+      display: Tetanus toxoid, combinations with diphtheria toxoid vaccines
+    doses:
+      p5:
+        - -7m
+        - -6m
+---
+#Man aged 30 (S14 names women aged 15-49)
+### Not due
+id: UGTd03
+birth: -30y
+patient:
+  fhir:
+    gender: male

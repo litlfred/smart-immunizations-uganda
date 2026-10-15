@@ -15,10 +15,10 @@ guide keeps all of that and adds the Uganda-specific layer:
   presented by UNEPI;
 * [routes and sites of administration](administration.html) used in Uganda;
 * a line-by-line [comparison with the WHO recommendations](differences.html);
-* computable [scheduling logic](decision-logic.html) for the Uganda schedule
-  (CQL library [UGIMMZScheduleLogic](Library-UGIMMZScheduleLogic.html) and
-  PlanDefinition [UGIMMZSchedule](PlanDefinition-UGIMMZSchedule.html)), built
-  on the WHO data elements and value sets, with [executable test cases](testing.html);
+* computable [scheduling logic](decision-logic.html): the WHO DAK's scheduling
+  tables, adapted cell by cell in a copy of the WHO DAK workbook and converted
+  with WHO's own toolchain, with two WHO parameters configured for Uganda, and
+  [test patients](testing.html) in the WHO test format;
 * the [UNEPI user requirements](requirements.html) for an electronic
   immunization registry and the [service delivery and data flow](service-delivery.html)
   context;

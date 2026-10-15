@@ -1,41 +1,61 @@
 name: Checks
 
+# Every check runs the upstream toolchain in place, pinned by commit, never a copy
+# (smart-base `smart-base-tools`, "Adapting a DAK"):
+#   SMART_BASE_REF  litlfred/smart-base: the Tool l1-transcription-verbatim
+#   IMMZ_REF        litlfred/smart-immunizations: tools/node (processDTSchedule.js, makeExample.js)
+# The full IG build, which compiles the CQL, is the WHO path: fhirbuild.yml (HL7 auto-build).
+
 on:
   pull_request:
   push:
     branches: [main]
   workflow_dispatch:
 
+env:
+  SMART_BASE_REF: ca36ecb1b2f5b6419b0164ee7d8da0a19233b73d
+  IMMZ_REF: a48d95affed69af8147f51b31753702f2ccb74cd
+
 jobs:
   l1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Authored L1 is verbatim in its library entries
-        run: pip install pyyaml && python3 tools/l1/check-l1-verbatim.py
-      - name: Uganda decision tables are current and cite existing L1
-        run: python3 tools/l2/build-dmn.py --check
+      - uses: actions/checkout@v4
+        with:
+          repository: litlfred/smart-base
+          ref: ${{ env.SMART_BASE_REF }}
+          path: .upstream/smart-base
+          sparse-checkout: smart-base/scripts
+      - uses: oven-sh/setup-bun@v2
+      - name: Install the Tool's one dependency
+        working-directory: .upstream/smart-base
+        run: bun add --no-save yaml@2.4.5
+      - name: Authored L1 is verbatim in its library entries (smart-base l1-transcription-verbatim)
+        run: SMART_BASE_HOME=.upstream/smart-base bun run l1:verbatim
 
-  cql:
+  logic:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v4
         with:
-          distribution: temurin
-          java-version: '17'
-          cache: maven
+          repository: litlfred/smart-immunizations
+          ref: ${{ env.IMMZ_REF }}
+          path: .upstream/smart-immunizations
+          sparse-checkout: tools/node
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Compile CQL to ELM (against the WHO Immunization IG CQL)
-        run: tools/cql/compile.sh
-      - name: Install CQL engine
-        working-directory: tests
+      - name: Install WHO's DAK converters
+        working-directory: .upstream/smart-immunizations/tools/node
         run: npm ci
-      - name: Run Uganda schedule test cases
-        working-directory: tests
-        run: npm test
+      - name: The schedule FSH is the converter's output of the Uganda workbook
+        run: |
+          IMMZ_HOME=.upstream/smart-immunizations npm run --silent logic:generate
+          git diff --exit-code -- input/fsh/libraries input/fsh/plandefinitions
+      - name: Every test file builds into FHIR test bundles (makeExample.js)
+        run: IMMZ_HOME=$PWD/.upstream/smart-immunizations npm run --silent logic:examples
 
   sushi:
     runs-on: ubuntu-latest
