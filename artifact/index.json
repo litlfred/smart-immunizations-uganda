@@ -1,0 +1,184 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-index-jsonld/v1",
+  "@id": "index.jsonld",
+  "@type": "fhir:ImplementationGuide",
+  "dcterms:identifier": "smart.immunizations.uganda",
+  "schema:version": "0.1.0",
+  "schema:sameAs": {
+    "@id": "https://litlfred.github.io/smart-immunizations-uganda"
+  },
+  "dcterms:title": "Immunizations - Uganda adaptation (draft)",
+  "schema:numberOfItems": 15,
+  "schema:hasPart": [
+    {
+      "@id": "Library-IMMZD18SDTPOnTimeStartLogic.jsonld",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/IMMZD18SDTPOnTimeStartLogic",
+      "dcterms:title": "IMMZD18SDTPOnTimeStartLogic",
+      "dcterms:description": "This library defines decision support logic for the IMMZ.D18.S.DTP.On-time start schedule table in the Immunization CPG",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic"
+      }
+    },
+    {
+      "@id": "Library-IMMZD18SDTPTdWCBALogic.jsonld",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/IMMZD18SDTPTdWCBALogic",
+      "dcterms:title": "IMMZD18SDTPTdWCBALogic",
+      "dcterms:description": "This library defines decision support logic for the UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule table in the Immunization CPG",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic"
+      }
+    },
+    {
+      "@id": "Library-IMMZD18SHPVSingleDoseLogic.jsonld",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/IMMZD18SHPVSingleDoseLogic",
+      "dcterms:title": "IMMZD18SHPVSingleDoseLogic",
+      "dcterms:description": "This library defines decision support logic for the IMMZ.D18.S.Single-dose schedule table in the Immunization CPG",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic"
+      }
+    },
+    {
+      "@id": "Library-IMMZD18SHepatitisBBirthDoseLogic.jsonld",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/IMMZD18SHepatitisBBirthDoseLogic",
+      "dcterms:title": "IMMZD18SHepatitisBBirthDoseLogic",
+      "dcterms:description": "This library defines decision support logic for the IMMZ.D18.S.Hepatitis B.Birth dose schedule table in the Immunization CPG",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic"
+      }
+    },
+    {
+      "@id": "Library-IMMZD18SMalariaLogic.jsonld",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/IMMZD18SMalariaLogic",
+      "dcterms:title": "IMMZD18SMalariaLogic",
+      "dcterms:description": "This library defines decision support logic for the IMMZ.D18.S.Malaria schedule table in the Immunization CPG",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic"
+      }
+    },
+    {
+      "@id": "Library-IMMZD18SMeaslesOngoingTransmissionLogic.jsonld",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/IMMZD18SMeaslesOngoingTransmissionLogic",
+      "dcterms:title": "IMMZD18SMeaslesOngoingTransmissionLogic",
+      "dcterms:description": "This library defines decision support logic for the IMMZ.D18.S.Measles.Ongoing transmission schedule table in the Immunization CPG",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic"
+      }
+    },
+    {
+      "@id": "Library-IMMZD18SPolioBOPVPlusIPVLogic.jsonld",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/IMMZD18SPolioBOPVPlusIPVLogic",
+      "dcterms:title": "IMMZD18SPolioBOPVPlusIPVLogic",
+      "dcterms:description": "This library defines decision support logic for the IMMZ.D18.S.Polio.bOPV plus IPV schedule table in the Immunization CPG",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic"
+      }
+    },
+    {
+      "@id": "PlanDefinition-IMMZD18SDTPOnTimeStart.jsonld",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/IMMZD18SDTPOnTimeStart",
+      "dcterms:title": "IMMZ.D18.S.DTP.On-time start schedule",
+      "dcterms:description": "IMMZ.D18.S.DTP.On-time start schedule\nDiphtheria–tetanus–pertussis (DTP) vaccination schedule, on-time start (at ≤ 12 months of age)",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart"
+      }
+    },
+    {
+      "@id": "PlanDefinition-IMMZD18SDTPTdWCBA.jsonld",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/IMMZD18SDTPTdWCBA",
+      "dcterms:title": "UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule",
+      "dcterms:description": "UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule\nTetanus and diphtheria (Td) vaccination schedule for women of childbearing age (15-49 years), Uganda",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA"
+      }
+    },
+    {
+      "@id": "PlanDefinition-IMMZD18SHPVSingleDose.jsonld",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/IMMZD18SHPVSingleDose",
+      "dcterms:title": "IMMZ.D18.S.Single-dose schedule",
+      "dcterms:description": "IMMZ.D18.S.Single-dose schedule\nAlternative single-dose schedule",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose"
+      }
+    },
+    {
+      "@id": "PlanDefinition-IMMZD18SHepatitisBBirthDose.jsonld",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/IMMZD18SHepatitisBBirthDose",
+      "dcterms:title": "IMMZ.D18.S.Hepatitis B.Birth dose schedule",
+      "dcterms:description": "IMMZ.D18.S.Hepatitis B.Birth dose schedule\nBirth dose schedule",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose"
+      }
+    },
+    {
+      "@id": "PlanDefinition-IMMZD18SMalaria.jsonld",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/IMMZD18SMalaria",
+      "dcterms:title": "IMMZ.D18.S.Malaria schedule",
+      "dcterms:description": "IMMZ.D18.S.Malaria schedule\n4-dose schedule",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria"
+      }
+    },
+    {
+      "@id": "PlanDefinition-IMMZD18SMeaslesOngoingTransmission.jsonld",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/IMMZD18SMeaslesOngoingTransmission",
+      "dcterms:title": "IMMZ.D18.S.Measles.Ongoing transmission schedule",
+      "dcterms:description": "IMMZ.D18.S.Measles.Ongoing transmission schedule\nCountries with ongoing transmission in which the risk of measles mortality remains high (countries that provide first dose of measles-containing vaccine (MCV) at 9 months and second dose of MCV at 15 months) Uganda: MCV2 at 18 months (S08, P09).",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission"
+      }
+    },
+    {
+      "@id": "PlanDefinition-IMMZD18SPolioBOPVPlusIPV.jsonld",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/IMMZD18SPolioBOPVPlusIPV",
+      "dcterms:title": "IMMZ.D18.S.Polio.bOPV plus IPV schedule",
+      "dcterms:description": "IMMZ.D18.S.Polio.bOPV plus IPV schedule\nBivalent oral polio vaccine (bOPV) plus inactivated polio vaccine (IPV) schedule",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV"
+      }
+    },
+    {
+      "@id": "ImplementationGuide-smart.immunizations.uganda.jsonld",
+      "@type": "fhir:ImplementationGuide",
+      "dcterms:identifier": "ImplementationGuide/smart.immunizations.uganda",
+      "dcterms:title": "Immunizations - Uganda adaptation (draft)",
+      "dcterms:description": "Draft adaptation of the WHO SMART Guidelines Immunization implementation guide to the Uganda routine immunisation schedule (UNEPI).",
+      "schema:sameAs": {
+        "@id": "https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda"
+      }
+    }
+  ]
+}
