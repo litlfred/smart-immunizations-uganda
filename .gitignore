@@ -7,7 +7,7 @@ template
 .DS_Store
 node_modules/
 node_modules/
-# BEGIN index mounts (from index.config.json; laid down by .claude/mount-platform.sh)
+# BEGIN index mounts (generated from index.config.json — do not edit)
 /smart-base/
 /fhir-harness/
 /folio-assistant-core/

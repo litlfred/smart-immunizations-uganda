@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "96e43858f0e190380a571469ced640957f2916e6",
+          "ref": "41ed9b217b4539c80345ad6b3a7b01a32b36ceee",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -30,8 +30,9 @@
                 "smart-base-typologies",
                 "smart-base-validators",
                 "smart-base-schemas",
-                "smart-base-content",
+                "smart-base-pipeline",
                 "smart-base-scripts",
+                "smart-base-kg",
                 "smart-base-skills",
                 "smart-base-scenarios",
                 "smart-base-code-lists"
@@ -43,8 +44,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "96e43858f0e190380a571469ced640957f2916e6",
-              "evidence": "Owner litlfred, 2026-10-15 session chat: 'merge and repin open 3 hrs' (extended 3h to ~11:15 UTC); consolidation 'Merge + publish' and 'Merge + publish anyway' for fhir-harness#91 and smart-base#74"
+              "ref": "41ed9b217b4539c80345ad6b3a7b01a32b36ceee",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
             }
           }
         }
@@ -55,7 +56,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "8a250e5fca3ff0804a8b0fdbaa398c77bd558469",
+          "ref": "4c7fa7ba11bad9172b45cf93c7b8821efe970d60",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -65,8 +66,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "8a250e5fca3ff0804a8b0fdbaa398c77bd558469",
-              "evidence": "Owner litlfred, 2026-10-15 session chat: 'Search box on id-lookup etc.' then 'continue. merge regardless CI. deal with aftermath'"
+              "ref": "4c7fa7ba11bad9172b45cf93c7b8821efe970d60",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
             }
           }
         }
@@ -77,7 +78,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "30fc7057c1b48283973917d76e1a35abcd76cee8",
+          "ref": "f412c113e5eae7b7d5eaff5188005dd3bd0315ff",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -92,9 +93,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-14",
-              "ref": "30fc7057c1b48283973917d76e1a35abcd76cee8",
-              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
+              "on": "2026-10-15",
+              "ref": "f412c113e5eae7b7d5eaff5188005dd3bd0315ff",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
             }
           }
         }
@@ -105,7 +106,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "e41b0af3a4b8537837c0854709283fc5b4170a2f",
+          "ref": "5463bf121d472bbda817c6e0a4a73a2945793164",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -121,8 +122,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "e41b0af3a4b8537837c0854709283fc5b4170a2f",
-              "evidence": "Owner litlfred, 2026-10-15 session chat: 'merge and repin open 3 hrs' (extended 3h), layout C with search and the language picker approved; 'Merge + publish' for fhir-harness#86"
+              "ref": "5463bf121d472bbda817c6e0a4a73a2945793164",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
             }
           }
         }
@@ -133,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "c948d458e624ce8c696dbcd79d237616ae781529",
+          "ref": "3c1462defcdfdea8ced956fecd6d88fa63a4fd74",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -146,8 +147,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "c948d458e624ce8c696dbcd79d237616ae781529",
-              "evidence": "Owner litlfred, 2026-10-15 session chat: 'continue. merge regardless CI. deal with aftermath' (smart-trust publish refused by compose-docs on the built-at-publish docs layer; fixed in cat-harness-tools#296)"
+              "ref": "3c1462defcdfdea8ced956fecd6d88fa63a4fd74",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
             }
           }
         }
@@ -158,7 +159,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "5b10f5c5dc8f0553f38a0643b2cd144a287202ce",
+          "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -167,9 +168,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-14",
-              "ref": "5b10f5c5dc8f0553f38a0643b2cd144a287202ce",
-              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
+              "on": "2026-10-15",
+              "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
             }
           }
         }
@@ -180,7 +181,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "c97f099285d990527ac21cd16b6198867cd0a321",
+          "ref": "7dc55773590bbc3158c877a3d61222aa7864006c",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -192,11 +193,19 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-14",
-              "ref": "c97f099285d990527ac21cd16b6198867cd0a321",
-              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
+              "on": "2026-10-15",
+              "ref": "7dc55773590bbc3158c877a3d61222aa7864006c",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
             }
           }
+        }
+      }
+    },
+    {
+      "name": "smart-immunizations-uganda",
+      "source": {
+        "local": {
+          "at": "."
         }
       }
     }
