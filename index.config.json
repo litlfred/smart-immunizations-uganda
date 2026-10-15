@@ -1,0 +1,208 @@
+{
+  "$schema": "folio-index-config/v1",
+  "instances": [
+    {
+      "name": "smart-base",
+      "source": {
+        "remote": {
+          "repository": "litlfred/smart-base",
+          "ref": "96e43858f0e190380a571469ced640957f2916e6",
+          "overrides": {
+            "smart-base": {
+              "path": "smart-base",
+              "directories": [
+                "smart-base-qa-checkers",
+                "smart-base-block-kinds",
+                "smart-base-content-adapters",
+                "smart-base-translations",
+                "library",
+                "methodologies",
+                "processes",
+                "smart-base-house-processes",
+                "smart-base-artifact-index",
+                "tools",
+                "smart-base-themes",
+                "smart-base-docs",
+                "smart-base-document-kinds",
+                "smart-base-findings",
+                "smart-base-external-schemas",
+                "smart-base-platform",
+                "smart-base-typologies",
+                "smart-base-validators",
+                "smart-base-schemas",
+                "smart-base-content",
+                "smart-base-scripts",
+                "smart-base-skills",
+                "smart-base-scenarios",
+                "smart-base-code-lists"
+              ],
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "96e43858f0e190380a571469ced640957f2916e6",
+              "evidence": "Owner litlfred, 2026-10-15 session chat: 'merge and repin open 3 hrs' (extended 3h to ~11:15 UTC); consolidation 'Merge + publish' and 'Merge + publish anyway' for fhir-harness#91 and smart-base#74"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "fhir-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/fhir-harness",
+          "ref": "8a250e5fca3ff0804a8b0fdbaa398c77bd558469",
+          "overrides": {
+            "fhir-harness": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "8a250e5fca3ff0804a8b0fdbaa398c77bd558469",
+              "evidence": "Owner litlfred, 2026-10-15 session chat: 'Search box on id-lookup etc.' then 'continue. merge regardless CI. deal with aftermath'"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "folio-assistant-core",
+      "source": {
+        "remote": {
+          "repository": "litlfred/folio-assistant-core",
+          "ref": "30fc7057c1b48283973917d76e1a35abcd76cee8",
+          "overrides": {
+            "folio-assistant-core": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-14",
+              "ref": "30fc7057c1b48283973917d76e1a35abcd76cee8",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness",
+          "ref": "e41b0af3a4b8537837c0854709283fc5b4170a2f",
+          "overrides": {
+            "cat-harness": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "e41b0af3a4b8537837c0854709283fc5b4170a2f",
+              "evidence": "Owner litlfred, 2026-10-15 session chat: 'merge and repin open 3 hrs' (extended 3h), layout C with search and the language picker approved; 'Merge + publish' for fhir-harness#86"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness-tools",
+          "ref": "c948d458e624ce8c696dbcd79d237616ae781529",
+          "overrides": {
+            "cat-harness-tools": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "c948d458e624ce8c696dbcd79d237616ae781529",
+              "evidence": "Owner litlfred, 2026-10-15 session chat: 'continue. merge regardless CI. deal with aftermath' (smart-trust publish refused by compose-docs on the built-at-publish docs layer; fixed in cat-harness-tools#296)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap",
+          "ref": "5b10f5c5dc8f0553f38a0643b2cd144a287202ce",
+          "overrides": {
+            "bootstrap": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-14",
+              "ref": "5b10f5c5dc8f0553f38a0643b2cd144a287202ce",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap-tools",
+          "ref": "c97f099285d990527ac21cd16b6198867cd0a321",
+          "overrides": {
+            "bootstrap-tools": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-14",
+              "ref": "c97f099285d990527ac21cd16b6198867cd0a321",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "site": {
+    "landing": "smart-base",
+    "agentRun": true
+  }
+}

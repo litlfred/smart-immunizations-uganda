@@ -11,3 +11,12 @@ tools/cql/target/
 tests/elm/
 tests/vendor/
 node_modules/
+# BEGIN index mounts (from index.config.json; laid down by .claude/mount-platform.sh)
+/smart-base/
+/fhir-harness/
+/folio-assistant-core/
+/cat-harness/
+/cat-harness-tools/
+/bootstrap/
+/bootstrap-tools/
+# END index mounts
