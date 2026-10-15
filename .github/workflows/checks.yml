@@ -53,8 +53,10 @@ jobs:
         with:
           node-version: '22'
       - name: Install WHO's DAK converters
+        # makeExample.js requires `yaml`, which tools/node/package.json does not list (an
+        # upstream gap, reported on smart-immunizations-uganda#3); installed beside the pinned set.
         working-directory: .upstream/smart-immunizations/tools/node
-        run: npm ci
+        run: npm ci && npm install --no-save yaml@2.4.5
       - name: The schedule FSH is the converter's output of the Uganda workbook
         run: |
           IMMZ_HOME=$PWD/.upstream/smart-immunizations npm run --silent logic:generate
