@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 env:
-  SMART_BASE_REF: ca36ecb1b2f5b6419b0164ee7d8da0a19233b73d
+  SMART_BASE_REF: f6f42cc4c6de901b0f4b8c7a84fb571bc258b534
   IMMZ_REF: a48d95affed69af8147f51b31753702f2ccb74cd
 
 jobs:
@@ -32,7 +32,10 @@ jobs:
         working-directory: .upstream/smart-base
         run: bun add --no-save yaml@2.4.5
       - name: Authored L1 is verbatim in its library entries (smart-base l1-transcription-verbatim)
-        run: SMART_BASE_HOME=.upstream/smart-base bun run l1:verbatim
+        # Run from the smart-base checkout: this repository's package.json names the mounted
+        # platform layers as workspaces, which a CI checkout does not have.
+        working-directory: .upstream/smart-base
+        run: bun smart-base/scripts/l1-transcription-verbatim.ts --root "$GITHUB_WORKSPACE" --dir library/l1-recommendation-scenarios/uganda
 
   logic:
     runs-on: ubuntu-latest
@@ -52,7 +55,7 @@ jobs:
         run: npm ci
       - name: The schedule FSH is the converter's output of the Uganda workbook
         run: |
-          IMMZ_HOME=.upstream/smart-immunizations npm run --silent logic:generate
+          IMMZ_HOME=$PWD/.upstream/smart-immunizations npm run --silent logic:generate
           git diff --exit-code -- input/fsh/libraries input/fsh/plandefinitions
       - name: Every test file builds into FHIR test bundles (makeExample.js)
         run: IMMZ_HOME=$PWD/.upstream/smart-immunizations npm run --silent logic:examples
