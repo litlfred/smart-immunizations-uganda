@@ -57,6 +57,18 @@
       "graphTypologies": [
         "l1-extraction"
       ]
+    },
+    {
+      "id": "qa",
+      "path": "test/results/",
+      "storage": {
+        "branch": "cat/cat-harness/qa-reports",
+        "keyedBy": "commit"
+      },
+      "graphTypologies": [
+        "qa"
+      ],
+      "description": "What auditing this instance produced (the per-entry library QA verdicts among them), kept on the shared qa-reports branch keyed by commit, as smart-base declares its own; declared so a verdict about a library entry reads as stored or unknown, never as absent."
     }
   ]
 }
