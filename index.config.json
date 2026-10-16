@@ -106,7 +106,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "dbe5ea554a60495282b58614d80dee56bfe2aa14",
+          "ref": "912356535554f5a8bf611b0b9032ab96b2d3409f",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -122,8 +122,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "dbe5ea554a60495282b58614d80dee56bfe2aa14",
-              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; cat-harness moved to main dbe5ea5 (#337 .pot re-extract after #327) and bootstrap to main 0d442b3 (bootstrap#17 drops the retired actedUpon) so the repin passes 'No new failures'"
+              "ref": "912356535554f5a8bf611b0b9032ab96b2d3409f",
+              "evidence": "Owner litlfred, 2026-10-16 14:31Z: card 'Merge when green' to 'Merge cat-harness#347 (one-line subgraph context fix) when green, so Uganda #8 can go green?'; earlier 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin"
             }
           }
         }
@@ -159,7 +159,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
+          "ref": "0d442b3811991e5a0c19d8f619848fb4a5f8aa5f",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -169,8 +169,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
-              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; bootstrap kept at 9ecfb72, since 0d442b3 (bootstrap#17) is not yet regenerated downstream (cat-harness bootstrap .pot files, subgraph v1.jsonld, bootstrap schemas)"
+              "ref": "0d442b3811991e5a0c19d8f619848fb4a5f8aa5f",
+              "evidence": "Owner litlfred, 2026-10-16 14:31Z: card 'Merge when green' for cat-harness#347 and the Uganda repin; bootstrap moved to main with cat-harness main, whose bootstrap .pot files (#344/#345) are regenerated for bootstrap#17"
             }
           }
         }
