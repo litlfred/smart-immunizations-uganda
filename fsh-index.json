@@ -1,0 +1,114 @@
+[
+  {
+    "outputFile": "Library-IMMZD18SDTPOnTimeStartLogic.json",
+    "fshName": "IMMZD18SDTPOnTimeStartLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SDTPOnTimeStartLogic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZD18SDTPTdWCBALogic.json",
+    "fshName": "IMMZD18SDTPTdWCBALogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SDTPTdWCBALogic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZD18SHPVSingleDoseLogic.json",
+    "fshName": "IMMZD18SHPVSingleDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHPVSingleDoseLogic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+    "fshName": "IMMZD18SHepatitisBBirthDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHepatitisBBirthDoseLogic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZD18SMalariaLogic.json",
+    "fshName": "IMMZD18SMalariaLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMalariaLogic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+    "fshName": "IMMZD18SMeaslesOngoingTransmissionLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeaslesOngoingTransmissionLogic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+    "fshName": "IMMZD18SPolioBOPVPlusIPVLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SPolioBOPVPlusIPVLogic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+    "fshName": "IMMZD18SDTPOnTimeStart",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SDTPOnTimeStart.fsh",
+    "startLine": 2,
+    "endLine": 34
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SDTPTdWCBA.json",
+    "fshName": "IMMZD18SDTPTdWCBA",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SDTPTdWCBA.fsh",
+    "startLine": 2,
+    "endLine": 46
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHPVSingleDose.json",
+    "fshName": "IMMZD18SHPVSingleDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHPVSingleDose.fsh",
+    "startLine": 2,
+    "endLine": 34
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+    "fshName": "IMMZD18SHepatitisBBirthDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHepatitisBBirthDose.fsh",
+    "startLine": 2,
+    "endLine": 18
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMalaria.json",
+    "fshName": "IMMZD18SMalaria",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMalaria.fsh",
+    "startLine": 2,
+    "endLine": 42
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+    "fshName": "IMMZD18SMeaslesOngoingTransmission",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeaslesOngoingTransmission.fsh",
+    "startLine": 2,
+    "endLine": 26
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+    "fshName": "IMMZD18SPolioBOPVPlusIPV",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SPolioBOPVPlusIPV.fsh",
+    "startLine": 2,
+    "endLine": 49
+  }
+]

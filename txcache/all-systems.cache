@@ -1,0 +1,421 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "UG",
+    "display" : "Uganda"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Uganda",
+  "code" : "UG",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#UG (\"Uganda\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#UG\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"UG\" found in urn:iso:std:iso:3166|2018",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "UG",
+    "display" : "Uganda"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary|1.0.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Uganda",
+  "code" : "UG",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#UG (\"Uganda\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#UG\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"UG\" found in urn:iso:std:iso:3166|2018",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "text/cql"
+}, "url": "urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d", "version": "1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "text/cql",
+  "code" : "text/cql",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Analysing urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1 for validation purposes\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Validate \"[undefined#text/cql (\"undefined\")]\" and infer system\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Check \"undefined#text/cql\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: check code in (urn:ietf:bcp:13) at \n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Code \"text/cql\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "text/cql"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "text/cql",
+  "code" : "text/cql",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Analysing http://hl7.org/fhir/ValueSet/mimetypes|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Validate \"[undefined#text/cql (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Check \"undefined#text/cql\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: check code in (urn:ietf:bcp:13) at \n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Code \"text/cql\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "UG",
+    "display" : "Uganda"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary|1.0.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Uganda",
+  "code" : "UG",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#UG (\"Uganda\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#UG\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"UG\" found in urn:iso:std:iso:3166|2018",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "UG",
+    "display" : "Uganda"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library|1.0.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Uganda",
+  "code" : "UG",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#UG (\"Uganda\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#UG\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"UG\" found in urn:iso:std:iso:3166|2018",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "UG",
+    "display" : "Uganda"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module|1.0.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Uganda",
+  "code" : "UG",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#UG (\"Uganda\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#UG\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"UG\" found in urn:iso:std:iso:3166|2018",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "UG",
+    "display" : "Uganda"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition|2.0.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Uganda",
+  "code" : "UG",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#UG (\"Uganda\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#UG\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"UG\" found in urn:iso:std:iso:3166|2018",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "text/cql-identifier"
+}, "url": "urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d", "version": "1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "text/cql-identifier",
+  "code" : "text/cql-identifier",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Analysing urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1 for validation purposes\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Validate \"[undefined#text/cql-identifier (\"undefined\")]\" and infer system\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Check \"undefined#text/cql-identifier\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: check code in (urn:ietf:bcp:13) at \n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Code \"text/cql-identifier\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "text/cql-identifier"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "text/cql-identifier",
+  "code" : "text/cql-identifier",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Analysing http://hl7.org/fhir/ValueSet/mimetypes|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Validate \"[undefined#text/cql-identifier (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Check \"undefined#text/cql-identifier\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: check code in (urn:ietf:bcp:13) at \n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Code \"text/cql-identifier\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "text/cql-expression"
+}, "url": "urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d", "version": "1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "text/cql-expression",
+  "code" : "text/cql-expression",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Analysing urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1 for validation purposes\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Validate \"[undefined#text/cql-expression (\"undefined\")]\" and infer system\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Check \"undefined#text/cql-expression\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: check code in (urn:ietf:bcp:13) at \n0ms urn:uuid:f639a9e0-1944-3f7b-916b-24cdbef8f89d|1: Code \"text/cql-expression\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "text/cql-expression"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "text/cql-expression",
+  "code" : "text/cql-expression",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Analysing http://hl7.org/fhir/ValueSet/mimetypes|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Validate \"[undefined#text/cql-expression (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Check \"undefined#text/cql-expression\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: check code in (urn:ietf:bcp:13) at \n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Code \"text/cql-expression\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "UG",
+    "display" : "Uganda"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition|1.0.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Uganda",
+  "code" : "UG",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#UG (\"Uganda\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#UG\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"UG\" found in urn:iso:std:iso:3166|2018",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "UG",
+    "display" : "Uganda"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition|1.0.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Uganda",
+  "code" : "UG",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#UG (\"Uganda\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#UG\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"UG\" found in urn:iso:std:iso:3166|2018",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "UG",
+    "display" : "Uganda"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Uganda",
+  "code" : "UG",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#UG (\"Uganda\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#UG\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"UG\" found in urn:iso:std:iso:3166|2018",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

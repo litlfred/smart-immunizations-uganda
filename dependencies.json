@@ -1,0 +1,717 @@
+{
+  "$schema" : "ig-ast-dependencies/v1",
+  "authority" : "cache",
+  "edges" : 79,
+  "resolvedInIg" : 7,
+  "dependencies" : [{
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0",
+    "kind" : "library",
+    "target" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic",
+    "targetVersion" : null,
+    "resolved" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+    "kind" : "library",
+    "target" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic",
+    "targetVersion" : null,
+    "resolved" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0",
+    "kind" : "library",
+    "target" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic",
+    "targetVersion" : null,
+    "resolved" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0",
+    "kind" : "library",
+    "target" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic",
+    "targetVersion" : null,
+    "resolved" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0",
+    "kind" : "library",
+    "target" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic",
+    "targetVersion" : null,
+    "resolved" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0",
+    "kind" : "library",
+    "target" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic",
+    "targetVersion" : null,
+    "resolved" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+    "kind" : "action.definition",
+    "target" : "http://smart.who.int/immunizations/ActivityDefinition/IMMZD2DTCR",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.action.definitionCanonical",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+    "kind" : "library",
+    "target" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic",
+    "targetVersion" : null,
+    "resolved" : "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  }]
+}
