@@ -78,7 +78,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "bb7583d3c9f406fcb479b2b7ccf9974f7c63362a",
+          "ref": "41ead66c246443f7ac4ba0018646618cc9d74f83",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -94,8 +94,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "bb7583d3c9f406fcb479b2b7ccf9974f7c63362a",
-              "evidence": "Owner litlfred, 2026-10-16: 'Repin all, merge' (09:19Z) and 'Fix upstream' (09:43Z) on Uganda #7; window extended +3 hrs (09:43Z)"
+              "ref": "41ead66c246443f7ac4ba0018646618cc9d74f83",
+              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; core and tools pinned with cat-harness because the namespace trio (cat-harness#315, folio-assistant-core#142, cat-harness-tools#416) must move together"
             }
           }
         }
@@ -134,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "d6a8295b17c121c297f683349f8a4b4609b1ebf0",
+          "ref": "1a623677264a6bdd5bcc8135dd128f3e2ff0136c",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -147,8 +147,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "d6a8295b17c121c297f683349f8a4b4609b1ebf0",
-              "evidence": "Owner litlfred, 2026-10-16 (12:14Z): 'y' to 'Merge #325, then #422, then repin. Merge them now?' in the Folio Assistant library-viewer-panel thread (cat-harness#325, cat-harness-tools#422)"
+              "ref": "1a623677264a6bdd5bcc8135dd128f3e2ff0136c",
+              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; core and tools pinned with cat-harness because the namespace trio (cat-harness#315, folio-assistant-core#142, cat-harness-tools#416) must move together"
             }
           }
         }
