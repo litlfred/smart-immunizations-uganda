@@ -106,7 +106,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "cbd6ab1ad891ab1ab01fc5b60132cd0b7a4fc941",
+          "ref": "ad310f2cc55539e5535aa30c0e92b1f48095db05",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -122,8 +122,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "cbd6ab1ad891ab1ab01fc5b60132cd0b7a4fc941",
-              "evidence": "Owner litlfred, 2026-10-16 (12:14Z): 'y' to 'Merge #325, then #422, then repin. Merge them now?' in the Folio Assistant library-viewer-panel thread (cat-harness#325, cat-harness-tools#422)"
+              "ref": "ad310f2cc55539e5535aa30c0e92b1f48095db05",
+              "evidence": "Owner litlfred, 2026-10-16 (13:03Z): card 'Merge when green' to 'Merge cat-harness#334 when green, so the Uganda repin can go green?' in the Folio Assistant library-viewer-panel thread; earlier 12:14Z 'y' to 'Merge #325, then #422, then repin'"
             }
           }
         }
