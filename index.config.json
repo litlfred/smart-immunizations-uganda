@@ -134,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "1a623677264a6bdd5bcc8135dd128f3e2ff0136c",
+          "ref": "4e3ec4636b5f4d9d4f100ecdd7d550050cef993a",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -147,8 +147,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "1a623677264a6bdd5bcc8135dd128f3e2ff0136c",
-              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; core and tools pinned with cat-harness because the namespace trio (cat-harness#315, folio-assistant-core#142, cat-harness-tools#416) must move together"
+              "ref": "4e3ec4636b5f4d9d4f100ecdd7d550050cef993a",
+              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; cat-harness-tools moved to main 4e3ec46 (#429, a lane names its role) to match cat-harness dbe5ea5 and bootstrap 0d442b3"
             }
           }
         }
