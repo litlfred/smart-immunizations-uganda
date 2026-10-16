@@ -159,7 +159,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "0d442b3811991e5a0c19d8f619848fb4a5f8aa5f",
+          "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -169,8 +169,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "0d442b3811991e5a0c19d8f619848fb4a5f8aa5f",
-              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; cat-harness moved to main dbe5ea5 (#337 .pot re-extract after #327) and bootstrap to main 0d442b3 (bootstrap#17 drops the retired actedUpon) so the repin passes 'No new failures'"
+              "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
+              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; bootstrap kept at 9ecfb72, since 0d442b3 (bootstrap#17) is not yet regenerated downstream (cat-harness bootstrap .pot files, subgraph v1.jsonld, bootstrap schemas)"
             }
           }
         }
