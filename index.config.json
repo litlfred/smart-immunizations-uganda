@@ -56,7 +56,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "4c7fa7ba11bad9172b45cf93c7b8821efe970d60",
+          "ref": "70cec1a0c8ca4d15e33158fb2c92a1cd90eefe33",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -65,9 +65,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-15",
-              "ref": "4c7fa7ba11bad9172b45cf93c7b8821efe970d60",
-              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
+              "on": "2026-10-16",
+              "ref": "70cec1a0c8ca4d15e33158fb2c92a1cd90eefe33",
+              "evidence": "Owner litlfred, 2026-10-16 (06:52Z): 'merge and repin window open 3 hrs'"
             }
           }
         }
