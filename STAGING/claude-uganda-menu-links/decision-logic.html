@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scheduling Logic — Immunizations - Uganda adaptation (draft)</title>
+<link rel="canonical" href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/decision-logic.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="Immunizations - Uganda adaptation (draft)">
+<link rel="stylesheet" href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/assets/page-layout.css" data-fa-page-layout>
+<script src="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/assets/ig-artifact.css">
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="./assets/css/navbar.css"><script src="./assets/navbar/rail-2aqgtkepppd.js" defer></script><script src="./assets/js/navbar.js" defer></script><script src="./assets/navbar/row-265g4g58wj2.js" defer></script><link rel="stylesheet" href="./assets/css/navbar-row.css"><script src="./assets/js/navbar-row.js" defer></script><meta name="fa-platform-base" content="https://litlfred.github.io/folio-assistant" data-fa-platform-ui><link rel="stylesheet" href="./assets/css/docs-ui.css" data-fa-platform-ui><script src="./assets/js/docs-ui.js" defer data-fa-platform-ui></script><meta name="fa-pinned-data" content="."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="." data-fa-row-src="row-265g4g58wj2"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root=".">{"data":"rail-2aqgtkepppd","here":"/decision-logic.html","documentIndex":{"label":"Immunizations - Uganda adaptation (draft)","icon":"§","items":[{"label":"Home","icon":"▸"},{"label":"Schedule","icon":"▸"},{"label":"Routine Schedule","icon":"·","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/schedule.html","depth":1},{"label":"Catch-up Rules","icon":"·","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/catch-up.html","depth":1},{"label":"Routes and Sites","icon":"·","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/administration.html","depth":1},{"label":"Differences from WHO","icon":"·","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/differences.html","depth":1},{"label":"Logic","icon":"▸"},{"label":"Scheduling Logic","icon":"·","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/decision-logic.html","depth":1},{"label":"Testing","icon":"·","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/testing.html","depth":1},{"label":"Requirements","icon":"▸"},{"label":"UNEPI User Requirements","icon":"·","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/requirements.html","depth":1},{"label":"Service Delivery and Data Flow","icon":"·","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/service-delivery.html","depth":1},{"label":"Open Questions","icon":"·","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/open-questions.html","depth":1},{"label":"Artifacts","icon":"▸"},{"label":"Sources","icon":"▸"},{"label":"L1 Library","icon":"·","href":"https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/index.html","depth":1},{"label":"MoH Schedule Poster","icon":"·","href":"https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/index.html","depth":1},{"label":"UNEPI Requirements Deck","icon":"·","href":"https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/index.html","depth":1},{"label":"WHO Immunization DAK","icon":"·","href":"https://smart.who.int/immunizations","depth":1},{"label":"Table of Contents","icon":"▸","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/toc.html"}],"collapsible":true,"open":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="./">Immunizations - Uganda adaptation (draft)</a></nav>
+<script type="application/json" data-fa-visualiser-nav>[{"label":"Home"},{"label":"Schedule","items":[{"label":"Routine Schedule","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/schedule.html"},{"label":"Catch-up Rules","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/catch-up.html"},{"label":"Routes and Sites","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/administration.html"},{"label":"Differences from WHO","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/differences.html"}]},{"label":"Logic","items":[{"label":"Scheduling Logic","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/decision-logic.html"},{"label":"Testing","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/testing.html"}]},{"label":"Requirements","items":[{"label":"UNEPI User Requirements","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/requirements.html"},{"label":"Service Delivery and Data Flow","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/service-delivery.html"},{"label":"Open Questions","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/open-questions.html"}]},{"label":"Artifacts"},{"label":"Sources","items":[{"label":"L1 Library","href":"https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/index.html"},{"label":"MoH Schedule Poster","href":"https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/index.html"},{"label":"UNEPI Requirements Deck","href":"https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/index.html"},{"label":"WHO Immunization DAK","href":"https://smart.who.int/immunizations"}]},{"label":"Table of Contents","href":"/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/toc.html"}]</script>
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="Immunizations - Uganda adaptation (draft) menu"><a class="ig-topbar-home" href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/index.html">Immunizations - Uganda adaptation (draft)</a><span class="ig-topbar-group">Home</span><details class="ig-topbar-group"><summary>Schedule</summary><ul><li><a href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/schedule.html">Routine Schedule</a></li><li><a href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/catch-up.html">Catch-up Rules</a></li><li><a href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/administration.html">Routes and Sites</a></li><li><a href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/differences.html">Differences from WHO</a></li></ul></details><details class="ig-topbar-group"><summary>Logic</summary><ul><li><a href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/decision-logic.html">Scheduling Logic</a></li><li><a href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/testing.html">Testing</a></li></ul></details><details class="ig-topbar-group"><summary>Requirements</summary><ul><li><a href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/requirements.html">UNEPI User Requirements</a></li><li><a href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/service-delivery.html">Service Delivery and Data Flow</a></li><li><a href="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/open-questions.html">Open Questions</a></li></ul></details><span class="ig-topbar-group">Artifacts</span><details class="ig-topbar-group"><summary>Sources</summary><ul><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/index.html">L1 Library</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/index.html">MoH Schedule Poster</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/index.html">UNEPI Requirements Deck</a></li><li><a href="https://smart.who.int/immunizations">WHO Immunization DAK</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/assets/ig-search.json"><label class="ig-search-label" for="search-input">Search Immunizations - Uganda adaptation (draft)</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/assets/ig-search.js" defer></script></div>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<p>The Uganda scheduling logic is the WHO DAK’s own scheduling logic, adapted where
+the Uganda schedule differs. It is built the way the WHO immunization DAK builds
+it (<a href="https://smart.who.int/ig-starter-kit/l3_decisiontables.html">IG Starter Kit</a>;
+litlfred/smart-immunizations <code class="language-plaintext highlighter-rouge">tools/antigenchecklist.md</code>):</p>
+
+<ol>
+  <li><strong>L2, the workbook.</strong> <code class="language-plaintext highlighter-rouge">input/decision-logic/IMMZ DAK_decision-support logic.xlsx</code>
+is a copy of the WHO DAK workbook. Uganda changes only the cells of the
+scheduling tables (<code class="language-plaintext highlighter-rouge">IMMZ.D18.S.*</code>) listed below. Each changed row’s
+<em>Comments</em> cell names the Uganda L1 statements it rests on
+(<code class="language-plaintext highlighter-rouge">library/l1-recommendation-scenarios/uganda/</code>).</li>
+  <li><strong>L3, generated.</strong> WHO’s converter <code class="language-plaintext highlighter-rouge">tools/node/processDTSchedule.js</code> turns
+each adapted table into a PlanDefinition and its Library
+(<code class="language-plaintext highlighter-rouge">input/fsh/plandefinitions/</code>, <code class="language-plaintext highlighter-rouge">input/fsh/libraries/</code>; <code class="language-plaintext highlighter-rouge">npm run logic:generate</code>,
+checked on every pull request).</li>
+  <li><strong>L3, completed.</strong> Each adapted CQL library is WHO’s finished library of the
+same name, with only the definitions whose cells changed rewritten, each
+marked <code class="language-plaintext highlighter-rouge">// Uganda:</code> with its L1 key. The new Td table’s library is the
+converter’s skeleton, completed from its pseudocode on WHO’s DTP data elements.</li>
+</ol>
+
+<p>Every other WHO table is used unchanged from the WHO IG this guide depends on.
+The full record, one row per table with its decision and evidence, is
+<code class="language-plaintext highlighter-rouge">input/l2/dependencies.yaml</code>.</p>
+
+<h3 id="adapted-and-added-tables">Adapted and added tables</h3>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>WHO table</th>
+      <th>Uganda change</th>
+      <th>L1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="artifact/PlanDefinition-IMMZD18SHepatitisBBirthDose.html">IMMZ.D18.S.Hepatitis B.Birth dose schedule</a></td>
+      <td>expires at birth + 7 days</td>
+      <td>C01, C08</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.html">IMMZ.D18.S.Polio.bOPV plus IPV schedule</a></td>
+      <td>IPV dose 1 at 6 weeks, IPV dose 2 at 14 weeks</td>
+      <td>S03, S07</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/PlanDefinition-IMMZD18SDTPOnTimeStart.html">IMMZ.D18.S.DTP.On-time start schedule</a></td>
+      <td>primary series only (6, 10, 14 weeks); booster rows not generated — <em>review pending</em></td>
+      <td>S04</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.html">IMMZ.D18.S.Measles.Ongoing transmission schedule</a></td>
+      <td>MCV2 at 18 months, at least 4 weeks after MCV1</td>
+      <td>S08, P09, C07, C13</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/PlanDefinition-IMMZD18SMalaria.html">IMMZ.D18.S.Malaria schedule</a></td>
+      <td>doses at 6, 7, 8 and 18 months</td>
+      <td>S10, P05–P07, P09</td>
+    </tr>
+    <tr>
+      <td>IMMZ.D18.S.HPV.Single-dose schedule</td>
+      <td>girls, at 10 years</td>
+      <td>P10, S13</td>
+    </tr>
+    <tr>
+      <td>UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule <em>(new)</em></td>
+      <td>Td 1 at first contact, then 1, 6, 12 and 12 months — <em>review pending</em></td>
+      <td>P11–P15, S14</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="reused-unchanged">Reused unchanged</h3>
+
+<p>BCG, polio birth dose, Hib 3 doses, pneumococcal 3 doses, rotavirus (WHO
+already expires every dose at 24 months, which is the Uganda rule C09–C11),
+rubella high-incidence (one dose from 9 months, given as MR1) and yellow fever.</p>
+
+<h3 id="configuration">Configuration</h3>
+
+<p>Two Uganda rules are values of parameters the WHO libraries already expose; they
+are configured, not forked:</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>WHO parameter</th>
+      <th>Library</th>
+      <th>WHO default</th>
+      <th>Uganda</th>
+      <th>L1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">HepBLowerLimitWeeks</code></td>
+      <td><code class="language-plaintext highlighter-rouge">IMMZD2DTHepatitisBEncounterElements</code> (used by the 3- and 4-dose schedules)</td>
+      <td>4</td>
+      <td>6</td>
+      <td>S04, P02, C03</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">HepBBirthDoseAgeLimitDays</code></td>
+      <td><code class="language-plaintext highlighter-rouge">IMMZD2DTHepatitisBElements</code> (birth-dose eligibility)</td>
+      <td>1</td>
+      <td>7</td>
+      <td>C01, C08</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="not-in-scope">Not in scope</h3>
+
+<p>Vitamin A and deworming are not vaccines and are outside the WHO immunization
+DAK (review item 6). Contraindications (<code class="language-plaintext highlighter-rouge">IMMZ.D5.DT.*</code>) and the eligibility
+tables (<code class="language-plaintext highlighter-rouge">IMMZ.D2.DT.*</code>) are WHO’s, unchanged. See <a href="open-questions.html">open questions</a>.</p>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/decision-logic.md" data-repo="litlfred/smart-immunizations-uganda" href="https://github.com/litlfred/smart-immunizations-uganda/edit/main/input/pagecontent/decision-logic.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-immunizations-uganda/blob/main/input/pagecontent/decision-logic.md", "repo": "litlfred/smart-immunizations-uganda", "branch": "main", "path": "input/pagecontent/decision-logic.md", "lines": [{"t":"Adapted and added tables","l":24},{"t":"Reused unchanged","l":37},{"t":"Configuration","l":43},{"t":"Not in scope","l":54}]}</script>
+
+<script src="/smart-immunizations-uganda/STAGING/claude-uganda-menu-links/assets/ig-source-links.js"></script>
+
+<link rel="stylesheet" href="assets/ig-pages.css" />
+
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="differences.html">&lt;prev</a> | <a href="#">top</a> | <a href="requirements.html">next&gt;</a></p>
+<p class="ig-footer-band">IG © 2026+ <a href="https://github.com/litlfred/smart-immunizations-uganda" rel="external">litlfred (draft for UNEPI review)</a>. Package <code>smart.immunizations.uganda#0.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. </p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="https://spdx.org/licenses/CC0-1.0.html" rel="external">License</a></p>
+</footer>
+
+
+</main>
+</body>
+</html>
