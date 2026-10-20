@@ -78,7 +78,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "bb7583d3c9f406fcb479b2b7ccf9974f7c63362a",
+          "ref": "41ead66c246443f7ac4ba0018646618cc9d74f83",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -94,8 +94,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "bb7583d3c9f406fcb479b2b7ccf9974f7c63362a",
-              "evidence": "Owner litlfred, 2026-10-16: 'Repin all, merge' (09:19Z) and 'Fix upstream' (09:43Z) on Uganda #7; window extended +3 hrs (09:43Z)"
+              "ref": "41ead66c246443f7ac4ba0018646618cc9d74f83",
+              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; core and tools pinned with cat-harness because the namespace trio (cat-harness#315, folio-assistant-core#142, cat-harness-tools#416) must move together"
             }
           }
         }
@@ -106,7 +106,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "d9b08a55ff98fa02dd71f75865f89eaa3a38eda0",
+          "ref": "912356535554f5a8bf611b0b9032ab96b2d3409f",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -122,8 +122,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "d9b08a55ff98fa02dd71f75865f89eaa3a38eda0",
-              "evidence": "Owner litlfred, 2026-10-16: 'Repin all, merge' (09:19Z) and 'Fix upstream' (09:43Z) on Uganda #7; window extended +3 hrs (09:43Z)"
+              "ref": "912356535554f5a8bf611b0b9032ab96b2d3409f",
+              "evidence": "Owner litlfred, 2026-10-16 14:31Z: card 'Merge when green' to 'Merge cat-harness#347 (one-line subgraph context fix) when green, so Uganda #8 can go green?'; earlier 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin"
             }
           }
         }
@@ -134,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "cc006b4a88342b8c49c1bef7d978f0a2b50bd294",
+          "ref": "4e3ec4636b5f4d9d4f100ecdd7d550050cef993a",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -147,8 +147,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-16",
-              "ref": "cc006b4a88342b8c49c1bef7d978f0a2b50bd294",
-              "evidence": "Owner litlfred, 2026-10-16: 'Repin all, merge' (09:19Z) and 'Fix upstream' (09:43Z) on Uganda #7; window extended +3 hrs (09:43Z)"
+              "ref": "4e3ec4636b5f4d9d4f100ecdd7d550050cef993a",
+              "evidence": "Owner litlfred, 2026-10-16: 12:14Z 'y' to 'Merge #325, then #422, then repin' and 13:03Z card 'Merge when green' for the Uganda repin; cat-harness-tools moved to main 4e3ec46 (#429, a lane names its role) to match cat-harness dbe5ea5 and bootstrap 0d442b3"
             }
           }
         }
@@ -159,7 +159,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
+          "ref": "0d442b3811991e5a0c19d8f619848fb4a5f8aa5f",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -168,9 +168,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-15",
-              "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
-              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
+              "on": "2026-10-16",
+              "ref": "0d442b3811991e5a0c19d8f619848fb4a5f8aa5f",
+              "evidence": "Owner litlfred, 2026-10-16 14:31Z: card 'Merge when green' for cat-harness#347 and the Uganda repin; bootstrap moved to main with cat-harness main, whose bootstrap .pot files (#344/#345) are regenerated for bootstrap#17"
             }
           }
         }
@@ -181,7 +181,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "7dc55773590bbc3158c877a3d61222aa7864006c",
+          "ref": "157dacf74b6fc3e86c28e123904d4b2d4a16ae61",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -193,9 +193,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-15",
-              "ref": "7dc55773590bbc3158c877a3d61222aa7864006c",
-              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
+              "on": "2026-10-16",
+              "ref": "157dacf74b6fc3e86c28e123904d4b2d4a16ae61",
+              "evidence": "Owner litlfred, 2026-10-16 14:31Z: card 'Merge when green' for cat-harness#347 and the Uganda repin, and 16:11Z 'go'; bootstrap-tools moved to main 157dacf (#26, a lane names its Role), the counterpart of bootstrap#17 that check:bootstrap-standalone needs"
             }
           }
         }
