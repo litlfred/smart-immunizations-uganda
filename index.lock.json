@@ -9,7 +9,7 @@
     {
       "harness": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "ref": "f377b2b2855062c1683cbd9fceba655778f8b00d"
+      "ref": "aa8cdc1d3802bd4847de2aa36a56ae101f38c783"
     },
     {
       "harness": "folio-assistant-core",
@@ -24,7 +24,7 @@
     {
       "harness": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "ref": "bbbbf45331fbc787b1d5e894cde73505183cc021"
+      "ref": "f8e625018eda1722f242e78734e806129d1c2675"
     },
     {
       "harness": "bootstrap",
@@ -128,36 +128,36 @@
     {
       "instance": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "sha": "bbbbf45331fbc787b1d5e894cde73505183cc021",
+      "sha": "f8e625018eda1722f242e78734e806129d1c2675",
       "upstreamRoot": "",
       "path": "cat-harness-tools",
       "via": "cat-harness-tools",
       "pinnedBy": "declared",
       "declaration": {
         "file": "cat-harness-tools.json",
-        "sha256": "49900e6a87c79adc94c3a4ff93ce997e3ec242c32d4f6980f22cb62f3c23cfff"
+        "sha256": "7f51b8ce4ab3c61383af921f1a8042d794591fb1f2ae06add5da0b7933550d8d"
       },
       "directories": [
         {
           "id": "*",
           "path": "cat-harness-tools",
           "upstreamPath": ".",
-          "treeDigest": "6f73654cedfde37754598f6474e34cac18a3848d99ab2d02b287914ddb0be083",
-          "files": 2532
+          "treeDigest": "9750183b7336559043c5ab99a676c8f54c13444eb66f984ecf74d3baddb503d6",
+          "files": 2582
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-10-24",
-        "ref": "bbbbf45331fbc787b1d5e894cde73505183cc021",
+        "ref": "f8e625018eda1722f242e78734e806129d1c2675",
         "approver": "unverified"
       }
     },
     {
       "instance": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "sha": "f377b2b2855062c1683cbd9fceba655778f8b00d",
+      "sha": "aa8cdc1d3802bd4847de2aa36a56ae101f38c783",
       "upstreamRoot": "",
       "path": "fhir-harness",
       "via": "fhir-harness",
@@ -171,7 +171,7 @@
           "id": "*",
           "path": "fhir-harness",
           "upstreamPath": ".",
-          "treeDigest": "2f06c981a7cd96e8fad190c70c11863e7fd9e48c7ddaf474476e30337eab41a9",
+          "treeDigest": "f6890d447ad86073f5f69b155a3a8a2224d132fa6309cd9887da22c9d662c55c",
           "files": 659
         }
       ],
@@ -179,7 +179,7 @@
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-10-24",
-        "ref": "f377b2b2855062c1683cbd9fceba655778f8b00d",
+        "ref": "aa8cdc1d3802bd4847de2aa36a56ae101f38c783",
         "approver": "unverified"
       }
     },
