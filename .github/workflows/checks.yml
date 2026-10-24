@@ -63,6 +63,12 @@ jobs:
           git diff --exit-code -- input/fsh/libraries input/fsh/plandefinitions
       - name: Every test file builds into FHIR test bundles (makeExample.js)
         run: IMMZ_HOME=$PWD/.upstream/smart-immunizations npm run --silent logic:examples
+      - name: The hand-completed CQL gives the workbook's due dates and messages
+        # The FSH is checked above; the CQL is completed by hand from the skeletons'
+        # pseudocode, and nothing compared the two (folio-assistant#215 walk).
+        run: IMMZ_HOME=$PWD/.upstream/smart-immunizations npm run --silent logic:check-cql
+      - name: Every adapted table's ages and intervals are in the L1 evidence it cites
+        run: npm run --silent l2:evidence
 
   sushi:
     runs-on: ubuntu-latest
