@@ -181,7 +181,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "86540d2e55bd29e01397d0844c5ce86576aa29a8",
+          "ref": "1584c10dd06edf3e6ebe909de11327d56aa0456c",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -194,8 +194,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "86540d2e55bd29e01397d0844c5ce86576aa29a8",
-              "evidence": "Owner litlfred, 2026-10-24: chose 'C Fix all 4 now' for the #215 breaks (needs fhir-harness#156/#158 and cat-harness-tools#709 on the Uganda preview), and 'Extend the merge-when-green window + 3hrs' (10:48Z) for merge and repin; all layers moved to main together so they stay mutually consistent"
+              "ref": "1584c10dd06edf3e6ebe909de11327d56aa0456c",
+              "evidence": "cat-harness-tools main (d6f471d) imports resolveRelative from bootstrap-tools main; owner card 2026-10-24 14:34Z 'A Merge over it, file the bug' (Uganda #15), merge window to ~16:48 UTC"
             }
           }
         }
