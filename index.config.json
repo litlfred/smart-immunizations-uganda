@@ -106,7 +106,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "81437049166a8f5f7e9d59fd49f0d98fb6347645",
+          "ref": "5e0a0b89214017fb644e3a88f17f9a74ee8849c4",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -122,8 +122,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "81437049166a8f5f7e9d59fd49f0d98fb6347645",
-              "evidence": "Owner litlfred, 2026-10-24 12:38Z: 'fix red gates'; merge-and-repin window to about 16:48 UTC. cat-harness, cat-harness-tools and smart-base move to main after the red-gate fixes (cat-harness#577-#582, cat-harness-tools#748/#749, smart-base#160)"
+              "ref": "5e0a0b89214017fb644e3a88f17f9a74ee8849c4",
+              "evidence": "Owner litlfred, 2026-10-24 12:38Z: 'fix red gates'; merge-and-repin window to about 16:48 UTC. cat-harness moves to main for the standalone staging-test fix (cat-harness#575)"
             }
           }
         }
