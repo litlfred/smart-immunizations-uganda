@@ -1,0 +1,815 @@
+{
+  "$schema": "folio-fhir-artifact-index/v2",
+  "id": "smart-immunizations-uganda",
+  "title": "smart.immunizations.uganda — artefact index (from the IG Publisher AST cache)",
+  "packageId": "smart.immunizations.uganda",
+  "version": "0.1.0",
+  "canonicalBase": "https://litlfred.github.io/smart-immunizations-uganda",
+  "source": {
+    "kind": "output",
+    "of": "output-ast",
+    "revision": "f8643b87ac84f95dbb06b102df06239285336dba",
+    "readAt": "2026-10-24"
+  },
+  "provenance": {},
+  "sidecarApi": "unknown",
+  "count": 15,
+  "artifacts": [
+    {
+      "key": "ImplementationGuide/smart.immunizations.uganda",
+      "resourceType": "ImplementationGuide",
+      "id": "smart.immunizations.uganda",
+      "name": "SMARTImmunizationsUganda",
+      "title": "Immunizations - Uganda adaptation (draft)",
+      "description": "Draft adaptation of the WHO SMART Guidelines Immunization implementation guide to the Uganda routine immunisation schedule (UNEPI).",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda",
+      "version": "0.1.0",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json"
+        },
+        "localPath": "output-ast/resources/ImplementationGuide/smart.immunizations.uganda--a2203c4a.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "Library/IMMZD18SDTPOnTimeStartLogic",
+      "resourceType": "Library",
+      "id": "IMMZD18SDTPOnTimeStartLogic",
+      "name": "IMMZD18SDTPOnTimeStartLogic",
+      "title": "IMMZD18SDTPOnTimeStartLogic",
+      "description": "This library defines decision support logic for the IMMZ.D18.S.DTP.On-time start schedule table in the Immunization CPG",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json"
+        },
+        "localPath": "output-ast/resources/Library/IMMZD18SDTPOnTimeStartLogic--86c9bdcb.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "Library/IMMZD18SDTPTdWCBALogic",
+      "resourceType": "Library",
+      "id": "IMMZD18SDTPTdWCBALogic",
+      "name": "IMMZD18SDTPTdWCBALogic",
+      "title": "IMMZD18SDTPTdWCBALogic",
+      "description": "This library defines decision support logic for the UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule table in the Immunization CPG",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json"
+        },
+        "localPath": "output-ast/resources/Library/IMMZD18SDTPTdWCBALogic--51a5eae9.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "Library/IMMZD18SHPVSingleDoseLogic",
+      "resourceType": "Library",
+      "id": "IMMZD18SHPVSingleDoseLogic",
+      "name": "IMMZD18SHPVSingleDoseLogic",
+      "title": "IMMZD18SHPVSingleDoseLogic",
+      "description": "This library defines decision support logic for the IMMZ.D18.S.Single-dose schedule table in the Immunization CPG",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json"
+        },
+        "localPath": "output-ast/resources/Library/IMMZD18SHPVSingleDoseLogic--16a6c63b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "Library/IMMZD18SHepatitisBBirthDoseLogic",
+      "resourceType": "Library",
+      "id": "IMMZD18SHepatitisBBirthDoseLogic",
+      "name": "IMMZD18SHepatitisBBirthDoseLogic",
+      "title": "IMMZD18SHepatitisBBirthDoseLogic",
+      "description": "This library defines decision support logic for the IMMZ.D18.S.Hepatitis B.Birth dose schedule table in the Immunization CPG",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json"
+        },
+        "localPath": "output-ast/resources/Library/IMMZD18SHepatitisBBirthDoseLogic--f827d410.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "Library/IMMZD18SMalariaLogic",
+      "resourceType": "Library",
+      "id": "IMMZD18SMalariaLogic",
+      "name": "IMMZD18SMalariaLogic",
+      "title": "IMMZD18SMalariaLogic",
+      "description": "This library defines decision support logic for the IMMZ.D18.S.Malaria schedule table in the Immunization CPG",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json"
+        },
+        "localPath": "output-ast/resources/Library/IMMZD18SMalariaLogic--d8179fab.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "Library/IMMZD18SMeaslesOngoingTransmissionLogic",
+      "resourceType": "Library",
+      "id": "IMMZD18SMeaslesOngoingTransmissionLogic",
+      "name": "IMMZD18SMeaslesOngoingTransmissionLogic",
+      "title": "IMMZD18SMeaslesOngoingTransmissionLogic",
+      "description": "This library defines decision support logic for the IMMZ.D18.S.Measles.Ongoing transmission schedule table in the Immunization CPG",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json"
+        },
+        "localPath": "output-ast/resources/Library/IMMZD18SMeaslesOngoingTransmissionLogic--94585bb1.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "Library/IMMZD18SPolioBOPVPlusIPVLogic",
+      "resourceType": "Library",
+      "id": "IMMZD18SPolioBOPVPlusIPVLogic",
+      "name": "IMMZD18SPolioBOPVPlusIPVLogic",
+      "title": "IMMZD18SPolioBOPVPlusIPVLogic",
+      "description": "This library defines decision support logic for the IMMZ.D18.S.Polio.bOPV plus IPV schedule table in the Immunization CPG",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablelibrary",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablelibrary",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library",
+        "http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json"
+        },
+        "localPath": "output-ast/resources/Library/IMMZD18SPolioBOPVPlusIPVLogic--bd023497.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/IMMZD18SDTPOnTimeStart",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SDTPOnTimeStart",
+      "name": "IMMZD18SDTPOnTimeStart",
+      "title": "IMMZ.D18.S.DTP.On-time start schedule",
+      "description": "IMMZ.D18.S.DTP.On-time start schedule\nDiphtheria–tetanus–pertussis (DTP) vaccination schedule, on-time start (at ≤ 12 months of age)",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json"
+        },
+        "localPath": "output-ast/resources/PlanDefinition/IMMZD18SDTPOnTimeStart--315b008e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/IMMZD18SDTPTdWCBA",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SDTPTdWCBA",
+      "name": "IMMZD18SDTPTdWCBA",
+      "title": "UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule",
+      "description": "UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule\nTetanus and diphtheria (Td) vaccination schedule for women of childbearing age (15-49 years), Uganda",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json"
+        },
+        "localPath": "output-ast/resources/PlanDefinition/IMMZD18SDTPTdWCBA--aea11a5e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/IMMZD18SHPVSingleDose",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SHPVSingleDose",
+      "name": "IMMZD18SHPVSingleDose",
+      "title": "IMMZ.D18.S.Single-dose schedule",
+      "description": "IMMZ.D18.S.Single-dose schedule\nAlternative single-dose schedule",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json"
+        },
+        "localPath": "output-ast/resources/PlanDefinition/IMMZD18SHPVSingleDose--f0d45e11.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/IMMZD18SHepatitisBBirthDose",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SHepatitisBBirthDose",
+      "name": "IMMZD18SHepatitisBBirthDose",
+      "title": "IMMZ.D18.S.Hepatitis B.Birth dose schedule",
+      "description": "IMMZ.D18.S.Hepatitis B.Birth dose schedule\nBirth dose schedule",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json"
+        },
+        "localPath": "output-ast/resources/PlanDefinition/IMMZD18SHepatitisBBirthDose--da519f6d.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/IMMZD18SMalaria",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SMalaria",
+      "name": "IMMZD18SMalaria",
+      "title": "IMMZ.D18.S.Malaria schedule",
+      "description": "IMMZ.D18.S.Malaria schedule\n4-dose schedule",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json"
+        },
+        "localPath": "output-ast/resources/PlanDefinition/IMMZD18SMalaria--3afa37e6.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/IMMZD18SMeaslesOngoingTransmission",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SMeaslesOngoingTransmission",
+      "name": "IMMZD18SMeaslesOngoingTransmission",
+      "title": "IMMZ.D18.S.Measles.Ongoing transmission schedule",
+      "description": "IMMZ.D18.S.Measles.Ongoing transmission schedule\nCountries with ongoing transmission in which the risk of measles mortality remains high (countries that provide first dose of measles-containing vaccine (MCV) at 9 months and second dose of MCV at 15 months) Uganda: MCV2 at 18 months (S08, P09).",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json"
+        },
+        "localPath": "output-ast/resources/PlanDefinition/IMMZD18SMeaslesOngoingTransmission--02963087.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/IMMZD18SPolioBOPVPlusIPV",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SPolioBOPVPlusIPV",
+      "name": "IMMZD18SPolioBOPVPlusIPV",
+      "title": "IMMZ.D18.S.Polio.bOPV plus IPV schedule",
+      "description": "IMMZ.D18.S.Polio.bOPV plus IPV schedule\nBivalent oral polio vaccine (bOPV) plus inactivated polio vaccine (IPV) schedule",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition",
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json"
+        },
+        "localPath": "output-ast/resources/PlanDefinition/IMMZD18SPolioBOPVPlusIPV--16a47db4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "f8643b87ac84f95dbb06b102df06239285336dba",
+          "inputDigest": "24deea51f4ad8b2e015017a321d01388ee5b1adf56ba94be6f27b3ce42315fb1"
+        },
+        "materializedAt": "2026-10-24T08:57:09.286135485Z"
+      }
+    }
+  ]
+}

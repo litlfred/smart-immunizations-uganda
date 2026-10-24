@@ -1,0 +1,13 @@
+{
+  "$schema": "folio-site-build/v1",
+  "instance": "smart-immunizations-uganda",
+  "platform": {
+    "commit": "4e3ec4636b5f4d9d4f100ecdd7d550050cef993a"
+  },
+  "source": {
+    "repo": "litlfred/smart-immunizations-uganda",
+    "ref": "claude/sample-215-hpv-9y-do-not-merge",
+    "commit": "f8643b87ac84f95dbb06b102df06239285336dba"
+  },
+  "builtAt": "2026-10-24T09:06:55.847Z"
+}
