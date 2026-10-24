@@ -12,7 +12,7 @@ libraries do.
 | IMMZD18SDTPOnTimeStartLogic | UGDTP01, UGDTP02 | DTP 1 at 6 weeks; no booster after the primary series |
 | IMMZD18SMeaslesOngoingTransmissionLogic | UGMR01 | MCV2 due at 18 months |
 | IMMZD18SMalariaLogic | UGMal01, UGMal02 | dose 1 at 6 months; dose 4 at 18 months |
-| IMMZD18SHPVSingleDoseLogic | UGHPV01, UGHPV02 | girls at 10 years; not boys |
+| IMMZD18SHPVSingleDoseLogic | UGHPV01, UGHPV02 | girls at 9 years; not boys |
 | IMMZD18SDTPTdWCBALogic | UGTd01–UGTd03 | Td 1 at first contact; Td 3 after Td 2; not men |
 {:.grid}
 

@@ -16,7 +16,7 @@ WHO recommendation; the remaining rows are the adaptations this guide makes.
 | Measles-rubella | MCV1 at 9 months (12 months in low transmission settings); MCV2 from 15 months | MR1 at 9 months, MR2 at 18 months | MR2 at 18 months |
 | Yellow fever | 1 dose from 9 months in endemic areas | 1 dose at 9 months, nationwide | Same |
 | Malaria | 4 doses, first from 5 months, at least 4 weeks apart; dose 4 about 12–18 months after dose 3 | 6, 7, 8 and 18 months | First dose at 6 months; dose 4 at 18 months of age (about 10 months after dose 3 when on time) |
-| HPV | Single dose from 9 years (9–14 primary target; up to 20 years) | 1 dose for girls at 10 years | Scheduled age 10 years; WHO upper age kept ([open question](open-questions.html)) |
+| HPV | Single dose from 9 years (9–14 primary target; up to 20 years) | 1 dose for girls at 9 years | Scheduled age 9 years (SAMPLE change); WHO upper age kept ([open question](open-questions.html)) |
 | Td, women of child-bearing age | Tetanus-diphtheria in pregnancy (IG libraries `IMMZD18SDTPPregnancy*`) and childhood/adolescent boosters | 5 doses for women aged 15–49: first contact, +1 month, +6 months, +12 months, +12 months | Uganda 5-dose schedule for all women of child-bearing age |
 {:.grid}
 

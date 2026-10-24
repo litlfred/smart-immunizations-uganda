@@ -17,7 +17,7 @@ at that age *or as soon as possible thereafter* (see [catch-up rules](catch-up.h
 | 12 months | Vitamin A, deworming | – |
 | 18 months | Measles-rubella 2 (MR2), Malaria 4, Vitamin A | Measles, rubella, malaria |
 | 24 months | Vitamin A | – |
-| 10 years (girls) | HPV, 1 dose | Cancer of the cervix |
+| 9 years (girls) | HPV, 1 dose | Cancer of the cervix |
 {:.grid}
 
 Vitamin A (6, 12, 18 and 24 months) and deworming (12 months) appear on the

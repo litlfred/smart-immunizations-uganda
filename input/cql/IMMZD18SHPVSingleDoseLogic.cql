@@ -45,7 +45,7 @@ define "Human papillomavirus (HPV) dose 1":
 */
 define "Human papillomavirus (HPV) dose 1 Create":
   if "Human papillomavirus (HPV) dose 1"
-  then 'In Uganda one dose of HPV vaccine is given to girls at 10 years of age.' + '
+  then 'In Uganda one dose of HPV vaccine is given to girls at 9 years of age.' + '
 Due Date: ' + ToString("Human papillomavirus (HPV) dose 1 Due Date") + '
 Overdue: ' + ToString("Human papillomavirus (HPV) dose 1 Overdue")
   else ''
@@ -56,7 +56,7 @@ Overdue: ' + ToString("Human papillomavirus (HPV) dose 1 Overdue")
 @pseudocode: "Date of birth" + 9 years
 */
 define "Human papillomavirus (HPV) dose 1 Due Date":
-  if "Human papillomavirus (HPV) dose 1" then Patient.birthDate + 10 years // Uganda: P10, S13
+  if "Human papillomavirus (HPV) dose 1" then Patient.birthDate + 9 years // SAMPLE (#215 walk): Uganda P10 says 10
   else null
 
 

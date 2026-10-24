@@ -30,7 +30,7 @@ The full record, one row per table with its decision and evidence, is
 | IMMZ.D18.S.DTP.On-time start schedule | primary series only (6, 10, 14 weeks); booster rows not generated — *review pending* | S04 |
 | IMMZ.D18.S.Measles.Ongoing transmission schedule | MCV2 at 18 months, at least 4 weeks after MCV1 | S08, P09, C07, C13 |
 | IMMZ.D18.S.Malaria schedule | doses at 6, 7, 8 and 18 months | S10, P05–P07, P09 |
-| IMMZ.D18.S.HPV.Single-dose schedule | girls, at 10 years | P10, S13 |
+| IMMZ.D18.S.HPV.Single-dose schedule | girls, at 9 years (SAMPLE change, issue #215 walk) | P10, S13 |
 | UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule *(new)* | Td 1 at first contact, then 1, 6, 12 and 12 months — *review pending* | P11–P15, S14 |
 {:.grid}
 

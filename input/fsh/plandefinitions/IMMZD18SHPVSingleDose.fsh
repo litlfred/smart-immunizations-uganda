@@ -14,7 +14,7 @@ Usage: #definition
 Provision of the HPV dose 1
 Trigger event: Child's birth when client's biological sex is female
 Trigger date: "Date of birth"
-Create condition: In Uganda one dose of HPV vaccine is given to girls at 10 years of age.
+Create condition: In Uganda one dose of HPV vaccine is given to girls at 9 years of age.
 """]], [[Human papillomavirus (HPV) dose 1]], [[Human papillomavirus (HPV) dose 1 Create]])
 
 * insert PlanDefCommunicationRequestAction([[HPV dose 2 (Immunocompromised or HIV-positive)]], [["""

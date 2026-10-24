@@ -53,7 +53,7 @@ candidates:
           - {id: IMMZ.D18.S.Rubella.High incidence schedule, decision: reuse, reason: "One rubella dose from 9 months; Uganda gives it as MR1", evidence: [S08, P08]}
           - {id: IMMZ.D18.S.Yellow fever schedule, decision: reuse, evidence: [S09, P08, C12]}
           - {id: IMMZ.D18.S.Malaria schedule, decision: adapt, change: "Dose 1 due \"Date of birth\" + 6 months; dose 4 due \"Date of birth\" + 18 months", evidence: [S10, P05, P06, P07, P09]}
-          - {id: IMMZ.D18.S.HPV.Single-dose schedule, decision: adapt, change: "Girls only; due \"Date of birth\" + 10 years", evidence: [P10, S13]}
+          - {id: IMMZ.D18.S.HPV.Single-dose schedule, decision: adapt, change: "Girls only; due \"Date of birth\" + 9 years (SAMPLE)", evidence: [P10, S13]}
           - {id: UG.IMMZ.D18.S.Td.Women of childbearing age schedule, decision: extend, reason: "No WHO table schedules Td from first contact for women aged 15-49; added in the DTP tab beside the pregnancy tables, in their layout", evidence: [P11, P12, P13, P14, P15, S14], adjudication: pending}
           - {id: vitamin A, deworming, decision: reject, reason: "Not vaccines and outside the IMMZ DAK; the L1 warnings S11, S12 stand (review item 6)", evidence: [S11, S12, P05, P09]}
       indicators: {decision: extend, reason: "Reuse the WHO indicators; add the Uganda target-population shares (IND-UG-TARGET-POP) as denominators."}
