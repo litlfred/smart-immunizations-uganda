@@ -56,7 +56,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "aa8cdc1d3802bd4847de2aa36a56ae101f38c783",
+          "ref": "568607d041ee0f5f708998e159d369afc92bc52c",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -66,8 +66,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "aa8cdc1d3802bd4847de2aa36a56ae101f38c783",
-              "evidence": "Owner litlfred, 2026-10-24 12:26Z: card 'A Remove the dead script tags' (cat-harness-tools#741) and 12:01Z card 'A Sub-address per directory'; merge-and-repin window 'Extend the merge-when-green window + 3hrs' (10:48Z). fhir-harness moves to aa8cdc1 for the exclusions fix (fhir-harness#163)"
+              "ref": "568607d041ee0f5f708998e159d369afc92bc52c",
+              "evidence": "Owner litlfred, 2026-10-24: card 'C Fix all 4 now' and merge-and-repin window 'Extend the merge-when-green window + 3hrs' (10:48Z). fhir-harness moves to main 568607d because the @main ig-ast-refresh workflow calls ig-ast.ts build-kind, added in fhir-harness#161"
             }
           }
         }
