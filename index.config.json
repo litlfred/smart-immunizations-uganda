@@ -134,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "9d7dcfdf84d7fd1e18ddf6ec5576e5821d2b0134",
+          "ref": "bbbbf45331fbc787b1d5e894cde73505183cc021",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -147,8 +147,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "9d7dcfdf84d7fd1e18ddf6ec5576e5821d2b0134",
-              "evidence": "Owner litlfred, 2026-10-24: chose 'C Fix all 4 now' for the #215 breaks (needs fhir-harness#156/#158 and cat-harness-tools#709 on the Uganda preview), and 'Extend the merge-when-green window + 3hrs' (10:48Z) for merge and repin; all layers moved to main together so they stay mutually consistent"
+              "ref": "bbbbf45331fbc787b1d5e894cde73505183cc021",
+              "evidence": "Owner litlfred, 2026-10-24 12:01Z: card 'A Sub-address per directory' for the /code/cat-harness-tools/ collision (cat-harness-tools#738); merge-and-repin window 'Extend the merge-when-green window + 3hrs' (10:48Z)"
             }
           }
         }
