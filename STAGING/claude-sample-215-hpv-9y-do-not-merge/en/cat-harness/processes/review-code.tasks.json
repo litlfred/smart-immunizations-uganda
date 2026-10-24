@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_CodeReview",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CodeReview",
  "tasks": {
   "Task_RunNodeAudits": {
    "id": "Task_RunNodeAudits",
    "name": "Run the node audits",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CodeReview/node/Task_RunNodeAudits",
    "lane": "Code reviewer",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CodeReview/lane/Lane_CodeReviewer",
    "skills": [
     {
      "name": "code-node-review"
@@ -14,9 +17,12 @@
    ],
    "role": {
     "name": "code-reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-code-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/code-reviewer",
     "title": "Code reviewer",
     "skills": [
+     {
+      "name": "adversarial-code-review"
+     },
      {
       "name": "code-node-review"
      },
@@ -51,7 +57,9 @@
    "id": "Task_ReviewTool",
    "name": "Review the Tool node",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CodeReview/node/Task_ReviewTool",
    "lane": "Code reviewer",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CodeReview/lane/Lane_CodeReviewer",
    "skills": [
     {
      "name": "skills-and-tools"
@@ -62,9 +70,12 @@
    ],
    "role": {
     "name": "code-reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-code-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/code-reviewer",
     "title": "Code reviewer",
     "skills": [
+     {
+      "name": "adversarial-code-review"
+     },
      {
       "name": "code-node-review"
      },
@@ -99,7 +110,9 @@
    "id": "Task_ReviewSchema",
    "name": "Review the schema definition node",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CodeReview/node/Task_ReviewSchema",
    "lane": "Code reviewer",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CodeReview/lane/Lane_CodeReviewer",
    "skills": [
     {
      "name": "code-node-review"
@@ -110,9 +123,12 @@
    ],
    "role": {
     "name": "code-reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-code-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/code-reviewer",
     "title": "Code reviewer",
     "skills": [
+     {
+      "name": "adversarial-code-review"
+     },
      {
       "name": "code-node-review"
      },
@@ -147,7 +163,9 @@
    "id": "Task_RecordVerdict",
    "name": "Record the verdict on the node",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CodeReview/node/Task_RecordVerdict",
    "lane": "Code reviewer",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CodeReview/lane/Lane_CodeReviewer",
    "skills": [
     {
      "name": "code-node-review"
@@ -155,9 +173,12 @@
    ],
    "role": {
     "name": "code-reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-code-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/code-reviewer",
     "title": "Code reviewer",
     "skills": [
+     {
+      "name": "adversarial-code-review"
+     },
      {
       "name": "code-node-review"
      },

@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_TestPlanExecution",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution",
  "tasks": {
   "A_Request": {
    "id": "A_Request",
    "name": "Request certification of the system against plan P",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_Request",
    "lane": "Requester / system under test",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Requester",
    "skills": [
     {
      "name": "test-plan-execution"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "test-requester",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-test-requester",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/test-requester",
     "title": "Test requester",
     "skills": [
      {
@@ -27,7 +30,9 @@
    "id": "A_ResolvePlan",
    "name": "Resolve the plan [test-plan/v1]",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_ResolvePlan",
    "lane": "Tester",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Tester",
    "skills": [
     {
      "name": "test-plan-execution"
@@ -35,7 +40,7 @@
    ],
    "role": {
     "name": "tester",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-tester",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/tester",
     "title": "Tester",
     "skills": [
      {
@@ -54,7 +59,9 @@
    "id": "A_BindData",
    "name": "Bind the test data [fixed or generated]",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_BindData",
    "lane": "Tester",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Tester",
    "skills": [
     {
      "name": "test-plan-execution"
@@ -62,7 +69,7 @@
    ],
    "role": {
     "name": "tester",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-tester",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/tester",
     "title": "Tester",
     "skills": [
      {
@@ -81,7 +88,9 @@
    "id": "A_Execute",
    "name": "Execute every case, or skip it with a reason",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_Execute",
    "lane": "Tester",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Tester",
    "skills": [
     {
      "name": "test-plan-execution"
@@ -92,7 +101,7 @@
    ],
    "role": {
     "name": "tester",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-tester",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/tester",
     "title": "Tester",
     "skills": [
      {
@@ -111,7 +120,9 @@
    "id": "A_WriteRun",
    "name": "Write the test run and the test report [folio-test-run/v1 + test-report/v1]",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_WriteRun",
    "lane": "Tester",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Tester",
    "skills": [
     {
      "name": "test-plan-execution"
@@ -119,7 +130,7 @@
    ],
    "role": {
     "name": "tester",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-tester",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/tester",
     "title": "Tester",
     "skills": [
      {
@@ -138,7 +149,9 @@
    "id": "A_ReExecuteSample",
    "name": "Re-execute a sample, blind to the tester's verdicts",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_ReExecuteSample",
    "lane": "Untainted checker",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Checker",
    "skills": [
     {
      "name": "untainted-verification"
@@ -149,7 +162,7 @@
    ],
    "role": {
     "name": "untainted-checker",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-untainted-checker",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/untainted-checker",
     "title": "Untainted checker",
     "skills": [
      {
@@ -165,7 +178,9 @@
    "id": "A_RecordCertification",
    "name": "Record the certification decision",
    "type": "bpmn:UserTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_RecordCertification",
    "lane": "Certifier",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Certifier",
    "skills": [
     {
      "name": "test-plan-execution"
@@ -173,7 +188,7 @@
    ],
    "role": {
     "name": "certifier",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-certifier",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/certifier",
     "title": "Certifier",
     "skills": [
      {
@@ -189,7 +204,9 @@
    "id": "A_RecordRefusal",
    "name": "Record the refusal, with the failing cases",
    "type": "bpmn:UserTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_RecordRefusal",
    "lane": "Certifier",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Certifier",
    "skills": [
     {
      "name": "test-plan-execution"
@@ -197,7 +214,7 @@
    ],
    "role": {
     "name": "certifier",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-certifier",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/certifier",
     "title": "Certifier",
     "skills": [
      {
@@ -213,7 +230,9 @@
    "id": "A_RecordUndetermined",
    "name": "Record why it could not be decided",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_RecordUndetermined",
    "lane": "Certifier",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Certifier",
    "skills": [
     {
      "name": "test-plan-execution"
@@ -221,7 +240,7 @@
    ],
    "role": {
     "name": "certifier",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-certifier",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/certifier",
     "title": "Certifier",
     "skills": [
      {
@@ -237,7 +256,9 @@
    "id": "Call_Sign",
    "name": "Sign the certification",
    "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/Call_Sign",
    "lane": "Attestation service",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Attestation",
    "skills": [
     {
      "name": "qa-report-signing"
@@ -245,11 +266,12 @@
    ],
    "calls": {
     "name": "QA report signing",
-    "href": "qa-report-signing.html"
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaReportSigning",
+    "diagram": "qa-report-signing.html"
    },
    "role": {
     "name": "attestation-service",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-attestation-service",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/attestation-service",
     "title": "Attestation service",
     "skills": [
      {
@@ -265,7 +287,9 @@
    "id": "A_FileCertification",
    "name": "File the signed certification [qa-attestations/v1]",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/A_FileCertification",
    "lane": "Attestation service",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Attestation",
    "skills": [
     {
      "name": "test-plan-execution"
@@ -273,11 +297,132 @@
    ],
    "role": {
     "name": "attestation-service",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-attestation-service",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/attestation-service",
     "title": "Attestation service",
     "skills": [
      {
       "name": "qa-report-signing"
+     },
+     {
+      "name": "test-plan-execution"
+     }
+    ]
+   }
+  },
+  "Call_BeanOpen": {
+   "id": "Call_BeanOpen",
+   "name": "Open the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/Call_BeanOpen",
+   "lane": "Requester / system under test",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Requester",
+   "skills": [
+    {
+     "name": "bean-coordination"
+    }
+   ],
+   "calls": {
+    "name": "Open the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanOpen",
+    "diagram": "bean-open.html"
+   },
+   "role": {
+    "name": "test-requester",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/test-requester",
+    "title": "Test requester",
+    "skills": [
+     {
+      "name": "test-plan-execution"
+     }
+    ]
+   }
+  },
+  "Call_BeanClose": {
+   "id": "Call_BeanClose",
+   "name": "Close the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/Call_BeanClose",
+   "lane": "Attestation service",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Attestation",
+   "skills": [
+    {
+     "name": "todo-manager"
+    }
+   ],
+   "calls": {
+    "name": "Close the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "diagram": "bean-close.html"
+   },
+   "role": {
+    "name": "attestation-service",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/attestation-service",
+    "title": "Attestation service",
+    "skills": [
+     {
+      "name": "qa-report-signing"
+     },
+     {
+      "name": "test-plan-execution"
+     }
+    ]
+   }
+  },
+  "Call_BeanClose_2": {
+   "id": "Call_BeanClose_2",
+   "name": "Close the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/Call_BeanClose_2",
+   "lane": "Certifier",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Certifier",
+   "skills": [
+    {
+     "name": "todo-manager"
+    }
+   ],
+   "calls": {
+    "name": "Close the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "diagram": "bean-close.html"
+   },
+   "role": {
+    "name": "certifier",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/certifier",
+    "title": "Certifier",
+    "skills": [
+     {
+      "name": "decision-audit"
+     },
+     {
+      "name": "test-plan-execution"
+     }
+    ]
+   }
+  },
+  "Call_BeanClose_3": {
+   "id": "Call_BeanClose_3",
+   "name": "Close the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/node/Call_BeanClose_3",
+   "lane": "Certifier",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_TestPlanExecution/lane/Lane_Certifier",
+   "skills": [
+    {
+     "name": "todo-manager"
+    }
+   ],
+   "calls": {
+    "name": "Close the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "diagram": "bean-close.html"
+   },
+   "role": {
+    "name": "certifier",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/certifier",
+    "title": "Certifier",
+    "skills": [
+     {
+      "name": "decision-audit"
      },
      {
       "name": "test-plan-execution"

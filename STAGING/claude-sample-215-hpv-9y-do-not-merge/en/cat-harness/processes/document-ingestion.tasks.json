@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_Ingestion",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Ingestion",
  "tasks": {
   "Task_Place": {
    "id": "Task_Place",
    "name": "Place it in uploads/ by a declared route",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Ingestion/node/Task_Place",
    "lane": "Contributor (human or agent)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Ingestion/lane/Lane_0",
    "skills": [
     {
      "name": "upload-routes"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "user",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-user",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/user",
     "title": "User",
     "skills": [
      {
@@ -27,10 +30,16 @@
       "name": "dispatch-agent"
      },
      {
+      "name": "folio-init"
+     },
+     {
       "name": "getting-started"
      },
      {
       "name": "interaction-modality"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-subscription"
@@ -51,7 +60,9 @@
    "id": "Task_ExtractMetadata",
    "name": "Extract its metadata into the KG",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Ingestion/node/Task_ExtractMetadata",
    "lane": "Ingestion Engine (agent, runs unattended)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Ingestion/lane/Lane_1",
    "skills": [
     {
      "name": "asset-extraction"
@@ -59,7 +70,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -93,7 +104,9 @@
    "id": "Task_PlaceInLibrary",
    "name": "Place the asset in library/<slug>/",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Ingestion/node/Task_PlaceInLibrary",
    "lane": "Ingestion Engine (agent, runs unattended)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Ingestion/lane/Lane_1",
    "skills": [
     {
      "name": "library-ingestion"
@@ -101,7 +114,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -135,7 +148,9 @@
    "id": "Task_CatalogueReference",
    "name": "Record it in library/ as referenced",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Ingestion/node/Task_CatalogueReference",
    "lane": "Ingestion Engine (agent, runs unattended)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Ingestion/lane/Lane_1",
    "skills": [
     {
      "name": "library-ingestion"
@@ -143,7 +158,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {

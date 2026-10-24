@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_MergeBase",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase",
  "tasks": {
   "Task_Merge": {
    "id": "Task_Merge",
    "name": "Merge the base in, without committing",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/node/Task_Merge",
    "lane": "merge:main command",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/lane/Lane_Command",
    "skills": [
     {
      "name": "prepare-merge"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -84,7 +87,9 @@
    "id": "Task_Classify",
    "name": "Classify every conflicted path against the declared patterns",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/node/Task_Classify",
    "lane": "merge:main command",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/lane/Lane_Command",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -92,7 +97,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -162,7 +167,9 @@
    "id": "Task_Resolve",
    "name": "Resolve each by its declared strategy",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/node/Task_Resolve",
    "lane": "merge:main command",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/lane/Lane_Command",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -170,7 +177,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -240,7 +247,9 @@
    "id": "Task_Regen",
    "name": "Regenerate, asking every CI gate",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/node/Task_Regen",
    "lane": "merge:main command",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/lane/Lane_Command",
    "skills": [
     {
      "name": "prepare-merge"
@@ -248,7 +257,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -318,7 +327,9 @@
    "id": "Task_Commit",
    "name": "Commit the merge",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/node/Task_Commit",
    "lane": "merge:main command",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/lane/Lane_Command",
    "skills": [
     {
      "name": "continual-progress"
@@ -326,7 +337,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -396,7 +407,9 @@
    "id": "Task_Abort",
    "name": "Abort, restore the tree, list what was refused",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/node/Task_Abort",
    "lane": "merge:main command",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/lane/Lane_Command",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -404,7 +417,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -474,7 +487,9 @@
    "id": "Task_ByHand",
    "name": "Resolve by hand, then regenerate",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/node/Task_ByHand",
    "lane": "Authoring agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/lane/Lane_Agent",
    "skills": [
     {
      "name": "prepare-merge"
@@ -482,7 +497,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -490,6 +505,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -537,13 +555,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -559,6 +586,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -606,6 +636,9 @@
       "name": "sub-kg-lifecycle"
      },
      {
+      "name": "symbiotic-interaction"
+     },
+     {
       "name": "todo-manager"
      },
      {
@@ -633,7 +666,9 @@
    "id": "Task_Report",
    "name": "Report what the run found, once",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/node/Task_Report",
    "lane": "merge:main command",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeBase/lane/Lane_Command",
    "skills": [
     {
      "name": "ci-health"
@@ -641,7 +676,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {

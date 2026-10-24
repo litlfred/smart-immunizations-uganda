@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_Translation",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation",
  "tasks": {
   "Task_PotExtract": {
    "id": "Task_PotExtract",
    "name": "Extract translatable strings (POT generation)",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_PotExtract",
    "lane": "Agent / platform (automated)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Platform",
    "skills": [
     {
      "name": "translation-manager"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -22,6 +25,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -69,13 +75,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -91,6 +106,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -136,6 +154,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -165,7 +186,9 @@
    "id": "Task_Translate",
    "name": "Produce translation (PO file)",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_Translate",
    "lane": "Agent / platform (automated)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Platform",
    "skills": [
     {
      "name": "translation-manager"
@@ -173,7 +196,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -181,6 +204,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -228,13 +254,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -250,6 +285,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -295,6 +333,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -324,7 +365,9 @@
    "id": "Task_PoInject",
    "name": "Inject translations (PO → Markdown)",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_PoInject",
    "lane": "Agent / platform (automated)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Platform",
    "skills": [
     {
      "name": "translation-manager"
@@ -332,7 +375,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -340,6 +383,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -387,13 +433,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -409,6 +464,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -454,6 +512,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -483,7 +544,9 @@
    "id": "Task_RoundTripQA",
    "name": "Round-trip translation QA (back-translate)",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_RoundTripQA",
    "lane": "Agent / platform (automated)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Platform",
    "skills": [
     {
      "name": "translation-manager"
@@ -491,7 +554,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -499,6 +562,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -546,13 +612,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -568,6 +643,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -615,6 +693,9 @@
       "name": "sub-kg-lifecycle"
      },
      {
+      "name": "symbiotic-interaction"
+     },
+     {
       "name": "todo-manager"
      },
      {
@@ -642,7 +723,9 @@
    "id": "Task_Adjudicate",
    "name": "Adjudicate flagged passage (human reviewer)",
    "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_Adjudicate",
    "lane": "Human reviewer / adjudicator",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Reviewer",
    "skills": [
     {
      "name": "translation-manager"
@@ -653,11 +736,12 @@
    ],
    "calls": {
     "name": "Adjudication",
-    "href": "adjudication.html"
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Adjudication",
+    "diagram": "adjudication.html"
    },
    "role": {
     "name": "translation-adjudicator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-translation-adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/translation-adjudicator",
     "title": "Translation adjudicator",
     "skills": [
      {
@@ -675,10 +759,6 @@
      {
       "name": "decision-audit",
       "via": "adjudicator"
-     },
-     {
-      "name": "milnor-exposition-standard",
-      "via": "reviewer"
      },
      {
       "name": "narrative-asserts-code",
@@ -714,7 +794,9 @@
    "id": "Task_EditTranslation",
    "name": "Edit the flagged passage and re-inject",
    "type": "bpmn:UserTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_EditTranslation",
    "lane": "Human reviewer / adjudicator",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Reviewer",
    "skills": [
     {
      "name": "translation-manager"
@@ -722,7 +804,7 @@
    ],
    "role": {
     "name": "translation-adjudicator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-translation-adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/translation-adjudicator",
     "title": "Translation adjudicator",
     "skills": [
      {
@@ -740,10 +822,6 @@
      {
       "name": "decision-audit",
       "via": "adjudicator"
-     },
-     {
-      "name": "milnor-exposition-standard",
-      "via": "reviewer"
      },
      {
       "name": "narrative-asserts-code",
@@ -779,7 +857,9 @@
    "id": "Task_WriteUnofficial",
    "name": "Write status.json (unofficial)",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_WriteUnofficial",
    "lane": "Agent / platform (automated)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Platform",
    "skills": [
     {
      "name": "translation-manager"
@@ -787,7 +867,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -795,6 +875,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -842,13 +925,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -864,6 +956,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -911,6 +1006,9 @@
       "name": "sub-kg-lifecycle"
      },
      {
+      "name": "symbiotic-interaction"
+     },
+     {
       "name": "todo-manager"
      },
      {
@@ -938,7 +1036,9 @@
    "id": "Task_Signoff",
    "name": "Sign off translation (human adjudicator)",
    "type": "bpmn:UserTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_Signoff",
    "lane": "Human reviewer / adjudicator",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Reviewer",
    "skills": [
     {
      "name": "translation-manager"
@@ -946,7 +1046,7 @@
    ],
    "role": {
     "name": "translation-adjudicator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-translation-adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/translation-adjudicator",
     "title": "Translation adjudicator",
     "skills": [
      {
@@ -964,10 +1064,6 @@
      {
       "name": "decision-audit",
       "via": "adjudicator"
-     },
-     {
-      "name": "milnor-exposition-standard",
-      "via": "reviewer"
      },
      {
       "name": "narrative-asserts-code",
@@ -1003,7 +1099,9 @@
    "id": "Task_WriteOfficial",
    "name": "Write status.json (official)",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_WriteOfficial",
    "lane": "Agent / platform (automated)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Platform",
    "skills": [
     {
      "name": "translation-manager"
@@ -1011,7 +1109,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1019,6 +1117,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -1066,13 +1167,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -1088,6 +1198,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -1133,6 +1246,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -1162,7 +1278,9 @@
    "id": "Task_StalenessCheck",
    "name": "Check staleness (source hash)",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/node/Task_StalenessCheck",
    "lane": "Agent / platform (automated)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Translation/lane/Lane_Platform",
    "skills": [
     {
      "name": "translation-manager"
@@ -1170,7 +1288,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1178,6 +1296,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -1225,13 +1346,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -1247,6 +1377,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -1292,6 +1425,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"

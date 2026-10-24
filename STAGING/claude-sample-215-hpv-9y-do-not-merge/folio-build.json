@@ -2,12 +2,17 @@
   "$schema": "folio-site-build/v1",
   "instance": "smart-immunizations-uganda",
   "platform": {
-    "commit": "4e3ec4636b5f4d9d4f100ecdd7d550050cef993a"
+    "commit": "f8e625018eda1722f242e78734e806129d1c2675"
   },
   "source": {
     "repo": "litlfred/smart-immunizations-uganda",
     "ref": "claude/sample-215-hpv-9y-do-not-merge",
-    "commit": "f8643b87ac84f95dbb06b102df06239285336dba"
+    "commit": "b9036591091d549566b886fd3f162b05a6c514f5"
   },
-  "builtAt": "2026-10-24T09:06:55.847Z"
+  "builtAt": "2026-10-24T13:03:58.079Z",
+  "ast": {
+    "commit": "b9036591091d549566b886fd3f162b05a6c514f5",
+    "verdict": "valid",
+    "kind": "full"
+  }
 }

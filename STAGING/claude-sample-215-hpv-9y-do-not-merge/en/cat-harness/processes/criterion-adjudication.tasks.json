@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_CriterionAdjudication",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication",
  "tasks": {
   "Call_Adjudicate": {
    "id": "Call_Adjudicate",
    "name": "Adjudicate the criterion disagreement",
    "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication/node/Call_Adjudicate",
    "lane": "Adjudicator",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication/lane/Lane_CriterionAdjudicator",
    "skills": [
     {
      "name": "adjudication"
@@ -14,11 +17,12 @@
    ],
    "calls": {
     "name": "Adjudication",
-    "href": "adjudication.html"
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Adjudication",
+    "diagram": "adjudication.html"
    },
    "role": {
     "name": "adjudicator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
     "title": "Adjudicator",
     "skills": [
      {
@@ -34,10 +38,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard",
-      "via": "reviewer"
      },
      {
       "name": "narrative-asserts-code",
@@ -73,7 +73,9 @@
    "id": "A_ScopeCriterion",
    "name": "Scope the criterion so it stops applying here",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication/node/A_ScopeCriterion",
    "lane": "Adjudicator",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication/lane/Lane_CriterionAdjudicator",
    "skills": [
     {
      "name": "adjudication"
@@ -81,7 +83,7 @@
    ],
    "role": {
     "name": "adjudicator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
     "title": "Adjudicator",
     "skills": [
      {
@@ -97,10 +99,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard",
-      "via": "reviewer"
      },
      {
       "name": "narrative-asserts-code",
@@ -136,7 +134,9 @@
    "id": "A_Dispensation",
    "name": "Grant a dispensation, with its reason",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication/node/A_Dispensation",
    "lane": "Adjudicator",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication/lane/Lane_CriterionAdjudicator",
    "skills": [
     {
      "name": "adjudication"
@@ -144,7 +144,7 @@
    ],
    "role": {
     "name": "adjudicator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
     "title": "Adjudicator",
     "skills": [
      {
@@ -160,10 +160,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard",
-      "via": "reviewer"
      },
      {
       "name": "narrative-asserts-code",
@@ -199,7 +195,9 @@
    "id": "A_RecordEntry",
    "name": "Write the entry that LEADS — keeping the checker's beneath it",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication/node/A_RecordEntry",
    "lane": "Adjudicator",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication/lane/Lane_CriterionAdjudicator",
    "skills": [
     {
      "name": "adjudication"
@@ -207,7 +205,7 @@
    ],
    "role": {
     "name": "adjudicator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
     "title": "Adjudicator",
     "skills": [
      {
@@ -223,10 +221,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard",
-      "via": "reviewer"
      },
      {
       "name": "narrative-asserts-code",

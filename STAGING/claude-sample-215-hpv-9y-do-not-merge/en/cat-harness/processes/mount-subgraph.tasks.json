@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_MountSubgraph",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph",
  "tasks": {
   "Task_ResolveSource": {
    "id": "Task_ResolveSource",
    "name": "Resolve the subgraph's content source",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/node/Task_ResolveSource",
    "lane": "Build pipeline",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/lane/Lane_MountPipeline",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -84,7 +87,9 @@
    "id": "Task_UseCheckoutPath",
    "name": "Use the checkout path in place",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/node/Task_UseCheckoutPath",
    "lane": "Build pipeline",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/lane/Lane_MountPipeline",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -92,7 +97,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -162,7 +167,9 @@
    "id": "Task_MountBranchTip",
    "name": "Mount the branch tip at the declared path",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/node/Task_MountBranchTip",
    "lane": "Build pipeline",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/lane/Lane_MountPipeline",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -170,7 +177,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -240,7 +247,9 @@
    "id": "Task_MountRemotePin",
    "name": "Mount the remote tree at its pin",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/node/Task_MountRemotePin",
    "lane": "Build pipeline",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/lane/Lane_MountPipeline",
    "skills": [
     {
      "name": "remote-mount"
@@ -248,7 +257,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -318,7 +327,9 @@
    "id": "Task_RetrieveNpmPackage",
    "name": "Retrieve the npm package or tarball",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/node/Task_RetrieveNpmPackage",
    "lane": "Build pipeline",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/lane/Lane_MountPipeline",
    "skills": [
     {
      "name": "npm-kg-distribution"
@@ -326,7 +337,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -396,7 +407,9 @@
    "id": "Task_RefuseUnknownKind",
    "name": "Refuse: no flow for this source kind",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/node/Task_RefuseUnknownKind",
    "lane": "Build pipeline",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountSubgraph/lane/Lane_MountPipeline",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -404,7 +417,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {

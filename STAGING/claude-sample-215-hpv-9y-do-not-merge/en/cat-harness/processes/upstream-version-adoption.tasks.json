@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_UpstreamAdoption",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption",
  "tasks": {
   "A_Scope": {
    "id": "A_Scope",
    "name": "Scope the delta pinned → candidate",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_Scope",
    "lane": "Agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "upstream-version-adoption"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -22,6 +25,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -69,13 +75,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -91,6 +106,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -136,6 +154,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -165,7 +186,9 @@
    "id": "A_Impact",
    "name": "Impact analysis what of ours binds it",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_Impact",
    "lane": "Agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "upstream-version-adoption"
@@ -173,7 +196,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -181,6 +204,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -228,13 +254,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -250,6 +285,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -297,6 +335,9 @@
       "name": "sub-kg-lifecycle"
      },
      {
+      "name": "symbiotic-interaction"
+     },
+     {
       "name": "todo-manager"
      },
      {
@@ -324,7 +365,9 @@
    "id": "Task_Mvp",
    "name": "MVP: build the candidate on a staging branch",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Task_Mvp",
    "lane": "CI/CD Pipeline",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Build",
    "skills": [
     {
      "name": "feature-staging"
@@ -332,7 +375,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -402,7 +445,9 @@
    "id": "Task_Gates",
    "name": "Run the row's gates tests · e2e · site-links",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Task_Gates",
    "lane": "CI/CD Pipeline",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Build",
    "skills": [
     {
      "name": "content-test"
@@ -410,7 +455,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -480,7 +525,9 @@
    "id": "A_Evidence",
    "name": "Post the MVP evidence staging URL + gate results",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_Evidence",
    "lane": "Agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "delivery-summary"
@@ -488,7 +535,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -496,6 +543,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -543,13 +593,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -565,6 +624,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -610,6 +672,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -639,7 +704,9 @@
    "id": "R_Review",
    "name": "Review the MVP against what we bind to",
    "type": "bpmn:UserTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/R_Review",
    "lane": "Reviewer / SME",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Review",
    "skills": [
     {
      "name": "staging-review"
@@ -647,7 +714,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -661,9 +728,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard"
      },
      {
       "name": "narrative-asserts-code"
@@ -690,15 +754,18 @@
    "id": "Call_OptionsAnalysis",
    "name": "Options analysis adopt · hold · decline",
    "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Call_OptionsAnalysis",
    "lane": "Agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [],
    "calls": {
     "name": "Options analysis",
-    "href": "options-analysis.html"
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_OptionsAnalysis",
+    "diagram": "options-analysis.html"
    },
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -706,6 +773,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -753,13 +823,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -775,6 +854,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -822,6 +904,9 @@
       "name": "sub-kg-lifecycle"
      },
      {
+      "name": "symbiotic-interaction"
+     },
+     {
       "name": "todo-manager"
      },
      {
@@ -848,16 +933,23 @@
   "PM_Decide": {
    "id": "PM_Decide",
    "name": "Adopt, hold or decline",
-   "type": "bpmn:UserTask",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/PM_Decide",
    "lane": "Publication manager",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Publication",
    "skills": [
     {
      "name": "decision-audit"
     }
    ],
+   "calls": {
+    "name": "Ask the person",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "diagram": "ask-the-person.html"
+   },
    "role": {
     "name": "publication-manager",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-publication-manager",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/publication-manager",
     "title": "Publication manager",
     "skills": [
      {
@@ -894,7 +986,9 @@
    "id": "A_ApplyPin",
    "name": "Move the pin and open the PR",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_ApplyPin",
    "lane": "Agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "prepare-merge"
@@ -902,7 +996,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -910,6 +1004,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -957,13 +1054,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -979,6 +1085,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -1024,6 +1133,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -1053,7 +1165,9 @@
    "id": "A_RecordOutcome",
    "name": "Record the hold or the decline",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_RecordOutcome",
    "lane": "Agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "upstream-version-adoption"
@@ -1061,7 +1175,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1069,6 +1183,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -1116,13 +1233,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -1138,6 +1264,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -1183,6 +1312,377 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
+     },
+     {
+      "name": "todo-manager"
+     },
+     {
+      "name": "translation-manager"
+     },
+     {
+      "name": "upstream-version-adoption"
+     },
+     {
+      "name": "voice-authoring-guidance"
+     },
+     {
+      "name": "watch"
+     },
+     {
+      "name": "wireframe-design-review"
+     },
+     {
+      "name": "workflow-state"
+     }
+    ]
+   }
+  },
+  "Call_BeanOpen": {
+   "id": "Call_BeanOpen",
+   "name": "Open the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Call_BeanOpen",
+   "lane": "Agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
+   "skills": [
+    {
+     "name": "bean-coordination"
+    }
+   ],
+   "calls": {
+    "name": "Open the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanOpen",
+    "diagram": "bean-open.html"
+   },
+   "role": {
+    "name": "authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "title": "Authoring agent",
+    "skills": [
+     {
+      "name": "adopt-methodology-from-source"
+     },
+     {
+      "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
+     },
+     {
+      "name": "bean-coordination"
+     },
+     {
+      "name": "before-after-preview"
+     },
+     {
+      "name": "blocked-build-dependencies"
+     },
+     {
+      "name": "bpmn-authoring"
+     },
+     {
+      "name": "branch-archaeology"
+     },
+     {
+      "name": "ci-health"
+     },
+     {
+      "name": "confirmation-waiver"
+     },
+     {
+      "name": "content-author"
+     },
+     {
+      "name": "content-graph"
+     },
+     {
+      "name": "content-plan"
+     },
+     {
+      "name": "continual-progress"
+     },
+     {
+      "name": "coordinate"
+     },
+     {
+      "name": "crdm-detect"
+     },
+     {
+      "name": "crdm-requirements-workflow"
+     },
+     {
+      "name": "decision-audit"
+     },
+     {
+      "name": "decision-comparison"
+     },
+     {
+      "name": "deletion-requires-confirmation"
+     },
+     {
+      "name": "delivery-summary"
+     },
+     {
+      "name": "directory-conventions"
+     },
+     {
+      "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
+     },
+     {
+      "name": "gate-tree-mutation"
+     },
+     {
+      "name": "generalise-the-fix"
+     },
+     {
+      "name": "github-state-inspection"
+     },
+     {
+      "name": "graph-detanglement"
+     },
+     {
+      "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
+     },
+     {
+      "name": "kg-separation"
+     },
+     {
+      "name": "library-ingestion"
+     },
+     {
+      "name": "merge-to-main"
+     },
+     {
+      "name": "methodology-adoption"
+     },
+     {
+      "name": "opening-brief"
+     },
+     {
+      "name": "placement"
+     },
+     {
+      "name": "platform-gates"
+     },
+     {
+      "name": "pr-description"
+     },
+     {
+      "name": "prepare-merge"
+     },
+     {
+      "name": "prepare-merge-auto"
+     },
+     {
+      "name": "related-work-coordination"
+     },
+     {
+      "name": "session-context"
+     },
+     {
+      "name": "session-state-machine"
+     },
+     {
+      "name": "staging-review"
+     },
+     {
+      "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
+     },
+     {
+      "name": "todo-manager"
+     },
+     {
+      "name": "translation-manager"
+     },
+     {
+      "name": "upstream-version-adoption"
+     },
+     {
+      "name": "voice-authoring-guidance"
+     },
+     {
+      "name": "watch"
+     },
+     {
+      "name": "wireframe-design-review"
+     },
+     {
+      "name": "workflow-state"
+     }
+    ]
+   }
+  },
+  "Call_BeanClose": {
+   "id": "Call_BeanClose",
+   "name": "Close the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Call_BeanClose",
+   "lane": "Agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
+   "skills": [
+    {
+     "name": "todo-manager"
+    }
+   ],
+   "calls": {
+    "name": "Close the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "diagram": "bean-close.html"
+   },
+   "role": {
+    "name": "authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "title": "Authoring agent",
+    "skills": [
+     {
+      "name": "adopt-methodology-from-source"
+     },
+     {
+      "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
+     },
+     {
+      "name": "bean-coordination"
+     },
+     {
+      "name": "before-after-preview"
+     },
+     {
+      "name": "blocked-build-dependencies"
+     },
+     {
+      "name": "bpmn-authoring"
+     },
+     {
+      "name": "branch-archaeology"
+     },
+     {
+      "name": "ci-health"
+     },
+     {
+      "name": "confirmation-waiver"
+     },
+     {
+      "name": "content-author"
+     },
+     {
+      "name": "content-graph"
+     },
+     {
+      "name": "content-plan"
+     },
+     {
+      "name": "continual-progress"
+     },
+     {
+      "name": "coordinate"
+     },
+     {
+      "name": "crdm-detect"
+     },
+     {
+      "name": "crdm-requirements-workflow"
+     },
+     {
+      "name": "decision-audit"
+     },
+     {
+      "name": "decision-comparison"
+     },
+     {
+      "name": "deletion-requires-confirmation"
+     },
+     {
+      "name": "delivery-summary"
+     },
+     {
+      "name": "directory-conventions"
+     },
+     {
+      "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
+     },
+     {
+      "name": "gate-tree-mutation"
+     },
+     {
+      "name": "generalise-the-fix"
+     },
+     {
+      "name": "github-state-inspection"
+     },
+     {
+      "name": "graph-detanglement"
+     },
+     {
+      "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
+     },
+     {
+      "name": "kg-separation"
+     },
+     {
+      "name": "library-ingestion"
+     },
+     {
+      "name": "merge-to-main"
+     },
+     {
+      "name": "methodology-adoption"
+     },
+     {
+      "name": "opening-brief"
+     },
+     {
+      "name": "placement"
+     },
+     {
+      "name": "platform-gates"
+     },
+     {
+      "name": "pr-description"
+     },
+     {
+      "name": "prepare-merge"
+     },
+     {
+      "name": "prepare-merge-auto"
+     },
+     {
+      "name": "related-work-coordination"
+     },
+     {
+      "name": "session-context"
+     },
+     {
+      "name": "session-state-machine"
+     },
+     {
+      "name": "staging-review"
+     },
+     {
+      "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"

@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_CopyOutMaterialized",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized",
  "tasks": {
   "Task_EditDirectly": {
    "id": "Task_EditDirectly",
    "name": "Edit it in place — it is your own content",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/node/Task_EditDirectly",
    "lane": "Reader (any actor)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/lane/Lane_Reader",
    "skills": [
     {
      "name": "copy-out-materialized"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "user",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-user",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/user",
     "title": "User",
     "skills": [
      {
@@ -27,10 +30,16 @@
       "name": "dispatch-agent"
      },
      {
+      "name": "folio-init"
+     },
+     {
       "name": "getting-started"
      },
      {
       "name": "interaction-modality"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-subscription"
@@ -51,7 +60,9 @@
    "id": "Task_ReadSource",
    "name": "Read the original — and write nothing",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/node/Task_ReadSource",
    "lane": "Source graph — read-only",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/lane/Lane_Source",
    "skills": [
     {
      "name": "copy-out-materialized"
@@ -59,9 +70,12 @@
    ],
    "role": {
     "name": "corpus",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-corpus",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/corpus",
     "title": "Corpus",
     "skills": [
+     {
+      "name": "kg-affordances"
+     },
      {
       "name": "kg-subscription"
      },
@@ -75,7 +89,9 @@
    "id": "Task_Land",
    "name": "Land the bytes in the copier's own folio/",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/node/Task_Land",
    "lane": "Copier's own folio/",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/lane/Lane_Folio",
    "skills": [
     {
      "name": "copy-out-materialized"
@@ -83,7 +99,7 @@
    ],
    "role": {
     "name": "author",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-author",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/author",
     "title": "Author",
     "skills": [
      {
@@ -102,10 +118,13 @@
       "name": "evidence-appraisal"
      },
      {
-      "name": "milnor-exposition-standard"
+      "name": "kg-affordances"
      },
      {
       "name": "staging-review"
+     },
+     {
+      "name": "todo-manager"
      },
      {
       "name": "voice-authoring-guidance"
@@ -117,7 +136,9 @@
    "id": "Task_RecordProvenance",
    "name": "Record provenance.local — what this is a copy OF",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/node/Task_RecordProvenance",
    "lane": "Copier's own folio/",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/lane/Lane_Folio",
    "skills": [
     {
      "name": "copy-out-materialized"
@@ -125,7 +146,7 @@
    ],
    "role": {
     "name": "author",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-author",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/author",
     "title": "Author",
     "skills": [
      {
@@ -144,10 +165,13 @@
       "name": "evidence-appraisal"
      },
      {
-      "name": "milnor-exposition-standard"
+      "name": "kg-affordances"
      },
      {
       "name": "staging-review"
+     },
+     {
+      "name": "todo-manager"
      },
      {
       "name": "voice-authoring-guidance"
@@ -159,7 +183,9 @@
    "id": "Task_VerifySourceUntouched",
    "name": "Verify the ORIGINAL still hashes to its digest",
    "type": "bpmn:ServiceTask",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/node/Task_VerifySourceUntouched",
    "lane": "Verification",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CopyOutMaterialized/lane/Lane_Verify",
    "skills": [
     {
      "name": "copy-out-materialized"
@@ -167,7 +193,7 @@
    ],
    "role": {
     "name": "validation-pipeline",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-validation-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/validation-pipeline",
     "title": "Validation pipeline",
     "skills": [
      {
@@ -175,6 +201,9 @@
      },
      {
       "name": "content-validate"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "qa-reports"

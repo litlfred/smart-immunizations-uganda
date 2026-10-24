@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_StalledAgentTriage",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage",
  "tasks": {
   "A_Footprint": {
    "id": "A_Footprint",
    "name": "Find the footprint",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/node/A_Footprint",
    "lane": "Triage agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/lane/Lane_Triage",
    "skills": [
     {
      "name": "stalled-agent-triage"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -22,6 +25,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -69,13 +75,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -91,6 +106,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -136,6 +154,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -165,7 +186,9 @@
    "id": "A_Collect",
    "name": "Collect or reconstruct a handover report per agent",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/node/A_Collect",
    "lane": "Triage agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/lane/Lane_Triage",
    "skills": [
     {
      "name": "handover-report"
@@ -173,7 +196,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -181,6 +204,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -228,13 +254,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -250,6 +285,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -295,6 +333,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -324,7 +365,9 @@
    "id": "A_Consolidate",
    "name": "Consolidate into 2-4 themes, with a recommendation each",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/node/A_Consolidate",
    "lane": "Triage agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/lane/Lane_Triage",
    "skills": [
     {
      "name": "stalled-agent-triage"
@@ -332,7 +375,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -340,6 +383,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -387,13 +433,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -409,6 +464,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -454,6 +512,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -482,12 +543,19 @@
   "U_Decide": {
    "id": "U_Decide",
    "name": "Decide each theme",
-   "type": "bpmn:Task",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/node/U_Decide",
    "lane": "User",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/lane/Lane_User",
    "skills": [],
+   "calls": {
+    "name": "Ask the person",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "diagram": "ask-the-person.html"
+   },
    "role": {
     "name": "user",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-user",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/user",
     "title": "User",
     "skills": [
      {
@@ -500,10 +568,16 @@
       "name": "dispatch-agent"
      },
      {
+      "name": "folio-init"
+     },
+     {
       "name": "getting-started"
      },
      {
       "name": "interaction-modality"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-subscription"
@@ -524,7 +598,9 @@
    "id": "A_Record",
    "name": "Record the triage and claim the picked-up work",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/node/A_Record",
    "lane": "Triage agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/lane/Lane_Triage",
    "skills": [
     {
      "name": "bean-coordination"
@@ -532,7 +608,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -540,6 +616,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -587,13 +666,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -609,6 +697,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -654,6 +745,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -683,7 +777,9 @@
    "id": "S_Reroute",
    "name": "Re-route open PRs that lost their driver",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/node/S_Reroute",
    "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_StalledAgentTriage/lane/Lane_Steward",
    "skills": [
     {
      "name": "coordinate",
@@ -697,7 +793,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -709,6 +805,10 @@
      },
      {
       "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
       "via": "authoring-agent"
      },
      {
@@ -780,6 +880,10 @@
       "via": "authoring-agent"
      },
      {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
       "name": "deletion-requires-confirmation",
       "via": "authoring-agent"
      },
@@ -791,7 +895,15 @@
       "name": "diff"
      },
      {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
       "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
       "via": "authoring-agent"
      },
      {
@@ -818,6 +930,10 @@
      },
      {
       "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
       "via": "authoring-agent"
      },
      {
@@ -893,6 +1009,10 @@
      },
      {
       "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
       "via": "authoring-agent"
      },
      {

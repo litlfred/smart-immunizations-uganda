@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_MergeRefusal",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal",
  "tasks": {
   "Task_Record": {
    "id": "Task_Record",
    "name": "Record the refusal on the bean",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Record",
    "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -26,6 +29,10 @@
      },
      {
       "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
       "via": "authoring-agent"
      },
      {
@@ -97,6 +104,10 @@
       "via": "authoring-agent"
      },
      {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
       "name": "deletion-requires-confirmation",
       "via": "authoring-agent"
      },
@@ -108,7 +119,15 @@
       "name": "diff"
      },
      {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
       "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
       "via": "authoring-agent"
      },
      {
@@ -135,6 +154,10 @@
      },
      {
       "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
       "via": "authoring-agent"
      },
      {
@@ -210,6 +233,10 @@
      },
      {
       "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
       "via": "authoring-agent"
      },
      {
@@ -253,7 +280,9 @@
    "id": "Task_Comment",
    "name": "Comment on the PR once, linking the bean",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Comment",
    "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -261,7 +290,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -273,6 +302,10 @@
      },
      {
       "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
       "via": "authoring-agent"
      },
      {
@@ -344,6 +377,10 @@
       "via": "authoring-agent"
      },
      {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
       "name": "deletion-requires-confirmation",
       "via": "authoring-agent"
      },
@@ -355,7 +392,15 @@
       "name": "diff"
      },
      {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
       "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
       "via": "authoring-agent"
      },
      {
@@ -382,6 +427,10 @@
      },
      {
       "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
       "via": "authoring-agent"
      },
      {
@@ -457,6 +506,10 @@
      },
      {
       "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
       "via": "authoring-agent"
      },
      {
@@ -500,7 +553,9 @@
    "id": "Task_HandBack",
    "name": "Hand back, with a fail condition",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_HandBack",
    "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -508,7 +563,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -520,6 +575,10 @@
      },
      {
       "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
       "via": "authoring-agent"
      },
      {
@@ -591,6 +650,10 @@
       "via": "authoring-agent"
      },
      {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
       "name": "deletion-requires-confirmation",
       "via": "authoring-agent"
      },
@@ -602,7 +665,15 @@
       "name": "diff"
      },
      {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
       "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
       "via": "authoring-agent"
      },
      {
@@ -629,6 +700,10 @@
      },
      {
       "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
       "via": "authoring-agent"
      },
      {
@@ -704,6 +779,10 @@
      },
      {
       "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
       "via": "authoring-agent"
      },
      {
@@ -747,7 +826,9 @@
    "id": "Task_Fix",
    "name": "Fix the PR, report on the PR",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Fix",
    "lane": "Owning session",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Owner",
    "skills": [
     {
      "name": "prepare-merge"
@@ -755,7 +836,7 @@
    ],
    "role": {
     "name": "sibling-session",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-sibling-session",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/sibling-session",
     "title": "Sibling session",
     "skills": [
      {
@@ -768,7 +849,9 @@
    "id": "Task_Dispatch",
    "name": "Dispatch one agent, recorded on the bean",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Dispatch",
    "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "dispatch-agent"
@@ -776,7 +859,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -788,6 +871,10 @@
      },
      {
       "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
       "via": "authoring-agent"
      },
      {
@@ -859,6 +946,10 @@
       "via": "authoring-agent"
      },
      {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
       "name": "deletion-requires-confirmation",
       "via": "authoring-agent"
      },
@@ -870,7 +961,15 @@
       "name": "diff"
      },
      {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
       "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
       "via": "authoring-agent"
      },
      {
@@ -897,6 +996,10 @@
      },
      {
       "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
       "via": "authoring-agent"
      },
      {
@@ -972,6 +1075,10 @@
      },
      {
       "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
       "via": "authoring-agent"
      },
      {
@@ -1015,7 +1122,9 @@
    "id": "Task_AgentFix",
    "name": "Merge main in, regenerate, fix mechanical gates",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_AgentFix",
    "lane": "Dispatched agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Dispatched",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -1023,7 +1132,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1031,6 +1140,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -1078,13 +1190,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -1100,6 +1221,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -1145,6 +1269,9 @@
      },
      {
       "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
      },
      {
       "name": "todo-manager"
@@ -1174,7 +1301,9 @@
    "id": "Task_AskOwner",
    "name": "Ask the owner on the PR, both sides quoted",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_AskOwner",
    "lane": "Dispatched agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Dispatched",
    "skills": [
     {
      "name": "interaction-modality"
@@ -1182,7 +1311,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1190,6 +1319,9 @@
      },
      {
       "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
      },
      {
       "name": "bean-coordination"
@@ -1237,13 +1369,22 @@
       "name": "decision-audit"
      },
      {
+      "name": "decision-comparison"
+     },
+     {
       "name": "deletion-requires-confirmation"
      },
      {
       "name": "delivery-summary"
      },
      {
+      "name": "directory-conventions"
+     },
+     {
       "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
      },
      {
       "name": "gate-tree-mutation"
@@ -1259,6 +1400,9 @@
      },
      {
       "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
      },
      {
       "name": "kg-separation"
@@ -1306,6 +1450,9 @@
       "name": "sub-kg-lifecycle"
      },
      {
+      "name": "symbiotic-interaction"
+     },
+     {
       "name": "todo-manager"
      },
      {
@@ -1333,7 +1480,9 @@
    "id": "Task_Retrain",
    "name": "Re-enter a train on the new head",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Retrain",
    "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -1341,7 +1490,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -1353,6 +1502,10 @@
      },
      {
       "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
       "via": "authoring-agent"
      },
      {
@@ -1424,6 +1577,10 @@
       "via": "authoring-agent"
      },
      {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
       "name": "deletion-requires-confirmation",
       "via": "authoring-agent"
      },
@@ -1435,7 +1592,15 @@
       "name": "diff"
      },
      {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
       "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
       "via": "authoring-agent"
      },
      {
@@ -1462,6 +1627,10 @@
      },
      {
       "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
       "via": "authoring-agent"
      },
      {
@@ -1537,6 +1706,10 @@
      },
      {
       "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
       "via": "authoring-agent"
      },
      {
@@ -1578,9 +1751,11 @@
   },
   "Task_Close": {
    "id": "Task_Close",
-   "name": "Close the bean, merge commit as evidence",
+   "name": "Record the merge commit as evidence",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Close",
    "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "bean-coordination"
@@ -1588,7 +1763,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -1600,6 +1775,10 @@
      },
      {
       "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
       "via": "authoring-agent"
      },
      {
@@ -1671,6 +1850,10 @@
       "via": "authoring-agent"
      },
      {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
       "name": "deletion-requires-confirmation",
       "via": "authoring-agent"
      },
@@ -1682,7 +1865,15 @@
       "name": "diff"
      },
      {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
       "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
       "via": "authoring-agent"
      },
      {
@@ -1709,6 +1900,10 @@
      },
      {
       "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
       "via": "authoring-agent"
      },
      {
@@ -1784,6 +1979,10 @@
      },
      {
       "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
       "via": "authoring-agent"
      },
      {
@@ -1827,7 +2026,9 @@
    "id": "Task_Scrap",
    "name": "Scrap the bean, with the reason",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Scrap",
    "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "bean-coordination"
@@ -1835,7 +2036,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -1847,6 +2048,10 @@
      },
      {
       "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
       "via": "authoring-agent"
      },
      {
@@ -1918,6 +2123,10 @@
       "via": "authoring-agent"
      },
      {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
       "name": "deletion-requires-confirmation",
       "via": "authoring-agent"
      },
@@ -1929,7 +2138,15 @@
       "name": "diff"
      },
      {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
       "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
       "via": "authoring-agent"
      },
      {
@@ -1956,6 +2173,10 @@
      },
      {
       "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
       "via": "authoring-agent"
      },
      {
@@ -2031,6 +2252,1028 @@
      },
      {
       "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "task-authorization"
+     },
+     {
+      "name": "todo-manager",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "translation-manager",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "upstream-version-adoption",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "voice-authoring-guidance",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "watch",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "wireframe-design-review",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "work-plan-restructure"
+     },
+     {
+      "name": "workflow-state",
+      "via": "authoring-agent"
+     }
+    ]
+   }
+  },
+  "Call_BeanOpen": {
+   "id": "Call_BeanOpen",
+   "name": "Open the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Call_BeanOpen",
+   "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
+   "skills": [
+    {
+     "name": "bean-coordination"
+    }
+   ],
+   "calls": {
+    "name": "Open the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanOpen",
+    "diagram": "bean-open.html"
+   },
+   "role": {
+    "name": "session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "title": "Session coordinator",
+    "skills": [
+     {
+      "name": "adopt-methodology-from-source",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "agent-handoff"
+     },
+     {
+      "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "bean-coordination",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "before-after-preview",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "blocked-build-dependencies",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "bpmn-authoring",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "branch-archaeology",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "branch-freshness"
+     },
+     {
+      "name": "ci-health",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "communication-language"
+     },
+     {
+      "name": "confirmation-waiver",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "content-author",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "content-graph",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "content-plan",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "continual-progress",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "coordinate"
+     },
+     {
+      "name": "corpus-grep"
+     },
+     {
+      "name": "crdm-detect",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "crdm-requirements-workflow",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "decision-audit",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "deletion-requires-confirmation",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "delivery-summary",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "diff"
+     },
+     {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "gate-tree-mutation",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "generalise-the-fix",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "github-state-inspection",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "goal-review"
+     },
+     {
+      "name": "graph-detanglement",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "idle-backlog"
+     },
+     {
+      "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-separation",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "library-ingestion",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "merge-to-main",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "methodology-adoption",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "opening-brief",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "pending-show"
+     },
+     {
+      "name": "pickup"
+     },
+     {
+      "name": "placement",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "platform-gates",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "pr-description",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "prepare-for-handover"
+     },
+     {
+      "name": "prepare-merge",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "prepare-merge-auto",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "process-state"
+     },
+     {
+      "name": "related-work-coordination",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "session-context",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "session-intent"
+     },
+     {
+      "name": "session-state-machine",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "staging-review",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "task-authorization"
+     },
+     {
+      "name": "todo-manager",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "translation-manager",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "upstream-version-adoption",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "voice-authoring-guidance",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "watch",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "wireframe-design-review",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "work-plan-restructure"
+     },
+     {
+      "name": "workflow-state",
+      "via": "authoring-agent"
+     }
+    ]
+   }
+  },
+  "Call_BeanClose": {
+   "id": "Call_BeanClose",
+   "name": "Close the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Call_BeanClose",
+   "lane": "Dispatched agent",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Dispatched",
+   "skills": [
+    {
+     "name": "todo-manager"
+    }
+   ],
+   "calls": {
+    "name": "Close the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "diagram": "bean-close.html"
+   },
+   "role": {
+    "name": "authoring-agent",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "title": "Authoring agent",
+    "skills": [
+     {
+      "name": "adopt-methodology-from-source"
+     },
+     {
+      "name": "agent-permissions"
+     },
+     {
+      "name": "ask-the-person"
+     },
+     {
+      "name": "bean-coordination"
+     },
+     {
+      "name": "before-after-preview"
+     },
+     {
+      "name": "blocked-build-dependencies"
+     },
+     {
+      "name": "bpmn-authoring"
+     },
+     {
+      "name": "branch-archaeology"
+     },
+     {
+      "name": "ci-health"
+     },
+     {
+      "name": "confirmation-waiver"
+     },
+     {
+      "name": "content-author"
+     },
+     {
+      "name": "content-graph"
+     },
+     {
+      "name": "content-plan"
+     },
+     {
+      "name": "continual-progress"
+     },
+     {
+      "name": "coordinate"
+     },
+     {
+      "name": "crdm-detect"
+     },
+     {
+      "name": "crdm-requirements-workflow"
+     },
+     {
+      "name": "decision-audit"
+     },
+     {
+      "name": "decision-comparison"
+     },
+     {
+      "name": "deletion-requires-confirmation"
+     },
+     {
+      "name": "delivery-summary"
+     },
+     {
+      "name": "directory-conventions"
+     },
+     {
+      "name": "feature-staging"
+     },
+     {
+      "name": "folio-init"
+     },
+     {
+      "name": "gate-tree-mutation"
+     },
+     {
+      "name": "generalise-the-fix"
+     },
+     {
+      "name": "github-state-inspection"
+     },
+     {
+      "name": "graph-detanglement"
+     },
+     {
+      "name": "issue-working"
+     },
+     {
+      "name": "kg-affordances"
+     },
+     {
+      "name": "kg-separation"
+     },
+     {
+      "name": "library-ingestion"
+     },
+     {
+      "name": "merge-to-main"
+     },
+     {
+      "name": "methodology-adoption"
+     },
+     {
+      "name": "opening-brief"
+     },
+     {
+      "name": "placement"
+     },
+     {
+      "name": "platform-gates"
+     },
+     {
+      "name": "pr-description"
+     },
+     {
+      "name": "prepare-merge"
+     },
+     {
+      "name": "prepare-merge-auto"
+     },
+     {
+      "name": "related-work-coordination"
+     },
+     {
+      "name": "session-context"
+     },
+     {
+      "name": "session-state-machine"
+     },
+     {
+      "name": "staging-review"
+     },
+     {
+      "name": "sub-kg-lifecycle"
+     },
+     {
+      "name": "symbiotic-interaction"
+     },
+     {
+      "name": "todo-manager"
+     },
+     {
+      "name": "translation-manager"
+     },
+     {
+      "name": "upstream-version-adoption"
+     },
+     {
+      "name": "voice-authoring-guidance"
+     },
+     {
+      "name": "watch"
+     },
+     {
+      "name": "wireframe-design-review"
+     },
+     {
+      "name": "workflow-state"
+     }
+    ]
+   }
+  },
+  "Call_BeanClose_2": {
+   "id": "Call_BeanClose_2",
+   "name": "Close the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Call_BeanClose_2",
+   "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
+   "skills": [
+    {
+     "name": "todo-manager"
+    }
+   ],
+   "calls": {
+    "name": "Close the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "diagram": "bean-close.html"
+   },
+   "role": {
+    "name": "session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "title": "Session coordinator",
+    "skills": [
+     {
+      "name": "adopt-methodology-from-source",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "agent-handoff"
+     },
+     {
+      "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "bean-coordination",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "before-after-preview",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "blocked-build-dependencies",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "bpmn-authoring",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "branch-archaeology",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "branch-freshness"
+     },
+     {
+      "name": "ci-health",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "communication-language"
+     },
+     {
+      "name": "confirmation-waiver",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "content-author",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "content-graph",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "content-plan",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "continual-progress",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "coordinate"
+     },
+     {
+      "name": "corpus-grep"
+     },
+     {
+      "name": "crdm-detect",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "crdm-requirements-workflow",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "decision-audit",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "deletion-requires-confirmation",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "delivery-summary",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "diff"
+     },
+     {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "gate-tree-mutation",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "generalise-the-fix",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "github-state-inspection",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "goal-review"
+     },
+     {
+      "name": "graph-detanglement",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "idle-backlog"
+     },
+     {
+      "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-separation",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "library-ingestion",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "merge-to-main",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "methodology-adoption",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "opening-brief",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "pending-show"
+     },
+     {
+      "name": "pickup"
+     },
+     {
+      "name": "placement",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "platform-gates",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "pr-description",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "prepare-for-handover"
+     },
+     {
+      "name": "prepare-merge",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "prepare-merge-auto",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "process-state"
+     },
+     {
+      "name": "related-work-coordination",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "session-context",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "session-intent"
+     },
+     {
+      "name": "session-state-machine",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "staging-review",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "task-authorization"
+     },
+     {
+      "name": "todo-manager",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "translation-manager",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "upstream-version-adoption",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "voice-authoring-guidance",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "watch",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "wireframe-design-review",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "work-plan-restructure"
+     },
+     {
+      "name": "workflow-state",
+      "via": "authoring-agent"
+     }
+    ]
+   }
+  },
+  "Call_BeanClose_3": {
+   "id": "Call_BeanClose_3",
+   "name": "Close the bean",
+   "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Call_BeanClose_3",
+   "lane": "Merge steward",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
+   "skills": [
+    {
+     "name": "todo-manager"
+    }
+   ],
+   "calls": {
+    "name": "Close the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "diagram": "bean-close.html"
+   },
+   "role": {
+    "name": "session-coordinator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "title": "Session coordinator",
+    "skills": [
+     {
+      "name": "adopt-methodology-from-source",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "agent-handoff"
+     },
+     {
+      "name": "agent-permissions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "ask-the-person",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "bean-coordination",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "before-after-preview",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "blocked-build-dependencies",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "bpmn-authoring",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "branch-archaeology",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "branch-freshness"
+     },
+     {
+      "name": "ci-health",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "communication-language"
+     },
+     {
+      "name": "confirmation-waiver",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "content-author",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "content-graph",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "content-plan",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "continual-progress",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "coordinate"
+     },
+     {
+      "name": "corpus-grep"
+     },
+     {
+      "name": "crdm-detect",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "crdm-requirements-workflow",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "decision-audit",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "decision-comparison",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "deletion-requires-confirmation",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "delivery-summary",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "diff"
+     },
+     {
+      "name": "directory-conventions",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "feature-staging",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "folio-init",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "gate-tree-mutation",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "generalise-the-fix",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "github-state-inspection",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "goal-review"
+     },
+     {
+      "name": "graph-detanglement",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "idle-backlog"
+     },
+     {
+      "name": "issue-working",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-affordances",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "kg-separation",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "library-ingestion",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "merge-to-main",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "methodology-adoption",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "opening-brief",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "pending-show"
+     },
+     {
+      "name": "pickup"
+     },
+     {
+      "name": "placement",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "platform-gates",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "pr-description",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "prepare-for-handover"
+     },
+     {
+      "name": "prepare-merge",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "prepare-merge-auto",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "process-state"
+     },
+     {
+      "name": "related-work-coordination",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "session-context",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "session-intent"
+     },
+     {
+      "name": "session-state-machine",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "staging-review",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "sub-kg-lifecycle",
+      "via": "authoring-agent"
+     },
+     {
+      "name": "symbiotic-interaction",
       "via": "authoring-agent"
      },
      {

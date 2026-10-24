@@ -458,6 +458,13 @@
   mask-image: var(--fa-avatar-glyph);
 }
 
+.fa-avatar[data-fa-kind="merge-reviews"] {
+  /* a close reading of one change, with its verdict */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10 4a6 6 0 104.24 10.24L20 20M7.5 10l2 2 3.5-3.5' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
 .fa-avatar[data-fa-kind="issue-marks"] {
   /* a bookmark beside a list — how far an agent has read */
   --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 4h10v16l-5-4-5 4zM4 8h2M4 12h2' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -500,6 +507,13 @@
   mask-image: var(--fa-avatar-glyph);
 }
 
+.fa-avatar[data-fa-kind="software-library"] {
+  /* a package on a hook — a library pulled in by an import, at the version its lockfile pins */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 7l7 4v7l-7 4-7-4v-7l7-4zm0 0v15m-7-11l7 4 7-4M12 7V5a2 2 0 1 1 2 2' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
 .fa-avatar[data-fa-kind="openapi"] {
   /* braces around an arrow out and back — an API described as data: what you can call, and what answers */
   --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 4c-2 0-2 2-2 4s-1 3-2 4c1 1 2 2 2 4s0 4 2 4M16 4c2 0 2 2 2 4s1 3 2 4c-1 1-2 2-2 4s0 4-2 4M9 10h6l-2-2m2 6H9l2 2' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -517,6 +531,13 @@
 .fa-avatar[data-fa-kind="fhir-artifact-index"] {
   /* a card index with a schema brace — an IG's artefacts, known by canonical URL */
   --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 6h12v12H4zM4 10h12M10 6v12M19 7c-1 0-1 2-2 2 1 0 1 2 2 2' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
+.fa-avatar[data-fa-kind="ig-annex"] {
+  /* a page with a folded corner and rows — a table a page loads, held as data */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 4h10l4 4v12H5zM15 4v4h4M8 12h8M8 16h8' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   -webkit-mask-image: var(--fa-avatar-glyph);
   mask-image: var(--fa-avatar-glyph);
 }
@@ -702,15 +723,18 @@
   .fa-avatar[data-fa-kind="doc-group"] { background-color: hsl(212 46% 34%); }
   .fa-avatar[data-fa-kind="requirements"] { background-color: hsl(148 46% 34%); }
   .fa-avatar[data-fa-kind="interaction"] { background-color: hsl(224 46% 34%); }
+  .fa-avatar[data-fa-kind="merge-reviews"] { background-color: hsl(4 46% 34%); }
   .fa-avatar[data-fa-kind="issue-marks"] { background-color: hsl(28 46% 34%); }
   .fa-avatar[data-fa-kind="session-state"] { background-color: hsl(64 46% 34%); }
   .fa-avatar[data-fa-kind="memory"] { background-color: hsl(108 46% 34%); }
   .fa-avatar[data-fa-kind="waiver"] { background-color: hsl(132 46% 34%); }
   .fa-avatar[data-fa-kind="fsh-guts"] { background-color: hsl(16 46% 34%); }
   .fa-avatar[data-fa-kind="uploads"] { background-color: hsl(200 46% 34%); }
+  .fa-avatar[data-fa-kind="software-library"] { background-color: hsl(60 46% 34%); }
   .fa-avatar[data-fa-kind="openapi"] { background-color: hsl(136 46% 34%); }
   .fa-avatar[data-fa-kind="archimate"] { background-color: hsl(196 46% 34%); }
   .fa-avatar[data-fa-kind="fhir-artifact-index"] { background-color: hsl(168 46% 34%); }
+  .fa-avatar[data-fa-kind="ig-annex"] { background-color: hsl(160 46% 34%); }
   .fa-avatar[data-fa-kind="ig-artifact-jsonld"] { background-color: hsl(188 46% 34%); }
   .fa-avatar[data-fa-kind="ig-ast"] { background-color: hsl(152 46% 34%); }
   .fa-avatar[data-fa-kind="ig-metadata-index"] { background-color: hsl(190 46% 34%); }
@@ -792,15 +816,18 @@
     .fa-avatar[data-fa-kind="doc-group"] { background-color: hsl(212 46% 34%); }
     .fa-avatar[data-fa-kind="requirements"] { background-color: hsl(148 46% 34%); }
     .fa-avatar[data-fa-kind="interaction"] { background-color: hsl(224 46% 34%); }
+    .fa-avatar[data-fa-kind="merge-reviews"] { background-color: hsl(4 46% 34%); }
     .fa-avatar[data-fa-kind="issue-marks"] { background-color: hsl(28 46% 34%); }
     .fa-avatar[data-fa-kind="session-state"] { background-color: hsl(64 46% 34%); }
     .fa-avatar[data-fa-kind="memory"] { background-color: hsl(108 46% 34%); }
     .fa-avatar[data-fa-kind="waiver"] { background-color: hsl(132 46% 34%); }
     .fa-avatar[data-fa-kind="fsh-guts"] { background-color: hsl(16 46% 34%); }
     .fa-avatar[data-fa-kind="uploads"] { background-color: hsl(200 46% 34%); }
+    .fa-avatar[data-fa-kind="software-library"] { background-color: hsl(60 46% 34%); }
     .fa-avatar[data-fa-kind="openapi"] { background-color: hsl(136 46% 34%); }
     .fa-avatar[data-fa-kind="archimate"] { background-color: hsl(196 46% 34%); }
     .fa-avatar[data-fa-kind="fhir-artifact-index"] { background-color: hsl(168 46% 34%); }
+    .fa-avatar[data-fa-kind="ig-annex"] { background-color: hsl(160 46% 34%); }
     .fa-avatar[data-fa-kind="ig-artifact-jsonld"] { background-color: hsl(188 46% 34%); }
     .fa-avatar[data-fa-kind="ig-ast"] { background-color: hsl(152 46% 34%); }
     .fa-avatar[data-fa-kind="ig-metadata-index"] { background-color: hsl(190 46% 34%); }
@@ -883,15 +910,18 @@
   .fa-avatar[data-fa-kind="doc-group"] { background-color: hsl(212 42% 72%); }
   .fa-avatar[data-fa-kind="requirements"] { background-color: hsl(148 42% 72%); }
   .fa-avatar[data-fa-kind="interaction"] { background-color: hsl(224 42% 72%); }
+  .fa-avatar[data-fa-kind="merge-reviews"] { background-color: hsl(4 42% 72%); }
   .fa-avatar[data-fa-kind="issue-marks"] { background-color: hsl(28 42% 72%); }
   .fa-avatar[data-fa-kind="session-state"] { background-color: hsl(64 42% 72%); }
   .fa-avatar[data-fa-kind="memory"] { background-color: hsl(108 42% 72%); }
   .fa-avatar[data-fa-kind="waiver"] { background-color: hsl(132 42% 72%); }
   .fa-avatar[data-fa-kind="fsh-guts"] { background-color: hsl(16 42% 72%); }
   .fa-avatar[data-fa-kind="uploads"] { background-color: hsl(200 42% 72%); }
+  .fa-avatar[data-fa-kind="software-library"] { background-color: hsl(60 42% 72%); }
   .fa-avatar[data-fa-kind="openapi"] { background-color: hsl(136 42% 72%); }
   .fa-avatar[data-fa-kind="archimate"] { background-color: hsl(196 42% 72%); }
   .fa-avatar[data-fa-kind="fhir-artifact-index"] { background-color: hsl(168 42% 72%); }
+  .fa-avatar[data-fa-kind="ig-annex"] { background-color: hsl(160 42% 72%); }
   .fa-avatar[data-fa-kind="ig-artifact-jsonld"] { background-color: hsl(188 42% 72%); }
   .fa-avatar[data-fa-kind="ig-ast"] { background-color: hsl(152 42% 72%); }
   .fa-avatar[data-fa-kind="ig-metadata-index"] { background-color: hsl(190 42% 72%); }
@@ -973,15 +1003,18 @@
     .fa-avatar[data-fa-kind="doc-group"] { background-color: hsl(212 42% 72%); }
     .fa-avatar[data-fa-kind="requirements"] { background-color: hsl(148 42% 72%); }
     .fa-avatar[data-fa-kind="interaction"] { background-color: hsl(224 42% 72%); }
+    .fa-avatar[data-fa-kind="merge-reviews"] { background-color: hsl(4 42% 72%); }
     .fa-avatar[data-fa-kind="issue-marks"] { background-color: hsl(28 42% 72%); }
     .fa-avatar[data-fa-kind="session-state"] { background-color: hsl(64 42% 72%); }
     .fa-avatar[data-fa-kind="memory"] { background-color: hsl(108 42% 72%); }
     .fa-avatar[data-fa-kind="waiver"] { background-color: hsl(132 42% 72%); }
     .fa-avatar[data-fa-kind="fsh-guts"] { background-color: hsl(16 42% 72%); }
     .fa-avatar[data-fa-kind="uploads"] { background-color: hsl(200 42% 72%); }
+    .fa-avatar[data-fa-kind="software-library"] { background-color: hsl(60 42% 72%); }
     .fa-avatar[data-fa-kind="openapi"] { background-color: hsl(136 42% 72%); }
     .fa-avatar[data-fa-kind="archimate"] { background-color: hsl(196 42% 72%); }
     .fa-avatar[data-fa-kind="fhir-artifact-index"] { background-color: hsl(168 42% 72%); }
+    .fa-avatar[data-fa-kind="ig-annex"] { background-color: hsl(160 42% 72%); }
     .fa-avatar[data-fa-kind="ig-artifact-jsonld"] { background-color: hsl(188 42% 72%); }
     .fa-avatar[data-fa-kind="ig-ast"] { background-color: hsl(152 42% 72%); }
     .fa-avatar[data-fa-kind="ig-metadata-index"] { background-color: hsl(190 42% 72%); }
@@ -1066,15 +1099,18 @@
   .fa-avatar[data-fa-kind="doc-group"][data-fa-trash="true"] { background-color: hsl(212 16% 52%); }
   .fa-avatar[data-fa-kind="requirements"][data-fa-trash="true"] { background-color: hsl(148 16% 52%); }
   .fa-avatar[data-fa-kind="interaction"][data-fa-trash="true"] { background-color: hsl(224 16% 52%); }
+  .fa-avatar[data-fa-kind="merge-reviews"][data-fa-trash="true"] { background-color: hsl(4 16% 52%); }
   .fa-avatar[data-fa-kind="issue-marks"][data-fa-trash="true"] { background-color: hsl(28 16% 52%); }
   .fa-avatar[data-fa-kind="session-state"][data-fa-trash="true"] { background-color: hsl(64 16% 52%); }
   .fa-avatar[data-fa-kind="memory"][data-fa-trash="true"] { background-color: hsl(108 16% 52%); }
   .fa-avatar[data-fa-kind="waiver"][data-fa-trash="true"] { background-color: hsl(132 16% 52%); }
   .fa-avatar[data-fa-kind="fsh-guts"][data-fa-trash="true"] { background-color: hsl(16 16% 52%); }
   .fa-avatar[data-fa-kind="uploads"][data-fa-trash="true"] { background-color: hsl(200 16% 52%); }
+  .fa-avatar[data-fa-kind="software-library"][data-fa-trash="true"] { background-color: hsl(60 16% 52%); }
   .fa-avatar[data-fa-kind="openapi"][data-fa-trash="true"] { background-color: hsl(136 16% 52%); }
   .fa-avatar[data-fa-kind="archimate"][data-fa-trash="true"] { background-color: hsl(196 16% 52%); }
   .fa-avatar[data-fa-kind="fhir-artifact-index"][data-fa-trash="true"] { background-color: hsl(168 16% 52%); }
+  .fa-avatar[data-fa-kind="ig-annex"][data-fa-trash="true"] { background-color: hsl(160 16% 52%); }
   .fa-avatar[data-fa-kind="ig-artifact-jsonld"][data-fa-trash="true"] { background-color: hsl(188 16% 52%); }
   .fa-avatar[data-fa-kind="ig-ast"][data-fa-trash="true"] { background-color: hsl(152 16% 52%); }
   .fa-avatar[data-fa-kind="ig-metadata-index"][data-fa-trash="true"] { background-color: hsl(190 16% 52%); }
@@ -1155,15 +1191,18 @@
     .fa-avatar[data-fa-kind="doc-group"][data-fa-trash="true"] { background-color: hsl(212 16% 52%); }
     .fa-avatar[data-fa-kind="requirements"][data-fa-trash="true"] { background-color: hsl(148 16% 52%); }
     .fa-avatar[data-fa-kind="interaction"][data-fa-trash="true"] { background-color: hsl(224 16% 52%); }
+    .fa-avatar[data-fa-kind="merge-reviews"][data-fa-trash="true"] { background-color: hsl(4 16% 52%); }
     .fa-avatar[data-fa-kind="issue-marks"][data-fa-trash="true"] { background-color: hsl(28 16% 52%); }
     .fa-avatar[data-fa-kind="session-state"][data-fa-trash="true"] { background-color: hsl(64 16% 52%); }
     .fa-avatar[data-fa-kind="memory"][data-fa-trash="true"] { background-color: hsl(108 16% 52%); }
     .fa-avatar[data-fa-kind="waiver"][data-fa-trash="true"] { background-color: hsl(132 16% 52%); }
     .fa-avatar[data-fa-kind="fsh-guts"][data-fa-trash="true"] { background-color: hsl(16 16% 52%); }
     .fa-avatar[data-fa-kind="uploads"][data-fa-trash="true"] { background-color: hsl(200 16% 52%); }
+    .fa-avatar[data-fa-kind="software-library"][data-fa-trash="true"] { background-color: hsl(60 16% 52%); }
     .fa-avatar[data-fa-kind="openapi"][data-fa-trash="true"] { background-color: hsl(136 16% 52%); }
     .fa-avatar[data-fa-kind="archimate"][data-fa-trash="true"] { background-color: hsl(196 16% 52%); }
     .fa-avatar[data-fa-kind="fhir-artifact-index"][data-fa-trash="true"] { background-color: hsl(168 16% 52%); }
+    .fa-avatar[data-fa-kind="ig-annex"][data-fa-trash="true"] { background-color: hsl(160 16% 52%); }
     .fa-avatar[data-fa-kind="ig-artifact-jsonld"][data-fa-trash="true"] { background-color: hsl(188 16% 52%); }
     .fa-avatar[data-fa-kind="ig-ast"][data-fa-trash="true"] { background-color: hsl(152 16% 52%); }
     .fa-avatar[data-fa-kind="ig-metadata-index"][data-fa-trash="true"] { background-color: hsl(190 16% 52%); }
@@ -1244,15 +1283,18 @@
   .fa-avatar[data-fa-kind="doc-group"][data-fa-trash="true"] { background-color: hsl(212 14% 56%); }
   .fa-avatar[data-fa-kind="requirements"][data-fa-trash="true"] { background-color: hsl(148 14% 56%); }
   .fa-avatar[data-fa-kind="interaction"][data-fa-trash="true"] { background-color: hsl(224 14% 56%); }
+  .fa-avatar[data-fa-kind="merge-reviews"][data-fa-trash="true"] { background-color: hsl(4 14% 56%); }
   .fa-avatar[data-fa-kind="issue-marks"][data-fa-trash="true"] { background-color: hsl(28 14% 56%); }
   .fa-avatar[data-fa-kind="session-state"][data-fa-trash="true"] { background-color: hsl(64 14% 56%); }
   .fa-avatar[data-fa-kind="memory"][data-fa-trash="true"] { background-color: hsl(108 14% 56%); }
   .fa-avatar[data-fa-kind="waiver"][data-fa-trash="true"] { background-color: hsl(132 14% 56%); }
   .fa-avatar[data-fa-kind="fsh-guts"][data-fa-trash="true"] { background-color: hsl(16 14% 56%); }
   .fa-avatar[data-fa-kind="uploads"][data-fa-trash="true"] { background-color: hsl(200 14% 56%); }
+  .fa-avatar[data-fa-kind="software-library"][data-fa-trash="true"] { background-color: hsl(60 14% 56%); }
   .fa-avatar[data-fa-kind="openapi"][data-fa-trash="true"] { background-color: hsl(136 14% 56%); }
   .fa-avatar[data-fa-kind="archimate"][data-fa-trash="true"] { background-color: hsl(196 14% 56%); }
   .fa-avatar[data-fa-kind="fhir-artifact-index"][data-fa-trash="true"] { background-color: hsl(168 14% 56%); }
+  .fa-avatar[data-fa-kind="ig-annex"][data-fa-trash="true"] { background-color: hsl(160 14% 56%); }
   .fa-avatar[data-fa-kind="ig-artifact-jsonld"][data-fa-trash="true"] { background-color: hsl(188 14% 56%); }
   .fa-avatar[data-fa-kind="ig-ast"][data-fa-trash="true"] { background-color: hsl(152 14% 56%); }
   .fa-avatar[data-fa-kind="ig-metadata-index"][data-fa-trash="true"] { background-color: hsl(190 14% 56%); }
@@ -1333,15 +1375,18 @@
     .fa-avatar[data-fa-kind="doc-group"][data-fa-trash="true"] { background-color: hsl(212 14% 56%); }
     .fa-avatar[data-fa-kind="requirements"][data-fa-trash="true"] { background-color: hsl(148 14% 56%); }
     .fa-avatar[data-fa-kind="interaction"][data-fa-trash="true"] { background-color: hsl(224 14% 56%); }
+    .fa-avatar[data-fa-kind="merge-reviews"][data-fa-trash="true"] { background-color: hsl(4 14% 56%); }
     .fa-avatar[data-fa-kind="issue-marks"][data-fa-trash="true"] { background-color: hsl(28 14% 56%); }
     .fa-avatar[data-fa-kind="session-state"][data-fa-trash="true"] { background-color: hsl(64 14% 56%); }
     .fa-avatar[data-fa-kind="memory"][data-fa-trash="true"] { background-color: hsl(108 14% 56%); }
     .fa-avatar[data-fa-kind="waiver"][data-fa-trash="true"] { background-color: hsl(132 14% 56%); }
     .fa-avatar[data-fa-kind="fsh-guts"][data-fa-trash="true"] { background-color: hsl(16 14% 56%); }
     .fa-avatar[data-fa-kind="uploads"][data-fa-trash="true"] { background-color: hsl(200 14% 56%); }
+    .fa-avatar[data-fa-kind="software-library"][data-fa-trash="true"] { background-color: hsl(60 14% 56%); }
     .fa-avatar[data-fa-kind="openapi"][data-fa-trash="true"] { background-color: hsl(136 14% 56%); }
     .fa-avatar[data-fa-kind="archimate"][data-fa-trash="true"] { background-color: hsl(196 14% 56%); }
     .fa-avatar[data-fa-kind="fhir-artifact-index"][data-fa-trash="true"] { background-color: hsl(168 14% 56%); }
+    .fa-avatar[data-fa-kind="ig-annex"][data-fa-trash="true"] { background-color: hsl(160 14% 56%); }
     .fa-avatar[data-fa-kind="ig-artifact-jsonld"][data-fa-trash="true"] { background-color: hsl(188 14% 56%); }
     .fa-avatar[data-fa-kind="ig-ast"][data-fa-trash="true"] { background-color: hsl(152 14% 56%); }
     .fa-avatar[data-fa-kind="ig-metadata-index"][data-fa-trash="true"] { background-color: hsl(190 14% 56%); }

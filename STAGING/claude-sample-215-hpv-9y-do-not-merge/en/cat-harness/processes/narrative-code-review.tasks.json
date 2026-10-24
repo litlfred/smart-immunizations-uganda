@@ -1,12 +1,15 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_NarrativeCodeReview",
+ "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview",
  "tasks": {
   "A_ReadPairFindings": {
    "id": "A_ReadPairFindings",
    "name": "Read the pair checks' findings",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/node/A_ReadPairFindings",
    "lane": "Reviewer",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/lane/Lane_PairReviewer",
    "skills": [
     {
      "name": "narrative-asserts-code"
@@ -14,7 +17,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -28,9 +31,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard"
      },
      {
       "name": "narrative-asserts-code"
@@ -57,7 +57,9 @@
    "id": "A_ReRead",
    "name": "Re-read the prose against the code",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/node/A_ReRead",
    "lane": "Reviewer",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/lane/Lane_PairReviewer",
    "skills": [
     {
      "name": "narrative-asserts-code"
@@ -65,7 +67,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -79,9 +81,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard"
      },
      {
       "name": "narrative-asserts-code"
@@ -108,7 +107,9 @@
    "id": "A_Attest",
    "name": "Attest the pair, with a reason",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/node/A_Attest",
    "lane": "Reviewer",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/lane/Lane_PairReviewer",
    "skills": [
     {
      "name": "narrative-asserts-code"
@@ -116,7 +117,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -130,9 +131,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard"
      },
      {
       "name": "narrative-asserts-code"
@@ -159,7 +157,9 @@
    "id": "A_RaiseFinding",
    "name": "Raise a finding against the wrong side",
    "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/node/A_RaiseFinding",
    "lane": "Reviewer",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/lane/Lane_PairReviewer",
    "skills": [
     {
      "name": "content-feedback"
@@ -167,7 +167,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -181,9 +181,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard"
      },
      {
       "name": "narrative-asserts-code"
@@ -210,15 +207,18 @@
    "id": "Call_Adjudication",
    "name": "Adjudicate against the checker",
    "type": "bpmn:CallActivity",
+   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/node/Call_Adjudication",
    "lane": "Reviewer",
+   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_NarrativeCodeReview/lane/Lane_PairReviewer",
    "skills": [],
    "calls": {
     "name": "Criterion adjudication",
-    "href": "criterion-adjudication.html"
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication",
+    "diagram": "criterion-adjudication.html"
    },
    "role": {
     "name": "reviewer",
-    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -232,9 +232,6 @@
      },
      {
       "name": "decision-audit"
-     },
-     {
-      "name": "milnor-exposition-standard"
      },
      {
       "name": "narrative-asserts-code"
