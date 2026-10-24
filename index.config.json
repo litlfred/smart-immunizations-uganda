@@ -134,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "6c111184254882a775095ded588f909aaeaf68d4",
+          "ref": "d6f471d02430c86d9e54714b4f55984f6a302cd8",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -147,8 +147,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "6c111184254882a775095ded588f909aaeaf68d4",
-              "evidence": "Owner litlfred, 2026-10-24 12:38Z: 'fix red gates'; merge-and-repin window to about 16:48 UTC. cat-harness, cat-harness-tools and smart-base move to main after the red-gate fixes (cat-harness#577-#582, cat-harness-tools#748/#749, smart-base#160)"
+              "ref": "d6f471d02430c86d9e54714b4f55984f6a302cd8",
+              "evidence": "cat-harness-tools#758 merged green; owner card 2026-10-24 14:34Z 'A Merge over it, file the bug' (Uganda #15)"
             }
           }
         }
