@@ -56,7 +56,7 @@ candidates:
           - {id: IMMZ.D18.S.Malaria schedule, planDefinition: IMMZD18SMalaria, decision: adapt, change: "Dose 1 due \"Date of birth\" + 6 months; dose 4 due \"Date of birth\" + 18 months", evidence: [S10, P05, P06, P07, P09]}
           - {id: IMMZ.D18.S.HPV.Single-dose schedule, planDefinition: IMMZD18SHPVSingleDose, decision: adapt, change: "Girls only; due \"Date of birth\" + 10 years", evidence: [P10, S13]}
           - {id: UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule, planDefinition: IMMZD18SDTPTdWCBA, decision: extend, reason: "No WHO table schedules Td from first contact for women aged 15-49; added in the DTP tab beside the pregnancy tables, in their layout", evidence: [P11, P12, P13, P14, P15, S14], adjudication: pending}
-          - {id: vitamin A, deworming, decision: reject, reason: "Not vaccines and outside the IMMZ DAK; the L1 warnings S11, S12 stand (review item 6)", evidence: [S11, S12, P05, P09]}
+          - {id: "vitamin A, deworming", decision: reject, reason: "Not vaccines and outside the IMMZ DAK; the L1 warnings S11, S12 stand (review item 6)", evidence: [S11, S12, P05, P09]}
       indicators: {decision: extend, reason: "Reuse the WHO indicators; add the Uganda target-population shares (IND-UG-TARGET-POP) as denominators."}
       requirements: {decision: extend, reason: "Add the UNEPI functional and non-functional requirements (deck slides 17-19) as Requirements resources.", toolchain: "the DAK requirements template under input/system-requirements/, converted by smart-base extract-dak (req_extractor)"}
       testScenarios:
