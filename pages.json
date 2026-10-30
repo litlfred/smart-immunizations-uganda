@@ -1,0 +1,1334 @@
+{
+  "$schema" : "ig-ast-pages/v1",
+  "authority" : "cache",
+  "fragments" : {
+    "ImplementationGuide-smart.immunizations.uganda-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-history.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-status.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "ImplementationGuide-smart.immunizations.uganda-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMalariaLogic-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"]
+    },
+    "administration.md" : {
+      "source" : "input/pagecontent/administration.md",
+      "resources" : []
+    },
+    "artifacts.xml" : {
+      "source" : "temp/pages/_includes/artifacts.xml",
+      "resources" : []
+    },
+    "catch-up.md" : {
+      "source" : "input/pagecontent/catch-up.md",
+      "resources" : []
+    },
+    "decision-logic.md" : {
+      "source" : "input/pagecontent/decision-logic.md",
+      "resources" : []
+    },
+    "differences.md" : {
+      "source" : "input/pagecontent/differences.md",
+      "resources" : []
+    },
+    "fsh-link-references.md" : {
+      "source" : "fsh-generated/includes/fsh-link-references.md",
+      "resources" : []
+    },
+    "index.md" : {
+      "source" : "input/pagecontent/index.md",
+      "resources" : []
+    },
+    "menu.xml" : {
+      "source" : "fsh-generated/includes/menu.xml",
+      "resources" : []
+    },
+    "open-questions.md" : {
+      "source" : "input/pagecontent/open-questions.md",
+      "resources" : []
+    },
+    "requirements.md" : {
+      "source" : "input/pagecontent/requirements.md",
+      "resources" : []
+    },
+    "schedule.md" : {
+      "source" : "input/pagecontent/schedule.md",
+      "resources" : []
+    },
+    "service-delivery.md" : {
+      "source" : "input/pagecontent/service-delivery.md",
+      "resources" : []
+    },
+    "testing.md" : {
+      "source" : "input/pagecontent/testing.md",
+      "resources" : []
+    }
+  },
+  "pages" : {
+    "Library-IMMZD18SDTPOnTimeStartLogic-testing.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPOnTimeStartLogic-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPOnTimeStartLogic-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPOnTimeStartLogic-history.xhtml",
+      "Library-IMMZD18SDTPOnTimeStartLogic-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic.json.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPOnTimeStartLogic-json-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPOnTimeStartLogic-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SDTPOnTimeStartLogic.xml.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPOnTimeStartLogic-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic-testing.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPTdWCBALogic-history.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPTdWCBALogic-history.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPTdWCBALogic-history.xhtml",
+      "Library-IMMZD18SDTPTdWCBALogic-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic.json.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPTdWCBALogic-json-html.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPTdWCBALogic-ttl-html.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SDTPTdWCBALogic.xml.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SDTPTdWCBALogic-xml-html.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic-testing.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHPVSingleDoseLogic-history.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHPVSingleDoseLogic-history.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHPVSingleDoseLogic-history.xhtml",
+      "Library-IMMZD18SHPVSingleDoseLogic-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic.json.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHPVSingleDoseLogic-json-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHPVSingleDoseLogic-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SHPVSingleDoseLogic.xml.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHPVSingleDoseLogic-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic-testing.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHepatitisBBirthDoseLogic-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHepatitisBBirthDoseLogic-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHepatitisBBirthDoseLogic-history.xhtml",
+      "Library-IMMZD18SHepatitisBBirthDoseLogic-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic.json.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHepatitisBBirthDoseLogic-json-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHepatitisBBirthDoseLogic-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SHepatitisBBirthDoseLogic.xml.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SHepatitisBBirthDoseLogic-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SMalariaLogic-testing.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMalariaLogic-history.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SMalariaLogic.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMalariaLogic-history.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SMalariaLogic.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMalariaLogic-history.xhtml",
+      "Library-IMMZD18SMalariaLogic-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SMalariaLogic.json.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMalariaLogic-json-html.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SMalariaLogic.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMalariaLogic-ttl-html.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SMalariaLogic.xml.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMalariaLogic-xml-html.xhtml", "menu.xml"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic-testing.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMeaslesOngoingTransmissionLogic-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMeaslesOngoingTransmissionLogic-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMeaslesOngoingTransmissionLogic-history.xhtml",
+      "Library-IMMZD18SMeaslesOngoingTransmissionLogic-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic.json.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMeaslesOngoingTransmissionLogic-json-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMeaslesOngoingTransmissionLogic-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SMeaslesOngoingTransmissionLogic.xml.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SMeaslesOngoingTransmissionLogic-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic-testing.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SPolioBOPVPlusIPVLogic-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SPolioBOPVPlusIPVLogic-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SPolioBOPVPlusIPVLogic-history.xhtml",
+      "Library-IMMZD18SPolioBOPVPlusIPVLogic-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic.json.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SPolioBOPVPlusIPVLogic-json-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SPolioBOPVPlusIPVLogic-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-IMMZD18SPolioBOPVPlusIPVLogic.xml.html" : {
+      "source" : "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0"],
+      "fragments" : ["Library-IMMZD18SPolioBOPVPlusIPVLogic-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPOnTimeStart-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPOnTimeStart-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPOnTimeStart-history.xhtml",
+      "PlanDefinition-IMMZD18SDTPOnTimeStart-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPOnTimeStart-json-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPOnTimeStart-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPOnTimeStart.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPOnTimeStart-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPTdWCBA-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPTdWCBA-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPTdWCBA-history.xhtml",
+      "PlanDefinition-IMMZD18SDTPTdWCBA-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPTdWCBA-json-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPTdWCBA-ttl-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SDTPTdWCBA.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SDTPTdWCBA-xml-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHPVSingleDose-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHPVSingleDose-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHPVSingleDose-history.xhtml",
+      "PlanDefinition-IMMZD18SHPVSingleDose-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHPVSingleDose-json-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHPVSingleDose-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHPVSingleDose.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHPVSingleDose-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHepatitisBBirthDose-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHepatitisBBirthDose-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHepatitisBBirthDose-history.xhtml",
+      "PlanDefinition-IMMZD18SHepatitisBBirthDose-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHepatitisBBirthDose-json-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHepatitisBBirthDose-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SHepatitisBBirthDose.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SHepatitisBBirthDose-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMalaria-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMalaria-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMalaria.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMalaria-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMalaria.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMalaria-history.xhtml",
+      "PlanDefinition-IMMZD18SMalaria-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMalaria.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMalaria-json-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMalaria.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMalaria-ttl-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMalaria.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMalaria-xml-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMeaslesOngoingTransmission-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMeaslesOngoingTransmission-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMeaslesOngoingTransmission-history.xhtml",
+      "PlanDefinition-IMMZD18SMeaslesOngoingTransmission-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMeaslesOngoingTransmission-json-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMeaslesOngoingTransmission-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SMeaslesOngoingTransmission.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SMeaslesOngoingTransmission-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SPolioBOPVPlusIPV-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SPolioBOPVPlusIPV-history.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SPolioBOPVPlusIPV-history.xhtml",
+      "PlanDefinition-IMMZD18SPolioBOPVPlusIPV-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SPolioBOPVPlusIPV-json-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SPolioBOPVPlusIPV-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-IMMZD18SPolioBOPVPlusIPV.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+      "resources" : ["https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0"],
+      "fragments" : ["PlanDefinition-IMMZD18SPolioBOPVPlusIPV-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "administration.html" : {
+      "source" : "input/pagecontent/administration.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "artifacts.html" : {
+      "source" : "temp/pages/_includes/artifacts.xml",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "catch-up.html" : {
+      "source" : "input/pagecontent/catch-up.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "decision-logic.html" : {
+      "source" : "input/pagecontent/decision-logic.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "differences.html" : {
+      "source" : "input/pagecontent/differences.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "index.html" : {
+      "source" : "input/pagecontent/index.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "open-questions.html" : {
+      "source" : "input/pagecontent/open-questions.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "requirements.html" : {
+      "source" : "input/pagecontent/requirements.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "schedule.html" : {
+      "source" : "input/pagecontent/schedule.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "searchform.html" : {
+      "fragments" : []
+    },
+    "service-delivery.html" : {
+      "source" : "input/pagecontent/service-delivery.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "testing.html" : {
+      "source" : "input/pagecontent/testing.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "toc.html" : {
+      "fragments" : ["menu.xml"]
+    }
+  },
+  "unresolvedIncludes" : 7
+}

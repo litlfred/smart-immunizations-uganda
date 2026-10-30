@@ -1,0 +1,399 @@
+{
+  "$schema": "ig-ast/v1",
+  "authority": "cache",
+  "provisional": [
+    "indices",
+    "dependencies",
+    "versions"
+  ],
+  "provisionalUntil": "a full IG Publisher run",
+  "generatedAt": "2026-10-30T11:17:48.813225602Z",
+  "ig": {
+    "root": ".",
+    "version": "4.0.1"
+  },
+  "inputDigestMode": {
+    "mode": "git"
+  },
+  "inputs": {
+    "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+    "sourceRevision": "6218808c4739b9d9e485e9919e8137e147788fa3",
+    "inputDigest": "72362b097ae8e6a93670770637544bfa25c3eb66c52a76a84085102f6c50812c"
+  },
+  "packages": [
+    {
+      "id": "fhir.cqf.common",
+      "version": "4.0.1",
+      "canonical": "http://fhir.org/guides/cqf/common",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.cpg#1.0.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.r4.core",
+      "version": "4.0.1",
+      "canonical": "http://hl7.org/fhir",
+      "fhirVersion": "4.0.1",
+      "dependencies": []
+    },
+    {
+      "id": "hl7.fhir.us.cqfmeasures",
+      "version": "5.0.0",
+      "canonical": "http://hl7.org/fhir/us/cqfmeasures",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.cql#1.0.0",
+        "hl7.fhir.uv.crmi#1.0.0",
+        "hl7.fhir.uv.extensions.r4#5.1.0",
+        "hl7.terminology.r4#6.0.2"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.cpg",
+      "version": "1.0.0",
+      "canonical": "http://hl7.org/fhir/uv/cpg",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.cpg",
+      "version": "2.0.0",
+      "canonical": "http://hl7.org/fhir/uv/cpg",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.1.0",
+        "hl7.terminology.r4#6.1.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.cql",
+      "version": "1.0.0",
+      "canonical": "http://hl7.org/fhir/uv/cql",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.1.0",
+        "hl7.terminology#5.5.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.crmi",
+      "version": "1.0.0",
+      "canonical": "http://hl7.org/fhir/uv/crmi",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.1.0",
+        "hl7.terminology#5.5.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r4",
+      "version": "1.0.0",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r4",
+      "version": "5.1.0",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r4",
+      "version": "5.4.0",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.terminology.r4#7.5.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r5",
+      "version": "5.2.0",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "5.0.0",
+      "dependencies": [
+        "hl7.fhir.r5.core#5.0.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.sdc",
+      "version": "3.0.0",
+      "canonical": "http://hl7.org/fhir/uv/sdc",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.r4.examples#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.tools.r4",
+      "version": "1.3.0",
+      "canonical": "http://hl7.org/fhir/tools",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.3.0",
+        "hl7.terminology.r4#7.4.0"
+      ]
+    },
+    {
+      "id": "hl7.terminology",
+      "version": "5.5.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#1.0.0"
+      ]
+    },
+    {
+      "id": "hl7.terminology.r4",
+      "version": "6.0.2",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.terminology.r4",
+      "version": "6.1.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.terminology.r4",
+      "version": "7.4.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.terminology.r4",
+      "version": "7.5.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "smart.who.int.base",
+      "version": "0.2.0",
+      "canonical": "http://smart.who.int/base",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.cql#1.0.0",
+        "hl7.fhir.uv.crmi#1.0.0",
+        "hl7.fhir.uv.extensions.r4#5.1.0",
+        "hl7.fhir.uv.extensions.r5#5.2.0",
+        "hl7.fhir.uv.sdc#3.0.0",
+        "hl7.terminology#5.5.0"
+      ]
+    },
+    {
+      "id": "smart.who.int.immunizations",
+      "version": "0.2.0",
+      "canonical": "http://smart.who.int/immunizations",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "fhir.cqf.common#4.0.1",
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.us.cqfmeasures#5.0.0",
+        "hl7.fhir.uv.cpg#2.0.0",
+        "hl7.fhir.uv.cql#1.0.0",
+        "hl7.fhir.uv.crmi#1.0.0",
+        "hl7.fhir.uv.extensions.r4#5.1.0",
+        "hl7.fhir.uv.sdc#3.0.0",
+        "hl7.terminology.r4#7.4.0",
+        "smart.who.int.base#0.2.0"
+      ]
+    }
+  ],
+  "terminology": {
+    "server": {
+      "address": "https://tx.fhir.org/r4",
+      "version": "0.18.2"
+    },
+    "expansions": []
+  },
+  "toolchain": {
+    "publisher": "3.0.0",
+    "core": "7.0.1",
+    "sushi": "SUSHI v3.21.0 (implements FHIR Shorthand specification v3.0.0)",
+    "java": "17.0.21"
+  },
+  "resources": [
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda",
+      "version": "0.1.0",
+      "resourceType": "ImplementationGuide",
+      "id": "smart.immunizations.uganda",
+      "name": "SMARTImmunizationsUganda",
+      "file": "resources/ImplementationGuide/smart.immunizations.uganda--a2203c4a.json",
+      "source": "fsh-generated/resources/ImplementationGuide-smart.immunizations.uganda.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "IMMZD18SDTPOnTimeStartLogic",
+      "name": "IMMZD18SDTPOnTimeStartLogic",
+      "file": "resources/Library/IMMZD18SDTPOnTimeStartLogic--86c9bdcb.json",
+      "source": "fsh-generated/resources/Library-IMMZD18SDTPOnTimeStartLogic.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "IMMZD18SDTPTdWCBALogic",
+      "name": "IMMZD18SDTPTdWCBALogic",
+      "file": "resources/Library/IMMZD18SDTPTdWCBALogic--51a5eae9.json",
+      "source": "fsh-generated/resources/Library-IMMZD18SDTPTdWCBALogic.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "IMMZD18SHPVSingleDoseLogic",
+      "name": "IMMZD18SHPVSingleDoseLogic",
+      "file": "resources/Library/IMMZD18SHPVSingleDoseLogic--16a6c63b.json",
+      "source": "fsh-generated/resources/Library-IMMZD18SHPVSingleDoseLogic.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "IMMZD18SHepatitisBBirthDoseLogic",
+      "name": "IMMZD18SHepatitisBBirthDoseLogic",
+      "file": "resources/Library/IMMZD18SHepatitisBBirthDoseLogic--f827d410.json",
+      "source": "fsh-generated/resources/Library-IMMZD18SHepatitisBBirthDoseLogic.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "IMMZD18SMalariaLogic",
+      "name": "IMMZD18SMalariaLogic",
+      "file": "resources/Library/IMMZD18SMalariaLogic--d8179fab.json",
+      "source": "fsh-generated/resources/Library-IMMZD18SMalariaLogic.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "IMMZD18SMeaslesOngoingTransmissionLogic",
+      "name": "IMMZD18SMeaslesOngoingTransmissionLogic",
+      "file": "resources/Library/IMMZD18SMeaslesOngoingTransmissionLogic--94585bb1.json",
+      "source": "fsh-generated/resources/Library-IMMZD18SMeaslesOngoingTransmissionLogic.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "IMMZD18SPolioBOPVPlusIPVLogic",
+      "name": "IMMZD18SPolioBOPVPlusIPVLogic",
+      "file": "resources/Library/IMMZD18SPolioBOPVPlusIPVLogic--bd023497.json",
+      "source": "fsh-generated/resources/Library-IMMZD18SPolioBOPVPlusIPVLogic.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart",
+      "version": "0.1.0",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SDTPOnTimeStart",
+      "name": "IMMZD18SDTPOnTimeStart",
+      "file": "resources/PlanDefinition/IMMZD18SDTPOnTimeStart--315b008e.json",
+      "source": "fsh-generated/resources/PlanDefinition-IMMZD18SDTPOnTimeStart.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA",
+      "version": "0.1.0",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SDTPTdWCBA",
+      "name": "IMMZD18SDTPTdWCBA",
+      "file": "resources/PlanDefinition/IMMZD18SDTPTdWCBA--aea11a5e.json",
+      "source": "fsh-generated/resources/PlanDefinition-IMMZD18SDTPTdWCBA.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose",
+      "version": "0.1.0",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SHPVSingleDose",
+      "name": "IMMZD18SHPVSingleDose",
+      "file": "resources/PlanDefinition/IMMZD18SHPVSingleDose--f0d45e11.json",
+      "source": "fsh-generated/resources/PlanDefinition-IMMZD18SHPVSingleDose.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose",
+      "version": "0.1.0",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SHepatitisBBirthDose",
+      "name": "IMMZD18SHepatitisBBirthDose",
+      "file": "resources/PlanDefinition/IMMZD18SHepatitisBBirthDose--da519f6d.json",
+      "source": "fsh-generated/resources/PlanDefinition-IMMZD18SHepatitisBBirthDose.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria",
+      "version": "0.1.0",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SMalaria",
+      "name": "IMMZD18SMalaria",
+      "file": "resources/PlanDefinition/IMMZD18SMalaria--3afa37e6.json",
+      "source": "fsh-generated/resources/PlanDefinition-IMMZD18SMalaria.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission",
+      "version": "0.1.0",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SMeaslesOngoingTransmission",
+      "name": "IMMZD18SMeaslesOngoingTransmission",
+      "file": "resources/PlanDefinition/IMMZD18SMeaslesOngoingTransmission--02963087.json",
+      "source": "fsh-generated/resources/PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json"
+    },
+    {
+      "key": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV|0.1.0",
+      "canonical": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV",
+      "version": "0.1.0",
+      "resourceType": "PlanDefinition",
+      "id": "IMMZD18SPolioBOPVPlusIPV",
+      "name": "IMMZD18SPolioBOPVPlusIPV",
+      "file": "resources/PlanDefinition/IMMZD18SPolioBOPVPlusIPV--16a47db4.json",
+      "source": "fsh-generated/resources/PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json"
+    }
+  ]
+}
