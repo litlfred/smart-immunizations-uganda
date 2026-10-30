@@ -7,11 +7,11 @@
   "source": {
     "repo": "litlfred/smart-immunizations-uganda",
     "ref": "claude/sample-215-hpv-9y-do-not-merge",
-    "commit": "b9036591091d549566b886fd3f162b05a6c514f5"
+    "commit": "aac7600579f49033b149e791e7cad84fe2f29b4f"
   },
-  "builtAt": "2026-10-24T13:03:58.079Z",
+  "builtAt": "2026-10-30T17:32:52.589Z",
   "ast": {
-    "commit": "b9036591091d549566b886fd3f162b05a6c514f5",
+    "commit": "aac7600579f49033b149e791e7cad84fe2f29b4f",
     "verdict": "valid",
     "kind": "full"
   }
