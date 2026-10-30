@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "9ac190b6e0e4fb5c95c771e59fbe3480b6225467",
+          "ref": "a146aeafeabd3d3a090cd6174cad940b7bd1b6ff",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -44,8 +44,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "9ac190b6e0e4fb5c95c771e59fbe3480b6225467",
-              "evidence": "Owner litlfred, 2026-10-24: chose 'C Fix all 4 now' for the #215 breaks (needs fhir-harness#156/#158 and cat-harness-tools#709 on the Uganda preview), and 'Extend the merge-when-green window + 3hrs' (10:48Z) for merge and repin; all layers moved to main together so they stay mutually consistent"
+              "ref": "a146aeafeabd3d3a090cd6174cad940b7bd1b6ff",
+              "evidence": "Owner litlfred, 2026-10-24 12:38Z: 'fix red gates'; merge-and-repin window to about 16:48 UTC. cat-harness, cat-harness-tools and smart-base move to main after the red-gate fixes (cat-harness#577-#582, cat-harness-tools#748/#749, smart-base#160)"
             }
           }
         }
@@ -56,7 +56,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "568607d041ee0f5f708998e159d369afc92bc52c",
+          "ref": "341fbc7b7ee1ffcd3b9dd804762723e6faf1ead5",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -66,8 +66,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "568607d041ee0f5f708998e159d369afc92bc52c",
-              "evidence": "Owner litlfred, 2026-10-24: card 'C Fix all 4 now' and merge-and-repin window 'Extend the merge-when-green window + 3hrs' (10:48Z). fhir-harness moves to main 568607d because the @main ig-ast-refresh workflow calls ig-ast.ts build-kind, added in fhir-harness#161"
+              "ref": "341fbc7b7ee1ffcd3b9dd804762723e6faf1ead5",
+              "evidence": "Owner litlfred, 2026-10-24: merge-and-repin window 'Extend the merge-when-green window + 3hrs' (10:48Z). fhir-harness moves to main 55fb0eb for its ig-ast schemas regenerated with v0 IRIs (fhir-harness#165)"
             }
           }
         }
@@ -106,7 +106,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "1e9c51df3b638f4f9a1f86f4f7f46d6114fc8aff",
+          "ref": "5e0a0b89214017fb644e3a88f17f9a74ee8849c4",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -122,8 +122,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "1e9c51df3b638f4f9a1f86f4f7f46d6114fc8aff",
-              "evidence": "Owner litlfred, 2026-10-24: merge-and-repin window 'Extend the merge-when-green window + 3hrs' (10:48Z); cat-harness moves to main with cat-harness-tools f8e6250, which imports SUBGRAPH_INDEX_PACKAGE_SCHEMA_TAG from it"
+              "ref": "5e0a0b89214017fb644e3a88f17f9a74ee8849c4",
+              "evidence": "Owner litlfred, 2026-10-24 12:38Z: 'fix red gates'; merge-and-repin window to about 16:48 UTC. cat-harness moves to main for the standalone staging-test fix (cat-harness#575)"
             }
           }
         }
@@ -134,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "f8e625018eda1722f242e78734e806129d1c2675",
+          "ref": "d6f471d02430c86d9e54714b4f55984f6a302cd8",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -147,8 +147,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "f8e625018eda1722f242e78734e806129d1c2675",
-              "evidence": "Owner litlfred, 2026-10-24 12:26Z: card 'A Remove the dead script tags' (cat-harness-tools#741) and 12:01Z card 'A Sub-address per directory'; merge-and-repin window 'Extend the merge-when-green window + 3hrs' (10:48Z). fhir-harness moves to aa8cdc1 for the exclusions fix (fhir-harness#163)"
+              "ref": "d6f471d02430c86d9e54714b4f55984f6a302cd8",
+              "evidence": "cat-harness-tools#758 merged green; owner card 2026-10-24 14:34Z 'A Merge over it, file the bug' (Uganda #15)"
             }
           }
         }
@@ -181,7 +181,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "86540d2e55bd29e01397d0844c5ce86576aa29a8",
+          "ref": "1584c10dd06edf3e6ebe909de11327d56aa0456c",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -194,8 +194,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-24",
-              "ref": "86540d2e55bd29e01397d0844c5ce86576aa29a8",
-              "evidence": "Owner litlfred, 2026-10-24: chose 'C Fix all 4 now' for the #215 breaks (needs fhir-harness#156/#158 and cat-harness-tools#709 on the Uganda preview), and 'Extend the merge-when-green window + 3hrs' (10:48Z) for merge and repin; all layers moved to main together so they stay mutually consistent"
+              "ref": "1584c10dd06edf3e6ebe909de11327d56aa0456c",
+              "evidence": "cat-harness-tools main (d6f471d) imports resolveRelative from bootstrap-tools main; owner card 2026-10-24 14:34Z 'A Merge over it, file the bug' (Uganda #15), merge window to ~16:48 UTC"
             }
           }
         }
