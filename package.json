@@ -5,7 +5,8 @@
     "cat-harness",
     "cat-harness-tools",
     "folio-assistant-core",
-    "fhir-harness"
+    "fhir-harness",
+    "who-iris"
   ],
   "scripts": {
     "cat": "bun cat-harness-tools/scripts/run-script.ts",
