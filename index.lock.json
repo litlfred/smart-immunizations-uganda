@@ -9,7 +9,7 @@
     {
       "harness": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "ref": "341fbc7b7ee1ffcd3b9dd804762723e6faf1ead5"
+      "ref": "0953e31371536198f077f5907d71569b8393b65e"
     },
     {
       "harness": "folio-assistant-core",
@@ -157,29 +157,29 @@
     {
       "instance": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "sha": "341fbc7b7ee1ffcd3b9dd804762723e6faf1ead5",
+      "sha": "0953e31371536198f077f5907d71569b8393b65e",
       "upstreamRoot": "",
       "path": "fhir-harness",
       "via": "fhir-harness",
       "pinnedBy": "declared",
       "declaration": {
         "file": "fhir-harness.json",
-        "sha256": "718a66e36637a49671e1b3bd1d930317b86e098125024c99851a0c72d0639a45"
+        "sha256": "a3d27dd47e89cb38ad3f58ef82e0365f9adbde0306f69b98c8f2457a45f9f2e9"
       },
       "directories": [
         {
           "id": "*",
           "path": "fhir-harness",
           "upstreamPath": ".",
-          "treeDigest": "95d6fa96ddc44504030f9be180c6007a14d65f05d67b340b803805961e0820a6",
-          "files": 662
+          "treeDigest": "0ac1e3cf1bf45091de199c2e10a067da063ba696e49c831d3c4f5ca0e992a79e",
+          "files": 750
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
-        "on": "2026-10-24",
-        "ref": "341fbc7b7ee1ffcd3b9dd804762723e6faf1ead5",
+        "on": "2026-11-04",
+        "ref": "0953e31371536198f077f5907d71569b8393b65e",
         "approver": "unverified"
       }
     },

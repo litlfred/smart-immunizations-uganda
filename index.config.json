@@ -56,7 +56,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "341fbc7b7ee1ffcd3b9dd804762723e6faf1ead5",
+          "ref": "0953e31371536198f077f5907d71569b8393b65e",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -65,9 +65,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-24",
-              "ref": "341fbc7b7ee1ffcd3b9dd804762723e6faf1ead5",
-              "evidence": "Owner litlfred, 2026-10-24: merge-and-repin window 'Extend the merge-when-green window + 3hrs' (10:48Z). fhir-harness moves to main 55fb0eb for its ig-ast schemas regenerated with v0 IRIs (fhir-harness#165)"
+              "on": "2026-11-04",
+              "ref": "0953e31371536198f077f5907d71569b8393b65e",
+              "evidence": "litlfred, 2026-11-04, Claude Code session session_01EucfRofg2aQdYRJcySHLzo: 'Repin and merge when needed and ready for the next 3 hours', choosing 'Re-pin all six'. fhir-harness main at fhir-harness#284 (docs QA)."
             }
           }
         }
