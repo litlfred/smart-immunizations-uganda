@@ -71,7 +71,7 @@ jobs:
   # smart-base" — no IG repository carries a workflow of its own for it).
   ast:
     if: ${{ !inputs.plan }}
-    uses: litlfred/fhir-harness/.github/workflows/ig-ast-refresh.yml@0953e31371536198f077f5907d71569b8393b65e # index.lock.json
+    uses: litlfred/fhir-harness/.github/workflows/ig-ast-refresh.yml@2b29c8c6dfc557d32b67e96886748df3ed2fe4be # index.lock.json
     with:
       # The branch being published. On the default branch the run seeds the
       # shared cache. On any other branch the cache is a no-op when the branch

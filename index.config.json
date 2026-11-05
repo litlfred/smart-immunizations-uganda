@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "c7590682c6eb17bb19e76bc7f4fb5cee23c22634",
+          "ref": "1e5c01c9737a025905ba4e82e968695cf6c2f411",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -30,9 +30,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "c7590682c6eb17bb19e76bc7f4fb5cee23c22634",
-              "evidence": "litlfred, 2026-11-04, Claude Code session session_01EucfRofg2aQdYRJcySHLzo: 'Repin and merge when needed', then 'Re-pin whole stack here' for this PR: fhir-harness 0953e31 needs a newer cat-harness, so the stack moves to the commits litlfred/dth-hrh pins."
+              "on": "2026-11-05",
+              "ref": "1e5c01c9737a025905ba4e82e968695cf6c2f411",
+              "evidence": "Owner litlfred, 2026-11-05: standing OK to merge re-pins whose only workflow edits are lock-following uses: pins; ~13:0xZ card '1. Attach repos' to re-pin the site PRs (stalled-pickup D, bean rpc6)."
             }
           }
         }
@@ -43,7 +43,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "cd5d1df72d44268730640703f89a934f72113558",
+          "ref": "f1c6eb0c6992191c94ef5cf99b5f0cf8f4008d1a",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -79,9 +79,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "cd5d1df72d44268730640703f89a934f72113558",
-              "evidence": "litlfred, 2026-11-04, Claude Code session session_01EucfRofg2aQdYRJcySHLzo: 'Repin and merge when needed', then 'Re-pin whole stack here' for this PR: fhir-harness 0953e31 needs a newer cat-harness, so the stack moves to the commits litlfred/dth-hrh pins."
+              "on": "2026-11-05",
+              "ref": "f1c6eb0c6992191c94ef5cf99b5f0cf8f4008d1a",
+              "evidence": "Owner litlfred, 2026-11-05: standing OK to merge re-pins whose only workflow edits are lock-following uses: pins; ~13:0xZ card '1. Attach repos' to re-pin the site PRs (stalled-pickup D, bean rpc6)."
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "0953e31371536198f077f5907d71569b8393b65e",
+          "ref": "2b29c8c6dfc557d32b67e96886748df3ed2fe4be",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "0953e31371536198f077f5907d71569b8393b65e",
-              "evidence": "litlfred, 2026-11-04, Claude Code session session_01EucfRofg2aQdYRJcySHLzo: 'Repin and merge when needed and ready for the next 3 hours', choosing 'Re-pin all six'. fhir-harness main at fhir-harness#284 (docs QA)."
+              "on": "2026-11-05",
+              "ref": "2b29c8c6dfc557d32b67e96886748df3ed2fe4be",
+              "evidence": "Owner litlfred, 2026-11-05: standing OK to merge re-pins whose only workflow edits are lock-following uses: pins; ~13:0xZ card '1. Attach repos' to re-pin the site PRs (stalled-pickup D, bean rpc6)."
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "c938217f327eea8528114aceb278bbd9bbfef1d7",
+          "ref": "494589282eff0fc6f1e4a1ef1beec5545a8d08da",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "c938217f327eea8528114aceb278bbd9bbfef1d7",
-              "evidence": "litlfred, 2026-11-04, Claude Code session session_01EucfRofg2aQdYRJcySHLzo: 'Repin and merge when needed', then 'Re-pin whole stack here' for this PR: fhir-harness 0953e31 needs a newer cat-harness, so the stack moves to the commits litlfred/dth-hrh pins."
+              "on": "2026-11-05",
+              "ref": "494589282eff0fc6f1e4a1ef1beec5545a8d08da",
+              "evidence": "Owner litlfred, 2026-11-05: standing OK to merge re-pins whose only workflow edits are lock-following uses: pins; ~13:0xZ card '1. Attach repos' to re-pin the site PRs (stalled-pickup D, bean rpc6)."
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "9d2a99beb50090fc073d827de754d923cdde8f66",
+          "ref": "90c3bcf91b779973f26e9401e17f7ec02c7c5b70",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "9d2a99beb50090fc073d827de754d923cdde8f66",
-              "evidence": "litlfred, 2026-11-04, Claude Code session session_01EucfRofg2aQdYRJcySHLzo: 'Repin and merge when needed', then 'Re-pin whole stack here' for this PR: fhir-harness 0953e31 needs a newer cat-harness, so the stack moves to the commits litlfred/dth-hrh pins."
+              "on": "2026-11-05",
+              "ref": "90c3bcf91b779973f26e9401e17f7ec02c7c5b70",
+              "evidence": "Owner litlfred, 2026-11-05: standing OK to merge re-pins whose only workflow edits are lock-following uses: pins; ~13:0xZ card '1. Attach repos' to re-pin the site PRs (stalled-pickup D, bean rpc6)."
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "9f872d3c9c959539364617c6feb4de3074707488",
+          "ref": "87c731972e1520e8a4a7f7e3e1f5c25983a57dd9",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "9f872d3c9c959539364617c6feb4de3074707488",
-              "evidence": "litlfred, 2026-11-04, Claude Code session session_01EucfRofg2aQdYRJcySHLzo: 'Repin and merge when needed', then 'Re-pin whole stack here' for this PR: fhir-harness 0953e31 needs a newer cat-harness, so the stack moves to the commits litlfred/dth-hrh pins."
+              "on": "2026-11-05",
+              "ref": "87c731972e1520e8a4a7f7e3e1f5c25983a57dd9",
+              "evidence": "Owner litlfred, 2026-11-05: standing OK to merge re-pins whose only workflow edits are lock-following uses: pins; ~13:0xZ card '1. Attach repos' to re-pin the site PRs (stalled-pickup D, bean rpc6)."
             }
           }
         }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "c90ef456067a874fd7017a370232908ba62e9fcd",
+          "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -204,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "c90ef456067a874fd7017a370232908ba62e9fcd",
-              "evidence": "litlfred, 2026-11-04, Claude Code session session_01EucfRofg2aQdYRJcySHLzo: 'Repin and merge when needed', then 'Re-pin whole stack here' for this PR: fhir-harness 0953e31 needs a newer cat-harness, so the stack moves to the commits litlfred/dth-hrh pins."
+              "on": "2026-11-05",
+              "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
+              "evidence": "Owner litlfred, 2026-11-05: standing OK to merge re-pins whose only workflow edits are lock-following uses: pins; ~13:0xZ card '1. Attach repos' to re-pin the site PRs (stalled-pickup D, bean rpc6)."
             }
           }
         }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "aa25987a2e637838be02baf4ed239d58086551a3",
+          "ref": "3a406fb1076381ecfa7fdb08e5dee090ba010960",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,9 +229,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "aa25987a2e637838be02baf4ed239d58086551a3",
-              "evidence": "litlfred, 2026-11-04, Claude Code session session_01EucfRofg2aQdYRJcySHLzo: 'Repin and merge when needed', then 'Re-pin whole stack here' for this PR: fhir-harness 0953e31 needs a newer cat-harness, so the stack moves to the commits litlfred/dth-hrh pins."
+              "on": "2026-11-05",
+              "ref": "3a406fb1076381ecfa7fdb08e5dee090ba010960",
+              "evidence": "Owner litlfred, 2026-11-05: standing OK to merge re-pins whose only workflow edits are lock-following uses: pins; ~13:0xZ card '1. Attach repos' to re-pin the site PRs (stalled-pickup D, bean rpc6)."
             }
           }
         }
