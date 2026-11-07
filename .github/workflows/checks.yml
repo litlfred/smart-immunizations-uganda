@@ -45,7 +45,7 @@ jobs:
           hit() { printf '%s\n' "$files" | grep -qE "$1" && echo true || echo false; }
           all='^(\.github/workflows/checks\.yml|package\.json)$'
           echo "l1=$(hit "$all|^library/")" >> "$GITHUB_OUTPUT"
-          echo "logic=$(hit "$all|^input/(decision-logic|cql|tests|l2|fsh/libraries|fsh/plandefinitions)/|^library/l1-recommendation-scenarios/|^scripts/")" >> "$GITHUB_OUTPUT"
+          echo "logic=$(hit "$all|^input/(decision-logic|cql|tests|l2|fsh/libraries|fsh/plandefinitions)/|^library/|^input/pagecontent/(l1-recommendations|scenario-candidates)\.md$|^scripts/")" >> "$GITHUB_OUTPUT"
           echo "sushi=$(hit "$all|^input/|^sushi-config\.yaml$")" >> "$GITHUB_OUTPUT"
 
   l1:
