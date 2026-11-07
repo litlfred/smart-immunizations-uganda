@@ -12,7 +12,7 @@ Description: "Functional requirement UG-FR-01 for an electronic immunization reg
 Usage: #definition
 * id = "UG-FR-01"
 * activity = "User authentication and access control"
-* capabilityString = "Username/password, biometric authentication"
+* capabilityMarkdown = "Username/password, biometric authentication"
 
 Instance: UG-FR-02
 InstanceOf: FunctionalRequirement
@@ -21,7 +21,7 @@ Description: "Functional requirement UG-FR-02 for an electronic immunization reg
 Usage: #definition
 * id = "UG-FR-02"
 * activity = "Patient record management"
-* capabilityString = "Personal information, vaccination history and demographic data"
+* capabilityMarkdown = "Personal information, vaccination history and demographic data"
 
 Instance: UG-FR-03
 InstanceOf: FunctionalRequirement
@@ -30,7 +30,7 @@ Description: "Functional requirement UG-FR-03 for an electronic immunization reg
 Usage: #definition
 * id = "UG-FR-03"
 * activity = "Vaccine inventory management"
-* capabilityString = "Batch numbers, expiration dates and current stock"
+* capabilityMarkdown = "Batch numbers, expiration dates and current stock"
 
 Instance: UG-FR-04
 InstanceOf: FunctionalRequirement
@@ -39,7 +39,7 @@ Description: "Functional requirement UG-FR-04 for an electronic immunization reg
 Usage: #definition
 * id = "UG-FR-04"
 * activity = "Vaccination scheduling and reminders"
-* capabilityString = "Scheduling of vaccination appointments and reminders to patients or guardians"
+* capabilityMarkdown = "Scheduling of vaccination appointments and reminders to patients or guardians"
 
 Instance: UG-FR-05
 InstanceOf: FunctionalRequirement
@@ -48,7 +48,7 @@ Description: "Functional requirement UG-FR-05 for an electronic immunization reg
 Usage: #definition
 * id = "UG-FR-05"
 * activity = "Immunization reporting and analytics"
-* capabilityString = "Reports such as immunization coverage rates, vaccine wastage and adverse event tracking"
+* capabilityMarkdown = "Reports such as immunization coverage rates, vaccine wastage and adverse event tracking"
 
 Instance: UG-FR-06
 InstanceOf: FunctionalRequirement
@@ -57,7 +57,7 @@ Description: "Functional requirement UG-FR-06 for an electronic immunization reg
 Usage: #definition
 * id = "UG-FR-06"
 * activity = "Adverse event reporting"
-* capabilityString = "Report and document adverse events following immunization (AEFI)"
+* capabilityMarkdown = "Report and document adverse events following immunization (AEFI)"
 
 Instance: UG-FR-07
 InstanceOf: FunctionalRequirement
@@ -66,7 +66,7 @@ Description: "Functional requirement UG-FR-07 for an electronic immunization reg
 Usage: #definition
 * id = "UG-FR-07"
 * activity = "Integration with health records"
-* capabilityString = "Integrate with existing electronic health record systems for comprehensive patient health information"
+* capabilityMarkdown = "Integrate with existing electronic health record systems for comprehensive patient health information"
 
 Instance: UG-NFR-01
 InstanceOf: NonFunctionalRequirement
