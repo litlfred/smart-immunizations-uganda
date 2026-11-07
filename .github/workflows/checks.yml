@@ -17,7 +17,40 @@ env:
   IMMZ_REF: a48d95affed69af8147f51b31753702f2ccb74cd
 
 jobs:
+  # Which checks a pull request's change can affect. A job whose inputs the PR does not
+  # touch is skipped, and a skipped job reports success to a required check. Pushes to main
+  # and manual runs run everything. The paths are each job's inputs, read from its steps;
+  # this workflow file and package.json count for every job.
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      l1: ${{ steps.f.outputs.l1 }}
+      logic: ${{ steps.f.outputs.logic }}
+      sushi: ${{ steps.f.outputs.sushi }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - id: f
+        env:
+          EVENT: ${{ github.event_name }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [ "$EVENT" != "pull_request" ]; then
+            for k in l1 logic sushi; do echo "$k=true" >> "$GITHUB_OUTPUT"; done; exit 0
+          fi
+          files=$(git diff --name-only "$(git merge-base "$BASE" "$HEAD")" "$HEAD")
+          printf '%s\n' "$files"
+          hit() { printf '%s\n' "$files" | grep -qE "$1" && echo true || echo false; }
+          all='^(\.github/workflows/checks\.yml|package\.json)$'
+          echo "l1=$(hit "$all|^library/")" >> "$GITHUB_OUTPUT"
+          echo "logic=$(hit "$all|^input/(decision-logic|cql|tests|l2|fsh/libraries|fsh/plandefinitions)/|^library/|^input/pagecontent/(l1-recommendations|scenario-candidates)\.md$|^scripts/")" >> "$GITHUB_OUTPUT"
+          echo "sushi=$(hit "$all|^input/|^sushi-config\.yaml$")" >> "$GITHUB_OUTPUT"
+
   l1:
+    needs: changes
+    if: needs.changes.outputs.l1 == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -40,6 +73,8 @@ jobs:
         run: bun smart-base/scripts/l1-transcription-verbatim.ts --root "$GITHUB_WORKSPACE" --dir library/l1-recommendation-scenarios/uganda
 
   logic:
+    needs: changes
+    if: needs.changes.outputs.logic == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -71,6 +106,8 @@ jobs:
         run: npm run --silent l2:evidence
 
   sushi:
+    needs: changes
+    if: needs.changes.outputs.sushi == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
