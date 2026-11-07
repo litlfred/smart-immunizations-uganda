@@ -2,6 +2,13 @@ Requirements from the UNEPI presentation *User requirements – SMART
 Guidelines*. They are recorded here as stated, so they can later be mapped to
 the WHO guide's functional and non-functional requirements.
 
+Each row of the two requirement tables below is also a DAK component 8
+instance (smart-base `FunctionalRequirement` or `NonFunctionalRequirement`),
+with the same id, in
+[`input/fsh/requirements/`](https://github.com/litlfred/smart-immunizations-uganda/blob/main/input/fsh/requirements/).
+The deck states no actor ("as a") and no benefit ("so that") for them, so
+none is recorded.
+
 ### Programme
 
 * **Vision:** a Ugandan population free of vaccine-preventable diseases.

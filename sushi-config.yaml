@@ -22,6 +22,10 @@ publisher:
 dependencies:
   # WHO IG continuous build (build.fhir.org); 0.2.0 is not yet a formal release
   smart.who.int.immunizations: current
+  # FunctionalRequirement / NonFunctionalRequirement (input/fsh/requirements/). SUSHI does not
+  # load a dependency's own dependencies, and the 0.2.0 release (31 resources) predates these
+  # logical models, so this is the continuous build, as for smart.who.int.immunizations above.
+  smart.who.int.base: current
   hl7.fhir.uv.cpg: 2.0.0
   hl7.fhir.uv.crmi: 1.0.0
   hl7.fhir.uv.cql: 1.0.0
