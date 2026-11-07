@@ -53,7 +53,7 @@ immunization DAK, as recorded in
 | L2 | User-scenario candidates (53) | [`…/uganda/candidates/`](https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/l1-recommendation-scenarios/uganda/candidates/) (source only) |
 | L2 | Decision logic: scheduling tables, adapted | [Scheduling logic](decision-logic.html), [Testing](testing.html), [Artifacts](artifacts.html); workbook [`input/decision-logic/`](https://github.com/litlfred/smart-immunizations-uganda/blob/main/input/decision-logic/) |
 | L2 | Personas, business processes, data elements | reused unchanged from the [WHO immunization DAK](https://smart.who.int/immunizations) |
-| L2 | Functional and non-functional requirements | narrative in [UNEPI user requirements](requirements.html); not yet authored as Requirements resources |
+| L2 | Functional and non-functional requirements | [UNEPI user requirements](requirements.html); the 14 rows as smart-base `FunctionalRequirement` / `NonFunctionalRequirement` instances in [`input/fsh/requirements/`](https://github.com/litlfred/smart-immunizations-uganda/blob/main/input/fsh/requirements/) |
 | L2 | Indicators | WHO indicators reused; the Uganda target-population denominators are not yet authored |
 
 ### Status
