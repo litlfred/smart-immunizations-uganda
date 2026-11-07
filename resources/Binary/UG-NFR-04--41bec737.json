@@ -1,0 +1,6 @@
+{
+  "resourceType" : "Binary",
+  "id" : "UG-NFR-04",
+  "contentType" : "application/fhir+json",
+  "data" : "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL3NtYXJ0Lndoby5pbnQvYmFzZS9TdHJ1Y3R1cmVEZWZpbml0aW9uL05vbkZ1bmN0aW9uYWxSZXF1aXJlbWVudCIsCiAgImlkIjogIlVHLU5GUi0wNCIsCiAgInJlcXVpcmVtZW50IjogIlVzYWJpbGl0eSBhbmQgdXNlciBleHBlcmllbmNlOiBFYXN5IHRvIHVzZSBmb3IgdmFyaW91cyB1c2VycyIKfQo="
+}

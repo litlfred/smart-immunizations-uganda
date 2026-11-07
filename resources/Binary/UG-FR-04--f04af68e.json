@@ -1,0 +1,6 @@
+{
+  "resourceType" : "Binary",
+  "id" : "UG-FR-04",
+  "contentType" : "application/fhir+json",
+  "data" : "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL3NtYXJ0Lndoby5pbnQvYmFzZS9TdHJ1Y3R1cmVEZWZpbml0aW9uL0Z1bmN0aW9uYWxSZXF1aXJlbWVudCIsCiAgImlkIjogIlVHLUZSLTA0IiwKICAiYWN0aXZpdHkiOiAiVmFjY2luYXRpb24gc2NoZWR1bGluZyBhbmQgcmVtaW5kZXJzIiwKICAiY2FwYWJpbGl0eU1hcmtkb3duIjogIlNjaGVkdWxpbmcgb2YgdmFjY2luYXRpb24gYXBwb2ludG1lbnRzIGFuZCByZW1pbmRlcnMgdG8gcGF0aWVudHMgb3IgZ3VhcmRpYW5zIgp9Cg=="
+}
