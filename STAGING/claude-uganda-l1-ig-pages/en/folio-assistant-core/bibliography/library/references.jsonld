@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "@base": "https://litlfred.github.io/folio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms:source": {
+      "@type": "@id"
+    },
+    "dcterms:hasVersion": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "references/ug-moh-routine-immunisation-schedule",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "THE REPUBLIC OF UGANDA",
+      "dcterms:creator": [
+        "MINISTRY OF HEALTH"
+      ],
+      "dcterms:issued": "D:20251103",
+      "dcterms:source": "library/ug-moh-routine-immunisation-schedule/manifest.jsonld",
+      "dcterms:hasVersion": "library/ug-moh-routine-immunisation-schedule"
+    },
+    {
+      "@id": "references/unepi-user-requirements-smart-guidelines",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "MINISTRY OF HEALTH",
+      "dcterms:creator": [
+        "Programme, National Expanded"
+      ],
+      "dcterms:issued": "D:20261015",
+      "dcterms:source": "library/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+      "dcterms:hasVersion": "library/unepi-user-requirements-smart-guidelines"
+    }
+  ]
+}

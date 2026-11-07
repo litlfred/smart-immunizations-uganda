@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scenario Candidates — Immunizations - Uganda adaptation (draft)</title>
+<link rel="canonical" href="./scenario-candidates.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="Immunizations - Uganda adaptation (draft)">
+<link rel="stylesheet" href="./assets/page-layout.css" data-fa-page-layout>
+<script src="./assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="./assets/ig-artifact.css">
+<link rel="stylesheet" href="./assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="./assets/navbar/row-2acuhncsmbg.js" defer></script><script src="./assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="./assets/css/navbar.css"><script src="./assets/navbar/rail-tcs12w6djd.js" defer></script><script src="./assets/js/navbar.js" defer></script><link rel="stylesheet" href="./assets/css/navbar-row.css"><script src="./assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content="."></head>
+<body><div data-fa-staging-banner lang="en" dir="ltr" style="background:#4F6F52;color:#fff;padding:8px 16px;font-size:14px;text-align:center;position:fixed;top:0;left:0;right:0;box-sizing:border-box;z-index:2147483001;font-family:system-ui">🔀 <b>FEATURE BRANCH</b> <span data-fa-staging-detail>— loading build details…</span></div><style>:root{--fa-staging-offset:0px}body{margin:0}.side-bar,.fa-nav{top:var(--fa-staging-offset,0px)!important}html{padding-top:var(--fa-staging-offset,0px)}</style><script>(function(){
+function el(t,a,x){var e=document.createElement(t);if(a)for(var k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;return e;}
+function link(href,text,extra){var a=el('a',{href:href,style:'color:#fff;text-decoration:underline'},text);if(extra)a.setAttribute('style',a.getAttribute('style')+';'+extra);return a;}
+function chip(text){return el('span',{style:"font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:rgba(0,0,0,.22);color:#fff;padding:1px 6px;border-radius:3px"},text);}
+function sep(){return document.createTextNode(' \u00b7 ');}
+function root(){var m=location.pathname.match(/^(.*\/STAGING\/[^/]+\/)/);return m?m[1]:null;}
+function measure(){var b=document.querySelector('[data-fa-staging-banner]');if(!b)return;document.documentElement.style.setProperty('--fa-staging-offset',b.getBoundingClientRect().height+'px');}
+function fill(d,f,r){
+  while(d.firstChild)d.removeChild(d.firstChild);
+  d.appendChild(document.createTextNode('\u2014 '));
+  var b=link(f.branchUrl,'');b.appendChild(chip(f.branch));d.appendChild(b);
+  var rv=el('span',{'data-fa-staging-review':''});d.appendChild(rv);
+  d.appendChild(sep());d.appendChild(document.createTextNode('commit '));d.appendChild(chip(f.sha));
+  d.appendChild(sep());d.appendChild(document.createTextNode('built '+f.built));
+  d.appendChild(sep());d.appendChild(link(f.prUrl,f.pr&&f.pr!=='n/a'?'PR #'+f.pr:'no open PR found'));
+  if(f.issue){d.appendChild(sep());d.appendChild(link(f.issueUrl,'issue #'+f.issue));}
+  d.appendChild(sep());
+  var rel=location.pathname.slice(r.length);
+  if(rel===''||rel.charAt(rel.length-1)==='/')rel+='index.html';
+  if(!f.mainPagesKnown){
+    d.appendChild(link(f.mainSite+'/','compare with '+(f.beforeRef||'main')+' \u2197'));
+  }else if(f.newPages.indexOf(rel)>=0){
+    d.appendChild(link(f.mainSite+'/',(f.beforeRef||'main')+' \u2197'));
+    d.appendChild(document.createTextNode(' '));
+    d.appendChild(el('span',{style:'opacity:.85'},'(new page)'));
+  }else{
+    d.appendChild(link(f.mainSite+'/'+rel,'compare with '+(f.beforeRef||'main')+' \u2197'));
+  }
+  d.appendChild(sep());d.appendChild(link(f.runUrl,'build log'));
+  if(f.checksUrl){d.appendChild(sep());d.appendChild(link(f.checksUrl,'CI results'));}
+  stamp(f);
+  measure();
+  fresh(d,f);
+  review(rv,r,rel);
+}
+// The preview's review page (owner, 2026-11-01, Q-REV-1): reviewers could not
+// find it from a staging page. A folio writes it at <root>/<locale>/review/,
+// an IG at <root>/review/. Asked with HEAD, which the staging worker passes
+// through, so a 404 here is not answered with the live site's page. No review
+// page, no link.
+function review(s,r,rel){
+  if(typeof fetch!=='function')return;
+  var c=[],m=rel.match(/^([a-z]{2,3}(?:-[A-Za-z0-9]+)?)\//);
+  if(m)c.push(r+m[1]+'/review/');
+  c.push(r+'review/');
+  (function next(i){
+    if(i>=c.length)return;
+    fetch(c[i]+'index.html',{method:'HEAD',cache:'no-store'}).then(function(x){
+      if(!x.ok)return next(i+1);
+      s.appendChild(sep());
+      s.appendChild(link(c[i],'\ud83d\udd0d Review changes','font-weight:bold'));
+      measure();
+    }).catch(function(){next(i+1);});
+  })(0);
+}
+// Live staleness (owner, 2026-10-31, option C): ask GitHub for the branch's
+// head now and say so when it has moved past the commit this preview was
+// built from. Unauthenticated, one request per page view; on any failure
+// (rate limit, offline, a deleted branch) it says nothing rather than guess.
+function fresh(d,f){
+  var m=String(f.branchUrl||'').match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\//);
+  if(!m||!f.branch||!f.sha||typeof fetch!=='function')return;
+  fetch('https://api.github.com/repos/'+m[1]+'/'+m[2]+'/commits/'+encodeURIComponent(f.branch),
+    {headers:{Accept:'application/vnd.github.sha'},cache:'no-store'})
+    .then(function(x){if(!x.ok)throw 0;return x.text();})
+    .then(function(head){
+      head=String(head).trim();
+      if(!/^[0-9a-f]{7,40}$/.test(head)||head.indexOf(f.sha)===0)return;
+      d.appendChild(sep());
+      var w=el('strong',{'data-fa-staging-stale':'',style:'background:#b00020;padding:0 .4em;border-radius:3px'},'\u26a0 stale: the branch is now at ');
+      w.appendChild(chip(head.slice(0,7)));
+      w.appendChild(document.createTextNode(', newer than this preview'));
+      d.appendChild(w);measure();
+    }).catch(function(){});
+}
+function stamp(f){
+  var p=document.querySelector('.fa-build-stamp');if(!p)return;
+  while(p.firstChild)p.removeChild(p.firstChild);
+  p.appendChild(document.createTextNode('deployed '));
+  var a=link(f.runUrl,'');a.appendChild(el('code',null,f.sha));p.appendChild(a);
+  p.appendChild(document.createTextNode(' · '+f.built));
+}
+function go(){
+  measure();
+  var d=document.querySelector('[data-fa-staging-detail]');if(!d)return;
+  var r=root();
+  if(!r){d.textContent='\u2014 build details unavailable (not served from a preview path)';return;}
+  fetch(r+'staging.json',{cache:'no-store'}).then(function(x){if(!x.ok)throw 0;return x.json();})
+    .then(function(f){fill(d,f,r);})
+    .catch(function(){d.textContent='\u2014 build details unavailable';measure();});
+}
+// First visit to a preview: the shared stylesheets 404 until the worker is
+// in control, so the page would paint unstyled (a page-wide search icon) for
+// the moment before the reload. Hide it until then, only when a stylesheet
+// in the head actually failed, and show it again if no reload comes.
+function unstyled(){var l=document.querySelectorAll('link[rel="stylesheet"]');for(var i=0;i<l.length;i++){if(l[i].disabled)continue;try{if(!l[i].sheet||!l[i].sheet.cssRules.length)return true;}catch(e){}}return false;}
+function share(){
+  var r=root();if(!r||!('serviceWorker' in navigator))return;
+  var k='fa-share:'+r,s=document.documentElement.style;
+  var hide=!navigator.serviceWorker.controller&&!sessionStorage.getItem(k)&&unstyled();
+  function show(){if(hide){hide=false;s.removeProperty('visibility');}}
+  if(hide){s.setProperty('visibility','hidden');setTimeout(show,4000);}
+  navigator.serviceWorker.register(r+'staging-sw.js',{scope:r}).then(function(){
+    if(navigator.serviceWorker.controller||sessionStorage.getItem(k))return show();
+    return navigator.serviceWorker.ready.then(function(){sessionStorage.setItem(k,'1');location.reload();});
+  }).catch(show);
+}
+measure();share();
+if(document.readyState!=='loading')go();else document.addEventListener('DOMContentLoaded',go);
+window.addEventListener('resize',measure);window.addEventListener('load',measure);
+})();</script><script type="application/json" id="fa-navbar-row" data-fa-root="." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root=".">{"data":"rail-tcs12w6djd","here":"/scenario-candidates.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="./">Immunizations - Uganda adaptation (draft)</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="Immunizations - Uganda adaptation (draft) menu"><a class="ig-topbar-home" href="./index.html">Immunizations - Uganda adaptation (draft)</a><a class="ig-topbar-group ig-topbar-link" href="./index.html">Home</a><details class="ig-topbar-group"><summary>Schedule</summary><ul><li><a href="./schedule.html">Routine Schedule</a></li><li><a href="./catch-up.html">Catch-up Rules</a></li><li><a href="./administration.html">Routes and Sites</a></li><li><a href="./differences.html">Differences from WHO</a></li></ul></details><details class="ig-topbar-group"><summary>Logic</summary><ul><li><a href="./decision-logic.html">Scheduling Logic</a></li><li><a href="./testing.html">Testing</a></li></ul></details><details class="ig-topbar-group"><summary>Requirements</summary><ul><li><a href="./requirements.html">UNEPI User Requirements</a></li><li><a href="./service-delivery.html">Service Delivery and Data Flow</a></li><li><a href="./open-questions.html">Open Questions</a></li></ul></details><details class="ig-topbar-group"><summary>L1</summary><ul><li><a href="./l1-recommendations.html">L1 Recommendations</a></li><li><a href="./scenario-candidates.html">Scenario Candidates</a></li></ul></details><a class="ig-topbar-group ig-topbar-link" href="./artifacts.html">Artifacts</a><details class="ig-topbar-group"><summary>Sources</summary><ul><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/index.html">L1 Library</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/index.html">MoH Schedule Poster</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/index.html">UNEPI Requirements Deck</a></li><li><a href="https://smart.who.int/immunizations">WHO Immunization DAK</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="./assets/ig-search.json"><label class="ig-search-label" for="search-input">Search Immunizations - Uganda adaptation (draft)</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="./assets/ig-search.js" defer></script></div>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<p>The L2 user-scenario candidates derived from the <a href="l1-recommendations.html">L1 recommendations</a>,
+one per statement, by smart-base’s <code class="language-plaintext highlighter-rouge">l1-recommendation-scenarios</code>
+(<code class="language-plaintext highlighter-rouge">npm run l1-scenarios:uganda</code>). They are <strong>candidates</strong>: an agent wrote them, and a
+person reviews each before it becomes an L2 scenario.</p>
+
+<p><em>Generated by <code class="language-plaintext highlighter-rouge">scripts/gen-l1-pages.mjs</code>; do not edit.</em></p>
+
+<h3 id="from-the-moh-schedule-poster-19">From the MoH schedule poster (19)</h3>
+
+<p>Personas and business processes: Caregiver (persona); Health worker (HW) (persona); IMMZ.C Client registration (business-process); IMMZ.D Administer vaccine (business-process).</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>scenario</th>
+      <th>description</th>
+      <th>from statement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>IMMZ.UG.Poster.P01</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for birth so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">P01</a>: Birth: Polio, Tuberculosis, Hepatitis B</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P02</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 6 weeks so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">P02</a>: 6 Weeks (1.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P03</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 10 weeks so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">P03</a>: 10 Weeks (2.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P04</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 14 weeks so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">P04</a>: 14 Weeks (3.5 months): Polio, Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P05</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines and vitamin A the Uganda schedule lists for 6 months so that the child receives the doses and supplement the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">P05</a>: 6 Months: Malaria, Vitamin A</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P06</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 7 months so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">P06</a>: 7 Months: Malaria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P07</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 8 months so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">P07</a>: 8 Months: Malaria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P08</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines the Uganda schedule lists for 9 months so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">P08</a>: 9 Months: Measles, Rubella, Yellow Fever</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P09</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the vaccines and vitamin A the Uganda schedule lists for 18 months so that the child receives the doses and supplement the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">P09</a>: 18 Months: Measles, Rubella, Malaria, Vitamin A</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P10</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give a girl aged 10 years one dose of HPV vaccine so that the girl is protected against cancer of the cervix.</td>
+      <td><a href="l1-recommendations.html">P10</a>: 10yr Girl: 1 dose HPV vaccine to prevent cancer of the cervix</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P11</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her first Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.</td>
+      <td><a href="l1-recommendations.html">P11</a>: 1st Dose At first contact Tetanus Diphtheria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P12</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her second Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.</td>
+      <td><a href="l1-recommendations.html">P12</a>: 2nd Dose 1 Month after 1st dose Tetanus Diphtheria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P13</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her third Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.</td>
+      <td><a href="l1-recommendations.html">P13</a>: 3rd Dose 6 Months after 2nd dose Tetanus Diphtheria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P14</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her fourth Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.</td>
+      <td><a href="l1-recommendations.html">P14</a>: 4th Dose 12 Months after 3rd dose Tetanus Diphtheria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P15</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give a woman of child-bearing age her fifth Td dose at the interval the schedule sets so that the woman, and her future newborns, are protected against tetanus and diphtheria.</td>
+      <td><a href="l1-recommendations.html">P15</a>: 5th Dose 12 Months after 4th dose Tetanus Diphtheria</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P16</td>
+      <td>As a Caregiver, during IMMZ.D Administer vaccine, I ask the health worker for the child’s next immunisation date so that the caregiver knows when to return.</td>
+      <td><a href="l1-recommendations.html">P16</a>: Ask your health worker for your child’s next immunisation date.</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P17</td>
+      <td>As a Caregiver, during IMMZ.C Client registration, I keep the child’s immunisation card safe and bring it to every visit so that the child’s history is available at every contact.</td>
+      <td><a href="l1-recommendations.html">P17</a>: Keep your child’s immunisation card safe and bring it every time you visit the health centre.</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P18</td>
+      <td>As a Caregiver, during [process not determined], I report any side effect after vaccination to the health worker immediately so that the side effect is managed clinically and recorded.</td>
+      <td><a href="l1-recommendations.html">P18</a>: Report any side effects immediately to the health worker for proper clinical care.</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.Poster.P19</td>
+      <td>As a Health worker (HW), during [process not determined], I tell caregivers that vaccines are safe, effective and free at government health facilities so that caregivers trust and use the service.</td>
+      <td><a href="l1-recommendations.html">P19</a>: Vaccines are safe, effective and free at all government health facilities.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="from-the-unepi-requirements-deck-34">From the UNEPI requirements deck (34)</h3>
+
+<p>Personas and business processes: Health worker (HW) (persona); IMMZ.D Administer vaccine (business-process).</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>scenario</th>
+      <th>description</th>
+      <th>from statement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>IMMZ.UG.UNEPI.A01</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give polio, vitamin A and rotavirus by mouth so that each dose is given by the correct route at the correct site.</td>
+      <td><a href="l1-recommendations.html">A01</a>: Polio, Vitamin A, Rota (Oral) to the mouth</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.A02</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give BCG intradermally and yellow fever subcutaneously in the right upper arm so that each dose is given by the correct route at the correct site.</td>
+      <td><a href="l1-recommendations.html">A02</a>: BCG (Intradermal) and Yellow Fever (Subcutaneous) to the baby’s right upper arm</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.A03</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give measles-rubella subcutaneously in the left upper arm so that each dose is given by the correct route at the correct site.</td>
+      <td><a href="l1-recommendations.html">A03</a>: Measles-Rubella (Subcutaneous) to the baby’s left upper arm</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.A04</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give IPV and PCV intramuscularly in the right thigh, 2 cm apart so that each dose is given by the correct route at the correct site.</td>
+      <td><a href="l1-recommendations.html">A04</a>: IPV (2cm apart) (Intramuscular) and PCV (2cm apart) (Intramuscular) to the baby’s right thigh</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.A05</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the hepatitis B birth dose and DTP-HepB-Hib intramuscularly in the left thigh so that each dose is given by the correct route at the correct site.</td>
+      <td><a href="l1-recommendations.html">A05</a>: Hep B Birth dose (Intramuscular) and DPT-HepB-Hib (Intramuscular) to the baby’s left thigh</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C01</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the hepatitis B birth dose as soon as possible after birth, ideally within 24 hours and up to 7 days so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C01</a>: Hep B BD: As soon as possible after birth, ideally within 24 hours and up to 7 days</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C02</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give BCG as soon as possible after birth so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C02</a>: BCG: As soon as possible after birth</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C03</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the 6-week doses at 6 weeks or as soon as possible after so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C03</a>: At 6 weeks (or as soon as possible thereafter)</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C04</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the 10-week doses at 10 weeks or as soon as possible after, at least 4 weeks after dose 1 so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C04</a>: At 10 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 1</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C05</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the 14-week doses at 14 weeks or as soon as possible after, at least 4 weeks after dose 2 so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C05</a>: At 14 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 2</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C06</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give MR1 and yellow fever at 9 months or as soon as possible after so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C06</a>: At 9 months (or as soon as possible thereafter)</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C07</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give MR2 at 18 months or as soon as possible after, at least 4 weeks after the previous dose so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C07</a>: At 18 months (or as soon as possible there after), and at least 4 weeks since the previous dose</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C08</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I not give the hepatitis B birth dose after 7 days of age so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C08</a>: Hep B BD: Not after 7 days</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C09</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I not give rotavirus dose 1 after 2 years of age so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C09</a>: RV1: Not after 2 years of age</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C10</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I not give a 10-week dose within 4 weeks of the previous dose, nor rotavirus dose 2 after 2 years so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C10</a>: Not before 4 weeks has passed since the previous dose, RV2: Not after 2 years of age</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C11</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I not give a 14-week dose within 4 weeks of the previous dose, nor rotavirus dose 3 after 2 years so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C11</a>: Not before 4 weeks has passed since the previous dose, RV3: Not after 2 years of age</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C12</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I not give MR1 or yellow fever before 9 months of age, except where indicated so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C12</a>: Not before 9 months of age (except where indicated)*</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C13</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I not give MR2 within 4 weeks of MR1 so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C13</a>: MR2: Not before 4 weeks has passed since MR1</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C14</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I continue an interrupted series where it stopped rather than restarting it so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C14</a>: Even if a long time has passed between doses, there is no need to restart the series from the beginning</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.C15</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give missed doses whatever the child’s age, except rotavirus after 2 years and the hepatitis B birth dose after 7 days so that every child who is behind is brought up to date without invalid or unsafe doses.</td>
+      <td><a href="l1-recommendations.html">C15</a>: There is no upper age limit for most vaccines (except rotavirus &lt; 2years and Hepatitis B BD &lt;7 days).</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S01</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give BCG at birth so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S01</a>: BCG 1 at birth</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S02</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give the hepatitis B birth dose so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S02</a>: Hep B birth dose 1 at birth</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S03</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give OPV0 at birth and OPV1-3 at 6, 10 and 14 weeks so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S03</a>: Oral polio 0 at birth, 1 at 6 wks, 2 at 10 wks, 3 at 14 wks</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S04</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give DTP-HepB-Hib 1-3 at 6, 10 and 14 weeks so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S04</a>: DTP-HepB-Hib (penta) 1, 2, 3 at 6, 10, 14 wks</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S05</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give PCV 1-3 at 6, 10 and 14 weeks so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S05</a>: PCV 1, 2, 3 at 6, 10, 14 wks</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S06</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give rotavirus 1-3 at 6, 10 and 14 weeks so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S06</a>: Rotavirus 1, 2, 3 at 6, 10, 14 wks</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S07</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give IPV 1 at 6 weeks and IPV 2 at 14 weeks so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S07</a>: Inactivated Polio 1 at 6 wks and 2 at 14 wks</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S08</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give measles-rubella 1 at 9 months and 2 at 18 months so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S08</a>: Measles-Rubella 1 at 9 mo and 2 at 18 mo</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S09</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give yellow fever at 9 months so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S09</a>: Yellow Fever 1 at 9 mo</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S10</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give malaria vaccine 1-3 at 6, 7 and 8 months and 4 at 18 months so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S10</a>: 1, 2, 3 at 6, 7, 8 mo and 4 at 18 mo</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S11</td>
+      <td>As a Health worker (HW), during [process not determined], I give vitamin A at 6, 12, 18 and 24 months so that the child receives routine vitamin A supplementation.</td>
+      <td><a href="l1-recommendations.html">S11</a>: Vitamin A 1 at 6 mo, 2 at 12 mo, 3 at 18 mo, 4 at 24 mo</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S12</td>
+      <td>As a Health worker (HW), during [process not determined], I give deworming medicine at 12 months so that the child is dewormed on schedule.</td>
+      <td><a href="l1-recommendations.html">S12</a>: Deworming 1 at 12 mo</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S13</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give one dose of HPV vaccine at 10 years so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S13</a>: HPV 1 at 10 Yrs</td>
+    </tr>
+    <tr>
+      <td>IMMZ.UG.UNEPI.S14</td>
+      <td>As a Health worker (HW), during IMMZ.D Administer vaccine, I give Td doses 1 to 5 to women aged 15 to 49 so that the child receives the doses the Uganda schedule sets for that age.</td>
+      <td><a href="l1-recommendations.html">S14</a>: Tetanus Diphtheria (TD) ‘1,2,3,4 &amp;5’ at 15-49 Yrs</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/scenario-candidates.md" data-repo="litlfred/smart-immunizations-uganda" href="https://github.com/litlfred/smart-immunizations-uganda/edit/main/input/pagecontent/scenario-candidates.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-immunizations-uganda/blob/main/input/pagecontent/scenario-candidates.md", "repo": "litlfred/smart-immunizations-uganda", "branch": "main", "path": "input/pagecontent/scenario-candidates.md", "lines": [{"t":"From the MoH schedule poster (19)","l":8},{"t":"From the UNEPI requirements deck (34)","l":35}]}</script>
+
+<script src="./assets/ig-source-links.js"></script>
+
+<link rel="stylesheet" href="assets/ig-pages.css" />
+
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="l1-recommendations.html">&lt;prev</a> | <a href="#">top</a></p>
+<p class="ig-footer-band">IG © 2026+ <a href="https://github.com/litlfred/smart-immunizations-uganda" rel="external">litlfred (draft for UNEPI review)</a>. Package <code>smart.immunizations.uganda#0.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. </p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="https://spdx.org/licenses/CC0-1.0.html" rel="external">License</a></p>
+</footer>
+
+
+</main>
+</body>
+</html>
