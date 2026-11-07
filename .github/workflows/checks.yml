@@ -104,6 +104,8 @@ jobs:
         run: IMMZ_HOME=$PWD/.upstream/smart-immunizations npm run --silent logic:check-cql
       - name: Every adapted table's ages and intervals are in the L1 evidence it cites
         run: npm run --silent l2:evidence
+      - name: The L1 Recommendations and Scenario Candidates pages are current (scripts/gen-l1-pages.mjs)
+        run: npm run --silent l1:pages:check
 
   sushi:
     needs: changes
