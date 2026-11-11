@@ -16,7 +16,7 @@
     "library/unepi-user-requirements-smart-guidelines/blocks/prose-sec-001",
     "library/unepi-user-requirements-smart-guidelines/blocks/figure-img-p006-1"
   ],
-  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
-  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/source/unepi-user-requirements-smart-guidelines",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/source/unepi-user-requirements-smart-guidelines",
   "provenance": "ingested"
 }

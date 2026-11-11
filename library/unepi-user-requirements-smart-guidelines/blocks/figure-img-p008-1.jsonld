@@ -27,6 +27,6 @@
     "drafted_at": "2026-10-15T14:30:00Z"
   },
   "derivedFrom": "library/unepi-user-requirements-smart-guidelines/sections/sec-003",
-  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/source/unepi-user-requirements-smart-guidelines",
   "provenance": "ingested"
 }
