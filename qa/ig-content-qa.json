@@ -1,0 +1,76 @@
+{
+  "$schema": "ig-content-qa/v1",
+  "contentDigest": "sha256:c597f0b81e8f8ed92dd84f5bd0ed062d8ce86f2c6d66ac9b5079dff5737d98de",
+  "items": 164,
+  "reviewedAt": "2026-11-11T13:23:52.054Z",
+  "reviewer": {
+    "kind": "agent",
+    "name": "Claude",
+    "session": "https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11"
+  },
+  "findings": [
+    {
+      "where": "PlanDefinition/IMMZD18SDTPOnTimeStart",
+      "field": "text.div",
+      "sha": "2c6ea036bda0ac95def906983af21af9115d9192abbce164ffbd2be4f14a6284",
+      "kind": "deceptive-link",
+      "note": "link text names a different host than its href",
+      "status": "cleared",
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+    },
+    {
+      "where": "PlanDefinition/IMMZD18SDTPTdWCBA",
+      "field": "text.div",
+      "sha": "c026ff32d6aedb257ecd41b9380cd41d52f86b4b0b8a81614a9bb9dac318cae1",
+      "kind": "deceptive-link",
+      "note": "link text names a different host than its href",
+      "status": "cleared",
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+    },
+    {
+      "where": "PlanDefinition/IMMZD18SHPVSingleDose",
+      "field": "text.div",
+      "sha": "2779b87bdc2ff6a5dfd1da4df1edfccf93b5a5f76391292bd50c2e11c7e64eea",
+      "kind": "deceptive-link",
+      "note": "link text names a different host than its href",
+      "status": "cleared",
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+    },
+    {
+      "where": "PlanDefinition/IMMZD18SHepatitisBBirthDose",
+      "field": "text.div",
+      "sha": "c2fd088c218b511e0a467146df82c1bd8714f5727f3b1da75115820f3ec15d87",
+      "kind": "deceptive-link",
+      "note": "link text names a different host than its href",
+      "status": "cleared",
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+    },
+    {
+      "where": "PlanDefinition/IMMZD18SMalaria",
+      "field": "text.div",
+      "sha": "11391829ddc8e5c67fc5ee8469c0b441af75625c8e80aa78fbc3fff8eb9a0a2b",
+      "kind": "deceptive-link",
+      "note": "link text names a different host than its href",
+      "status": "cleared",
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+    },
+    {
+      "where": "PlanDefinition/IMMZD18SMeaslesOngoingTransmission",
+      "field": "text.div",
+      "sha": "3fc1f65cf1ece533ff29dfdcd90098894f430d4da8a7d65963a0860eeb5692bc",
+      "kind": "deceptive-link",
+      "note": "link text names a different host than its href",
+      "status": "cleared",
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+    },
+    {
+      "where": "PlanDefinition/IMMZD18SPolioBOPVPlusIPV",
+      "field": "text.div",
+      "sha": "b8fe57711a2a0c83c8dcb69e589fb9e4e56727e5d9316624d0c4d814d87758b3",
+      "kind": "deceptive-link",
+      "note": "link text names a different host than its href",
+      "status": "cleared",
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+    }
+  ]
+}
