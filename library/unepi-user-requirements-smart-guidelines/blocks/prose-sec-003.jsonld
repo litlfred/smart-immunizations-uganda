@@ -16,7 +16,7 @@
   "pageStart": 7,
   "pageEnd": 9,
   "text": "../sections/sec-003-catch-up-schedule.md",
-  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
-  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/manifest.jsonld",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/source/unepi-user-requirements-smart-guidelines",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/source/unepi-user-requirements-smart-guidelines",
   "provenance": "ingested"
 }

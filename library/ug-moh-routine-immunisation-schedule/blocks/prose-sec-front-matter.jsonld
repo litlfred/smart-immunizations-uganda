@@ -16,7 +16,7 @@
   "pageStart": 1,
   "pageEnd": 1,
   "text": "../sections/sec-front-matter.md",
-  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/manifest.jsonld",
-  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/manifest.jsonld",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/source/ug-moh-routine-immunisation-schedule",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-uganda/source/ug-moh-routine-immunisation-schedule",
   "provenance": "ingested"
 }
