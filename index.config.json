@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "d9978060f997a1b1bd55eae1ae7e49115854e648",
+          "ref": "a7cde87b15f94234a0961de9cd73c39d6f5ca418",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -30,9 +30,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-11",
-              "ref": "d9978060f997a1b1bd55eae1ae7e49115854e648",
-              "evidence": "owner card tap 2026-11-11T02:45:31Z 'A: Merge the train' (library IRI-move train, tools#1833 + layer regens), merge-manager thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR"
+              "on": "2026-11-12",
+              "ref": "a7cde87b15f94234a0961de9cd73c39d6f5ca418",
+              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -43,7 +43,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "b2c3f72c60cfbd47ffa7fd61d96da3dd4d865c66",
+          "ref": "6976e637c092f5862f0fd2a01b4735b1dc2f4ab2",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -79,9 +79,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-11",
-              "ref": "b2c3f72c60cfbd47ffa7fd61d96da3dd4d865c66",
-              "evidence": "owner card tap 2026-11-11T02:45:31Z 'A: Merge the train' (library IRI-move train, tools#1833 + layer regens), merge-manager thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR"
+              "on": "2026-11-12",
+              "ref": "6976e637c092f5862f0fd2a01b4735b1dc2f4ab2",
+              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "55ead965bc0f0fb543831e9f4a8e94d6c4e58da9",
+          "ref": "091bd49ca6363135f6200cdfe05c1b791f731d04",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-11",
-              "ref": "55ead965bc0f0fb543831e9f4a8e94d6c4e58da9",
-              "evidence": "owner card tap 2026-11-11T02:45:31Z 'A: Merge the train' (library IRI-move train, tools#1833 + layer regens), merge-manager thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR"
+              "on": "2026-11-12",
+              "ref": "091bd49ca6363135f6200cdfe05c1b791f731d04",
+              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "50422b586b1fa239ab199a89e27e587bd7ee1550",
+          "ref": "d3eb1f73587b7e5ba02221022f8f3ccf03bb4f36",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-11",
-              "ref": "50422b586b1fa239ab199a89e27e587bd7ee1550",
-              "evidence": "owner card tap 2026-11-11T02:45:31Z 'A: Merge the train' (library IRI-move train, tools#1833 + layer regens), merge-manager thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR"
+              "on": "2026-11-12",
+              "ref": "d3eb1f73587b7e5ba02221022f8f3ccf03bb4f36",
+              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "a3e0047270f76181681cdc3a4b93a832c7577b4c",
+          "ref": "f4a5d7f2153f95d702b4cccda0a2e110abd1cb37",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-11",
-              "ref": "a3e0047270f76181681cdc3a4b93a832c7577b4c",
-              "evidence": "owner card tap 2026-11-11T02:45:31Z 'A: Merge the train' (library IRI-move train, tools#1833 + layer regens), merge-manager thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR"
+              "on": "2026-11-12",
+              "ref": "f4a5d7f2153f95d702b4cccda0a2e110abd1cb37",
+              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "99d6991d3bf9957e1ee112a2b4a50d4c3e11ee98",
+          "ref": "84c011b7acd1b711ddb88bff257b93adb32c37cf",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-11",
-              "ref": "99d6991d3bf9957e1ee112a2b4a50d4c3e11ee98",
-              "evidence": "owner card tap 2026-11-11T02:45:31Z 'A: Merge the train' (library IRI-move train, tools#1833 + layer regens), merge-manager thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR"
+              "on": "2026-11-12",
+              "ref": "84c011b7acd1b711ddb88bff257b93adb32c37cf",
+              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "1c36aef5ab70d7e95ee6026124cd004cab0c0990",
+          "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -204,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-11",
-              "ref": "1c36aef5ab70d7e95ee6026124cd004cab0c0990",
-              "evidence": "owner card tap 2026-11-11T02:45:31Z 'A: Merge the train' (library IRI-move train, tools#1833 + layer regens), merge-manager thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR"
+              "on": "2026-11-12",
+              "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
+              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
+          "ref": "bbdaffb757007bf0c4fe0ce4d21018491df308a9",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,9 +229,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-11",
-              "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
-              "evidence": "owner card tap 2026-11-11T02:45:31Z 'A: Merge the train' (library IRI-move train, tools#1833 + layer regens), merge-manager thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR"
+              "on": "2026-11-12",
+              "ref": "bbdaffb757007bf0c4fe0ce4d21018491df308a9",
+              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -248,6 +248,9 @@
   ],
   "site": {
     "landing": "smart-base",
-    "agentRun": true
+    "agentRun": true,
+    "publishAfter": [
+      "ig-ast-refresh.yml"
+    ]
   }
 }
