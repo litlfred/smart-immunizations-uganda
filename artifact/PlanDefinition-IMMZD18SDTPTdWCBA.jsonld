@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD18SDTPTdWCBA.jsonld",
+  "@id": "PlanDefinition-IMMZD18SDTPTdWCBA",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD18SDTPTdWCBA",
   "schema:name": "IMMZD18SDTPTdWCBA",
@@ -22,16 +22,24 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "../ast-data/resources/PlanDefinition/IMMZD18SDTPTdWCBA--aea11a5e.json"
+        "@id": "../PlanDefinition-IMMZD18SDTPTdWCBA.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-immunizations-uganda/585fe1bcf137c11059477ab4c853dc7c357f8b51/resources/PlanDefinition/IMMZD18SDTPTdWCBA--aea11a5e.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba"
+    "prov:used": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

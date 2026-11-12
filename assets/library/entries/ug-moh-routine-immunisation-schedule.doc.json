@@ -102,7 +102,12 @@
       "labelEnd": null,
       "words": 193,
       "summary": null,
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "child",
+          "heading": false
+        }
+      ],
       "extract": "Months 䃲 dose HPV vaccine to prevent cancer of the cervix Girl Months Months • Measles • Rubella • Malaria • Vitamin A Months • Yellow Fever • Rubella Birth • Tuberculosis • Hepatitis B • Polio Weeks • Whooping cough • Haemophilus inﬂuenza type B • Rotavirus Diarrhoea • Polio • Tetanus • Hepatitis B • Meningitis • Pneumonia • Diphtheria Months • Malaria • Vitamin A Weeks • Polio • Whooping cough • Haemophilus",
       "extractCut": true
     },
@@ -145,6 +150,12 @@
     }
   },
   "withheld": false,
+  "keywords": [
+    {
+      "term": "child",
+      "heading": false
+    }
+  ],
   "pageLabels": [
     {
       "physical": 1,

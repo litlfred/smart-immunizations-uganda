@@ -8,13 +8,629 @@
   "source": {
     "kind": "output",
     "of": "output-ast",
-    "revision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-    "readAt": "2026-10-16"
+    "revision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+    "readAt": "2026-11-07"
   },
   "provenance": {},
   "sidecarApi": "unknown",
-  "count": 15,
+  "count": 29,
   "artifacts": [
+    {
+      "key": "Binary/UG-FR-01",
+      "resourceType": "Binary",
+      "id": "UG-FR-01",
+      "title": "UG-FR-01",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-FR-01.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-FR-01--099a81e8.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-FR-02",
+      "resourceType": "Binary",
+      "id": "UG-FR-02",
+      "title": "UG-FR-02",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-FR-02.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-FR-02--3f2a49db.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-FR-03",
+      "resourceType": "Binary",
+      "id": "UG-FR-03",
+      "title": "UG-FR-03",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-FR-03.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-FR-03--f23a6fa3.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-FR-04",
+      "resourceType": "Binary",
+      "id": "UG-FR-04",
+      "title": "UG-FR-04",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-FR-04.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-FR-04--f04af68e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-FR-05",
+      "resourceType": "Binary",
+      "id": "UG-FR-05",
+      "title": "UG-FR-05",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-FR-05.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-FR-05--ed8dc18d.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-FR-06",
+      "resourceType": "Binary",
+      "id": "UG-FR-06",
+      "title": "UG-FR-06",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-FR-06.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-FR-06--2a5c7182.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-FR-07",
+      "resourceType": "Binary",
+      "id": "UG-FR-07",
+      "title": "UG-FR-07",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-FR-07.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-FR-07--6ed6d847.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-NFR-01",
+      "resourceType": "Binary",
+      "id": "UG-NFR-01",
+      "title": "UG-NFR-01",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-NFR-01.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-NFR-01--15abe467.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-NFR-02",
+      "resourceType": "Binary",
+      "id": "UG-NFR-02",
+      "title": "UG-NFR-02",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-NFR-02.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-NFR-02--f8c11f41.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-NFR-03",
+      "resourceType": "Binary",
+      "id": "UG-NFR-03",
+      "title": "UG-NFR-03",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-NFR-03.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-NFR-03--e8986333.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-NFR-04",
+      "resourceType": "Binary",
+      "id": "UG-NFR-04",
+      "title": "UG-NFR-04",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-NFR-04.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-NFR-04--41bec737.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-NFR-05",
+      "resourceType": "Binary",
+      "id": "UG-NFR-05",
+      "title": "UG-NFR-05",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-NFR-05.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-NFR-05--3629b5d0.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-NFR-06",
+      "resourceType": "Binary",
+      "id": "UG-NFR-06",
+      "title": "UG-NFR-06",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-NFR-06.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-NFR-06--dfc27b5b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
+    {
+      "key": "Binary/UG-NFR-07",
+      "resourceType": "Binary",
+      "id": "UG-NFR-07",
+      "title": "UG-NFR-07",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Binary-UG-NFR-07.json"
+        },
+        "localPath": "output-ast/resources/Binary/UG-NFR-07--883c0ca8.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
+        },
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
+      }
+    },
     {
       "key": "ImplementationGuide/smart.immunizations.uganda",
       "resourceType": "ImplementationGuide",
@@ -56,10 +672,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -110,10 +726,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -164,10 +780,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -218,10 +834,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -272,10 +888,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -326,10 +942,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -380,10 +996,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -434,10 +1050,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -487,10 +1103,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -540,10 +1156,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -593,10 +1209,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -646,10 +1262,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -699,10 +1315,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -752,10 +1368,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     },
     {
@@ -805,10 +1421,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "91b2b5ad710636a8808b1161f1fd8afc5d9fffba",
-          "inputDigest": "e954264877fce851429986b349da23768cf4a5bac0ba5f759f2f5173f689c88f"
+          "sourceRevision": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+          "inputDigest": "f22fa2125ea12bcc7a6b7e4bf3aa525c68661736682b3221f055f152ae57bd41"
         },
-        "materializedAt": "2026-10-16T12:16:08.351380500Z"
+        "materializedAt": "2026-11-07T14:38:31.138445966Z"
       }
     }
   ]

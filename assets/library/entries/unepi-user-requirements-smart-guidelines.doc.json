@@ -273,7 +273,20 @@
       "labelEnd": null,
       "words": 80,
       "summary": null,
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "immunization",
+          "heading": false
+        },
+        {
+          "term": "ensure",
+          "heading": false
+        },
+        {
+          "term": "child",
+          "heading": false
+        }
+      ],
       "extract": "MINISTRY OF HEALTH National Expanded Programme on Immunization GOVERNMENT OF UGANDA Vision To ensure that the Ugandan population is free of vaccine-preventable diseases Mission Goal To contribute to the overall objective of the HSDP in reducing morbidity, mortality and disability due to vaccine preventable diseases, so that they are no longer of public health importance To ensure that every child and high-risk group",
       "extractCut": true
     },
@@ -393,7 +406,20 @@
       "labelEnd": null,
       "words": 335,
       "summary": null,
-      "keywords": [],
+      "keywords": [
+        {
+          "term": "immunization",
+          "heading": false
+        },
+        {
+          "term": "ensure",
+          "heading": false
+        },
+        {
+          "term": "quality",
+          "heading": false
+        }
+      ],
       "extract": "•High Printing costs •Cause Delays of SD (Time consuming) •Less accurate • False ZDC & IUC •No flexibility •Lack realtime processes •Vaccine Accountability Benefits of Digitization of immunization • Improves data quality • Reminders • Saves printing costs • Support follow up • Identification of real defaulters • Improve data use • Improve visibility User Requirements for electronic Immunization Registry (EIR)",
       "extractCut": true
     }
@@ -406,6 +432,24 @@
     }
   },
   "withheld": false,
+  "keywords": [
+    {
+      "term": "immunization",
+      "heading": true
+    },
+    {
+      "term": "ensure",
+      "heading": false
+    },
+    {
+      "term": "quality",
+      "heading": false
+    },
+    {
+      "term": "effective",
+      "heading": false
+    }
+  ],
   "pageLabels": [
     {
       "physical": 1,

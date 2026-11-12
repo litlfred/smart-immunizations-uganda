@@ -14,10 +14,150 @@
     "@id": "https://litlfred.github.io/smart-immunizations-uganda"
   },
   "dcterms:title": "Immunizations - Uganda adaptation (draft)",
-  "schema:numberOfItems": 15,
+  "schema:numberOfItems": 29,
   "schema:hasPart": [
     {
-      "@id": "Library-IMMZD18SDTPOnTimeStartLogic.jsonld",
+      "@id": "Binary-UG-FR-01",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-FR-01",
+      "dcterms:title": "UG-FR-01",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-FR-01.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-FR-02",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-FR-02",
+      "dcterms:title": "UG-FR-02",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-FR-02.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-FR-03",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-FR-03",
+      "dcterms:title": "UG-FR-03",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-FR-03.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-FR-04",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-FR-04",
+      "dcterms:title": "UG-FR-04",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-FR-04.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-FR-05",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-FR-05",
+      "dcterms:title": "UG-FR-05",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-FR-05.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-FR-06",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-FR-06",
+      "dcterms:title": "UG-FR-06",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-FR-06.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-FR-07",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-FR-07",
+      "dcterms:title": "UG-FR-07",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-FR-07.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-NFR-01",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-NFR-01",
+      "dcterms:title": "UG-NFR-01",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-NFR-01.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-NFR-02",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-NFR-02",
+      "dcterms:title": "UG-NFR-02",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-NFR-02.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-NFR-03",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-NFR-03",
+      "dcterms:title": "UG-NFR-03",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-NFR-03.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-NFR-04",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-NFR-04",
+      "dcterms:title": "UG-NFR-04",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-NFR-04.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-NFR-05",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-NFR-05",
+      "dcterms:title": "UG-NFR-05",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-NFR-05.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-NFR-06",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-NFR-06",
+      "dcterms:title": "UG-NFR-06",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-NFR-06.json"
+      }
+    },
+    {
+      "@id": "Binary-UG-NFR-07",
+      "@type": "fhir:Binary",
+      "dcterms:identifier": "Binary/UG-NFR-07",
+      "dcterms:title": "UG-NFR-07",
+      "dcterms:type": "Other",
+      "schema:contentUrl": {
+        "@id": "../Binary-UG-NFR-07.json"
+      }
+    },
+    {
+      "@id": "Library-IMMZD18SDTPOnTimeStartLogic",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/IMMZD18SDTPOnTimeStartLogic",
       "dcterms:title": "IMMZD18SDTPOnTimeStartLogic",
@@ -25,10 +165,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPOnTimeStartLogic"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-IMMZD18SDTPOnTimeStartLogic.json"
       }
     },
     {
-      "@id": "Library-IMMZD18SDTPTdWCBALogic.jsonld",
+      "@id": "Library-IMMZD18SDTPTdWCBALogic",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/IMMZD18SDTPTdWCBALogic",
       "dcterms:title": "IMMZD18SDTPTdWCBALogic",
@@ -36,10 +179,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SDTPTdWCBALogic"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-IMMZD18SDTPTdWCBALogic.json"
       }
     },
     {
-      "@id": "Library-IMMZD18SHPVSingleDoseLogic.jsonld",
+      "@id": "Library-IMMZD18SHPVSingleDoseLogic",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/IMMZD18SHPVSingleDoseLogic",
       "dcterms:title": "IMMZD18SHPVSingleDoseLogic",
@@ -47,10 +193,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHPVSingleDoseLogic"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-IMMZD18SHPVSingleDoseLogic.json"
       }
     },
     {
-      "@id": "Library-IMMZD18SHepatitisBBirthDoseLogic.jsonld",
+      "@id": "Library-IMMZD18SHepatitisBBirthDoseLogic",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/IMMZD18SHepatitisBBirthDoseLogic",
       "dcterms:title": "IMMZD18SHepatitisBBirthDoseLogic",
@@ -58,10 +207,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SHepatitisBBirthDoseLogic"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-IMMZD18SHepatitisBBirthDoseLogic.json"
       }
     },
     {
-      "@id": "Library-IMMZD18SMalariaLogic.jsonld",
+      "@id": "Library-IMMZD18SMalariaLogic",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/IMMZD18SMalariaLogic",
       "dcterms:title": "IMMZD18SMalariaLogic",
@@ -69,10 +221,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMalariaLogic"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-IMMZD18SMalariaLogic.json"
       }
     },
     {
-      "@id": "Library-IMMZD18SMeaslesOngoingTransmissionLogic.jsonld",
+      "@id": "Library-IMMZD18SMeaslesOngoingTransmissionLogic",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/IMMZD18SMeaslesOngoingTransmissionLogic",
       "dcterms:title": "IMMZD18SMeaslesOngoingTransmissionLogic",
@@ -80,10 +235,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SMeaslesOngoingTransmissionLogic"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-IMMZD18SMeaslesOngoingTransmissionLogic.json"
       }
     },
     {
-      "@id": "Library-IMMZD18SPolioBOPVPlusIPVLogic.jsonld",
+      "@id": "Library-IMMZD18SPolioBOPVPlusIPVLogic",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/IMMZD18SPolioBOPVPlusIPVLogic",
       "dcterms:title": "IMMZD18SPolioBOPVPlusIPVLogic",
@@ -91,10 +249,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/Library/IMMZD18SPolioBOPVPlusIPVLogic"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-IMMZD18SPolioBOPVPlusIPVLogic.json"
       }
     },
     {
-      "@id": "PlanDefinition-IMMZD18SDTPOnTimeStart.jsonld",
+      "@id": "PlanDefinition-IMMZD18SDTPOnTimeStart",
       "@type": "fhir:PlanDefinition",
       "dcterms:identifier": "PlanDefinition/IMMZD18SDTPOnTimeStart",
       "dcterms:title": "IMMZ.D18.S.DTP.On-time start schedule",
@@ -102,10 +263,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPOnTimeStart"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-IMMZD18SDTPOnTimeStart.json"
       }
     },
     {
-      "@id": "PlanDefinition-IMMZD18SDTPTdWCBA.jsonld",
+      "@id": "PlanDefinition-IMMZD18SDTPTdWCBA",
       "@type": "fhir:PlanDefinition",
       "dcterms:identifier": "PlanDefinition/IMMZD18SDTPTdWCBA",
       "dcterms:title": "UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule",
@@ -113,10 +277,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-IMMZD18SDTPTdWCBA.json"
       }
     },
     {
-      "@id": "PlanDefinition-IMMZD18SHPVSingleDose.jsonld",
+      "@id": "PlanDefinition-IMMZD18SHPVSingleDose",
       "@type": "fhir:PlanDefinition",
       "dcterms:identifier": "PlanDefinition/IMMZD18SHPVSingleDose",
       "dcterms:title": "IMMZ.D18.S.Single-dose schedule",
@@ -124,10 +291,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHPVSingleDose"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-IMMZD18SHPVSingleDose.json"
       }
     },
     {
-      "@id": "PlanDefinition-IMMZD18SHepatitisBBirthDose.jsonld",
+      "@id": "PlanDefinition-IMMZD18SHepatitisBBirthDose",
       "@type": "fhir:PlanDefinition",
       "dcterms:identifier": "PlanDefinition/IMMZD18SHepatitisBBirthDose",
       "dcterms:title": "IMMZ.D18.S.Hepatitis B.Birth dose schedule",
@@ -135,10 +305,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SHepatitisBBirthDose"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-IMMZD18SHepatitisBBirthDose.json"
       }
     },
     {
-      "@id": "PlanDefinition-IMMZD18SMalaria.jsonld",
+      "@id": "PlanDefinition-IMMZD18SMalaria",
       "@type": "fhir:PlanDefinition",
       "dcterms:identifier": "PlanDefinition/IMMZD18SMalaria",
       "dcterms:title": "IMMZ.D18.S.Malaria schedule",
@@ -146,10 +319,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMalaria"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-IMMZD18SMalaria.json"
       }
     },
     {
-      "@id": "PlanDefinition-IMMZD18SMeaslesOngoingTransmission.jsonld",
+      "@id": "PlanDefinition-IMMZD18SMeaslesOngoingTransmission",
       "@type": "fhir:PlanDefinition",
       "dcterms:identifier": "PlanDefinition/IMMZD18SMeaslesOngoingTransmission",
       "dcterms:title": "IMMZ.D18.S.Measles.Ongoing transmission schedule",
@@ -157,10 +333,13 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SMeaslesOngoingTransmission"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json"
       }
     },
     {
-      "@id": "PlanDefinition-IMMZD18SPolioBOPVPlusIPV.jsonld",
+      "@id": "PlanDefinition-IMMZD18SPolioBOPVPlusIPV",
       "@type": "fhir:PlanDefinition",
       "dcterms:identifier": "PlanDefinition/IMMZD18SPolioBOPVPlusIPV",
       "dcterms:title": "IMMZ.D18.S.Polio.bOPV plus IPV schedule",
@@ -168,16 +347,23 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SPolioBOPVPlusIPV"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json"
       }
     },
     {
-      "@id": "ImplementationGuide-smart.immunizations.uganda.jsonld",
+      "@id": "ImplementationGuide-smart.immunizations.uganda",
       "@type": "fhir:ImplementationGuide",
       "dcterms:identifier": "ImplementationGuide/smart.immunizations.uganda",
       "dcterms:title": "Immunizations - Uganda adaptation (draft)",
+      "schema:name": "SMARTImmunizationsUganda",
       "dcterms:description": "Draft adaptation of the WHO SMART Guidelines Immunization implementation guide to the Uganda routine immunisation schedule (UNEPI).",
       "schema:sameAs": {
         "@id": "https://litlfred.github.io/smart-immunizations-uganda/ImplementationGuide/smart.immunizations.uganda"
+      },
+      "schema:contentUrl": {
+        "@id": "../ImplementationGuide-smart.immunizations.uganda.json"
       }
     }
   ]
