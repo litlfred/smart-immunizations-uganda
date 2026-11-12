@@ -1,0 +1,15 @@
+{
+  "$schema": "qa-reports-manifest/v1",
+  "key": "main/f086c455e409fa7f8aebe8aa48069e667f3671dd",
+  "source": "f086c455e409fa7f8aebe8aa48069e667f3671dd",
+  "written_at": "2026-11-12T18:37:38.580Z",
+  "producer": {
+    "run": "https://github.com/litlfred/smart-immunizations-uganda/actions/runs/43281596200"
+  },
+  "roots": [
+    "smart-immunizations-uganda/test/results"
+  ],
+  "payloadTree": "819f35875fa603c1d5149687a3c6a7668d7d402a",
+  "files": 2,
+  "bytes": 9016
+}
