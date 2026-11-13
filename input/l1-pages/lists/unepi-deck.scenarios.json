@@ -1,0 +1,380 @@
+{
+  "_schema": "folio-extracted-statements/v1",
+  "title": "Scenario candidates",
+  "statements": [
+    {
+      "id": "IMMZ.UG.UNEPI.A01",
+      "statement": "IMMZ.UG.UNEPI.A01: give polio, vitamin A and rotavirus by mouth",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "A01",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.A02",
+      "statement": "IMMZ.UG.UNEPI.A02: give BCG intradermally and yellow fever subcutaneously in the right upper arm",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "A02",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.A03",
+      "statement": "IMMZ.UG.UNEPI.A03: give measles-rubella subcutaneously in the left upper arm",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "A03",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.A04",
+      "statement": "IMMZ.UG.UNEPI.A04: give IPV and PCV intramuscularly in the right thigh, 2 cm apart",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "A04",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.A05",
+      "statement": "IMMZ.UG.UNEPI.A05: give the hepatitis B birth dose and DTP-HepB-Hib intramuscularly in the left thigh",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "A05",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C01",
+      "statement": "IMMZ.UG.UNEPI.C01: give the hepatitis B birth dose as soon as possible after birth, ideally within 24 hours and up to 7 days",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C01",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C02",
+      "statement": "IMMZ.UG.UNEPI.C02: give BCG as soon as possible after birth",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C02",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C03",
+      "statement": "IMMZ.UG.UNEPI.C03: give the 6-week doses at 6 weeks or as soon as possible after",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C03",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C04",
+      "statement": "IMMZ.UG.UNEPI.C04: give the 10-week doses at 10 weeks or as soon as possible after, at least 4 weeks after dose 1",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C04",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C05",
+      "statement": "IMMZ.UG.UNEPI.C05: give the 14-week doses at 14 weeks or as soon as possible after, at least 4 weeks after dose 2",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C05",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C06",
+      "statement": "IMMZ.UG.UNEPI.C06: give MR1 and yellow fever at 9 months or as soon as possible after",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C06",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C07",
+      "statement": "IMMZ.UG.UNEPI.C07: give MR2 at 18 months or as soon as possible after, at least 4 weeks after the previous dose",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C07",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C08",
+      "statement": "IMMZ.UG.UNEPI.C08: not give the hepatitis B birth dose after 7 days of age",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C08",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C09",
+      "statement": "IMMZ.UG.UNEPI.C09: not give rotavirus dose 1 after 2 years of age",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C09",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C10",
+      "statement": "IMMZ.UG.UNEPI.C10: not give a 10-week dose within 4 weeks of the previous dose, nor rotavirus dose 2 after 2 years",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C10",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C11",
+      "statement": "IMMZ.UG.UNEPI.C11: not give a 14-week dose within 4 weeks of the previous dose, nor rotavirus dose 3 after 2 years",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C11",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C12",
+      "statement": "IMMZ.UG.UNEPI.C12: not give MR1 or yellow fever before 9 months of age, except where indicated",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C12",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C13",
+      "statement": "IMMZ.UG.UNEPI.C13: not give MR2 within 4 weeks of MR1",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C13",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C14",
+      "statement": "IMMZ.UG.UNEPI.C14: continue an interrupted series where it stopped rather than restarting it",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C14",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.C15",
+      "statement": "IMMZ.UG.UNEPI.C15: give missed doses whatever the child's age, except rotavirus after 2 years and the hepatitis B birth dose after 7 days",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "C15",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S01",
+      "statement": "IMMZ.UG.UNEPI.S01: give BCG at birth",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S01",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S02",
+      "statement": "IMMZ.UG.UNEPI.S02: give the hepatitis B birth dose",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S02",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S03",
+      "statement": "IMMZ.UG.UNEPI.S03: give OPV0 at birth and OPV1-3 at 6, 10 and 14 weeks",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S03",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S04",
+      "statement": "IMMZ.UG.UNEPI.S04: give DTP-HepB-Hib 1-3 at 6, 10 and 14 weeks",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S04",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S05",
+      "statement": "IMMZ.UG.UNEPI.S05: give PCV 1-3 at 6, 10 and 14 weeks",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S05",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S06",
+      "statement": "IMMZ.UG.UNEPI.S06: give rotavirus 1-3 at 6, 10 and 14 weeks",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S06",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S07",
+      "statement": "IMMZ.UG.UNEPI.S07: give IPV 1 at 6 weeks and IPV 2 at 14 weeks",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S07",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S08",
+      "statement": "IMMZ.UG.UNEPI.S08: give measles-rubella 1 at 9 months and 2 at 18 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S08",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S09",
+      "statement": "IMMZ.UG.UNEPI.S09: give yellow fever at 9 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S09",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S10",
+      "statement": "IMMZ.UG.UNEPI.S10: give malaria vaccine 1-3 at 6, 7 and 8 months and 4 at 18 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S10",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S11",
+      "statement": "IMMZ.UG.UNEPI.S11: give vitamin A at 6, 12, 18 and 24 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S11",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S12",
+      "statement": "IMMZ.UG.UNEPI.S12: give deworming medicine at 12 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S12",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S13",
+      "statement": "IMMZ.UG.UNEPI.S13: give one dose of HPV vaccine at 10 years",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S13",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "IMMZ.UG.UNEPI.S14",
+      "statement": "IMMZ.UG.UNEPI.S14: give Td doses 1 to 5 to women aged 15 to 49",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "S14",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    }
+  ]
+}
