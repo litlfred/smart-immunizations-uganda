@@ -43,7 +43,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "bfea0cc9b8ae3156e3a2808c33d5b8928c8c7a08",
+          "ref": "6f578c3b3db89d80c896133935bdd294903bea83",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -80,7 +80,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "bfea0cc9b8ae3156e3a2808c33d5b8928c8c7a08",
+              "ref": "6f578c3b3db89d80c896133935bdd294903bea83",
               "evidence": "Owner litlfred, typed in session_01VQDpPdxkTnyDcojJ7AAdNz on 2026-11-13: \"yes, consent to re-pin\", then \"1\" to \"May #29 re-pin all 8 layers to their current mains, recording your consent for each?\" (smart-immunizations-uganda#29; the lock-coherence gate requires every layer at main together)."
             }
           }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "9d723f1aa4a0af8fdedd42247805df103f061e99",
+          "ref": "3ef4b4fe35953bbca3777f1dd19243cfa7b8748a",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,7 +102,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "9d723f1aa4a0af8fdedd42247805df103f061e99",
+              "ref": "3ef4b4fe35953bbca3777f1dd19243cfa7b8748a",
               "evidence": "Owner litlfred, typed in session_01VQDpPdxkTnyDcojJ7AAdNz on 2026-11-13: \"yes, consent to re-pin\", then \"1\" to \"May #29 re-pin all 8 layers to their current mains, recording your consent for each?\" (smart-immunizations-uganda#29; the lock-coherence gate requires every layer at main together)."
             }
           }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "4f46ca7cd19c51efc3cf1f327e78638fdf720800",
+          "ref": "cb77a096cc22e00cdb6ea172d0ff6a4eb485187b",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,7 +130,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "4f46ca7cd19c51efc3cf1f327e78638fdf720800",
+              "ref": "cb77a096cc22e00cdb6ea172d0ff6a4eb485187b",
               "evidence": "Owner litlfred, typed in session_01VQDpPdxkTnyDcojJ7AAdNz on 2026-11-13: \"yes, consent to re-pin\", then \"1\" to \"May #29 re-pin all 8 layers to their current mains, recording your consent for each?\" (smart-immunizations-uganda#29; the lock-coherence gate requires every layer at main together)."
             }
           }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "2672704a9ede07b83340de4a381e575d1b3976d4",
+          "ref": "c9c951af360c5b9c68a931b2e8346967d6689863",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,7 +158,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "2672704a9ede07b83340de4a381e575d1b3976d4",
+              "ref": "c9c951af360c5b9c68a931b2e8346967d6689863",
               "evidence": "Owner litlfred, typed in session_01VQDpPdxkTnyDcojJ7AAdNz on 2026-11-13: \"yes, consent to re-pin\", then \"1\" to \"May #29 re-pin all 8 layers to their current mains, recording your consent for each?\" (smart-immunizations-uganda#29; the lock-coherence gate requires every layer at main together)."
             }
           }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "db3be0d3682957cac87c399fead4a4d5369b86ef",
+          "ref": "1154c2af7a4bc108c8d208f54d6a622fe7e34bb4",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,7 +183,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "db3be0d3682957cac87c399fead4a4d5369b86ef",
+              "ref": "1154c2af7a4bc108c8d208f54d6a622fe7e34bb4",
               "evidence": "Owner litlfred, typed in session_01VQDpPdxkTnyDcojJ7AAdNz on 2026-11-13: \"yes, consent to re-pin\", then \"1\" to \"May #29 re-pin all 8 layers to their current mains, recording your consent for each?\" (smart-immunizations-uganda#29; the lock-coherence gate requires every layer at main together)."
             }
           }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "0f88368db7560afac6d3e16fd905cbb974350f82",
+          "ref": "295f0ccea3b0239c565978ce978eef807a692d52",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -230,7 +230,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "0f88368db7560afac6d3e16fd905cbb974350f82",
+              "ref": "295f0ccea3b0239c565978ce978eef807a692d52",
               "evidence": "Owner litlfred, typed in session_01VQDpPdxkTnyDcojJ7AAdNz on 2026-11-13: \"yes, consent to re-pin\", then \"1\" to \"May #29 re-pin all 8 layers to their current mains, recording your consent for each?\" (smart-immunizations-uganda#29; the lock-coherence gate requires every layer at main together)."
             }
           }

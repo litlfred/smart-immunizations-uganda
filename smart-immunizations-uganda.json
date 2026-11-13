@@ -70,5 +70,13 @@
       ],
       "description": "What auditing this instance produced (the per-entry library QA verdicts among them), kept on the shared qa-reports branch keyed by commit, as smart-base declares its own; declared so a verdict about a library entry reads as stored or unknown, never as absent."
     }
+  ],
+  "enableSubgraphs": [
+    "smart-base.smart-base-L1",
+    "smart-base.smart-base-L2",
+    "smart-base.smart-base-L2-bpmn",
+    "smart-base.smart-base-L2-dmn",
+    "smart-base.smart-base-L3",
+    "smart-base.smart-base-L4"
   ]
 }
