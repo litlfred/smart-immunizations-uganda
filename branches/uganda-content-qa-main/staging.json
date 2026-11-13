@@ -1,0 +1,18 @@
+{
+  "branch": "claude/uganda-content-qa-main",
+  "sha": "bafe9d1",
+  "built": "2026-11-13T20:32:39Z",
+  "pr": "33",
+  "prUrl": "https://github.com/litlfred/smart-immunizations-uganda/pull/33",
+  "branchUrl": "https://github.com/litlfred/smart-immunizations-uganda/tree/claude/uganda-content-qa-main",
+  "issue": null,
+  "issueUrl": null,
+  "runUrl": "https://github.com/litlfred/smart-immunizations-uganda/commit/bafe9d1f8619ca22dc075aa2b5ea2248d3d4ea86",
+  "mainSite": "https://litlfred.github.io/smart-immunizations-uganda/",
+  "beforeRef": "main",
+  "mainPagesKnown": true,
+  "newPages": [
+    "404.html",
+    "review/index.html"
+  ]
+}

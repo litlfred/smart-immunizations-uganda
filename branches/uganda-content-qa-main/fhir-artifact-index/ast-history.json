@@ -1,0 +1,16 @@
+{
+  "$schema": "ig-ast-history/v1",
+  "repository": "litlfred/smart-immunizations-uganda",
+  "versions": [
+    {
+      "commit": "215898b06a9c553e231be1011ff790a262e7acdc",
+      "date": "2026-11-13T19:45:30Z",
+      "src": "1bc3fe817"
+    },
+    {
+      "commit": "585fe1bcf137c11059477ab4c853dc7c357f8b51",
+      "date": "2026-11-07T14:38:40Z",
+      "src": "697f1f8"
+    }
+  ]
+}

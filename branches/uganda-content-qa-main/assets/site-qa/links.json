@@ -1,0 +1,38 @@
+{
+ "$schema": "site-link-report/v1",
+ "pages": 102,
+ "unresolved": [],
+ "selfAddress": [
+  {
+   "page": "en/cat-harness/library/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/branches/uganda-content-qa-main/en/cat-harness/library/"
+  },
+  {
+   "page": "en/cat-harness/library/smart-immunizations-uganda/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/branches/uganda-content-qa-main/en/cat-harness/library/smart-immunizations-uganda/"
+  },
+  {
+   "page": "en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/branches/uganda-content-qa-main/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/"
+  },
+  {
+   "page": "en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/branches/uganda-content-qa-main/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/"
+  },
+  {
+   "page": "en/smart-base/l1-extraction/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/branches/uganda-content-qa-main/en/smart-base/l1-extraction/"
+  },
+  {
+   "page": "en/smart-base/l1-extraction/smart-base/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/branches/uganda-content-qa-main/en/smart-base/l1-extraction/smart-base/"
+  },
+  {
+   "page": "en/smart-base/l1-extraction/smart-immunizations-uganda/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/branches/uganda-content-qa-main/en/smart-base/l1-extraction/smart-immunizations-uganda/"
+  }
+ ],
+ "content": [],
+ "diagrams": 1,
+ "inDiagrams": []
+}

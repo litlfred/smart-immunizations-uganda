@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-jsonld/v1",
+  "@id": "PlanDefinition-IMMZD18SDTPTdWCBA",
+  "@type": "fhir:PlanDefinition",
+  "dcterms:identifier": "PlanDefinition/IMMZD18SDTPTdWCBA",
+  "schema:name": "IMMZD18SDTPTdWCBA",
+  "dcterms:title": "UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule",
+  "dcterms:description": "UG.IMMZ.D18.S.DTP.Td women of childbearing age schedule\nTetanus and diphtheria (Td) vaccination schedule for women of childbearing age (15-49 years), Uganda",
+  "schema:version": "0.1.0",
+  "dcterms:type": "Other",
+  "schema:sameAs": {
+    "@id": "https://litlfred.github.io/smart-immunizations-uganda/PlanDefinition/IMMZD18SDTPTdWCBA"
+  },
+  "schema:creativeWorkStatus": "materialized",
+  "schema:encoding": [
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-IMMZD18SDTPTdWCBA.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-immunizations-uganda/215898b06a9c553e231be1011ff790a262e7acdc/resources/PlanDefinition/IMMZD18SDTPTdWCBA.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
+    "prov:used": "1bc3fe8173f7f5c18ee5985b552a69bc73680a51"
+  },
+  "dcterms:isPartOf": {
+    "@type": "fhir:ImplementationGuide",
+    "dcterms:identifier": "smart.immunizations.uganda",
+    "schema:version": "0.1.0",
+    "schema:sameAs": {
+      "@id": "https://litlfred.github.io/smart-immunizations-uganda"
+    }
+  }
+}

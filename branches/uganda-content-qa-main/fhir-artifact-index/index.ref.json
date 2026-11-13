@@ -1,0 +1,7 @@
+{
+  "$schema": "fhir-artifact-index-ref/v1",
+  "index": "https://raw.githubusercontent.com/litlfred/smart-immunizations-uganda/215898b06a9c553e231be1011ff790a262e7acdc/fhir-artifact-index/index.json",
+  "base": "https://raw.githubusercontent.com/litlfred/smart-immunizations-uganda/215898b06a9c553e231be1011ff790a262e7acdc/",
+  "repository": "litlfred/smart-immunizations-uganda",
+  "commit": "215898b06a9c553e231be1011ff790a262e7acdc"
+}

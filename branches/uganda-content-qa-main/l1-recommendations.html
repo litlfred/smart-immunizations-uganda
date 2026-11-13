@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en" dir="/">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L1 Recommendations — Immunizations - Uganda adaptation (draft)</title>
+<link rel="canonical" href="./l1-recommendations.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="Immunizations - Uganda adaptation (draft)">
+<link rel="stylesheet" href="./assets/page-layout.css" data-fa-page-layout>
+<script src="./assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="./assets/ig-artifact.css">
+<link rel="stylesheet" href="./assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="./assets/navbar/row-2acuhncsmbg.js" defer></script><script src="./assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="./assets/css/navbar.css"><script src="./assets/navbar/rail-tcs12w6djd.js" defer></script><script src="./assets/js/navbar.js" defer></script><link rel="stylesheet" href="./assets/css/navbar-row.css"><script src="./assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content="."></head>
+<body><div data-fa-staging-banner lang="en" dir="ltr" style="background:#4F6F52;color:#fff;padding:8px 16px;font-size:14px;text-align:center;position:fixed;top:0;left:0;right:0;box-sizing:border-box;z-index:2147483001;font-family:var(--fa-font-sans,system-ui,sans-serif)">🔀 <b>FEATURE BRANCH</b> <span data-fa-staging-detail>— loading build details…</span></div><style>:root{--fa-staging-offset:0px}body{margin:0}.side-bar,.fa-nav{top:var(--fa-staging-offset,0px)!important}html{padding-top:var(--fa-staging-offset,0px)}</style><script>(function(){
+var b=document.querySelector('[data-fa-staging-banner]'),d=document.querySelector('[data-fa-staging-detail]');
+if(b)document.documentElement.style.setProperty('--fa-staging-offset',b.getBoundingClientRect().height+'px');
+var m=location.pathname.match(/^(.*\/(?:branches|STAGING)\/[^/]+\/)/);
+if(!m){if(d)d.textContent='\u2014 build details unavailable (not served from a preview path)';return;}
+var s=document.createElement('script');s.src=m[1]+'staging-banner.js';
+s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
+(document.head||document.documentElement).appendChild(s);
+})();</script><script type="application/json" id="fa-navbar-row" data-fa-root="." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root=".">{"data":"rail-tcs12w6djd","here":"/l1-recommendations.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="./">Immunizations - Uganda adaptation (draft)</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="Immunizations - Uganda adaptation (draft) menu"><a class="ig-topbar-home" href="./index.html">Immunizations - Uganda adaptation (draft)</a><a class="ig-topbar-group ig-topbar-link" href="./index.html">Home</a><details class="ig-topbar-group"><summary>Schedule</summary><ul><li><a href="./schedule.html">Routine Schedule</a></li><li><a href="./catch-up.html">Catch-up Rules</a></li><li><a href="./administration.html">Routes and Sites</a></li><li><a href="./differences.html">Differences from WHO</a></li></ul></details><details class="ig-topbar-group"><summary>Logic</summary><ul><li><a href="./decision-logic.html">Scheduling Logic</a></li><li><a href="./testing.html">Testing</a></li></ul></details><details class="ig-topbar-group"><summary>Requirements</summary><ul><li><a href="./requirements.html">UNEPI User Requirements</a></li><li><a href="./service-delivery.html">Service Delivery and Data Flow</a></li><li><a href="./open-questions.html">Open Questions</a></li></ul></details><details class="ig-topbar-group"><summary>L1</summary><ul><li><a href="./l1-recommendations.html">L1 Recommendations</a></li><li><a href="./scenario-candidates.html">Scenario Candidates</a></li></ul></details><a class="ig-topbar-group ig-topbar-link" href="./artifacts.html">Artifacts</a><details class="ig-topbar-group"><summary>Sources</summary><ul><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/smart-base/l1-extraction/smart-immunizations-uganda/index.html">L1 Recommendations and Scenarios</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/index.html">L1 Library</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/index.html">MoH Schedule Poster</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/index.html">UNEPI Requirements Deck</a></li><li><a href="https://smart.who.int/immunizations">WHO Immunization DAK</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="./assets/ig-search.json"><label class="ig-search-label" for="search-input">Search Immunizations - Uganda adaptation (draft)</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="./assets/ig-search.js" defer></script></div>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<!-- GENERATED by folio-assistant-core/scripts/publish-extracted-statements.ts. Do not edit: change the extraction or the source, and regenerate. -->
+
+<h1 id="l1-recommendations">L1 Recommendations</h1>
+
+<p>Every L1 statement this adaptation is built on, as authored in <code class="language-plaintext highlighter-rouge">library/l1-recommendation-scenarios/uganda/</code>. Each is a verbatim quote of its source and links to the ingested source in the library and to the section that holds its page or slide. The same statements, with their WHO-vocabulary mapping, are on the <a href="https://litlfred.github.io/smart-immunizations-uganda/en/smart-base/l1-extraction/smart-immunizations-uganda/">L1 extraction viewer</a>.</p>
+
+<h2 id="uganda-routine-immunisation-schedule">Uganda Routine Immunisation Schedule</h2>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Statement</th>
+      <th>Kind</th>
+      <th>Status</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P01</td>
+      <td>Birth: Polio, Tuberculosis, Hepatitis B</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P02</td>
+      <td>6 Weeks (1.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P03</td>
+      <td>10 Weeks (2.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P04</td>
+      <td>14 Weeks (3.5 months): Polio, Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P05</td>
+      <td>6 Months: Malaria, Vitamin A</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P06</td>
+      <td>7 Months: Malaria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P07</td>
+      <td>8 Months: Malaria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P08</td>
+      <td>9 Months: Measles, Rubella, Yellow Fever</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P09</td>
+      <td>18 Months: Measles, Rubella, Malaria, Vitamin A</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P10</td>
+      <td>10yr Girl: 1 dose HPV vaccine to prevent cancer of the cervix</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P11</td>
+      <td>1st Dose At first contact Tetanus Diphtheria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P12</td>
+      <td>2nd Dose 1 Month after 1st dose Tetanus Diphtheria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P13</td>
+      <td>3rd Dose 6 Months after 2nd dose Tetanus Diphtheria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P14</td>
+      <td>4th Dose 12 Months after 3rd dose Tetanus Diphtheria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P15</td>
+      <td>5th Dose 12 Months after 4th dose Tetanus Diphtheria</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P16</td>
+      <td>Ask your health worker for your child’s next immunisation date.</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P17</td>
+      <td>Keep your child’s immunisation card safe and bring it every time you visit the health centre.</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P18</td>
+      <td>Report any side effects immediately to the health worker for proper clinical care.</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+    <tr>
+      <td>P19</td>
+      <td>Vaccines are safe, effective and free at all government health facilities.</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/">ug-moh-routine-immunisation-schedule</a>: page 1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="unepi-user-requirements-for-smart-guidelines">UNEPI: User requirements for SMART Guidelines</h2>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Statement</th>
+      <th>Kind</th>
+      <th>Status</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S01</td>
+      <td>BCG 1 at birth</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S02</td>
+      <td>Hep B birth dose 1 at birth</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S03</td>
+      <td>Oral polio 0 at birth, 1 at 6 wks, 2 at 10 wks, 3 at 14 wks</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S04</td>
+      <td>DTP-HepB-Hib (penta) 1, 2, 3 at 6, 10, 14 wks</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S05</td>
+      <td>PCV 1, 2, 3 at 6, 10, 14 wks</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S06</td>
+      <td>Rotavirus 1, 2, 3 at 6, 10, 14 wks</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S07</td>
+      <td>Inactivated Polio 1 at 6 wks and 2 at 14 wks</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S08</td>
+      <td>Measles-Rubella 1 at 9 mo and 2 at 18 mo</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S09</td>
+      <td>Yellow Fever 1 at 9 mo</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S10</td>
+      <td>1, 2, 3 at 6, 7, 8 mo and 4 at 18 mo</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S11</td>
+      <td>Vitamin A 1 at 6 mo, 2 at 12 mo, 3 at 18 mo, 4 at 24 mo</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S12</td>
+      <td>Deworming 1 at 12 mo</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S13</td>
+      <td>HPV 1 at 10 Yrs</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>S14</td>
+      <td>Tetanus Diphtheria (TD) ‘1,2,3,4 &amp;5’ at 15-49 Yrs</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-002-current-immunization-schedule.md">Current Immunization schedule, page 6</a></td>
+    </tr>
+    <tr>
+      <td>C01</td>
+      <td>Hep B BD: As soon as possible after birth, ideally within 24 hours and up to 7 days</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C02</td>
+      <td>BCG: As soon as possible after birth</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C03</td>
+      <td>At 6 weeks (or as soon as possible thereafter)</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C04</td>
+      <td>At 10 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 1</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C05</td>
+      <td>At 14 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 2</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C06</td>
+      <td>At 9 months (or as soon as possible thereafter)</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C07</td>
+      <td>At 18 months (or as soon as possible there after), and at least 4 weeks since the previous dose</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C08</td>
+      <td>Hep B BD: Not after 7 days</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C09</td>
+      <td>RV1: Not after 2 years of age</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C10</td>
+      <td>Not before 4 weeks has passed since the previous dose, RV2: Not after 2 years of age</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C11</td>
+      <td>Not before 4 weeks has passed since the previous dose, RV3: Not after 2 years of age</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C12</td>
+      <td>Not before 9 months of age (except where indicated)*</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C13</td>
+      <td>MR2: Not before 4 weeks has passed since MR1</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C14</td>
+      <td>Even if a long time has passed between doses, there is no need to restart the series from the beginning</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>C15</td>
+      <td>There is no upper age limit for most vaccines (except rotavirus &lt; 2years and Hepatitis B BD &lt;7 days).</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 7</a></td>
+    </tr>
+    <tr>
+      <td>A01</td>
+      <td>Polio, Vitamin A, Rota (Oral) to the mouth</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 8</a></td>
+    </tr>
+    <tr>
+      <td>A02</td>
+      <td>BCG (Intradermal) and Yellow Fever (Subcutaneous) to the baby’s right upper arm</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 8</a></td>
+    </tr>
+    <tr>
+      <td>A03</td>
+      <td>Measles-Rubella (Subcutaneous) to the baby’s left upper arm</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 8</a></td>
+    </tr>
+    <tr>
+      <td>A04</td>
+      <td>IPV (2cm apart) (Intramuscular) and PCV (2cm apart) (Intramuscular) to the baby’s right thigh</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 8</a></td>
+    </tr>
+    <tr>
+      <td>A05</td>
+      <td>Hep B Birth dose (Intramuscular) and DPT-HepB-Hib (Intramuscular) to the baby’s left thigh</td>
+      <td>recommendation</td>
+      <td> </td>
+      <td><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/">unepi-user-requirements-smart-guidelines</a>: <a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/library/unepi-user-requirements-smart-guidelines/sections/sec-003-catch-up-schedule.md">Catch up schedule, page 8</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/l1-recommendations.md" data-repo="litlfred/smart-immunizations-uganda" href="https://github.com/litlfred/smart-immunizations-uganda/edit/main/input/pagecontent/l1-recommendations.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-immunizations-uganda/blob/main/input/pagecontent/l1-recommendations.md", "repo": "litlfred/smart-immunizations-uganda", "branch": "main", "path": "input/pagecontent/l1-recommendations.md", "lines": [{"t":"L1 Recommendations","l":3},{"t":"Uganda Routine Immunisation Schedule","l":7},{"t":"UNEPI: User requirements for SMART Guidelines","l":32}]}</script>
+
+<script src="./assets/ig-source-links.js"></script>
+
+
+<script>(function(){
+var f=document.querySelector("#main-content .pt-diagram[data-panel]");
+if(!f||window.__igTaskPanel)return;
+var p=f.getAttribute("data-panel")||"";
+if(!/^[A-Za-z0-9._-][A-Za-z0-9._/-]*[.]tasks[.]json$/.test(p)||p.indexOf("//")>=0)return;
+window.__igTaskPanel=1;
+var dir=p.replace(/[^/]*$/,"");
+var l=document.createElement("link");l.rel="stylesheet";l.href=dir+"task-panel.css";document.head.appendChild(l);
+var s=document.createElement("script");s.src=dir+"task-panel.js";document.body.appendChild(s);
+})();</script>
+<script>(function(){
+var main=document.getElementById("main-content");
+if(!main||main.querySelector(".igi-contents"))return;
+var hs=Array.prototype.filter.call(main.querySelectorAll("h2"),function(h){return !h.closest(".igi-contents,#ig-footer,.ig-edit")&&h.textContent.trim();});
+if(hs.length<2)return;
+var used={};
+function slug(t){var b=t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"section",s=b,i=1;while(used[s]||document.getElementById(s))s=b+"-"+(++i);used[s]=1;return s;}
+var nav=document.createElement("nav");nav.className="igi-contents";nav.setAttribute("aria-label","Contents");
+var t=document.createElement("p");t.className="igi-contents-title";t.textContent="Contents";nav.appendChild(t);
+var ul=document.createElement("ul");
+hs.forEach(function(h){if(!h.id)h.id=slug(h.textContent);var li=document.createElement("li"),a=document.createElement("a");a.href="#"+h.id;
+var c=h.cloneNode(true);Array.prototype.forEach.call(c.querySelectorAll(".anchor-heading,.fa-sec-box,svg,button"),function(n){n.remove();});
+a.textContent=c.textContent.replace(/\s+/g," ").trim();li.appendChild(a);ul.appendChild(li);});
+nav.appendChild(ul);
+var h1=main.querySelector("h1");
+if(h1&&h1.parentNode===main)h1.insertAdjacentElement("afterend",nav);else main.insertBefore(nav,main.firstChild);
+})();</script>
+</main>
+<link rel="stylesheet" href="assets/ig-pages.css">
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="testing.html">&lt;prev</a> | <a href="#">top</a> | <a href="scenario-candidates.html">next&gt;</a></p>
+<p class="ig-footer-band">IG © 2026+ <a href="https://github.com/litlfred/smart-immunizations-uganda" rel="external">litlfred (draft for UNEPI review)</a>. Package <code>smart.immunizations.uganda#0.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-13</p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="qa.html">QA Report</a> | <a href="https://spdx.org/licenses/CC0-1.0.html" rel="external">License</a></p>
+</footer>
+
+</body>
+</html>

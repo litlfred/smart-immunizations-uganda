@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en" dir="/">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UNEPI User Requirements — Immunizations - Uganda adaptation (draft)</title>
+<link rel="canonical" href="./requirements.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="Immunizations - Uganda adaptation (draft)">
+<link rel="stylesheet" href="./assets/page-layout.css" data-fa-page-layout>
+<script src="./assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="./assets/ig-artifact.css">
+<link rel="stylesheet" href="./assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="./assets/navbar/row-2acuhncsmbg.js" defer></script><script src="./assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="./assets/css/navbar.css"><script src="./assets/navbar/rail-tcs12w6djd.js" defer></script><script src="./assets/js/navbar.js" defer></script><link rel="stylesheet" href="./assets/css/navbar-row.css"><script src="./assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content="."></head>
+<body><div data-fa-staging-banner lang="en" dir="ltr" style="background:#4F6F52;color:#fff;padding:8px 16px;font-size:14px;text-align:center;position:fixed;top:0;left:0;right:0;box-sizing:border-box;z-index:2147483001;font-family:var(--fa-font-sans,system-ui,sans-serif)">🔀 <b>FEATURE BRANCH</b> <span data-fa-staging-detail>— loading build details…</span></div><style>:root{--fa-staging-offset:0px}body{margin:0}.side-bar,.fa-nav{top:var(--fa-staging-offset,0px)!important}html{padding-top:var(--fa-staging-offset,0px)}</style><script>(function(){
+var b=document.querySelector('[data-fa-staging-banner]'),d=document.querySelector('[data-fa-staging-detail]');
+if(b)document.documentElement.style.setProperty('--fa-staging-offset',b.getBoundingClientRect().height+'px');
+var m=location.pathname.match(/^(.*\/(?:branches|STAGING)\/[^/]+\/)/);
+if(!m){if(d)d.textContent='\u2014 build details unavailable (not served from a preview path)';return;}
+var s=document.createElement('script');s.src=m[1]+'staging-banner.js';
+s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
+(document.head||document.documentElement).appendChild(s);
+})();</script><script type="application/json" id="fa-navbar-row" data-fa-root="." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root=".">{"data":"rail-tcs12w6djd","here":"/requirements.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="./">Immunizations - Uganda adaptation (draft)</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="Immunizations - Uganda adaptation (draft) menu"><a class="ig-topbar-home" href="./index.html">Immunizations - Uganda adaptation (draft)</a><a class="ig-topbar-group ig-topbar-link" href="./index.html">Home</a><details class="ig-topbar-group"><summary>Schedule</summary><ul><li><a href="./schedule.html">Routine Schedule</a></li><li><a href="./catch-up.html">Catch-up Rules</a></li><li><a href="./administration.html">Routes and Sites</a></li><li><a href="./differences.html">Differences from WHO</a></li></ul></details><details class="ig-topbar-group"><summary>Logic</summary><ul><li><a href="./decision-logic.html">Scheduling Logic</a></li><li><a href="./testing.html">Testing</a></li></ul></details><details class="ig-topbar-group"><summary>Requirements</summary><ul><li><a href="./requirements.html">UNEPI User Requirements</a></li><li><a href="./service-delivery.html">Service Delivery and Data Flow</a></li><li><a href="./open-questions.html">Open Questions</a></li></ul></details><details class="ig-topbar-group"><summary>L1</summary><ul><li><a href="./l1-recommendations.html">L1 Recommendations</a></li><li><a href="./scenario-candidates.html">Scenario Candidates</a></li></ul></details><a class="ig-topbar-group ig-topbar-link" href="./artifacts.html">Artifacts</a><details class="ig-topbar-group"><summary>Sources</summary><ul><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/smart-base/l1-extraction/smart-immunizations-uganda/index.html">L1 Recommendations and Scenarios</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/index.html">L1 Library</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/index.html">MoH Schedule Poster</a></li><li><a href="https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/index.html">UNEPI Requirements Deck</a></li><li><a href="https://smart.who.int/immunizations">WHO Immunization DAK</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="./assets/ig-search.json"><label class="ig-search-label" for="search-input">Search Immunizations - Uganda adaptation (draft)</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="./assets/ig-search.js" defer></script></div>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<p>Requirements from the UNEPI presentation <em>User requirements – SMART
+Guidelines</em>. They are recorded here as stated, so they can later be mapped to
+the WHO guide’s functional and non-functional requirements.</p>
+
+<p>Each row of the two requirement tables below is also a DAK component 8
+instance (smart-base <code class="language-plaintext highlighter-rouge">FunctionalRequirement</code> or <code class="language-plaintext highlighter-rouge">NonFunctionalRequirement</code>),
+with the same id, in
+<a href="https://github.com/litlfred/smart-immunizations-uganda/blob/main/input/fsh/requirements/"><code class="language-plaintext highlighter-rouge">input/fsh/requirements/</code></a>.
+The deck states no actor (“as a”) and no benefit (“so that”) for them, so
+none is recorded.</p>
+
+<h3 id="programme">Programme</h3>
+
+<ul>
+  <li><strong>Vision:</strong> a Ugandan population free of vaccine-preventable diseases.</li>
+  <li><strong>Mission:</strong> to ensure that every child and high-risk group is fully
+vaccinated with high-quality and effective vaccines against the target
+diseases according to recommended strategies.</li>
+  <li><strong>Goal:</strong> to contribute to the overall objective of the Health Sector
+Development Plan in reducing morbidity, mortality and disability due to
+vaccine-preventable diseases, so that they are no longer of public health
+importance.</li>
+  <li><strong>Objectives:</strong> increase access and demand for immunization services; ensure
+availability of potent and effective vaccines; build EPI management capacity
+at all levels; monitor disease trends and programme performance; formulate
+policy, standards and guidelines.</li>
+</ul>
+
+<h3 id="current-challenges-paper-based-system">Current challenges (paper-based system)</h3>
+
+<p>High printing costs; delays in service delivery (time consuming); less
+accurate data; false zero-dose children (ZDC) and immunization under-coverage
+(IUC); no flexibility; no real-time processes; vaccine accountability.</p>
+
+<h3 id="expected-benefits-of-digitization">Expected benefits of digitization</h3>
+
+<p>Improved data quality; reminders; savings on printing; support for follow-up;
+identification of real defaulters; improved data use; improved visibility.</p>
+
+<h3 id="functional-requirements-for-an-electronic-immunization-registry-eir">Functional requirements for an electronic immunization registry (EIR)</h3>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Requirement</th>
+      <th>Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="artifact/Binary-UG-FR-01.html">UG-FR-01</a></td>
+      <td>User authentication and access control</td>
+      <td>Username/password, biometric authentication</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-FR-02.html">UG-FR-02</a></td>
+      <td>Patient record management</td>
+      <td>Personal information, vaccination history and demographic data</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-FR-03.html">UG-FR-03</a></td>
+      <td>Vaccine inventory management</td>
+      <td>Batch numbers, expiration dates and current stock</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-FR-04.html">UG-FR-04</a></td>
+      <td>Vaccination scheduling and reminders</td>
+      <td>Scheduling of vaccination appointments and reminders to patients or guardians</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-FR-05.html">UG-FR-05</a></td>
+      <td>Immunization reporting and analytics</td>
+      <td>Reports such as immunization coverage rates, vaccine wastage and adverse event tracking</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-FR-06.html">UG-FR-06</a></td>
+      <td>Adverse event reporting</td>
+      <td>Report and document adverse events following immunization (AEFI)</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-FR-07.html">UG-FR-07</a></td>
+      <td>Integration with health records</td>
+      <td>Integrate with existing electronic health record systems for comprehensive patient health information</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>UG-FR-04 is supported directly by the <a href="decision-logic.html">scheduling logic</a>
+of this guide.</p>
+
+<h3 id="non-functional-requirements">Non-functional requirements</h3>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Requirement</th>
+      <th>Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="artifact/Binary-UG-NFR-01.html">UG-NFR-01</a></td>
+      <td>Interoperability</td>
+      <td>Data exchange</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-NFR-02.html">UG-NFR-02</a></td>
+      <td>Security and privacy</td>
+      <td>Adhere to data security standards, encrypt sensitive data, secure data transmission</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-NFR-03.html">UG-NFR-03</a></td>
+      <td>Performance and scalability</td>
+      <td>Scalable to accommodate future increases in usage</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-NFR-04.html">UG-NFR-04</a></td>
+      <td>Usability and user experience</td>
+      <td>Easy to use for various users</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-NFR-05.html">UG-NFR-05</a></td>
+      <td>Compliance and regulation</td>
+      <td>Adhere to relevant regulations and standards</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-NFR-06.html">UG-NFR-06</a></td>
+      <td>Training and support</td>
+      <td>Training resources and support to users for effective adoption and usage</td>
+    </tr>
+    <tr>
+      <td><a href="artifact/Binary-UG-NFR-07.html">UG-NFR-07</a></td>
+      <td>Reliability and availability</td>
+      <td>Access when needed</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="other-system-features">Other system features</h3>
+
+<p>Offline mode; parent or guardian portal; multilingual support; vaccine
+information and education; data migration and legacy system integration; data
+auditing and logging; mobile application; data quality checks; data sharing
+permissions; automated reporting to the National Drug Authority (NDA) and the
+Uganda Virus Research Institute (UVRI).</p>
+
+<h3 id="proposed-eir-architecture">Proposed EIR architecture</h3>
+
+<p>Child identification through integration with the birth registration system of
+the National Identification and Registration Authority (NIRA / vital
+registration system), feeding an EIR with a vaccine record module, scheduling
+and reminders, and data analytics and reporting. Users: health care providers,
+patients (via app or portal), and district and Ministry of Health staff.</p>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/requirements.md" data-repo="litlfred/smart-immunizations-uganda" href="https://github.com/litlfred/smart-immunizations-uganda/edit/main/input/pagecontent/requirements.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-immunizations-uganda/blob/main/input/pagecontent/requirements.md", "repo": "litlfred/smart-immunizations-uganda", "branch": "main", "path": "input/pagecontent/requirements.md", "lines": [{"t":"Programme","l":12},{"t":"Current challenges (paper-based system)","l":27},{"t":"Expected benefits of digitization","l":33},{"t":"Functional requirements for an electronic immunization registry (EIR)","l":38},{"t":"Non-functional requirements","l":54},{"t":"Other system features","l":67},{"t":"Proposed EIR architecture","l":75}]}</script>
+
+<script src="./assets/ig-source-links.js"></script>
+
+
+<script>(function(){
+var f=document.querySelector("#main-content .pt-diagram[data-panel]");
+if(!f||window.__igTaskPanel)return;
+var p=f.getAttribute("data-panel")||"";
+if(!/^[A-Za-z0-9._-][A-Za-z0-9._/-]*[.]tasks[.]json$/.test(p)||p.indexOf("//")>=0)return;
+window.__igTaskPanel=1;
+var dir=p.replace(/[^/]*$/,"");
+var l=document.createElement("link");l.rel="stylesheet";l.href=dir+"task-panel.css";document.head.appendChild(l);
+var s=document.createElement("script");s.src=dir+"task-panel.js";document.body.appendChild(s);
+})();</script>
+<script>(function(){
+var main=document.getElementById("main-content");
+if(!main||main.querySelector(".igi-contents"))return;
+var hs=Array.prototype.filter.call(main.querySelectorAll("h2"),function(h){return !h.closest(".igi-contents,#ig-footer,.ig-edit")&&h.textContent.trim();});
+if(hs.length<2)return;
+var used={};
+function slug(t){var b=t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"section",s=b,i=1;while(used[s]||document.getElementById(s))s=b+"-"+(++i);used[s]=1;return s;}
+var nav=document.createElement("nav");nav.className="igi-contents";nav.setAttribute("aria-label","Contents");
+var t=document.createElement("p");t.className="igi-contents-title";t.textContent="Contents";nav.appendChild(t);
+var ul=document.createElement("ul");
+hs.forEach(function(h){if(!h.id)h.id=slug(h.textContent);var li=document.createElement("li"),a=document.createElement("a");a.href="#"+h.id;
+var c=h.cloneNode(true);Array.prototype.forEach.call(c.querySelectorAll(".anchor-heading,.fa-sec-box,svg,button"),function(n){n.remove();});
+a.textContent=c.textContent.replace(/\s+/g," ").trim();li.appendChild(a);ul.appendChild(li);});
+nav.appendChild(ul);
+var h1=main.querySelector("h1");
+if(h1&&h1.parentNode===main)h1.insertAdjacentElement("afterend",nav);else main.insertBefore(nav,main.firstChild);
+})();</script>
+</main>
+<link rel="stylesheet" href="assets/ig-pages.css">
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="decision-logic.html">&lt;prev</a> | <a href="#">top</a> | <a href="service-delivery.html">next&gt;</a></p>
+<p class="ig-footer-band">IG © 2026+ <a href="https://github.com/litlfred/smart-immunizations-uganda" rel="external">litlfred (draft for UNEPI review)</a>. Package <code>smart.immunizations.uganda#0.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-13</p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="qa.html">QA Report</a> | <a href="https://spdx.org/licenses/CC0-1.0.html" rel="external">License</a></p>
+</footer>
+
+</body>
+</html>

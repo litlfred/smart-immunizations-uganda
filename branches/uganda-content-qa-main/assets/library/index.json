@@ -1,0 +1,135 @@
+{
+  "$schema": "folio-library-index/v1",
+  "tile": {
+    "uploads": {
+      "count": 0,
+      "unit": "waiting"
+    }
+  },
+  "entries": [
+    {
+      "id": "ug-moh-routine-immunisation-schedule",
+      "instance": "smart-immunizations-uganda",
+      "dir": "library/ug-moh-routine-immunisation-schedule",
+      "title": "RI schedule xwith baby - poster - A2 - Feb 2025 AMENDED LANDSCAPE",
+      "provenance": "ingested",
+      "rung": "paged",
+      "docId": "ug-moh-routine-immunisation-schedule",
+      "sourceFile": "ug-moh-routine-immunisation-schedule.pdf",
+      "sourceSha256": "6043beec57fbc02bd3db0041c092f0034fddcc6d1828d5f5499bf34da6497550",
+      "arxiv": "",
+      "doi": "",
+      "documentClass": "",
+      "sections": 5,
+      "blocks": 5,
+      "images": 5,
+      "ocrPages": 0,
+      "hasOcr": false,
+      "hasManifest": true,
+      "hasStructure": true,
+      "hasImagesJson": true,
+      "pageStart": 1,
+      "pageEnd": 1,
+      "words": 203,
+      "chars": 1161,
+      "bytes": 415143,
+      "upload": "match",
+      "uploadInstance": "smart-immunizations-uganda",
+      "referencedBy": [],
+      "summaries": {
+        "prose": 3,
+        "summarised": 0,
+        "backlog": 3,
+        "draft": 0,
+        "confirmed": 0,
+        "stale": 0,
+        "rejected": 0,
+        "notSummarised": 3,
+        "unreadable": 0,
+        "empty": 2
+      },
+      "view": "/en/cat-harness/library/smart-immunizations-uganda/ug-moh-routine-immunisation-schedule/"
+    },
+    {
+      "id": "unepi-user-requirements-smart-guidelines",
+      "instance": "smart-immunizations-uganda",
+      "dir": "library/unepi-user-requirements-smart-guidelines",
+      "title": "unepi-user-requirements-smart-guidelines",
+      "provenance": "ingested",
+      "rung": "paged",
+      "docId": "unepi-user-requirements-smart-guidelines",
+      "sourceFile": "unepi-user-requirements-smart-guidelines.pdf",
+      "sourceSha256": "5d692825249c242b0796e13389ef891b38dffcc9dd13cfac0ff60696353ab079",
+      "arxiv": "",
+      "doi": "",
+      "documentClass": "",
+      "sections": 9,
+      "blocks": 19,
+      "images": 34,
+      "ocrPages": 0,
+      "hasOcr": false,
+      "hasManifest": true,
+      "hasStructure": true,
+      "hasImagesJson": true,
+      "pageStart": 1,
+      "pageEnd": 23,
+      "words": 487,
+      "chars": 3487,
+      "bytes": 18390504,
+      "upload": "match",
+      "uploadInstance": "smart-immunizations-uganda",
+      "referencedBy": [],
+      "summaries": {
+        "prose": 9,
+        "summarised": 0,
+        "backlog": 9,
+        "draft": 0,
+        "confirmed": 0,
+        "stale": 0,
+        "rejected": 0,
+        "notSummarised": 9,
+        "unreadable": 0,
+        "empty": 0
+      },
+      "view": "/en/cat-harness/library/smart-immunizations-uganda/unepi-user-requirements-smart-guidelines/"
+    }
+  ],
+  "uploads": [
+    {
+      "file": "ug-moh-routine-immunisation-schedule",
+      "kind": "intake",
+      "instance": "smart-immunizations-uganda",
+      "path": "uploads/ug-moh-routine-immunisation-schedule",
+      "bytes": 1516,
+      "ext": "",
+      "ingestedBy": "ug-moh-routine-immunisation-schedule",
+      "docId": "ug-moh-routine-immunisation-schedule",
+      "title": "Uganda Routine Immunisation Schedule",
+      "declaredFiles": 1
+    },
+    {
+      "file": "unepi-user-requirements-smart-guidelines",
+      "kind": "intake",
+      "instance": "smart-immunizations-uganda",
+      "path": "uploads/unepi-user-requirements-smart-guidelines",
+      "bytes": 1961,
+      "ext": "",
+      "ingestedBy": "unepi-user-requirements-smart-guidelines",
+      "docId": "unepi-user-requirements-smart-guidelines",
+      "title": "UNEPI: User requirements for SMART Guidelines",
+      "declaredFiles": 2
+    }
+  ],
+  "queues": [
+    {
+      "instance": "smart-immunizations-uganda",
+      "dir": "uploads",
+      "total": 2,
+      "ingested": 2,
+      "uningested": 0
+    }
+  ],
+  "refScan": {
+    "unreadable": []
+  }
+}
