@@ -70,5 +70,10 @@
       ],
       "description": "What auditing this instance produced (the per-entry library QA verdicts among them), kept on the shared qa-reports branch keyed by commit, as smart-base declares its own; declared so a verdict about a library entry reads as stored or unknown, never as absent."
     }
+  ],
+  "enableSubgraphs": [
+    "folio-assistant-core.collab",
+    "smart-base.collab",
+    "fhir-harness.collab"
   ]
 }
