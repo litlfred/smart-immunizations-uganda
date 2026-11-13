@@ -7,9 +7,9 @@
   "source": {
     "repo": "litlfred/smart-immunizations-uganda",
     "ref": "main",
-    "commit": "e127031ad88b80842dffc47d597e7bdb2f8317eb"
+    "commit": "a78fd1c4e9218401440ee164b7fcbca4e34cc32f"
   },
-  "builtAt": "2026-11-13T20:53:33.441Z",
+  "builtAt": "2026-11-13T22:28:03.105Z",
   "ast": {
     "commit": "1bc3fe8173f7f5c18ee5985b552a69bc73680a51",
     "verdict": "valid",
