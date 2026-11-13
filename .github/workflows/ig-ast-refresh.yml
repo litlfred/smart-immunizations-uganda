@@ -40,7 +40,7 @@ permissions:
 
 jobs:
   refresh:
-    uses: litlfred/fhir-harness/.github/workflows/ig-ast-refresh.yml@091bd49ca6363135f6200cdfe05c1b791f731d04 # index.lock.json
+    uses: litlfred/fhir-harness/.github/workflows/ig-ast-refresh.yml@9d723f1aa4a0af8fdedd42247805df103f061e99 # index.lock.json
     with:
       ref: ${{ inputs.ref || github.sha }}
       force: ${{ inputs.force || false }}
