@@ -4,7 +4,7 @@
     {
       "harness": "who-iris",
       "repository": "litlfred/who-iris",
-      "ref": "a7cde87b15f94234a0961de9cd73c39d6f5ca418"
+      "ref": "6cc38d7a618de57a9a69f6f555c65bd95f089cc5"
     },
     {
       "harness": "smart-base",
@@ -217,12 +217,13 @@
           "id": "*",
           "path": "folio-assistant-core",
           "upstreamPath": ".",
-          "treeDigest": "d11e4c9c9c31d7d841e48de77d8ed246a5b6fd3b107fc52c8e828fb90faf89c6",
-          "files": 6412,
+          "treeDigest": "21659e77dc3939b552059a83be7d263f43f9b1115c3046488d6c631f19420c87",
+          "files": 1592,
           "except": [
             "board",
             "dsa",
-            "library-extras"
+            "library-extras",
+            "library/corpus"
           ]
         }
       ],
@@ -266,29 +267,29 @@
     {
       "instance": "who-iris",
       "repository": "litlfred/who-iris",
-      "sha": "a7cde87b15f94234a0961de9cd73c39d6f5ca418",
+      "sha": "6cc38d7a618de57a9a69f6f555c65bd95f089cc5",
       "upstreamRoot": "",
       "path": "who-iris",
       "via": "who-iris",
       "pinnedBy": "declared",
       "declaration": {
         "file": "who-iris.json",
-        "sha256": "4fde3988f942f2f0faf3932af490c4cb7c39c8195ea7fee28bfe24bbc7613418"
+        "sha256": "5c7d6aaa85acdd3841cd39e07f278ce0be1299fbff442618a560496730694f70"
       },
       "directories": [
         {
           "id": "*",
           "path": "who-iris",
           "upstreamPath": ".",
-          "treeDigest": "3db084364ce61a2be5ddffda580fa2023dd086dcb010b713121982108fb87647",
-          "files": 39765
+          "treeDigest": "954ac379d5f273bd741915fc13d0f7107626199f9b3d0e4878ee6c0e68a0cc4a",
+          "files": 43170
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
-        "on": "2026-11-12",
-        "ref": "a7cde87b15f94234a0961de9cd73c39d6f5ca418",
+        "on": "2026-11-13",
+        "ref": "6cc38d7a618de57a9a69f6f555c65bd95f089cc5",
         "approver": "unverified"
       }
     }

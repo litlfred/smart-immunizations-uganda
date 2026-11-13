@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "a7cde87b15f94234a0961de9cd73c39d6f5ca418",
+          "ref": "6cc38d7a618de57a9a69f6f555c65bd95f089cc5",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -30,9 +30,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "a7cde87b15f94234a0961de9cd73c39d6f5ca418",
-              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
+              "on": "2026-11-13",
+              "ref": "6cc38d7a618de57a9a69f6f555c65bd95f089cc5",
+              "evidence": "Owner litlfred, first-hand in session_01VQDpPbqnwyoWW5d3Rc1vEk 2026-11-13: \"watch who-iris#262 and repin when merged\", card \"Re-pin\" option 1 (smart-immunizations, smart-immunizations-uganda, smart-trust)"
             }
           }
         }
