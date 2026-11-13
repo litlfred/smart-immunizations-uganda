@@ -77,6 +77,11 @@
     "smart-base.smart-base-L2-bpmn",
     "smart-base.smart-base-L2-dmn",
     "smart-base.smart-base-L3",
-    "smart-base.smart-base-L4"
+    "smart-base.smart-base-L4",
+    "folio-assistant-core.collab",
+    "smart-base.collab",
+    "fhir-harness.collab",
+    "smart-base.L2-collab",
+    "smart-base.L3-collab"
   ]
 }
