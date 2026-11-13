@@ -1,0 +1,312 @@
+{
+  "_schema": "folio-extracted-statements/v1",
+  "title": "UNEPI: User requirements for SMART Guidelines",
+  "statements": [
+    {
+      "id": "S01",
+      "statement": "BCG 1 at birth",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S02",
+      "statement": "Hep B birth dose 1 at birth",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S03",
+      "statement": "Oral polio 0 at birth, 1 at 6 wks, 2 at 10 wks, 3 at 14 wks",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S04",
+      "statement": "DTP-HepB-Hib (penta) 1, 2, 3 at 6, 10, 14 wks",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S05",
+      "statement": "PCV 1, 2, 3 at 6, 10, 14 wks",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S06",
+      "statement": "Rotavirus 1, 2, 3 at 6, 10, 14 wks",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S07",
+      "statement": "Inactivated Polio 1 at 6 wks and 2 at 14 wks",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S08",
+      "statement": "Measles-Rubella 1 at 9 mo and 2 at 18 mo",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S09",
+      "statement": "Yellow Fever 1 at 9 mo",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S10",
+      "statement": "1, 2, 3 at 6, 7, 8 mo and 4 at 18 mo",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S11",
+      "statement": "Vitamin A 1 at 6 mo, 2 at 12 mo, 3 at 18 mo, 4 at 24 mo",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S12",
+      "statement": "Deworming 1 at 12 mo",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S13",
+      "statement": "HPV 1 at 10 Yrs",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "S14",
+      "statement": "Tetanus Diphtheria (TD) '1,2,3,4 &5' at 15-49 Yrs",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 6
+      }
+    },
+    {
+      "id": "C01",
+      "statement": "Hep B BD: As soon as possible after birth, ideally within 24 hours and up to 7 days",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C02",
+      "statement": "BCG: As soon as possible after birth",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C03",
+      "statement": "At 6 weeks (or as soon as possible thereafter)",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C04",
+      "statement": "At 10 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 1",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C05",
+      "statement": "At 14 weeks (or as soon as possible thereafter), and at least 4 weeks after dose 2",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C06",
+      "statement": "At 9 months (or as soon as possible thereafter)",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C07",
+      "statement": "At 18 months (or as soon as possible there after), and at least 4 weeks since the previous dose",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C08",
+      "statement": "Hep B BD: Not after 7 days",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C09",
+      "statement": "RV1: Not after 2 years of age",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C10",
+      "statement": "Not before 4 weeks has passed since the previous dose, RV2: Not after 2 years of age",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C11",
+      "statement": "Not before 4 weeks has passed since the previous dose, RV3: Not after 2 years of age",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C12",
+      "statement": "Not before 9 months of age (except where indicated)*",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C13",
+      "statement": "MR2: Not before 4 weeks has passed since MR1",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C14",
+      "statement": "Even if a long time has passed between doses, there is no need to restart the series from the beginning",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "C15",
+      "statement": "There is no upper age limit for most vaccines (except rotavirus < 2years and Hepatitis B BD <7 days).",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 7
+      }
+    },
+    {
+      "id": "A01",
+      "statement": "Polio, Vitamin A, Rota (Oral) to the mouth",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    },
+    {
+      "id": "A02",
+      "statement": "BCG (Intradermal) and Yellow Fever (Subcutaneous) to the baby's right upper arm",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    },
+    {
+      "id": "A03",
+      "statement": "Measles-Rubella (Subcutaneous) to the baby's left upper arm",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    },
+    {
+      "id": "A04",
+      "statement": "IPV (2cm apart) (Intramuscular) and PCV (2cm apart) (Intramuscular) to the baby's right thigh",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    },
+    {
+      "id": "A05",
+      "statement": "Hep B Birth dose (Intramuscular) and DPT-HepB-Hib (Intramuscular) to the baby's left thigh",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "unepi-user-requirements-smart-guidelines",
+        "page": 8
+      }
+    }
+  ]
+}

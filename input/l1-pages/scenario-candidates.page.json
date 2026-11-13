@@ -1,0 +1,13 @@
+{
+  "_schema": "folio-statement-page/v1",
+  "entryBase": "https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda",
+  "sectionBase": "https://github.com/litlfred/smart-immunizations-uganda/blob/main",
+  "tableAttr": "{:.grid}",
+  "statements": [
+    "lists/ug-moh-schedule-poster.scenarios.json",
+    "lists/unepi-deck.scenarios.json"
+  ],
+  "out": "../pagecontent/scenario-candidates.md",
+  "title": "Scenario Candidates",
+  "intro": "The L2 user-scenario candidates derived from the [L1 recommendations](l1-recommendations.html), one per statement, by smart-base's `l1-recommendation-scenarios`. They are **candidates**: an agent wrote them, and a person reviews each before it becomes an L2 scenario."
+}

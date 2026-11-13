@@ -1,0 +1,13 @@
+{
+  "_schema": "folio-statement-page/v1",
+  "entryBase": "https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/library/smart-immunizations-uganda",
+  "sectionBase": "https://github.com/litlfred/smart-immunizations-uganda/blob/main",
+  "tableAttr": "{:.grid}",
+  "statements": [
+    "lists/ug-moh-schedule-poster.recommendations.json",
+    "lists/unepi-deck.recommendations.json"
+  ],
+  "out": "../pagecontent/l1-recommendations.md",
+  "title": "L1 Recommendations",
+  "intro": "Every L1 statement this adaptation is built on, as authored in `library/l1-recommendation-scenarios/uganda/`. Each is a verbatim quote of its source and links to the ingested source in the library and to the section that holds its page or slide. The same statements, with their WHO-vocabulary mapping, are on the [L1 extraction viewer](https://litlfred.github.io/smart-immunizations-uganda/en/smart-base/l1-extraction/smart-immunizations-uganda/)."
+}

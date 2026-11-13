@@ -1,0 +1,177 @@
+{
+  "_schema": "folio-extracted-statements/v1",
+  "title": "Uganda Routine Immunisation Schedule",
+  "statements": [
+    {
+      "id": "P01",
+      "statement": "Birth: Polio, Tuberculosis, Hepatitis B",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P02",
+      "statement": "6 Weeks (1.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P03",
+      "statement": "10 Weeks (2.5 months): Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Polio, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P04",
+      "statement": "14 Weeks (3.5 months): Polio, Whooping cough, Haemophilus influenza type B, Rotavirus Diarrhoea, Tetanus, Hepatitis B, Meningitis, Pneumonia, Diphtheria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P05",
+      "statement": "6 Months: Malaria, Vitamin A",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P06",
+      "statement": "7 Months: Malaria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P07",
+      "statement": "8 Months: Malaria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P08",
+      "statement": "9 Months: Measles, Rubella, Yellow Fever",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P09",
+      "statement": "18 Months: Measles, Rubella, Malaria, Vitamin A",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P10",
+      "statement": "10yr Girl: 1 dose HPV vaccine to prevent cancer of the cervix",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P11",
+      "statement": "1st Dose At first contact Tetanus Diphtheria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P12",
+      "statement": "2nd Dose 1 Month after 1st dose Tetanus Diphtheria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P13",
+      "statement": "3rd Dose 6 Months after 2nd dose Tetanus Diphtheria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P14",
+      "statement": "4th Dose 12 Months after 3rd dose Tetanus Diphtheria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P15",
+      "statement": "5th Dose 12 Months after 4th dose Tetanus Diphtheria",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P16",
+      "statement": "Ask your health worker for your child's next immunisation date.",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P17",
+      "statement": "Keep your child's immunisation card safe and bring it every time you visit the health centre.",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P18",
+      "statement": "Report any side effects immediately to the health worker for proper clinical care.",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "P19",
+      "statement": "Vaccines are safe, effective and free at all government health facilities.",
+      "kind": "recommendation",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    }
+  ]
+}

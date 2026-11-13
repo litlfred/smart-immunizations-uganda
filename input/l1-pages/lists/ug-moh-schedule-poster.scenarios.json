@@ -1,0 +1,215 @@
+{
+  "_schema": "folio-extracted-statements/v1",
+  "title": "Scenario candidates",
+  "statements": [
+    {
+      "id": "IMMZ.UG.Poster.P01",
+      "statement": "IMMZ.UG.Poster.P01: give the vaccines the Uganda schedule lists for birth",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P01",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P02",
+      "statement": "IMMZ.UG.Poster.P02: give the vaccines the Uganda schedule lists for 6 weeks",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P02",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P03",
+      "statement": "IMMZ.UG.Poster.P03: give the vaccines the Uganda schedule lists for 10 weeks",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P03",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P04",
+      "statement": "IMMZ.UG.Poster.P04: give the vaccines the Uganda schedule lists for 14 weeks",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P04",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P05",
+      "statement": "IMMZ.UG.Poster.P05: give the vaccines and vitamin A the Uganda schedule lists for 6 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P05",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P06",
+      "statement": "IMMZ.UG.Poster.P06: give the vaccines the Uganda schedule lists for 7 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P06",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P07",
+      "statement": "IMMZ.UG.Poster.P07: give the vaccines the Uganda schedule lists for 8 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P07",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P08",
+      "statement": "IMMZ.UG.Poster.P08: give the vaccines the Uganda schedule lists for 9 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P08",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P09",
+      "statement": "IMMZ.UG.Poster.P09: give the vaccines and vitamin A the Uganda schedule lists for 18 months",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P09",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P10",
+      "statement": "IMMZ.UG.Poster.P10: give a girl aged 10 years one dose of HPV vaccine",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P10",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P11",
+      "statement": "IMMZ.UG.Poster.P11: give a woman of child-bearing age her first Td dose at the interval the schedule sets",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P11",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P12",
+      "statement": "IMMZ.UG.Poster.P12: give a woman of child-bearing age her second Td dose at the interval the schedule sets",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P12",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P13",
+      "statement": "IMMZ.UG.Poster.P13: give a woman of child-bearing age her third Td dose at the interval the schedule sets",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P13",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P14",
+      "statement": "IMMZ.UG.Poster.P14: give a woman of child-bearing age her fourth Td dose at the interval the schedule sets",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P14",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P15",
+      "statement": "IMMZ.UG.Poster.P15: give a woman of child-bearing age her fifth Td dose at the interval the schedule sets",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P15",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P16",
+      "statement": "IMMZ.UG.Poster.P16: ask the health worker for the child's next immunisation date",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P16",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P17",
+      "statement": "IMMZ.UG.Poster.P17: keep the child's immunisation card safe and bring it to every visit",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P17",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P18",
+      "statement": "IMMZ.UG.Poster.P18: report any side effect after vaccination to the health worker immediately",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P18",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    },
+    {
+      "id": "IMMZ.UG.Poster.P19",
+      "statement": "IMMZ.UG.Poster.P19: tell caregivers that vaccines are safe, effective and free at government health facilities",
+      "kind": "user-scenario",
+      "status": "inferred",
+      "derivedFrom": "P19",
+      "source": {
+        "libraryId": "ug-moh-routine-immunisation-schedule",
+        "page": 1
+      }
+    }
+  ]
+}
