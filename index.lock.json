@@ -9,7 +9,7 @@
     {
       "harness": "smart-base",
       "repository": "litlfred/smart-base",
-      "ref": "6976e637c092f5862f0fd2a01b4735b1dc2f4ab2"
+      "ref": "4d516e0a5a5e532bda1293cf85d97ea88b347039"
     },
     {
       "harness": "fhir-harness",
@@ -217,12 +217,13 @@
           "id": "*",
           "path": "folio-assistant-core",
           "upstreamPath": ".",
-          "treeDigest": "d11e4c9c9c31d7d841e48de77d8ed246a5b6fd3b107fc52c8e828fb90faf89c6",
-          "files": 6412,
+          "treeDigest": "21659e77dc3939b552059a83be7d263f43f9b1115c3046488d6c631f19420c87",
+          "files": 1592,
           "except": [
             "board",
             "dsa",
-            "library-extras"
+            "library-extras",
+            "library/corpus"
           ]
         }
       ],
@@ -237,29 +238,37 @@
     {
       "instance": "smart-base",
       "repository": "litlfred/smart-base",
-      "sha": "6976e637c092f5862f0fd2a01b4735b1dc2f4ab2",
+      "sha": "4d516e0a5a5e532bda1293cf85d97ea88b347039",
       "upstreamRoot": "smart-base",
       "path": "smart-base",
       "via": "smart-base",
       "pinnedBy": "declared",
       "declaration": {
         "file": "smart-base.json",
-        "sha256": "9ca2cf711af369b056ebd020042d140153e554e24c5c6ef08842fe3c86537212"
+        "sha256": "41ca14de25f6071d8d0c88a8bdddfdd8e2eb709d7581e26aa52ffb3f60782b3e"
       },
       "directories": [
         {
           "id": "*",
           "path": "smart-base",
           "upstreamPath": "smart-base",
-          "treeDigest": "c23de8f1c92f9afb7ad3d989e93ed9cb52492600b7cfd905d0dcb1eecad041dd",
-          "files": 630
+          "treeDigest": "b63917b77d0219e9778e053813a90ced080086281b9d49e8e4c70ff503d2a764",
+          "files": 542,
+          "except": [
+            "L1",
+            "L2",
+            "L2-bpmn",
+            "L2-dmn",
+            "L3",
+            "L4"
+          ]
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
-        "on": "2026-11-12",
-        "ref": "6976e637c092f5862f0fd2a01b4735b1dc2f4ab2",
+        "on": "2026-11-13",
+        "ref": "4d516e0a5a5e532bda1293cf85d97ea88b347039",
         "approver": "unverified"
       }
     },

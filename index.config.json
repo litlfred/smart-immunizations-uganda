@@ -43,7 +43,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "6976e637c092f5862f0fd2a01b4735b1dc2f4ab2",
+          "ref": "4d516e0a5a5e532bda1293cf85d97ea88b347039",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -79,9 +79,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "6976e637c092f5862f0fd2a01b4735b1dc2f4ab2",
-              "evidence": "litlfred, 2026-11-12 06:04Z, thread 'Merge manager' (cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR): \"+12hrs window\"; re-pin every harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
+              "on": "2026-11-13",
+              "ref": "4d516e0a5a5e532bda1293cf85d97ea88b347039",
+              "evidence": "Owner litlfred, typed in session_01VQDpPdxkTnyDcojJ7AAdNz on 2026-11-13: \"yes, consent to re-pin\" (re-pin smart-base to the main that includes smart-base#370, the l1-statement-lists output-name fix)."
             }
           }
         }
