@@ -1,76 +1,94 @@
 {
   "$schema": "ig-content-qa/v1",
-  "contentDigest": "sha256:c597f0b81e8f8ed92dd84f5bd0ed062d8ce86f2c6d66ac9b5079dff5737d98de",
+  "contentDigest": "sha256:be1478c01e3b4cb6bd77be8f49cbb3608789179f96b133edb6d91e42e951995e",
   "items": 164,
-  "reviewedAt": "2026-11-11T13:23:52.054Z",
+  "reviewedAt": "2026-11-13T20:06:59.046Z",
   "reviewer": {
     "kind": "agent",
     "name": "Claude",
-    "session": "https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11"
+    "session": "https://claude.ai/code/session_01VQDpPdxkTnyDcojJ7AAdNz"
   },
   "findings": [
     {
       "where": "PlanDefinition/IMMZD18SDTPOnTimeStart",
       "field": "text.div",
-      "sha": "2c6ea036bda0ac95def906983af21af9115d9192abbce164ffbd2be4f14a6284",
+      "sha": "e2b6fb573700261110c8157a2e1208f0b74bf36c0d6472d08c564ebb7f325883",
       "kind": "deceptive-link",
       "note": "link text names a different host than its href",
       "status": "cleared",
-      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive. Re-reviewed 2026-11-13 at the 1bc3fe8 AST: the text changed only in the Publisher's build timestamp."
     },
     {
       "where": "PlanDefinition/IMMZD18SDTPTdWCBA",
       "field": "text.div",
-      "sha": "c026ff32d6aedb257ecd41b9380cd41d52f86b4b0b8a81614a9bb9dac318cae1",
+      "sha": "6ed1c7a47f3118f1d40bef0e13cfc935292e0ab63eed43c717c60f7f61073ad7",
       "kind": "deceptive-link",
       "note": "link text names a different host than its href",
       "status": "cleared",
-      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive. Re-reviewed 2026-11-13 at the 1bc3fe8 AST: the text changed only in the Publisher's build timestamp."
     },
     {
       "where": "PlanDefinition/IMMZD18SHPVSingleDose",
       "field": "text.div",
-      "sha": "2779b87bdc2ff6a5dfd1da4df1edfccf93b5a5f76391292bd50c2e11c7e64eea",
+      "sha": "9a381556f7e2ba6e4e972e61a424e94197bf02a3c6c6200ce647ac50cc057914",
       "kind": "deceptive-link",
       "note": "link text names a different host than its href",
       "status": "cleared",
-      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive. Re-reviewed 2026-11-13 at the 1bc3fe8 AST: the text changed only in the Publisher's build timestamp."
     },
     {
       "where": "PlanDefinition/IMMZD18SHepatitisBBirthDose",
       "field": "text.div",
-      "sha": "c2fd088c218b511e0a467146df82c1bd8714f5727f3b1da75115820f3ec15d87",
+      "sha": "24ec769add9d0ce7317bf69f30819da4fe959d3b8a7f4a6ec17e2d75dc0bfbbd",
       "kind": "deceptive-link",
       "note": "link text names a different host than its href",
       "status": "cleared",
-      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive. Re-reviewed 2026-11-13 at the 1bc3fe8 AST: the text changed only in the Publisher's build timestamp."
     },
     {
       "where": "PlanDefinition/IMMZD18SMalaria",
       "field": "text.div",
-      "sha": "11391829ddc8e5c67fc5ee8469c0b441af75625c8e80aa78fbc3fff8eb9a0a2b",
+      "sha": "3f96153d67d47b5681a752ac08c78e2774cf5056a387d33c7d6c281e31a4202b",
       "kind": "deceptive-link",
       "note": "link text names a different host than its href",
       "status": "cleared",
-      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive. Re-reviewed 2026-11-13 at the 1bc3fe8 AST: the text changed only in the Publisher's build timestamp."
     },
     {
       "where": "PlanDefinition/IMMZD18SMeaslesOngoingTransmission",
       "field": "text.div",
-      "sha": "3fc1f65cf1ece533ff29dfdcd90098894f430d4da8a7d65963a0860eeb5692bc",
+      "sha": "4d5afc202412f06034eb8e45b5a8e942c9668fca41a0fbf69757718ffd92d9a9",
       "kind": "deceptive-link",
       "note": "link text names a different host than its href",
       "status": "cleared",
-      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive. Re-reviewed 2026-11-13 at the 1bc3fe8 AST: the text changed only in the Publisher's build timestamp."
     },
     {
       "where": "PlanDefinition/IMMZD18SPolioBOPVPlusIPV",
       "field": "text.div",
-      "sha": "b8fe57711a2a0c83c8dcb69e589fb9e4e56727e5d9316624d0c4d814d87758b3",
+      "sha": "350082e7c81516b42f3cb5e554651f5afb8380e0d8d942c2a223514d8a70058a",
       "kind": "deceptive-link",
       "note": "link text names a different host than its href",
       "status": "cleared",
-      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive."
+      "reason": "Link text is a smart.who.int canonical URL and its href is the build.fhir.org page that renders that canonical (IG Publisher narrative); not deceptive. Re-reviewed 2026-11-13 at the 1bc3fe8 AST: the text changed only in the Publisher's build timestamp."
+    },
+    {
+      "where": "input/pagecontent/l1-recommendations.md",
+      "field": "page",
+      "sha": "61101f7471d9395855c7d0075dc19d107e94f16884d98016bdd90bc7c9087c7b",
+      "kind": "hidden-text",
+      "note": "one HTML comment on line 1",
+      "status": "cleared",
+      "reason": "The comment is the provenance banner folio-assistant-core's statements:pages writes on every generated page (\"GENERATED by folio-assistant-core/scripts/publish-extracted-statements.ts. Do not edit ...\"); it addresses a human editor, carries no instruction to an agent, and names its generator. The rest of the page is the 53 authored L1 statements (verbatim from the UNEPI deck and MoH poster) or the 53 scenario-candidate labels, in a table whose 88 links point where their text says (litlfred.github.io library pages, github.com source sections, l1-recommendations.html)."
+    },
+    {
+      "where": "input/pagecontent/scenario-candidates.md",
+      "field": "page",
+      "sha": "c3caae0da34d8cc4029a47ae897422e2a4806efc32531fb2c5cf0939499926ef",
+      "kind": "hidden-text",
+      "note": "one HTML comment on line 1",
+      "status": "cleared",
+      "reason": "The comment is the provenance banner folio-assistant-core's statements:pages writes on every generated page (\"GENERATED by folio-assistant-core/scripts/publish-extracted-statements.ts. Do not edit ...\"); it addresses a human editor, carries no instruction to an agent, and names its generator. The rest of the page is the 53 authored L1 statements (verbatim from the UNEPI deck and MoH poster) or the 53 scenario-candidate labels, in a table whose 88 links point where their text says (litlfred.github.io library pages, github.com source sections, l1-recommendations.html)."
     }
   ]
 }
