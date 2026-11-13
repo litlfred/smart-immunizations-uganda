@@ -30,7 +30,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-immunizations-uganda/585fe1bcf137c11059477ab4c853dc7c357f8b51/resources/PlanDefinition/IMMZD18SDTPTdWCBA--aea11a5e.json"
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-immunizations-uganda/215898b06a9c553e231be1011ff790a262e7acdc/resources/PlanDefinition/IMMZD18SDTPTdWCBA.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "mirror"
@@ -39,7 +39,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323"
+    "prov:used": "1bc3fe8173f7f5c18ee5985b552a69bc73680a51"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

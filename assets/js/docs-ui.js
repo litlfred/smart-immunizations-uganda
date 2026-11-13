@@ -5851,8 +5851,8 @@
     { id: "leaded", label: "Leaded grid", hint: "modern stained glass panes — suits Architecture, Engineer", opacity: 30 },
   ];
   var GLASS_AVATAR_STYLES = [
-    { id: "pictures", label: "Pictures", hint: "a book's cover when it has one, otherwise its kind avatar" },
-    { id: "kinds", label: "Kind avatars", hint: "the harness's avatar for each kind, never a picture" },
+    { id: "pictures", label: "Pictures", hint: "a book's cover, else its kind avatar" },
+    { id: "kinds", label: "Kind avatars", hint: "each kind's avatar, never a picture" },
     { id: "text", label: "Text only", hint: "no pictures at all" },
   ];
   var GLASS_DEFAULTS = { theme: "glass", avatars: "pictures", opacity: 20, blur: true };
@@ -7996,15 +7996,22 @@
 
       // THE HARNESSES PANEL (issue #1146): each harness's properties and the
       // skill that edits each. A Settings view, as candidate H drew it.
-      var hc = el("button", { type: "button", class: "fa-glass-reset fa-glass-harnesses" },
-        "Harnesses — properties, and the skill that edits each");
+      // SHORT VISIBLE LABELS, FULL WORDING AS THE TITLE. At 1280×800 in a
+      // wide system face (DejaVu Sans, on the Linux CI runner) the long labels
+      // wrapped this row onto a second line and pushed "Back to the default
+      // glass" under the panel's frame. Each label is the start of its title,
+      // so the accessible name is the visible text (WCAG 2.5.3, label in
+      // name). The title becomes the button's accessible description, so a
+      // screen reader still hears the full wording. No aria-label is set.
+      var hc = el("button", { type: "button", class: "fa-glass-reset fa-glass-harnesses",
+        title: "Harnesses — properties, and the skill that edits each" }, "Harnesses");
       hc.addEventListener("click", function () { openHarnesses(null); });
       actions.appendChild(hc);
 
       // THE WAY BACK FROM A MESSY GLASS. Every card returns to the grid;
       // nothing leaves the folio and nothing leaves the glass.
-      var tidy = el("button", { type: "button", class: "fa-glass-reset fa-glass-tidy" },
-        "Tidy the glass (put every card back in the grid)");
+      var tidy = el("button", { type: "button", class: "fa-glass-reset fa-glass-tidy",
+        title: "Tidy the glass (put every card back in the grid)" }, "Tidy the glass");
       tidy.addEventListener("click", tidyGlass);
       actions.appendChild(tidy);
 
@@ -10776,6 +10783,22 @@
   // are drawn at 80% of the body text size, a little quieter than the prose.
   var FIGURE_TEXT_RATIO = 0.8;
 
+  function isBpmnSvg(scope) {
+    var svg = scope.querySelector("svg");
+    return !!(svg && svg.querySelector("[data-element-id]"));
+  }
+
+  // A plain figure that turns out to be a BPMN drawing is text-fitted. Also
+  // called when the inlined <svg> lands in a figure mounted while it was
+  // still an <object> (the Mermaid observer can mount mid-inlining).
+  function fitBpmn(scope) {
+    if (!isBpmnSvg(scope)) return false;
+    fitTextToBody(scope);
+    if (!scope.classList.contains("fa-textfit")) return false;
+    scope.classList.remove("fa-plain");
+    return true;
+  }
+
   function fitTextToBody(scope) {
     var svg = scope.querySelector("svg");
     var width = intrinsicWidth(scope);
@@ -10796,6 +10819,14 @@
     // drawn at, so a 555px PlantUML diagram arrived at more than twice its
     // size, text and all. The stylesheet reads this as `min(100%, natural)`;
     // with no natural size known it falls back to the column, as before.
+    // EVERY BPMN drawing is text-fitted, not only one in a `.bpmn-figure`
+    // (owner, 2026-11-12: "bpmn font size is 80% of main narrative size ...
+    // applies all bpmn"). An IG page embeds its BPMN as a bare
+    // `<object data="x.svg">`, which arrives here as a plain figure and was
+    // stretched to the column, so its labels came out anywhere from 66% to
+    // 95% of the body text. bpmn-js output is recognised by its
+    // `data-element-id` shapes, an attribute `scopeSvg` leaves alone.
+    if (isPlain && fitBpmn(scope)) isPlain = false;
     if (isPlain) {
       var art0 = scope.querySelector("svg, img, object");
       var natural = intrinsicWidth(scope) ||
@@ -11417,7 +11448,10 @@
             if (checked === undefined) a.removeAttribute("href");
             else a.setAttribute("href", new URL(checked, fileUrl).href);
           });
-          img.parentNode.replaceChild(scopeSvg(document.importNode(svg, true)), img);
+          var host = img.parentNode;
+          host.replaceChild(scopeSvg(document.importNode(svg, true)), img);
+          var mounted = host.closest && host.closest(".fa-figure-scope.fa-plain");
+          if (mounted) fitBpmn(mounted);
         })
         .catch(function (e) {
           console.warn("docs-ui: could not inline " + src + " (" + e.message + "); it stays a static image, so its links will not work.");

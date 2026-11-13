@@ -1,7 +1,351 @@
 {
  "$schema": "fhir-harness/page-render-qa/v1",
- "generatedAt": "2026-11-12T18:40:38.932Z",
+ "generatedAt": "2026-11-13T20:39:50.926Z",
  "scanned": 49,
  "unfinished": [],
- "findings": []
+ "findings": [
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library]"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module]'"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library]"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module]'"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library]"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module]'"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library]"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module]'"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library]"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module]'"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library]"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module]'"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-library]"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cql/StructureDefinition/cql-module]'"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommen"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommen"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommen"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommen"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommen"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommen"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommen"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-sharea"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publis"
+  }
+ ]
 }

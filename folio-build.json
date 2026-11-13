@@ -2,16 +2,16 @@
   "$schema": "folio-site-build/v1",
   "instance": "smart-immunizations-uganda",
   "platform": {
-    "commit": "84c011b7acd1b711ddb88bff257b93adb32c37cf"
+    "commit": "1154c2af7a4bc108c8d208f54d6a622fe7e34bb4"
   },
   "source": {
     "repo": "litlfred/smart-immunizations-uganda",
     "ref": "main",
-    "commit": "f086c455e409fa7f8aebe8aa48069e667f3671dd"
+    "commit": "57b9090e19fce8669c637449401ccef908bda9b2"
   },
-  "builtAt": "2026-11-12T18:40:36.818Z",
+  "builtAt": "2026-11-13T20:39:48.953Z",
   "ast": {
-    "commit": "697f1f8f063b24a4fa3ac63a5d0d4a559a7c9323",
+    "commit": "1bc3fe8173f7f5c18ee5985b552a69bc73680a51",
     "verdict": "valid",
     "kind": "full"
   }
