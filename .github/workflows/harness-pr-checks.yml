@@ -46,7 +46,7 @@ jobs:
     # A label starts a run only for `release` (full tier) or `preview`
     # (the change's cone; cat-harness-tools#2150); any other label is a no-op.
     if: ${{ github.event.action != 'labeled' || github.event.label.name == 'release' || github.event.label.name == 'preview' }}
-    uses: litlfred/cat-harness-tools/.github/workflows/layer-pr-checks.yml@fded8cc01ba0e474aa722309a3905914822dc012 # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/layer-pr-checks.yml@0e176ae09d5d6f7894e9e4f110923f0a63f0857b # index.lock.json
     with:
       # On a draft PR: prepare and typecheck only; the full tier runs on ready_for_review.
       draft-fast-tier: true
