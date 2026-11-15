@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "914723bc595a5786b4340549819658c5c0af1bbb",
+          "ref": "6daa42c482bcabda42ee590d5db115f6f4e7e64f",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -31,8 +31,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "914723bc595a5786b4340549819658c5c0af1bbb",
-              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
+              "ref": "6daa42c482bcabda42ee590d5db115f6f4e7e64f",
+              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
             }
           }
         }
@@ -43,7 +43,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
+          "ref": "bc3b379f71b0c443d3d8d7fab054a411f0e85f5e",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -80,8 +80,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
-              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
+              "ref": "bc3b379f71b0c443d3d8d7fab054a411f0e85f5e",
+              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+          "ref": "504736fea0c7a813722f3484905edcb8d4f64903",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,8 +102,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
-              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
+              "ref": "504736fea0c7a813722f3484905edcb8d4f64903",
+              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+          "ref": "7d175a59dcfc25e755fdc5e47327b82fd5f4a40d",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,8 +130,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
-              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
+              "ref": "7d175a59dcfc25e755fdc5e47327b82fd5f4a40d",
+              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+          "ref": "d41ff7ce9916b863c30c61c5a5c7744c968793cc",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,8 +158,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
-              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
+              "ref": "d41ff7ce9916b863c30c61c5a5c7744c968793cc",
+              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "0e176ae09d5d6f7894e9e4f110923f0a63f0857b",
+          "ref": "80e543908acbda459557741ccfa60f26aa581bfd",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "0e176ae09d5d6f7894e9e4f110923f0a63f0857b",
-              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
+              "ref": "80e543908acbda459557741ccfa60f26aa581bfd",
+              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
             }
           }
         }
