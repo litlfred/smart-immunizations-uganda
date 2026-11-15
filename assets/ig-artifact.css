@@ -69,6 +69,10 @@ body>#ig-footer{margin-top:0}
 .ig-main>.igi-contents,.fa-page-main>.igi-contents{float:right;width:18rem;margin:0 0 1rem 1.5rem}
 .ig-main>.igi-contents~h2,.fa-page-main>.igi-contents~h2{display:flow-root}
 @media (max-width:50rem){.ig-main>.igi-contents,.fa-page-main>.igi-contents{float:none;width:auto;margin:1rem 0}}
+.igi-contents li{flex-wrap:wrap}
+.igi-contents-sub{flex-basis:100%;margin:.15rem 0 .1rem 1rem!important}
+/* On paper the card is a plain block at the top of the page, not a float that a page break can split from its text. */
+@media print{.ig-main>.igi-contents,.fa-page-main>.igi-contents{float:none;width:auto;margin:0 0 1rem;box-shadow:none;break-inside:avoid}.igi-contents li>a{color:inherit}}
 /* /IG-CONTENTS-CARD */
 @media (max-width:50rem){.igi-head{display:block}.igi-head>.igi-guide{margin:0 0 1rem}}
 @media print{.igi-contents{box-shadow:none}}
@@ -96,6 +100,7 @@ body>#ig-footer{margin-top:0}
 .iga-only{display:block;margin:.5rem 0}
 .iga-constraints{margin:0;padding-left:1.1rem}
 /* The IG's top bar (build-ig-site.ts IG_TOPBAR_CSS, kept identical by its test): the title on its own line, the menu as dropdowns below it. */
+.ig-topbar-tr-unreviewed{font-size:.8rem;font-weight:700;padding:.1rem .5rem;border:2px dashed #f59e0b;border-radius:4px;color:#fff}
 .ig-topbar{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem 1rem;padding:.5rem 1.5rem;background:var(--ig-topbar-bg,#2d4271);color:#fff;font-size:var(--fa-text-base,1rem)}
 .ig-topbar a{color:#fff;text-decoration:none}
 .ig-topbar-home{flex:0 0 100%;font-weight:600}
@@ -129,3 +134,7 @@ html:not([data-fa-scheme="light"]) .ig-search-results{background:#2f2e35;color:#
 html:not([data-fa-scheme="light"]) .ig-search-results a{color:#cfe0f7}
 html:not([data-fa-scheme="light"]) .ig-search-results a:hover,html:not([data-fa-scheme="light"]) .ig-search-results a[aria-selected="true"]{background:#3a3943}
 html:not([data-fa-scheme="light"]) .ig-search-results small,html:not([data-fa-scheme="light"]) .ig-search-none{color:#9198a1}
+
+/* The unreviewed-translation notice and the marked blocks (ig-page-translations.ts
+   UNREVIEWED_NOTICE_CSS, verbatim; a test holds the two equal). */
+.ig-tr-notice.fa-translation-warning{display:block;box-sizing:border-box;width:100%;margin:0 0 1.5rem;padding:1rem 1.25rem;background:#fff3cd;color:#3b2a00;border:3px solid #b45309;border-inline-start-width:12px;border-radius:6px;font-size:1rem;line-height:1.5}.ig-tr-notice p{margin:0 0 .35rem}.ig-tr-notice__title{font-size:1.25rem}.ig-tr-notice__lang+.ig-tr-notice__lang{margin-top:.75rem;padding-top:.75rem;border-top:1px solid #b45309;font-size:.95rem}.ig-tr-notice__source{color:#7c2d12;font-weight:700;text-decoration:underline}.ig-tr-unreviewed{border-inline-start:4px dashed #b45309;padding-inline-start:.85rem;margin:1rem 0}.ig-tr-unreviewed::before{content:"\26A0\FE0F  " attr(data-tr-label);display:inline-block;margin-bottom:.4rem;padding:.1rem .5rem;font-size:.8rem;font-weight:700;background:#fff3cd;color:#3b2a00;border:1px solid #b45309;border-radius:4px}@media (prefers-color-scheme:dark){.ig-tr-notice.fa-translation-warning{background:#3b2a00;color:#ffe8a3;border-color:#f59e0b}.ig-tr-notice__source{color:#fcd34d}.ig-tr-unreviewed{border-inline-start-color:#f59e0b}.ig-tr-unreviewed::before{background:#3b2a00;color:#ffe8a3;border-color:#f59e0b}}

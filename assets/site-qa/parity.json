@@ -1,0 +1,93 @@
+{
+ "$schema": "site-parity-report/v1",
+ "outcome": "carries-everything",
+ "shortfall": [],
+ "droppedByRuling": [],
+ "current": {
+  "pages": 102,
+  "counts": {
+   "siteNav": 0,
+   "search": 60,
+   "navbarRow": 60,
+   "rail": 60,
+   "translationMeta": 60
+  },
+  "dirs": [
+   "artifact",
+   "assets",
+   "cat-harness",
+   "en",
+   "fhir-artifact-index",
+   "id-lookup",
+   "smart-base"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
+ "candidate": {
+  "pages": 1037,
+  "counts": {
+   "siteNav": 0,
+   "search": 995,
+   "navbarRow": 60,
+   "rail": 995,
+   "translationMeta": 995
+  },
+  "dirs": [
+   "artifact",
+   "assets",
+   "cat-harness",
+   "en",
+   "fhir-artifact-index",
+   "id-lookup",
+   "smart-base"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
+ "baseline": {
+  "features": {
+   "pages": 1037,
+   "counts": {
+    "siteNav": 0,
+    "search": 995,
+    "navbarRow": 60,
+    "rail": 995,
+    "translationMeta": 995
+   },
+   "dirs": [
+    "artifact",
+    "assets",
+    "cat-harness",
+    "en",
+    "fhir-artifact-index",
+    "id-lookup",
+    "smart-base"
+   ],
+   "index": [
+    "search",
+    "navbarRow",
+    "rail",
+    "translationMeta"
+   ],
+   "stamp": {
+    "present": true
+   }
+  },
+  "from": "653b6aa21c89"
+ }
+}

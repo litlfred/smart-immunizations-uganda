@@ -74,7 +74,10 @@
       "summary": null,
       "keywords": [],
       "extract": "THE REPUBLIC OF UGANDA",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/ug-moh-routine-immunisation-schedule/blocks/prose-sec-front-matter"
+      ]
     },
     {
       "id": "sec-000-ministry-of-health",
@@ -165,6 +168,48 @@
     }
   ],
   "figures": [],
+  "coverage": [
+    {
+      "kind": "contents",
+      "state": "found",
+      "count": 4,
+      "note": "inferred"
+    },
+    {
+      "kind": "sections",
+      "state": "found",
+      "count": 5,
+      "note": "3 levels"
+    },
+    {
+      "kind": "figures",
+      "state": "none"
+    },
+    {
+      "kind": "tables",
+      "state": "not-extracted"
+    },
+    {
+      "kind": "references",
+      "state": "none",
+      "note": "no such heading in the text"
+    },
+    {
+      "kind": "glossary",
+      "state": "none",
+      "note": "no such heading in the text"
+    },
+    {
+      "kind": "footnotes",
+      "state": "not-extracted"
+    },
+    {
+      "kind": "summaries",
+      "state": "not-extracted",
+      "count": 0,
+      "note": "0 of 5 sections"
+    }
+  ],
   "links": {
     "repo": "litlfred/smart-immunizations-uganda",
     "branch": "main",
