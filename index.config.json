@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "3be9ddb3a2ffb9ddafd4aaabe32829469a82416f",
+          "ref": "914723bc595a5786b4340549819658c5c0af1bbb",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -30,9 +30,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "3be9ddb3a2ffb9ddafd4aaabe32829469a82416f",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "914723bc595a5786b4340549819658c5c0af1bbb",
+              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
             }
           }
         }
@@ -43,7 +43,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "cc7ca6eb98e35c3793e72e0751b8aa962bbeed35",
+          "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -79,9 +79,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "cc7ca6eb98e35c3793e72e0751b8aa962bbeed35",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
+              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "9c04b6fa237c2ab5f6217ffcb42c760f3783b2f3",
+          "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "9c04b6fa237c2ab5f6217ffcb42c760f3783b2f3",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "9d2388dba8d4fe4727b40067470fa5c543c7166c",
+          "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "9d2388dba8d4fe4727b40067470fa5c543c7166c",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "18370a525f163e994ef8823d0266e47df8bc0a1e",
+          "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "18370a525f163e994ef8823d0266e47df8bc0a1e",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'A. Renew 6h + re-pin' (every layer at main); merge-guard caller needs tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "b31b1104cdfa9c352f7e7f515f8367d6afef0f2e",
+          "ref": "0e176ae09d5d6f7894e9e4f110923f0a63f0857b",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "b31b1104cdfa9c352f7e7f515f8367d6afef0f2e",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "0e176ae09d5d6f7894e9e4f110923f0a63f0857b",
+              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
             }
           }
         }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
+          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -204,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
-              "evidence": "Owner litlfred, typed in session_01VQDpPdxkTnyDcojJ7AAdNz on 2026-11-13: \"yes, consent to re-pin\", then \"1\" to \"May #29 re-pin all 8 layers to their current mains, recording your consent for each?\" (smart-immunizations-uganda#29; the lock-coherence gate requires every layer at main together)."
+              "on": "2026-11-15",
+              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
             }
           }
         }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "b653e0577a1649969319196ec738353fe2068793",
+          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,9 +229,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "b653e0577a1649969319196ec738353fe2068793",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+              "evidence": "owner litlfred, 2026-11-15 06:31Z, relayed to the merge manager (Claude Code session https://claude.ai/code/session_01Qmmkt6te9q7bF3KBT2Qq11): 'repin+merge all green and ready that is not content for next 12 hts'; every layer to its main so the Site publish takes cat-harness-tools past bfbbcbad (publish reports shortfalls to QA, owner's 11-14 ruling)"
             }
           }
         }
