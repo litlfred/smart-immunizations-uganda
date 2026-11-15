@@ -11,5 +11,5 @@ on:
 permissions: { contents: read, pull-requests: read, issues: read, actions: read, checks: read, statuses: write }
 jobs:
   guard:
-    uses: litlfred/cat-harness-tools/.github/workflows/layer-merge-guard.yml@0e176ae09d5d6f7894e9e4f110923f0a63f0857b # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/layer-merge-guard.yml@fded8cc01ba0e474aa722309a3905914822dc012 # index.lock.json
     with: { pr: "${{ inputs.pr || '' }}" }
