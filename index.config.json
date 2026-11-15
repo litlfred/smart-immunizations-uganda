@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "504736fea0c7a813722f3484905edcb8d4f64903",
+          "ref": "a5efb3fe4ff04b8957fde2081e426397c511729f",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,7 +102,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "504736fea0c7a813722f3484905edcb8d4f64903",
+              "ref": "a5efb3fe4ff04b8957fde2081e426397c511729f",
               "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
             }
           }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "d41ff7ce9916b863c30c61c5a5c7744c968793cc",
+          "ref": "f5dfaabfefd18ee93adfad44e002cd36f8caeae2",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,7 +158,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "d41ff7ce9916b863c30c61c5a5c7744c968793cc",
+              "ref": "f5dfaabfefd18ee93adfad44e002cd36f8caeae2",
               "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
             }
           }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "80e543908acbda459557741ccfa60f26aa581bfd",
+          "ref": "372d6ae6d78ae628adc18bfe57e37baf3e4cc01a",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,7 +183,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "80e543908acbda459557741ccfa60f26aa581bfd",
+              "ref": "372d6ae6d78ae628adc18bfe57e37baf3e4cc01a",
               "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
             }
           }
