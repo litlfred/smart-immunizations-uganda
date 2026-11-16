@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/harness/smart-immunizations-uganda/",
+  "url": "https://litlfred.github.io/smart-immunizations-uganda/en/cat-harness/harness/smart-immunizations-uganda/",
+  "@type": "WebPage",
+  "name": "SMART Guidelines — Immunizations, Uganda adaptation on Immunizations - Uganda adaptation (draft)",
+  "about": {
+    "@id": "https://litlfred.github.io/smart-immunizations-uganda/",
+    "@type": "SoftwareSourceCode",
+    "identifier": "smart-immunizations-uganda",
+    "name": "SMART Guidelines — Immunizations, Uganda adaptation",
+    "description": "Uganda (UNEPI) adaptation of the WHO SMART Guidelines immunizations DAK and implementation guide, as a harnessed instance of smart-base. Shaped as litlfred/smart-immunizations is: index.config.json mounts smart-base, and this file declares the instance so its library has a home of its own.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/smart-immunizations-uganda",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/smart-base/"
+      }
+    ]
+  },
+  "isPartOf": {
+    "@id": "https://litlfred.github.io/smart-immunizations-uganda/",
+    "name": "Immunizations - Uganda adaptation (draft)"
+  },
+  "significantLink": [
+    "https://github.com/litlfred/smart-immunizations-uganda/tree/3b834dc4527d8aec7f47ce4185cf45719c502005",
+    "https://github.com/litlfred/smart-immunizations-uganda/blob/3b834dc4527d8aec7f47ce4185cf45719c502005/README.md",
+    "https://github.com/litlfred/smart-immunizations-uganda/blob/3b834dc4527d8aec7f47ce4185cf45719c502005/AGENTS.md"
+  ]
+}
