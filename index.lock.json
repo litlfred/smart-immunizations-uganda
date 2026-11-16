@@ -9,12 +9,12 @@
     {
       "harness": "smart-base",
       "repository": "litlfred/smart-base",
-      "ref": "fc704c41e4329f6eeafcc5a2fa89747b486f4cb5"
+      "ref": "bdf771ec77f1a93f0365a35237cbec67f4b36e66"
     },
     {
       "harness": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "ref": "08eda09f6909b4eed6634032b93c6e600e015ea9"
+      "ref": "ea28d50a92b9614ab845c36eee72de06616c1a3d"
     },
     {
       "harness": "folio-assistant-core",
@@ -171,7 +171,7 @@
     {
       "instance": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "sha": "08eda09f6909b4eed6634032b93c6e600e015ea9",
+      "sha": "ea28d50a92b9614ab845c36eee72de06616c1a3d",
       "upstreamRoot": "",
       "path": "fhir-harness",
       "via": "fhir-harness",
@@ -185,7 +185,7 @@
           "id": "*",
           "path": "fhir-harness",
           "upstreamPath": ".",
-          "treeDigest": "fa3425d1730eed3f5621f530c430780cbfe303bc6222bef4a6951724e93c2aab",
+          "treeDigest": "115b25c71cc16e7feaeb83bfe84e663211348fa9d835492217a1c72f9efd6131",
           "files": 994
         }
       ],
@@ -193,7 +193,7 @@
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-16",
-        "ref": "08eda09f6909b4eed6634032b93c6e600e015ea9",
+        "ref": "ea28d50a92b9614ab845c36eee72de06616c1a3d",
         "approver": "unverified"
       }
     },
@@ -235,7 +235,7 @@
     {
       "instance": "smart-base",
       "repository": "litlfred/smart-base",
-      "sha": "fc704c41e4329f6eeafcc5a2fa89747b486f4cb5",
+      "sha": "bdf771ec77f1a93f0365a35237cbec67f4b36e66",
       "upstreamRoot": "smart-base",
       "path": "smart-base",
       "via": "smart-base",
@@ -249,7 +249,7 @@
           "id": "*",
           "path": "smart-base",
           "upstreamPath": "smart-base",
-          "treeDigest": "ec92127750d51b96e930a193256c2aa351cdfc30146cd4a82bb0c8ae2b968848",
+          "treeDigest": "54ed96c47c71100aa008174d45cd9a02f81d07987b5559dd95c2a18997ad7134",
           "files": 753
         }
       ],
@@ -257,7 +257,7 @@
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-16",
-        "ref": "fc704c41e4329f6eeafcc5a2fa89747b486f4cb5",
+        "ref": "bdf771ec77f1a93f0365a35237cbec67f4b36e66",
         "approver": "unverified"
       }
     },
