@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "6daa42c482bcabda42ee590d5db115f6f4e7e64f",
+          "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -30,9 +30,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "6daa42c482bcabda42ee590d5db115f6f4e7e64f",
-              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
+              "on": "2026-11-16",
+              "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -43,7 +43,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "bc3b379f71b0c443d3d8d7fab054a411f0e85f5e",
+          "ref": "fc704c41e4329f6eeafcc5a2fa89747b486f4cb5",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -79,9 +79,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "bc3b379f71b0c443d3d8d7fab054a411f0e85f5e",
-              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
+              "on": "2026-11-16",
+              "ref": "fc704c41e4329f6eeafcc5a2fa89747b486f4cb5",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "a5efb3fe4ff04b8957fde2081e426397c511729f",
+          "ref": "08eda09f6909b4eed6634032b93c6e600e015ea9",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "a5efb3fe4ff04b8957fde2081e426397c511729f",
-              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
+              "on": "2026-11-16",
+              "ref": "08eda09f6909b4eed6634032b93c6e600e015ea9",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "7d175a59dcfc25e755fdc5e47327b82fd5f4a40d",
+          "ref": "c17d92bba438d8b501a9fd51d6252802602d70c5",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "7d175a59dcfc25e755fdc5e47327b82fd5f4a40d",
-              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
+              "on": "2026-11-16",
+              "ref": "c17d92bba438d8b501a9fd51d6252802602d70c5",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "f5dfaabfefd18ee93adfad44e002cd36f8caeae2",
+          "ref": "32bd4fe9d8b4529c97c9dbfd323c46cc5eddff96",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "f5dfaabfefd18ee93adfad44e002cd36f8caeae2",
-              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
+              "on": "2026-11-16",
+              "ref": "32bd4fe9d8b4529c97c9dbfd323c46cc5eddff96",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "372d6ae6d78ae628adc18bfe57e37baf3e4cc01a",
+          "ref": "418672b09492c6c742a4f9bd09038288a29edfab",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "372d6ae6d78ae628adc18bfe57e37baf3e4cc01a",
-              "evidence": "litlfred 2026-11-15T18:13:58Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9MY9onXMPq9yAZyo5QRSNkw): \"Yes, re-pin and merge\" — re-pin uganda#40 to every current main, recording consent for the new pins"
+              "on": "2026-11-16",
+              "ref": "418672b09492c6c742a4f9bd09038288a29edfab",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
