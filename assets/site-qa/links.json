@@ -1,6 +1,6 @@
 {
  "$schema": "site-link-report/v1",
- "pages": 1047,
+ "pages": 1075,
  "unresolved": [],
  "selfAddress": [
   {
@@ -965,6 +965,26 @@
   },
   {
    "page": "en/cat-harness-tools/qa-attestations/cat-harness/test/attestations/translation-qa/docs/source/process-crdm-methodology/overview.fr.attestations/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/history.html"
+  },
+  {
+   "page": "en/cat-harness-tools/qa-attestations/folio-assistant-core/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/history.html"
+  },
+  {
+   "page": "en/cat-harness-tools/qa-attestations/folio-assistant-core/test/attestations/block-qa/docs/source/guides-writing-a-document/1-scaffold-the-folio.attestations/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/history.html"
+  },
+  {
+   "page": "en/cat-harness-tools/qa-attestations/folio-assistant-core/test/attestations/block-qa/docs/source/process-publication-workflow/every-workflow-in-the-repo.attestations/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/history.html"
+  },
+  {
+   "page": "en/cat-harness-tools/qa-attestations/folio-assistant-core/test/attestations/block-qa/docs/source/process-publication-workflow/how-to-read-them.attestations/index.html",
+   "href": "https://litlfred.github.io/smart-immunizations-uganda/history.html"
+  },
+  {
+   "page": "en/cat-harness-tools/qa-attestations/folio-assistant-core/test/attestations/block-qa/docs/source/process-publication-workflow/the-work-plan-tasks-as-beans.attestations/index.html",
    "href": "https://litlfred.github.io/smart-immunizations-uganda/history.html"
   },
   {

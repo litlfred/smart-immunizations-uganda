@@ -32,13 +32,13 @@
   }
  },
  "candidate": {
-  "pages": 1047,
+  "pages": 1075,
   "counts": {
    "siteNav": 0,
-   "search": 1005,
-   "navbarRow": 70,
-   "rail": 1005,
-   "translationMeta": 1005
+   "search": 1033,
+   "navbarRow": 93,
+   "rail": 1033,
+   "translationMeta": 1033
   },
   "dirs": [
    "artifact",
@@ -47,7 +47,10 @@
    "en",
    "fhir-artifact-index",
    "id-lookup",
-   "smart-base"
+   "payload",
+   "slices",
+   "smart-base",
+   "v0"
   ],
   "index": [
    "search",
@@ -61,13 +64,13 @@
  },
  "baseline": {
   "features": {
-   "pages": 1047,
+   "pages": 1075,
    "counts": {
     "siteNav": 0,
-    "search": 1005,
-    "navbarRow": 70,
-    "rail": 1005,
-    "translationMeta": 1005
+    "search": 1033,
+    "navbarRow": 93,
+    "rail": 1033,
+    "translationMeta": 1033
    },
    "dirs": [
     "artifact",
@@ -76,7 +79,10 @@
     "en",
     "fhir-artifact-index",
     "id-lookup",
-    "smart-base"
+    "payload",
+    "slices",
+    "smart-base",
+    "v0"
    ],
    "index": [
     "search",
@@ -88,6 +94,6 @@
     "present": true
    }
   },
-  "from": "8ee5dbeb87bd"
+  "from": "35ee4e11929d"
  }
 }

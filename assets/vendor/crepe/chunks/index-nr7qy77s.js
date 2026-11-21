@@ -1,0 +1,1 @@
+import{Y,we,Pe,Te,Ze}from"./entry-hq0bwa5w.js";import"./entry-9bk4sy6c.js";import"./entry-71hxa4fa.js";export{Ze as javascript,Y as javascriptLanguage,Pe as jsxLanguage,Te as tsxLanguage,we as typescriptLanguage};

@@ -11,22 +11,8 @@
       "id": "_platform",
       "kind": "platform",
       "path": "assets/js/search/_platform.json",
-      "entries": 32,
-      "bytes": 53897
-    },
-    {
-      "id": "cat-harness",
-      "kind": "instance",
-      "path": "assets/js/search/cat-harness.json",
-      "entries": 6,
-      "bytes": 2244
-    },
-    {
-      "id": "smart-base",
-      "kind": "instance",
-      "path": "assets/js/search/smart-base.json",
-      "entries": 12,
-      "bytes": 43497
+      "entries": 50,
+      "bytes": 99636
     }
   ],
   "remote": [
@@ -36,5 +22,16 @@
       "href": "id-lookup/?index=who-iris/",
       "entries": 53
     }
-  ]
+  ],
+  "layers": [
+    "bootstrap",
+    "bootstrap-tools",
+    "cat-harness",
+    "cat-harness-tools",
+    "fhir-harness",
+    "folio-assistant-core",
+    "smart-base",
+    "who-iris"
+  ],
+  "kgSearch": "slices/search.html?slice=kg"
 }
